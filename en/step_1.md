@@ -11,9 +11,10 @@ In this project, <mark> you will make a piece of art called a mandala.</mark>
 <mark>Objectives in language that learners will understand</mark>
 
 You will:
++ Clones
++ Multiple parameters to functions (optimisation)
 + 
-+ 
-+ 
+
 
 --- no-print ---
 --- task ---
