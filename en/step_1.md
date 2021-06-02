@@ -1,19 +1,26 @@
 ## Introduction
 
-In this project, <mark> you will make a piece of art called a mandala.</mark>
-
-<mark>Boxout (wherever wanted/needed) </mark>
+In this project, <mark> you will write a program that generates mandalas </mark>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Term**</span> description of term or interesting phrase.
+<span style="color: #0faeb0">**Computer generated art**</span> description of term or interesting phrase.
+</p>
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**Mandalas**</span> description of term or interesting phrase.
 </p>
 
 <mark>Objectives in language that learners will understand</mark>
 
 You will:
-+ 
-+ 
-+ 
++ Use clones to create repeating patterns
++ Use `My Blocks`{:class='block3myblocks'} to optimise your computer generated art program
++ Use the `mod`{:class='block3operators'} block to tell if a number is odd or even.
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**Optimisation**</span> description of term or interesting phrase.
+</p>
+
 
 --- no-print ---
 --- task ---
