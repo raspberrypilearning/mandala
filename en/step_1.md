@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, <mark> you will write a program that generates mandalas </mark>
+In this project, you will write a program that generates mandalas
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Computer generated art**</span> description of term or interesting phrase.
