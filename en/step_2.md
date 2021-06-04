@@ -29,7 +29,7 @@ You will use **functions** (`my blocks`{:class="block3myblocks"}) to create a pa
 
 --- task ---
 
-Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it "pattern"). Click "Add an Input" four times to create your pattern requirements, called "repeat", "size", "move", and "turn"
+Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it "pattern"). Click "Add an Input" to create your first pattern requirement, called "repeat",
 
 ![](images/patternfunction)
 
@@ -45,17 +45,20 @@ Add a `repeat`{:class='block3control'} block with a `repeat`{:class='block3myblo
 <mark>GIF probably necessary as it is hard to explain this..</mark>
 
 ```blocks3
-define pattern %repeat %size %move %turn
-repeat (repeat :: reporter :: custom)
-end
+define pattern (repeat)
+repeat (repeat)
+change size by (10)
+move (5) steps
+create clone of (myself v)
 ```
-**Tip:** This function makes a general pattern outline. What you are creating now with this function is similar to creating a spirograph stencil; it is the tool and the pattern is later created using it. You will experiment with the values of `repeat`{:class='block3myblocks'} `repeat`{:class='block3myblocks'} `repeat`{:class='block3myblocks'} and `repeat`{:class='block3myblocks'} later.
-
-<mark>GIF of spirograph??</mark>
 
 --- /task ---
 
+**Tip:** The function makes a general pattern outline. What you are creating now with this function is similar to creating a spirograph stencil; it is the tool and the pattern is later created using it. 
 
+
+
+<mark>GIF of spirograph??</mark>
 
 --- task ---
 
@@ -78,6 +81,9 @@ end
 --- /task ---
 
 --- task ---
+
+ "size", "move", and "turn"
+
 
 ```blocks3
 define pattern %repeat %size %move %turn
