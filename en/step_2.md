@@ -56,31 +56,33 @@ create clone of (myself v)
 
 **Tip:** The function makes a general pattern outline. What you are creating now with this function is similar to creating a spirograph stencil; it is the tool and the pattern is later created using it. 
 
-
-
 <mark>GIF of spirograph??</mark>
 
 --- task ---
 
+Create a pattern with your function. Get the `pattern`{:class='block3myblocks'} to `repeat`{:class='block3myblocks'} a number of times `when flag clicked`{:class='block3events'}. 
+
 ```blocks3
-define pattern %repeat %size %move %turn
-repeat (repeat :: reporter :: custom)
-change size by (size :: reporter :: custom)
-move (move :: reporter :: custom) steps
-create clone of (myself v)
-change size by ([0] - (size :: reporter :: custom))
-move ([0] - (move :: reporter :: custom)) steps
-turn right (turn :: reporter :: custom) degrees
-move (move :: reporter :: custom) steps
-create clone of (myself v)
-move ([0] - (move :: reporter :: custom)) steps
-turn right (turn :: reporter :: custom) degrees
-end
+when flag clicked
+pattern (3)
 ```
+
+**Test:** See what your pattern looks like by clicking the green flag to run your program.
 
 --- /task ---
 
+You should see some shapes stacked on top of each other. Because a mandala is circular, adding to the code will make it look more like a mandala pattern
+
 --- task ---
+
+```blocks3
+define pattern (repeat)
+repeat (repeat)
+change size by (size)
+move (5) steps
+create clone of (myself v)
+
+```
 
  "size", "move", and "turn"
 
