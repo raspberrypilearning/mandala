@@ -29,20 +29,68 @@ You will use **functions** or `my blocks`{:class="block3myblocks"} to create a p
 
 --- task ---
 
-Go to `My Blocks`{:class='block3myblocks'} and choose blah blah
+Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it "pattern"). Click "Add an Input" four times to create your pattern requirements, called "repeat", "size", "move", and "turn"
+
+![](images/patternfunction)
+
+
+--- /task ---
+
+To design how a pattern is made, the first step is to `define pattern`{:class='block3myblocks'}, adding blocks to get the code to repeat.
+
+--- task ---
+
+Add a `repeat`{:class='block3control'} block with a `repeat`{:class='block3myblocks'} parameter, inside, by dragging a `repeat`{:class='block3myblocks'} from `define pattern`{:class='block3myblocks'} into the `repeat`{:class='block3control'} block.
+
+<mark>GIF probably necessary as it is hard to explain this..</mark>
+
+```blocks3
+define pattern %repeat %size %move %turn
+repeat (repeat :: reporter :: custom)
+end
+```
 
 --- /task ---
 
 
+
 --- task ---
+
+```blocks3
+define pattern %repeat %size %move %turn
+repeat (repeat :: reporter :: custom)
+change size by (size :: reporter :: custom)
+move (move :: reporter :: custom) steps
+create clone of (myself v)
+change size by ([0] - (size :: reporter :: custom))
+move ([0] - (move :: reporter :: custom)) steps
+turn right (turn :: reporter :: custom) degrees
+move (move :: reporter :: custom) steps
+create clone of (myself v)
+move ([0] - (move :: reporter :: custom)) steps
+turn right (turn :: reporter :: custom) degrees
+end
+```
 
 --- /task ---
 
 --- task ---
 
---- /task ---
-
---- task ---
+```blocks3
+define pattern %repeat %size %move %turn
+repeat (repeat :: reporter :: custom)
+change size by (size :: reporter :: custom)
+move (move :: reporter :: custom) steps
+create clone of (myself v)
+change size by ([0] - (size :: reporter :: custom))
+move ([0] - (move :: reporter :: custom)) steps
+turn right (turn :: reporter :: custom) degrees
+move (move :: reporter :: custom) steps
+create clone of (myself v)
+move ([0] - (move :: reporter :: custom)) steps
+turn right (turn :: reporter :: custom) degrees
+end
+```
 
 --- /task ---
 
