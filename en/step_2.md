@@ -29,7 +29,7 @@ You will use **functions** (`my blocks`{:class="block3myblocks"}) to create a pa
 
 --- task ---
 
-Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it "pattern"). Click "Add an Input" to create your first pattern requirement, called "repeat",
+Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it "pattern"). Click "Add an Input" to create your first pattern requirement, or **parameter** called "repeat",
 
 ![](images/patternfunction)
 
