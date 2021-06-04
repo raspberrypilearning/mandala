@@ -17,14 +17,14 @@ If you are working offline, you can download the starter project at [](https://r
 
 --- /task ---
 
-<mark>not sure what we decided in terms of a starter project, have forgotten! This may need to be tweaked.</mark>
-
 You should see a shape sprite that looks a little bit like a flower petal.
 
-You will use **functions** or `my blocks`{:class="block3myblocks"} to create a pattern with this shape. You may remember creating functions to organise your code in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3), and to make it so you do not have to write the same code over and over again in [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4). Functions can also be used to optimise your programs/projects.
+You will use **functions** (`my blocks`{:class="block3myblocks"}) to create a pattern with this shape. You may remember creating functions to organise your code in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3), and repeat the same code in [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4). Functions can also be used to optimise your programs/projects.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Optimisation**</span> makes computer programs as efficient as possible using as little memory (or lines of code, or blocks) as possible. <mark>think of best example</mark>
+<span style="color: #0faeb0">**Optimisation**</span> makes computer programs as efficient as possible using as little memory (or lines of code, or blocks) as possible. An easy way to think about this would be when you are planning your journey to save as much time and energy as possible:
+
+<mark>image here</mark>
 </p>
 
 --- task ---
@@ -40,7 +40,7 @@ To design how a pattern is made, the first step is to `define pattern`{:class='b
 
 --- task ---
 
-Add a `repeat`{:class='block3control'} block with a `repeat`{:class='block3myblocks'} parameter, inside, by dragging a `repeat`{:class='block3myblocks'} from `define pattern`{:class='block3myblocks'} into the `repeat`{:class='block3control'} block.
+Add a `repeat`{:class='block3control'} block with a `repeat`{:class='block3myblocks'} parameter inside, by dragging a `repeat`{:class='block3myblocks'} from `define pattern`{:class='block3myblocks'} into the `repeat`{:class='block3control'} block.
 
 <mark>GIF probably necessary as it is hard to explain this..</mark>
 
@@ -49,6 +49,9 @@ define pattern %repeat %size %move %turn
 repeat (repeat :: reporter :: custom)
 end
 ```
+**Tip:** This function makes a general pattern outline. What you are creating now with this function is similar to creating a spirograph stencil; it is the tool and the pattern is later created using it. You will experiment with the values of `repeat`{:class='block3myblocks'} `repeat`{:class='block3myblocks'} `repeat`{:class='block3myblocks'} and `repeat`{:class='block3myblocks'} later.
+
+<mark>GIF of spirograph??</mark>
 
 --- /task ---
 
