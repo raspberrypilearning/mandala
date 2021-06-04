@@ -85,7 +85,7 @@ pattern (3)
 
 --- /task ---
 
-You should see the beginning of a mandala pattern. Now add more **parameters** or requirements of your pattern function.
+You should see the beginning of a mandala pattern. Adding more **parameters**, or requirements, to your pattern function will create the first part of your mandala.
 
 --- task ---
 
