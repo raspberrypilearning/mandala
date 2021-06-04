@@ -85,7 +85,7 @@ pattern (3)
 
 --- /task ---
 
-You should see some shapes stacked on top of each other. Because a mandala is circular, adding to the code will make it look more like a mandala pattern
+You should see the beginning of a mandala pattern. Now add more **parameters** or requirements of your pattern function.
 
 --- task ---
 
