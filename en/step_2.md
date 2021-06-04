@@ -19,10 +19,10 @@ If you are working offline, you can download the starter project at [](https://r
 
 You should see a shape sprite that looks a little bit like a flower petal.
 
-You will use **functions** (`my blocks`{:class="block3myblocks"}) to create a pattern with this shape. You may remember creating functions to organise your code in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3), and repeat the same code in [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4). Functions can also be used to optimise your programs/projects.
+You will use **functions** (`my blocks`{:class="block3myblocks"}) to create a pattern with this shape. You may remember creating functions to organise your code in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3), and to repeat the same code in [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4). Functions can also be used to optimise your programs/projects.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Optimisation**</span> makes computer programs as efficient as possible using as little memory (or lines of code, or blocks) as possible. An easy way to think about this would be when you are planning your journey to save as much time and energy as possible:
+<span style="color: #0faeb0">**Optimisation**</span> makes computer programs as efficient as possible using as little memory (or lines of code or code blocks) as possible. This is the same idea as how many people plan journeys to save as much time and energy as possible:
 
 <mark>image here</mark>
 </p>
@@ -40,21 +40,35 @@ To design how a pattern is made, the first step is to `define pattern`{:class='b
 
 --- task ---
 
-Add a `repeat`{:class='block3control'} block with a `repeat`{:class='block3myblocks'} parameter inside, by dragging a `repeat`{:class='block3myblocks'} from `define pattern`{:class='block3myblocks'} into the `repeat`{:class='block3control'} block.
+Add a `repeat`{:class='block3control'} block with a `repeat`{:class='block3myblocks'} parameter inside, by dragging the `repeat`{:class='block3myblocks'} block from `define pattern`{:class='block3myblocks'} into the `repeat`{:class='block3control'} loop block.
 
 <mark>GIF probably necessary as it is hard to explain this..</mark>
 
+
 ```blocks3
-define pattern (repeat)
-repeat (repeat)
-change size by (10)
-move (5) steps
-create clone of (myself v)
++ define pattern (repeat)
++ repeat (repeat)
 ```
 
 --- /task ---
 
-**Tip:** The function makes a general pattern outline. What you are creating now with this function is similar to creating a spirograph stencil; it is the tool and the pattern is later created using it. 
+You will now use `clone`{:class='control'} blocks to make the same block appear as many times as it repeats. Make sure you also add code to get the sprite to change size and move, otherwise the sprites will be stacked on top of each other and you will not be able to see them.
+
+--- task ---
+
+Add some code into the repeat{:class='block3myblocks'} loop of your `pattern`{:class='block3myblocks'} function.
+
+```blocks3
+define pattern (repeat)
+repeat (repeat)
++ change size by (10)
++ move (5) steps
++ create clone of (myself v)
+```
+
+--- /task ---
+
+**Tip:** `Defining`{:class='block3myblocks'} the function makes a general pattern outline. What you are creating now with this function is similar to creating a spirograph stencil; it is the tool and the pattern is later created by using it. 
 
 <mark>GIF of spirograph??</mark>
 
