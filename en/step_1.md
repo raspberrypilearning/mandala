@@ -10,15 +10,14 @@ In this project, you will write a program that generates mandalas
 <span style="color: #0faeb0">**Mandala**</span> is a Sanskrit word that roughly means "circle". Manadalas are commonly circular designs that have repeating colors, shapes, and patterns. In Buddhist and Hindu traditions, mandalas are helpful in meditation. Creating mandalas is known to be a relaxing and mindful activity.
 </p>
 
-<mark>Objectives in language that learners will understand</mark>
-
 You will:
 + Use clones to create repeating patterns
 + Use `My Blocks`{:class='block3myblocks'} to optimise your computer generated art program
 + Use the `mod`{:class='block3operators'} block to tell if a number is odd or even.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Optimisation**</span> description of term or interesting phrase.
+<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains less steps and a shorter distance.
+<img src="images/map.png">
 </p>
 
 
@@ -27,15 +26,14 @@ You will:
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Choose a shape and watch as the computer generates a mandala. You can colour in the shapes of the mandala by clicking on them (click more times for different colours), and then press the Spacebar <mark> make sure changed in project so usable on a tablet </mark>
+Choose a shape and watch as the computer generates a mandala. You can colour in the shapes of the mandala by clicking on them (click more times for different colours), and then press the Spacebar
 
 Can you see the pattern? How do you think Scratch creates that pattern?
 
 Choose a different shape now and look at a new mandala. Does it look the same? Does it follow the same pattern?
 
 </div>
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/536953224/?autostart=false" frameborder="0"></iframe>
+<iframe src="https://scratch.mit.edu/projects/536953224/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 </div>
 --- /task ---
