@@ -5,7 +5,7 @@
 Clone sprites to create a circular pattern.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![animation of a pattern ebing repeated when the flag is clicked in Scratch](images/step_1.gif){:width="300px"}
 </div>
 </div>
 
@@ -131,7 +131,7 @@ create clone of (myself v)
 end
 
 when flag clicked
-pattern (3) (10) (5) (15)
+pattern (3) (10) (5) (60)
 
 ```
 --- /task ---

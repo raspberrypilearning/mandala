@@ -5,25 +5,28 @@
 Create more patterns to make a mandala!
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![animation showing a more complicated pattern begin formed when the flag is clicked](images/step_2.gif){:width="300px"}
 </div>
 </div>
+
+Now that you have a basic pattern you can use your `pattern`{:class="block3myblocks"} function a number of times, to make a repeating pattern. By using the same code over and over again, you are making a program that has been **optimised**.
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Beneath your `when flag clicked`{:class="block3events"} block, add in a few more **calls** to your `pattern`{:class="block3myblocks"} function.
 
-[[[working-offline]]]
+```blocks3
+when flag clicked
+pattern (3) (10) (5) (60) ::custom
+pattern (5) (10) (45) (30) ::custom
+pattern (6) (10) (90) (30) ::custom
+```
 
 --- /task ---
 
 --- task ---
 
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
+Click the green flag, and see what pattern is produced. You can change the numbers to experiment with patterns that you like, or even add in more calls to your `pattern`{:class="block3myblocks"} function.
 
 --- /task ---
 
