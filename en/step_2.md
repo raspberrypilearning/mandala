@@ -30,8 +30,7 @@ You will use **functions** (`my blocks`{:class="block3myblocks"}) to create a pa
 
 Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it "pattern"). Click "Add an Input" to create your first pattern requirement, or **parameter** called "repeat",
 
-![](images/patternfunction)
-
+![animation of a my blocks being added and an additional parameter being added](images/add-parameter.gif)
 
 --- /task ---
 
@@ -41,12 +40,9 @@ To design how a pattern is made, the first step is to `define pattern`{:class='b
 
 Add a `repeat`{:class='block3control'} block with a `repeat`{:class='block3myblocks'} parameter inside, by dragging the `repeat`{:class='block3myblocks'} block from `define pattern`{:class='block3myblocks'} into the `repeat`{:class='block3control'} loop block.
 
-![animation of a my blocks being added and an additional parameter being added](images/add-parameter.gif)
-
-
 ```blocks3
-+ define pattern (repeat)
-+ repeat (repeat)
+define pattern (repeat)
+repeat (repeat)
 ```
 
 --- /task ---
@@ -55,7 +51,7 @@ You will now use `clone`{:class='block3control'} blocks to make the same block a
 
 --- task ---
 
-Add some code into the repeat{:class='block3myblocks'} loop of your `pattern`{:class='block3myblocks'} function.
+Add some code into the `repeat`{:class='block3myblocks'} loop of your `pattern`{:class='block3myblocks'} function.
 
 ```blocks3
 define pattern (repeat)
@@ -86,36 +82,44 @@ pattern (3) ::custom
 
 You should see the beginning of a mandala pattern. Adding more **parameters**, or requirements, to your pattern function will create the first part of your mandala.
 
-![animation showing the edditing of a my blocks function to add in an extra parameter](images/edit-parameter.gif)
 
 --- task ---
 
-```blocks3
-define pattern (repeat)
-repeat (repeat)
-change size by (size)
-move (5) steps
-create clone of (myself v)
+Right click on your `define pattern`{:class="block3myblocks"} block and choose **Edit** to add more parameters.
 
-```
+![animation showing the edditing of a my blocks function to add in an extra parameter](images/edit-parameter.gif)
 
- "size", "move", and "turn"
-
+You can start by adding `size`{:class="block3myblocks"} and `move`{:class="block3myblocks"} and then use these parameters in the blocks below.
 
 ```blocks3
-define (pattern) (repeat) (size) (move) (turn)
+define pattern (repeat) (size)::custom (move) (turn)
 repeat (repeat)
 change size by (size)
 move (move) steps
 create clone of (myself v)
-change size by ([0] - (size))
-move ([0] - (move)) steps
-turn right (turn) degrees
-move (move) steps
-create clone of (myself v)
-move ([0] - (move)) steps
-turn right (turn) degrees
-end
 ```
 
 --- /task ---
+
+--- task ---
+
+To create a more complicated patern, you can add another parameter to your function called `turn`{:class="block3myblocks"}. Then as well as moving your clone, you can turn it as well.
+
+
+```blocks3
+define pattern (repeat) (size)::custom (move) (turn)
+repeat (repeat)
+change size by (size)
+move (move) steps
+create clone of (myself v)
++ change size by ([0] - (size))
++ move ([0] - (move)) steps
++ turn right (turn) degrees
++ move (move) steps
++ create clone of (myself v)
++ move ([0] - (move)) steps
++ turn right (turn) degrees
+end
+```
+--- /task ---
+
