@@ -11,7 +11,7 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 
 --- task ---
 
-Open [the Scratch starter project](https://scratch.mit.edu/projects/CHANGE/editor/){:target="_blank"}. Scratch will open in another browser tab. 
+Open [the Scratch starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}. Scratch will open in another browser tab. 
 
 If you are working offline, you can download the starter project at [](https://rpf.io/p/en/puzzle-room). <mark>check links and change</mark>
 
@@ -28,9 +28,13 @@ You will use **functions** (`my blocks`{:class="block3myblocks"}) to create a pa
 
 --- task ---
 
-Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it "pattern"). Click "Add an Input" to create your first pattern requirement, or **parameter** called "repeat",
+Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it `pattern`{:class="block3myblocks"}). Click "Add an Input" to create your first pattern requirement, or **parameter** called `repeat`{:class="block3myblocks"}.
 
 ![animation of a my blocks being added and an additional parameter being added](images/add-parameter.gif)
+
+```blocks3
+define pattern (repeat)
+```
 
 --- /task ---
 
@@ -38,7 +42,9 @@ To design how a pattern is made, the first step is to `define pattern`{:class='b
 
 --- task ---
 
-Add a `repeat`{:class='block3control'} block with a `repeat`{:class='block3myblocks'} parameter inside, by dragging the `repeat`{:class='block3myblocks'} block from `define pattern`{:class='block3myblocks'} into the `repeat`{:class='block3control'} loop block.
+Add a `repeat`{:class='block3control'} block with a `repeat`{:class='block3myblocks'} parameter inside, by dragging the `repeat`{:class='block3myblocks'} parameter from `define pattern`{:class='block3myblocks'} into the `repeat`{:class='block3control'} loop block.
+
+![animation showing the repeat parameter being dragged from the define block and into to repeat block](images/add-repeat.gif)
 
 ```blocks3
 define pattern (repeat)
@@ -97,6 +103,9 @@ repeat (repeat)
 change size by (size)
 move (move) steps
 create clone of (myself v)
+
+when flag clicked
+pattern (3) (10) (5)
 ```
 
 --- /task ---
@@ -120,6 +129,19 @@ create clone of (myself v)
 + move ([0] - (move)) steps
 + turn right (turn) degrees
 end
+
+when flag clicked
+pattern (3) (10) (5) (15)
+
 ```
 --- /task ---
 
+--- task ---
+
+Try playing around with different numbers in your `pattern`{:class="block3myblocks"} function call. You can reset the position and size of your sprite anytime you like.
+
+![image of the sprites attribute box with the size, x coordinate and y coordinate all set to zero](images/reset-attributes.png)
+
+--- /task ---
+
+--- save ---
