@@ -15,16 +15,13 @@ You will:
 + Use `My Blocks`{:class='block3myblocks'} to optimise your computer generated art program
 + Use the `mod`{:class='block3operators'} block to tell if a number is odd or even.
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains less steps and a shorter distance.
-<img src="images/map.png">
-</p>
-
-
 --- no-print ---
+
 --- task ---
 ### Try it
+
 <div style="display: flex; flex-wrap: wrap">
+
 <div style="flex-basis: 175px; flex-grow: 1">  
 Choose a shape and watch as the computer generates a mandala. You can colour in the shapes of the mandala by clicking on them (click more times for different colours), and then press the Spacebar
 
@@ -33,12 +30,16 @@ Can you see the pattern? How do you think Scratch creates that pattern?
 Choose a different shape now and look at a new mandala. Does it look the same? Does it follow the same pattern?
 
 </div>
+
 <iframe src="https://scratch.mit.edu/projects/536953224/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
-</div>
+
 --- /task ---
+
 --- /no-print ---
 
 --- print-only ---
+
 ![Completed project](images/showcase_static.png)
+
 --- /print-only ---

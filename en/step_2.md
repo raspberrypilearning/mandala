@@ -22,9 +22,8 @@ You should see a shape sprite that looks a little bit like a flower petal.
 You will use **functions** (`my blocks`{:class="block3myblocks"}) to create a pattern with this shape. You may remember creating functions to organise your code in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3), and to repeat the same code in [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4). Functions can also be used to optimise your programs/projects.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Optimisation**</span> makes computer programs as efficient as possible using as little memory (or lines of code or code blocks) as possible. This is the same idea as how many people plan journeys to save as much time and energy as possible:
-
-<mark>image here</mark>
+<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains less steps and a shorter distance.
+<img src="images/map.png">
 </p>
 
 --- task ---
@@ -42,7 +41,7 @@ To design how a pattern is made, the first step is to `define pattern`{:class='b
 
 Add a `repeat`{:class='block3control'} block with a `repeat`{:class='block3myblocks'} parameter inside, by dragging the `repeat`{:class='block3myblocks'} block from `define pattern`{:class='block3myblocks'} into the `repeat`{:class='block3control'} loop block.
 
-<mark>GIF probably necessary as it is hard to explain this..</mark>
+![animation of a my blocks being added and an additional parameter being added](images/add-parameter.gif)
 
 
 ```blocks3
@@ -52,7 +51,7 @@ Add a `repeat`{:class='block3control'} block with a `repeat`{:class='block3myblo
 
 --- /task ---
 
-You will now use `clone`{:class='control'} blocks to make the same block appear as many times as it repeats. Make sure you also add code to get the sprite to change size and move, otherwise the sprites will be stacked on top of each other and you will not be able to see them.
+You will now use `clone`{:class='block3control'} blocks to make the same block appear as many times as it repeats. Make sure you also add code to get the sprite to change size and move, otherwise the sprites will be stacked on top of each other and you will not be able to see them.
 
 --- task ---
 
@@ -78,7 +77,7 @@ Create a pattern with your function. Get the `pattern`{:class='block3myblocks'} 
 
 ```blocks3
 when flag clicked
-pattern (3)
+pattern (3) ::custom
 ```
 
 **Test:** See what your pattern looks like by clicking the green flag to run your program.
@@ -87,6 +86,7 @@ pattern (3)
 
 You should see the beginning of a mandala pattern. Adding more **parameters**, or requirements, to your pattern function will create the first part of your mandala.
 
+![animation showing the edditing of a my blocks function to add in an extra parameter](images/edit-parameter.gif)
 --- task ---
 
 ```blocks3
@@ -102,53 +102,19 @@ create clone of (myself v)
 
 
 ```blocks3
-define pattern %repeat %size %move %turn
-repeat (repeat :: reporter :: custom)
-change size by (size :: reporter :: custom)
-move (move :: reporter :: custom) steps
+define (pattern) (repeat) (size) (move) (turn)
+repeat (repeat)
+change size by (size)
+move (move) steps
 create clone of (myself v)
-change size by ([0] - (size :: reporter :: custom))
-move ([0] - (move :: reporter :: custom)) steps
-turn right (turn :: reporter :: custom) degrees
-move (move :: reporter :: custom) steps
+change size by ([0] - (size))
+move ([0] - (move)) steps
+turn right (turn) degrees
+move (move) steps
 create clone of (myself v)
-move ([0] - (move :: reporter :: custom)) steps
-turn right (turn :: reporter :: custom) degrees
+move ([0] - (move)) steps
+turn right (turn) degrees
 end
 ```
 
 --- /task ---
-
---- task ---
-
---- /task ---
-
---- task ---
-
---- /task ---
-
---- task ---
-
---- /task ---
-
---- task ---
-
---- /task ---
-
---- task ---
-
---- /task ---
-
---- task ---
-
---- /task ---
-
---- task ---
-
---- /task ---
-
---- task ---
-
---- /task ---
-
---- save ---
