@@ -87,6 +87,7 @@ pattern (3) ::custom
 You should see the beginning of a mandala pattern. Adding more **parameters**, or requirements, to your pattern function will create the first part of your mandala.
 
 ![animation showing the edditing of a my blocks function to add in an extra parameter](images/edit-parameter.gif)
+
 --- task ---
 
 ```blocks3
