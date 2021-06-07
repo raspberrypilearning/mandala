@@ -92,7 +92,7 @@ Right click on your `define pattern`{:class="block3myblocks"} block and choose *
 You can start by adding `size`{:class="block3myblocks"} and `move`{:class="block3myblocks"} and then use these parameters in the blocks below.
 
 ```blocks3
-define pattern (repeat) (size)::custom (move) (turn)
+define pattern (repeat) (size) (move)
 repeat (repeat)
 change size by (size)
 move (move) steps
@@ -107,7 +107,7 @@ To create a more complicated patern, you can add another parameter to your funct
 
 
 ```blocks3
-define pattern (repeat) (size)::custom (move) (turn)
+define pattern (repeat) (size) (move) (turn)
 repeat (repeat)
 change size by (size)
 move (move) steps
