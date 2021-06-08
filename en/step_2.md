@@ -5,7 +5,7 @@
 Clone sprites to create a circular pattern.
 </div>
 <div>
-![animation of a pattern ebing repeated when the flag is clicked in Scratch](images/step_1.gif){:width="300px"}
+![animation of a pattern ebing repeated when the flag is clicked in Scratch](images/step_2.gif){:width="300px"}
 </div>
 </div>
 
@@ -32,6 +32,7 @@ Go to `My Blocks`{:class='block3myblocks'} and name your function (we have calle
 
 ![animation of a my blocks being added and an additional parameter being added](images/add-parameter.gif)
 
+![shape sprite](images/shape_sprite.png)
 ```blocks3
 define pattern (repeat)
 ```
@@ -46,6 +47,7 @@ Add a `repeat`{:class='block3control'} block with a `repeat`{:class='block3myblo
 
 ![animation showing the repeat parameter being dragged from the define block and into to repeat block](images/add-repeat.gif)
 
+![shape sprite](images/shape_sprite.png)
 ```blocks3
 define pattern (repeat)
 repeat (repeat)
@@ -59,6 +61,7 @@ You will now use `clone`{:class='block3control'} blocks to make the same block a
 
 Add some code into the `repeat`{:class='block3myblocks'} loop of your `pattern`{:class='block3myblocks'} function.
 
+![shape sprite](images/shape_sprite.png)
 ```blocks3
 define pattern (repeat)
 repeat (repeat)
@@ -77,6 +80,7 @@ repeat (repeat)
 
 Create a pattern with your function. Get the `pattern`{:class='block3myblocks'} to `repeat`{:class='block3myblocks'} a number of times `when flag clicked`{:class='block3events'}. 
 
+![shape sprite](images/shape_sprite.png)
 ```blocks3
 when flag clicked
 pattern (3) ::custom
@@ -97,6 +101,7 @@ Right click on your `define pattern`{:class="block3myblocks"} block and choose *
 
 You can start by adding `size`{:class="block3myblocks"} and `move`{:class="block3myblocks"} and then use these parameters in the blocks below.
 
+![shape sprite](images/shape_sprite.png)
 ```blocks3
 define pattern (repeat) (size) (move)
 repeat (repeat)
@@ -114,7 +119,7 @@ pattern (3) (10) (5)
 
 To create a more complicated patern, you can add another parameter to your function called `turn`{:class="block3myblocks"}. Then as well as moving your clone, you can turn it as well.
 
-
+![shape sprite](images/shape_sprite.png)
 ```blocks3
 define pattern (repeat) (size) (move) (turn)
 repeat (repeat)

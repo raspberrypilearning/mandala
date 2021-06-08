@@ -5,7 +5,7 @@
 Create more patterns to make a mandala!
 </div>
 <div>
-![animation showing a more complicated pattern begin formed when the flag is clicked](images/step_2.gif){:width="300px"}
+![animation showing a more complicated pattern begin formed when the flag is clicked](images/step_3.gif){:width="300px"}
 </div>
 </div>
 
@@ -15,6 +15,7 @@ Now that you have a basic pattern you can use your `pattern`{:class="block3myblo
 
 Beneath your `when flag clicked`{:class="block3events"} block, add in a few more **calls** to your `pattern`{:class="block3myblocks"} function.
 
+![shape sprite](images/shape_sprite.png)
 ```blocks3
 when flag clicked
 pattern (3) (10) (5) (60) ::custom

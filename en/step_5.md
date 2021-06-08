@@ -5,26 +5,50 @@
 Create another mandala easily using your optimised code blocks.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Have a look at the current costumes for your **Shape** sprite. You will see that there are two costumes, one white and the other filled in.
 
-[[[working-offline]]]
+![two costumes for the sprite](images/costumes.png)
 
 --- /task ---
 
 --- task ---
 
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
+You can now add another costume. Here the **Earth** costume has been chosen.
+
+![the Earth costume from the Scratch library](images/earth_costume.png)
+
+It doesn't matter which costume you pick, but you should make sure that it is a **Vector** costume and not a **Bitmap** costume. You can tell you have chosen a **Vector** costume, as you will see a button labelled **Convert to Bitmap**. **Don't click this button**. If you have selected a costume that is a **Bitmap** then delete it and choose another one.
+
+![convert to bitmap button](images/convert_to_bitmap.png)
 
 --- /task ---
+
+--- task ---
+
+Next you can remove all the colour from the costume. Select the whole costume and change the **Fill** **Saturation** to `0` and the **Outline** **Brightness** to `0`
+
+![animation showing the Earth costume being selected, then the Fill and Outline colours being changed](images/edit_costume.gif)
+
+--- /task ---
+
+--- task ---
+
+Duplicate this costume, and then repeat the process, this time changing the **Fill** colour to a dark colour of your choice.
+
+![the two Earth costumes, on filled in white and the other in purple](images/earth_costumes.png)
+
+--- /task ---
+
+
+
+
+
+
 
 --- save ---
