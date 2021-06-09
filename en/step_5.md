@@ -45,9 +45,13 @@ Duplicate this costume, and then repeat the process, this time changing the **Fi
 
 --- /task ---
 
+--- task ---
 
+Repeat this process a few more times with different vector costumes, to give your self at least four different styles of costume.
 
+![earth, butterfly and heart costumes shown with white and purple fills](images/multiple_costumes.png)
 
+--- /task ---
 
 
 
