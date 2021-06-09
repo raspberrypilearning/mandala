@@ -5,7 +5,6 @@
 Create another mandala easily using your optimised code blocks.
 </div>
 <div>
-![](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
@@ -53,6 +52,10 @@ Repeat this process a few more times with different vector costumes, to give you
 
 --- /task ---
 
+--- task ---
 
+Switch to one of your new costumes and click the green flag to see the pattern that is generated.
+
+--- /task ---
 
 --- save ---

@@ -59,4 +59,22 @@ pattern (6) (10) (90) (30) ::custom
 
 --- /task ---
 
+--- task ---
+
+The sprite (not it's clones) is still visible, so it can be hidden at the end of the function calls.
+
+![shape sprite](images/shape_sprite.png)
+```blocks3
+when flag clicked
+setup (60) (50) (10) (10) ::custom
+pattern (3) (10) (5) (60) ::custom
+pattern (5) (10) (45) (30) ::custom
+pattern (6) (10) (90) (30) ::custom
+hide
+```
+
+--- /task ---
+
+
+
 --- save ---

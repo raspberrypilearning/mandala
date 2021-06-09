@@ -5,15 +5,15 @@
 Everyone is different. Give the person using your mandala program a choice based on what they find most peaceful.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![](images/step_6.gif){:width="300px"}
 </div>
 </div>
+
+Now that you have multiple costumes to choose from, you can create a script to allow your user to choose which costume they want to use for their mandala.
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
 
-[[[working-offline]]]
 
 --- /task ---
 
