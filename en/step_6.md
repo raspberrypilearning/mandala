@@ -16,6 +16,7 @@ You should now have at least two different mandalas. You can use an `ask`{:class
 </p>
 
 --- task ---
+
 Reorder your costumes, so that all the ones filled with white are at the top, and the ones filled with colours are lower down, but still in the same order.
 
 ![animation of the costumes being placed in order, with the white costumes at the top and the coloured ones further down, but in the same order](images/order_costumes.gif)
@@ -30,7 +31,6 @@ Create the question you will be asking in your start menu.
 Add an `ask`{:class="block3sensing} block beneath the `when flag clicked`{:class="block3events} and choose the text for your question, like the example below.
 
 ![shape sprite](images/shape_sprite.png)
-
 ```blocks3
 when flag clicked
 + hide
@@ -55,6 +55,7 @@ Match the answer with the right sprite to show the right mandala.
 
 Add a `switch costume to`{:class="block3looks} `answer`{:class="block3sensing} block underneath the `ask`{:class="block3sensing} block. 
 
+![shape sprite](images/shape_sprite.png)
 ```blocks3
 hide
 when flag clicked
@@ -69,7 +70,5 @@ hide
 ```
 
 --- /task ---
-
-
 
 --- save ---
