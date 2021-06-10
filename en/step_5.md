@@ -19,7 +19,7 @@ Have a look at the current costumes for your **Shape** sprite. You will see that
 
 --- task ---
 
-You can now add another costume. Here the **Earth** costume has been chosen.
+**Choose:** You can now add another costume. Here the **Earth** costume has been chosen.
 
 ![the Earth costume from the Scratch library](images/earth_costume.png)
 
@@ -41,7 +41,7 @@ Next you can remove all the colour from the costume. Select the whole costume an
 
 Duplicate this costume, and then repeat the process, this time changing the **Fill** colour to a dark colour of your choice.
 
-![the two Earth costumes, on filled in white and the other in purple](images/earth_costumes.png)
+![the two Earth costumes, one filled in white and the other in purple](images/earth_costumes.png)
 
 --- /task ---
 

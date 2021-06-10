@@ -90,6 +90,8 @@ pattern (3) ::custom
 
 --- /task ---
 
+<mark>shift to next step? Need to reword the titles etc.</mark>
+
 You should see the beginning of a mandala pattern. Adding more **parameters**, or requirements, to your pattern function will create the first part of your mandala.
 
 
