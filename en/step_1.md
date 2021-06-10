@@ -13,7 +13,7 @@ In this project, you will write a program that generates mandalas.
 You will:
 + Use clones to create repeating patterns
 + Use `My Blocks`{:class='block3myblocks'} to optimise your computer generated art program
-+ Use the `mod`{:class='block3operators'} block to tell if a number is odd or even.
++ Use the `+`{:class='block3operators'} and `-`{:class='block3operators'} to change the appearance and position of a sprite
 
 --- no-print ---
 
