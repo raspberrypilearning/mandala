@@ -5,7 +5,6 @@
 Create another mandala easily using your optimised code blocks.
 </div>
 <div>
-![](images/step_5.gif){:width="300px"}
 </div>
 </div>
 
@@ -45,10 +44,18 @@ Duplicate this costume, and then repeat the process, this time changing the **Fi
 
 --- /task ---
 
+--- task ---
 
+Repeat this process a few more times with different vector costumes, to give your self at least four different styles of costume.
 
+![earth, butterfly and heart costumes shown with white and purple fills](images/multiple_costumes.png)
 
+--- /task ---
 
+--- task ---
 
+Switch to one of your new costumes and click the green flag to see the pattern that is generated.
+
+--- /task ---
 
 --- save ---
