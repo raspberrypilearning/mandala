@@ -9,13 +9,21 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 </div>
 </div>
 
+You should now have at least two different mandalas. You can use a **function** to create a start menu, giving a choice to whoever is using your mandala program. 
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**Start menus**</span> are often found in games and apps. They let the person playing the game or using the app, pick from a number of options, for example, what character they want to play, or what settings they want.
+</p>
+
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Create a function. We have called the one here `mandala`{:class="block3myblocks"} because you will be choosing from a number of different mandalas.
 
-[[[working-offline]]]
+
 
 --- /task ---
+
+
 
 --- task ---
 
