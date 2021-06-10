@@ -28,13 +28,13 @@ Create the question you will be asking in your start menu.
 
 --- task ---
 
-Add an `ask`{:class="block3sensing} block beneath the `when flag clicked`{:class="block3events} and choose the text for your question, like the example below.
+Add an `ask and wait`{:class="block3sensing} block beneath the `when flag clicked`{:class="block3events} and choose the text for your question, like the example below.
 
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
 when flag clicked
 + hide
-+ ask [What sounds most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love]
++ ask [What sounds most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love] and wait
 show
 setup (60) (50) (10) (10) ::custom
 pattern (3) (10) (5) (60) ::custom
@@ -45,7 +45,7 @@ hide
 
 --- /task ---
 
-The reason for hiding the sprite before using the `ask`{:class="block3sensing"} is so that the question appears at the bottom of the stage, rather than as a speach bubble from the sprite.
+The reason for hiding the sprite before using the `ask and wait`{:class="block3sensing"} is so that the question appears at the bottom of the stage, rather than as a speach bubble from the sprite.
 
 ![image of question being asked within a box at the bottom of the stage.](question.png)
 
@@ -53,13 +53,13 @@ Match the answer with the right sprite to show the right mandala.
 
 --- task ---
 
-Add a `switch costume to`{:class="block3looks} `answer`{:class="block3sensing} block underneath the `ask`{:class="block3sensing} block. 
+Add a `switch costume to`{:class="block3looks"} `answer`{:class="block3sensing"} block underneath the `ask and wait`{:class="block3sensing"} block. 
 
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
-hide
 when flag clicked
-ask [What sounds most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love]
+hide
+ask [What sounds most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love] and wait
 + switch costume to (answer)
 show
 setup (60) (50) (10) (10) ::custom
@@ -70,5 +70,13 @@ hide
 ```
 
 --- /task ---
+
+
+--- task ---
+
+**Test**: Try your mandala project by clicking the flag and choosing a number.
+
+--- /task ---
+
 
 --- save ---
