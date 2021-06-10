@@ -5,6 +5,7 @@
 Create another mandala easily using your optimised code blocks.
 </div>
 <div>
+![](images/step_5.gif)
 </div>
 </div>
 

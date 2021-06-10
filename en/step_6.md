@@ -5,7 +5,7 @@
 Everyone is different. Give the person using your mandala program a choice based on what they find most peaceful.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![](images/step_6.gif){:width="300px"}
 </div>
 </div>
 
