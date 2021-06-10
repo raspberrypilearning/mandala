@@ -90,65 +90,9 @@ pattern (3) ::custom
 
 --- /task ---
 
-<mark>shift to next step? Need to reword the titles etc.</mark>
-
 You should see the beginning of a mandala pattern. Adding more **parameters**, or requirements, to your pattern function will create the first part of your mandala.
 
 
---- task ---
 
-Right click on your `define pattern`{:class="block3myblocks"} block and choose **Edit** to add more parameters.
-
-![animation showing the edditing of a my blocks function to add in an extra parameter](images/edit-parameter.gif)
-
-You can start by adding `size`{:class="block3myblocks"} and `move`{:class="block3myblocks"} and then use these parameters in the blocks below.
-
-![shape sprite](images/shape_sprite.png)
-```blocks3
-define pattern (repeat) (size) (move)
-repeat (repeat)
-change size by (size)
-move (move) steps
-create clone of (myself v)
-
-when flag clicked
-pattern (3) (10) (5)
-```
-
---- /task ---
-
---- task ---
-
-To create a more complicated patern, you can add another parameter to your function called `turn`{:class="block3myblocks"}. Then as well as moving your clone, you can turn it as well.
-
-![shape sprite](images/shape_sprite.png)
-```blocks3
-define pattern (repeat) (size) (move) (turn)
-repeat (repeat)
-change size by (size)
-move (move) steps
-create clone of (myself v)
-+ change size by ([0] - (size))
-+ move ([0] - (move)) steps
-+ turn right (turn) degrees
-+ move (move) steps
-+ create clone of (myself v)
-+ move ([0] - (move)) steps
-+ turn right (turn) degrees
-end
-
-when flag clicked
-pattern (3) (10) (5) (60)
-
-```
---- /task ---
-
---- task ---
-
-Try playing around with different numbers in your `pattern`{:class="block3myblocks"} function call. You can reset the position and size of your sprite anytime you like.
-
-![image of the sprites attribute box with the size, x coordinate and y coordinate all set to zero](images/reset-attributes.png)
-
---- /task ---
 
 --- save ---
