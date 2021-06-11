@@ -28,7 +28,7 @@ You will use **functions** (`my blocks`{:class="block3myblocks"}) to create a pa
 
 --- task ---
 
-Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it `pattern:`{:class="block3myblocks"}), then added a `repeat`{:class="block3myblocks"} label. Click "Add an Input" to create your first pattern input, or **parameter** called `repeat`{:class="block3myblocks"}.
+Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it `pattern:`{:class="block3myblocks"}) and added `repeat`{:class="block3myblocks"} as a label to identify the first input or what programmer call a **parameter**. Then click "Add an Input" to acutally create the **parameter** called `repeat`{:class="block3myblocks"}.
 
 ![animation of a my blocks being added and an additional parameter being added](images/add-parameter.gif)
 
