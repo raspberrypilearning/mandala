@@ -13,20 +13,20 @@ Create more patterns to make a mandala!
 
 Right click on your `define pattern`{:class="block3myblocks"} block and choose **Edit** to add more parameters.
 
-![animation showing the editing of a my blocks function to add in an extra parameter](images/edit-parameter.gif)
+![animation showing the editing of a my blocks function to add in extra parameters](images/edit-parameter.gif)
 
-You can start by adding `size`{:class="block3myblocks"} and `move`{:class="block3myblocks"} and then use these parameters in the blocks below.
+You can start by adding a `size`{:class="block3myblocks"} text label and a `size`{:class="block3myblocks"} input. Then add a  `move`{:class="block3myblocks"} label and input, use these parameters in the blocks below.
 
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
-define pattern (repeat) (size) (move)
+define pattern: repeat (repeat) size (size) move (move)
 repeat (repeat)
 change size by (size)
 move (move) steps
 create clone of (myself v)
 
 when flag clicked
-pattern (3) (10) (5)
+pattern: repeat (3) size (10) move (5)
 ```
 
 --- /task ---
@@ -37,7 +37,7 @@ To create a more complicated patern, you can add another parameter to your funct
 
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
-define pattern (repeat) (size) (move) (turn)
+define pattern: repeat (repeat) size (size) move (move) turn (turn)
 repeat (repeat)
 change size by (size)
 move (move) steps
@@ -52,7 +52,7 @@ create clone of (myself v)
 end
 
 when flag clicked
-pattern (3) (10) (5) (60)
+pattern repeat (3) size (10) move (5) turn (60)
 
 ```
 --- /task ---
@@ -74,9 +74,9 @@ Beneath your `when flag clicked`{:class="block3events"} block, add in a few more
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
 when flag clicked
-pattern (3) (10) (5) (60) ::custom
-pattern (5) (10) (45) (30) ::custom
-pattern (6) (10) (90) (30) ::custom
+pattern repeat (3) size (10) move (5) turn (60) ::custom
+pattern repeat (5) size (10) move (45) turn (30) ::custom
+pattern repeat (6) size (10) move (90) turn (30) ::custom
 ```
 
 --- /task ---

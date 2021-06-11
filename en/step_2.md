@@ -28,13 +28,13 @@ You will use **functions** (`my blocks`{:class="block3myblocks"}) to create a pa
 
 --- task ---
 
-Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it `pattern`{:class="block3myblocks"}). Click "Add an Input" to create your first pattern requirement, or **parameter** called `repeat`{:class="block3myblocks"}.
+Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it `pattern:`{:class="block3myblocks"}), then added a `repeat`{:class="block3myblocks"} label. Click "Add an Input" to create your first pattern input, or **parameter** called `repeat`{:class="block3myblocks"}.
 
 ![animation of a my blocks being added and an additional parameter being added](images/add-parameter.gif)
 
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
-define pattern (repeat)
+define pattern: repeat (repeat)
 ```
 
 --- /task ---
@@ -45,11 +45,11 @@ To design how a pattern is made, the first step is to `define pattern`{:class='b
 
 Add a `repeat`{:class='block3control'} block with a `repeat`{:class='block3myblocks'} parameter inside, by dragging the `repeat`{:class='block3myblocks'} parameter from `define pattern`{:class='block3myblocks'} into the `repeat`{:class='block3control'} loop block.
 
-![animation showing the repeat parameter being dragged from the define block and into to repeat block](images/add-repeat.gif)
+![animation showing the repeat parameter being dragged from the define block and into to repeat block](images/use-repeat.gif)
 
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
-define pattern (repeat)
+define pattern: repeat (repeat)
 repeat (repeat)
 ```
 
@@ -63,7 +63,7 @@ Add some code into the `repeat`{:class='block3myblocks'} loop of your `pattern`{
 
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
-define pattern (repeat)
+define pattern: repeat (repeat)
 repeat (repeat)
 + change size by (10)
 + move (5) steps
@@ -89,8 +89,5 @@ pattern (3) ::custom
 --- /task ---
 
 You should see the beginning of a mandala pattern. Adding more **parameters**, or requirements, to your pattern function will create the first part of your mandala.
-
-
-
 
 --- save ---

@@ -17,7 +17,7 @@ Use the `My Blocks`{:class="block3myblocks"} menu to create a new block called `
 
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
-define setup (size) (ghost) (y) (move)
+define setup: size (size) ghost (ghost) y (y) move (move)
 ```
 
 --- /task ---
@@ -28,7 +28,7 @@ Now add some blocks to your function, to set the appearance and position of your
 
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
-define setup (size) (ghost) (y) (move)
+define setup: size (size) ghost (ghost) y (y) move (move)
 + set size to (size) %
 + set [ghost v] effect to (ghost)
 + go to x: (0) y: (0)
@@ -46,10 +46,10 @@ At the moment, the function isn't called, so there will be no effect on your pat
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
 when flag clicked
-+ setup (60) (50) (10) (10) ::custom
-pattern (3) (10) (5) (60) ::custom
-pattern (5) (10) (45) (30) ::custom
-pattern (6) (10) (90) (30) ::custom
++ setup size (60) ghost (50) y (10) move (10) ::custom
+pattern repeat (3) size (10) move (5) turn (60) ::custom
+pattern repeat (5) size (10) move (45) turn (30) ::custom
+pattern repeat (6) size (10) move (90) turn (30) ::custom
 ```
 
 --- /task ---
@@ -68,15 +68,13 @@ The sprite (not it's clones) is still visible, so it can be hidden at the end of
 ```blocks3
 when flag clicked
 + show
-setup (60) (50) (10) (10) ::custom
-pattern (3) (10) (5) (60) ::custom
-pattern (5) (10) (45) (30) ::custom
-pattern (6) (10) (90) (30) ::custom
+setup size (60) ghost (50) y (10) move (10) ::custom
+pattern repeat (3) size (10) move (5) turn (60) ::custom
+pattern repeat (5) size (10) move (45) turn (30) ::custom
+pattern repeat (6) size (10) move (90) turn (30) ::custom
 + hide
 ```
 
 --- /task ---
-
-
 
 --- save ---
