@@ -46,10 +46,10 @@ At the moment, the function isn't called, so there will be no effect on your pat
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
 when flag clicked
-+ setup size (60) ghost (50) y (10) move (10) ::custom
-pattern repeat (3) size (10) move (5) turn (60) ::custom
-pattern repeat (5) size (10) move (45) turn (30) ::custom
-pattern repeat (6) size (10) move (90) turn (30) ::custom
++ setup: size (60) ghost (50) y (10) move (10) ::custom
+pattern: repeat (3) size (10) move (5) turn (60) ::custom
+pattern: repeat (5) size (10) move (45) turn (30) ::custom
+pattern: repeat (6) size (10) move (90) turn (30) ::custom
 ```
 
 --- /task ---
@@ -68,10 +68,10 @@ The sprite (not it's clones) is still visible, so it can be hidden at the end of
 ```blocks3
 when flag clicked
 + show
-setup size (60) ghost (50) y (10) move (10) ::custom
-pattern repeat (3) size (10) move (5) turn (60) ::custom
-pattern repeat (5) size (10) move (45) turn (30) ::custom
-pattern repeat (6) size (10) move (90) turn (30) ::custom
+setup: size (60) ghost (50) y (10) move (10) ::custom
+pattern: repeat (3) size (10) move (5) turn (60) ::custom
+pattern: repeat (5) size (10) move (45) turn (30) ::custom
+pattern: repeat (6) size (10) move (90) turn (30) ::custom
 + hide
 ```
 

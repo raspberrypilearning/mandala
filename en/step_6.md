@@ -36,10 +36,10 @@ when flag clicked
 + hide
 + ask [What sounds most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love] and wait
 show
-setup size (60) ghost (50) y (10) move (10) ::custom
-pattern repeat (3) size (10) move (5) turn (60) ::custom
-pattern repeat (5) size (10) move (45) turn (30) ::custom
-pattern repeat (6) size (10) move (90) turn (30) ::custom
+setup: size (60) ghost (50) y (10) move (10) ::custom
+pattern: repeat (3) size (10) move (5) turn (60) ::custom
+pattern: repeat (5) size (10) move (45) turn (30) ::custom
+pattern: repeat (6) size (10) move (90) turn (30) ::custom
 hide
 ```
 
@@ -62,10 +62,10 @@ hide
 ask [What sounds most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love] and wait
 + switch costume to (answer)
 show
-setup (60) (50) (10) (10) ::custom
-pattern (3) (10) (5) (60) ::custom
-pattern (5) (10) (45) (30) ::custom
-pattern (6) (10) (90) (30) ::custom
+setup: (60) (50) (10) (10) ::custom
+pattern: (3) (10) (5) (60) ::custom
+pattern: (5) (10) (45) (30) ::custom
+pattern: (6) (10) (90) (30) ::custom
 hide
 ```
 
