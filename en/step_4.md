@@ -11,7 +11,8 @@ Set up your sprite to reset your Mandala.
 
 At the moment, your Mandala patterns may appear to change each time, depending on the parameter values you use. Next you will create a new function, so that your Mandala sprite always begins in the same state.
 
---- task -
+--- task ---
+
 Use the `My Blocks`{:class="block3myblocks"} menu to create a new block called `setup`{:class="block3myblocks"}. The block should have 4 parameters: `size`{:class="block3myblocks"}, `ghost`{:class="block3myblocks"}, `y`{:class="block3myblocks"} and `move`{:class="block3myblocks"}. Don't worry though, you can change these or add more later.
 
 ![shape sprite](images/shape_sprite.png)

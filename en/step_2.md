@@ -74,8 +74,6 @@ repeat (repeat)
 
 **Tip:** `Defining`{:class='block3myblocks'} the function makes a general pattern outline. What you are creating now with this function is similar to creating a spirograph stencil; it is the tool and the pattern is later created by using it. 
 
-<mark>GIF of spirograph??</mark>
-
 --- task ---
 
 Create a pattern with your function. Get the `pattern`{:class='block3myblocks'} to `repeat`{:class='block3myblocks'} a number of times `when flag clicked`{:class='block3events'}. 
