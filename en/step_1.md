@@ -2,6 +2,8 @@
 
 In this project, you will write a program that generates mandalas.
 
+<mark>add image of an example mandala here (or a gif)</mark>
+
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Computer generated art**</span> or **digital art**, is simply art that is made using a computer. It can range from creating drawings on a tablet, to writing Artificial Intelligence programs to enable a computer to create its own art. In this project, you are going to use programming in Scratch to create mindful artwork.
 </p>
@@ -13,7 +15,7 @@ In this project, you will write a program that generates mandalas.
 You will:
 + Use clones to create repeating patterns
 + Use `My Blocks`{:class='block3myblocks'} to optimise your computer generated art program
-+ Use the `+`{:class='block3operators'} and `-`{:class='block3operators'} to change the appearance and position of a sprite
++ Use addition `+`{:class='block3operators'} and subtraction `-`{:class='block3operators'} operator blocks to change the appearance and position of a sprite
 
 --- no-print ---
 
