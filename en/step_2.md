@@ -28,7 +28,7 @@ You will use **functions** (`my blocks`{:class="block3myblocks"}) to create a pa
 
 --- task ---
 
-Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it `pattern:`{:class="block3myblocks"}) and added `repeat`{:class="block3myblocks"} as a label to identify the first input or what programmer call a **parameter**. Then click "Add an Input" to acutally create the **parameter** called `repeat`{:class="block3myblocks"}.
+Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it `pattern:`{:class="block3myblocks"}) and added `repeat`{:class="block3myblocks"} as a label to identify the first input or what programmer call a **parameter**. Then click "Add an Input" to actually create the **parameter** called `repeat`{:class="block3myblocks"}.
 
 ![animation of a my blocks being added and an additional parameter being added](images/add-parameter.gif)
 
@@ -39,11 +39,11 @@ define pattern: repeat (repeat)
 
 --- /task ---
 
-To design how a pattern is made, the first step is to `define pattern`{:class='block3myblocks'}, adding blocks to get the code to repeat.
+To design how a pattern is made, the first step is to `define pattern`{:class='block3myblocks'}.
 
 --- task ---
 
-Add a `repeat`{:class='block3control'} block with a `repeat`{:class='block3myblocks'} parameter inside, by dragging the `repeat`{:class='block3myblocks'} parameter from `define pattern`{:class='block3myblocks'} into the `repeat`{:class='block3control'} loop block.
+Drag the `repeat`{:class='block3myblocks'} parameter from `define pattern`{:class='block3myblocks'} into a `repeat`{:class='block3control'} loop block.
 
 ![animation showing the repeat parameter being dragged from the define block and into to repeat block](images/use-repeat.gif)
 
@@ -55,7 +55,7 @@ repeat (repeat)
 
 --- /task ---
 
-You will now use `clone`{:class='block3control'} blocks to make the same block appear as many times as it repeats. Make sure you also add code to get the sprite to change size and move, otherwise the sprites will be stacked on top of each other and you will not be able to see them.
+You will now use `clone`{:class='block3control'} blocks to make the same block appear a number of times. Make sure you also add code to get the sprite to change size and move, otherwise the sprites will be stacked on top of each other and you will not be able to see them.
 
 --- task ---
 
@@ -65,8 +65,8 @@ Add some code into the `repeat`{:class='block3myblocks'} loop of your `pattern`{
 ```blocks3
 define pattern: repeat (repeat)
 repeat (repeat)
-+ change size by (10)
-+ move (5) steps
++ change size by (10) // so you can see clones
++ move (5) steps // so you can see clones
 + create clone of (myself v)
 ```
 
