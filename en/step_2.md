@@ -19,12 +19,7 @@ If you are working offline, you can download the [starter project](https://scrat
 
 You should see a shape sprite that looks a bit like a flower petal.
 
-You will use **functions** (`my blocks`{:class="block3myblocks"}) to create a pattern with this shape. You may remember creating functions to organise your code in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3), and to repeat the same code in [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4). Functions can also be used to optimise your programs/projects.
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains less steps and a shorter distance.
-<img src="images/map.png">
-</p>
+You will use **functions** (`my blocks`{:class="block3myblocks"}) to create a pattern with this shape. You may remember creating functions to organise your code in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3), and to repeat the same code in [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4). Functions can also be used to reuse actions in a different way.
 
 --- task ---
 
@@ -82,8 +77,8 @@ Create a pattern with your function. Get the `pattern`{:class='block3myblocks'} 
 ```blocks3
 when flag clicked
 show // shape shows up 
-set size to 50% // not too big
-pattern (3) ::custom
+set size to (50) % // not too big
+pattern: repeat (3) ::custom
 ```
 
 **Test:** See what your pattern looks like by clicking the green flag to run your program.

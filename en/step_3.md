@@ -67,6 +67,11 @@ Try playing around with different numbers in your `pattern`{:class="block3mybloc
 
 Now that you have a basic pattern you can use your `pattern`{:class="block3myblocks"} function a number of times, to make a repeating pattern. By using the same code over and over again, you are making a program that has been **optimised**.
 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains less steps and a shorter distance.
+<img src="images/map.png">
+</p>
+
 --- task ---
 
 Beneath your `when flag clicked`{:class="block3events"} block, add in a few more **calls** to your `pattern`{:class="block3myblocks"} function.
