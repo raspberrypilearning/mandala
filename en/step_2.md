@@ -78,6 +78,7 @@ Create a pattern with your function. Get the `pattern`{:class='block3myblocks'} 
 when flag clicked
 show // shape shows up 
 set size to (50) % // not too big
+go to x: (0) y: (0) // shows up in the middle
 pattern: repeat (3) ::custom
 ```
 

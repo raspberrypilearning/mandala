@@ -33,7 +33,15 @@ pattern: repeat (3) size (10) move (5)
 
 --- task ---
 
-To create a more complicated patern, you can add another parameter to your function called `turn`{:class="block3myblocks"}. Then as well as moving your clone, you can turn it as well.
+**Test:** See what your pattern looks like by clicking the green flag to run your program. It doesn't look like a mandala yet! Can you think of how you might make the pattern circular?
+
+--- /task ---
+
+To make your pattern circular and look even more like a mandala, add another input.
+
+--- task ---
+
+Add another parameter to your function called `turn`{:class="block3myblocks"}. Then as well as moving your clone, you can turn it as well.
 
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
@@ -50,12 +58,11 @@ create clone of (myself v)
 + move ([0] - (move)) steps
 + turn right (turn) degrees
 end
-
-when flag clicked
-pattern repeat (3) size (10) move (5) turn (60)
-
 ```
+
 --- /task ---
+
+Mandalas are often complex - they can have many different rows that follow similar patterns. You can create a base pattern for the rest of the mandala rows to build on. 
 
 --- task ---
 
@@ -63,9 +70,15 @@ Try playing around with different numbers in your `pattern`{:class="block3mybloc
 
 ![image of the sprites attribute box with the size, x coordinate and y coordinate all set to zero](images/reset-attributes.png)
 
+```blocks3
+when flag clicked
+pattern repeat (3) size (0) move (0) turn (60)
+```
+
 --- /task ---
 
-Now that you have a basic pattern you can use your `pattern`{:class="block3myblocks"} function a number of times, to make a repeating pattern. By using the same code over and over again, you are making a program that has been **optimised**.
+
+Now that you have a basic pattern you can use your `pattern`{:class="block3myblocks"} function a number of times, to make a repeating pattern, or mandala 'rows'. By using the same code over and over again, you are making a program that has been **optimised**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains less steps and a shorter distance.
@@ -79,8 +92,8 @@ Beneath your `when flag clicked`{:class="block3events"} block, add in a few more
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
 when flag clicked
-pattern repeat (3) size (10) move (5) turn (60) ::custom
-pattern repeat (5) size (10) move (45) turn (30) ::custom
+pattern repeat (3) size (0) move (0) turn (60) ::custom
+pattern repeat (6) size (10) move (45) turn (30) ::custom
 pattern repeat (6) size (10) move (90) turn (30) ::custom
 ```
 
@@ -88,7 +101,7 @@ pattern repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-Click the green flag, and see what pattern is produced. You can change the numbers to experiment with patterns that you like, or even add in more calls to your `pattern`{:class="block3myblocks"} function.
+**Test:** Click the green flag, and see what pattern is produced. You can change the numbers to experiment with patterns that you like, or even add in more calls to your `pattern`{:class="block3myblocks"} function.
 
 --- /task ---
 

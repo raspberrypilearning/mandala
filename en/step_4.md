@@ -22,6 +22,8 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 
 --- /task ---
 
+When you make the mandala colourful in the next step, the `ghost`{:class="block3myblocks"} block will make the colours transparent so when the shapes overlap, you will get a colour mixing effect.
+
 --- task ---
 
 Now add some blocks to your function, to set the appearance and position of your sprite.
@@ -62,7 +64,7 @@ pattern: repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-The sprite (not it's clones) is still visible, so it can be hidden at the end of the function calls, but will need to be shown at the start
+The sprite (not its clones) is still visible, so it can be hidden at the end of the function calls, but will need to be shown at the start
 
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
