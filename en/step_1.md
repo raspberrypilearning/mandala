@@ -2,7 +2,7 @@
 
 In this project, you will write a program that generates mandalas.
 
-<mark>add image of an example mandala here (or a gif)</mark>
+![Example colourful butterfly mandala](images/mandala.png)
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Computer generated art**</span> or **digital art**, is simply art that is made using a computer. It can range from creating drawings on a tablet, to writing Artificial Intelligence programs to enable a computer to create its own art. In this project, you are going to use programming in Scratch to create mindful artwork.
