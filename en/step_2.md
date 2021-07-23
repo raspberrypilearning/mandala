@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Clone sprites to create a circular pattern.
+Clone sprites to create a pattern.
 </div>
 <div>
 ![animation of a pattern ebing repeated when the flag is clicked in Scratch](images/step_2.gif){:width="300px"}
@@ -13,11 +13,11 @@ Clone sprites to create a circular pattern.
 
 Open [the Scratch starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}. Scratch will open in another browser tab. 
 
-If you are working offline, you can download the starter project at [](https://rpf.io/p/en/puzzle-room). <mark>check links and change</mark>
+If you are working offline, you can download the [starter project](https://scratch.mit.edu/projects/540476254/).
 
 --- /task ---
 
-You should see a shape sprite that looks a little bit like a flower petal.
+You should see a shape sprite that looks a bit like a flower petal.
 
 You will use **functions** (`my blocks`{:class="block3myblocks"}) to create a pattern with this shape. You may remember creating functions to organise your code in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3), and to repeat the same code in [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4). Functions can also be used to optimise your programs/projects.
 
@@ -28,7 +28,7 @@ You will use **functions** (`my blocks`{:class="block3myblocks"}) to create a pa
 
 --- task ---
 
-Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it `pattern:`{:class="block3myblocks"}) and added `repeat`{:class="block3myblocks"} as a label to identify the first input or what programmer call a **parameter**. Then click "Add an Input" to actually create the **parameter** called `repeat`{:class="block3myblocks"}.
+Go to `My Blocks`{:class='block3myblocks'} and name your function (we have called it `pattern:`{:class="block3myblocks"}). Add `repeat`{:class="block3myblocks"} as a label to identify the first input or what programmer call a **parameter**. Then click "Add an Input" to actually create the **parameter** called `repeat`{:class="block3myblocks"}.
 
 ![animation of a my blocks being added and an additional parameter being added](images/add-parameter.gif)
 
@@ -81,6 +81,8 @@ Create a pattern with your function. Get the `pattern`{:class='block3myblocks'} 
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
 when flag clicked
+show // shape shows up 
+set size to 50% // not too big
 pattern (3) ::custom
 ```
 
