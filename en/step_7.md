@@ -36,7 +36,7 @@ hide
 
 --- /task ---
 
-The reason for hiding the sprite before using the `ask and wait`{:class="block3sensing"} is so that the question appears at the bottom of the stage, rather than as a speach bubble from the sprite.
+The reason for hiding the sprite before using the `ask and wait`{:class="block3sensing"} is so that the question appears at the bottom of the stage, rather than as a speech bubble from the sprite.
 
 ![image of question being asked within a box at the bottom of the stage.](question.png)
 
