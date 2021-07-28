@@ -1,13 +1,15 @@
-## Create another mandala
+## Mandala colouring
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create another mandala easily using your optimised code blocks.
+Adding colour to a mandala is therapeutic as well as a creative activity. Add in the opportunity to colour different parts of the mandalas.
 </div>
 <div>
-![](images/step_5.gif)
+![](images/step_7.gif){:width="300px"}
 </div>
 </div>
+
+**Tip:** If you want to, you can print out your mandala before you colour it in this step, and use it as a colouring pattern to colour by hand.
 
 --- task ---
 
@@ -17,46 +19,53 @@ Have a look at the current costumes for your **Shape** sprite. You will see that
 
 --- /task ---
 
+To add colour to your mandala, each of the clone shapes should change its `costume`{:class="block3looks"} and then its `color effect`{:class="block3looks"} when they are clicked on. The costume changed to will be **one** more than whatever the current costume is, so it changes to the coloured version.
+
 --- task ---
 
-**Choose:** You can now add another costume. Here the **Earth** costume has been chosen.
+Add a `when this sprite clicked`{:class="block3events"} block, and then use the `+`{:class="block3operators"} operator to change the costume number.
 
-![the Earth costume from the Scratch library](images/earth_costume.png)
-
-It doesn't matter which costume you pick, but you should make sure that it is a **Vector** costume and not a **Bitmap** costume. You can tell you have chosen a **Vector** costume, as you will see a button labelled **Convert to Bitmap**. **Don't click this button**. If you have selected a costume that is a **Bitmap** then delete it and choose another one.
-
-![convert to bitmap button](images/convert_to_bitmap.png)
+![shape sprite](images/shape_sprite.png)
+```blocks3
+when this sprite clicked
+switch costume to ((answer) + (1))
+```
 
 --- /task ---
 
 --- task ---
 
-Next you can remove all the colour from the costume. Select the whole costume and change the **Fill** **Saturation** to `0` and the **Outline** **Brightness** to `0`
+Add a `change color effect`{:class="block3looks"} block to this script, so that each time the sprite is clicked, the colour changes a little.
 
-![animation showing the Earth costume being selected, then the Fill and Outline colours being changed](images/edit_costume.gif)
+![shape sprite](images/shape_sprite.png)
+```blocks3
+when this sprite clicked
+switch costume to ((answer) + (1))
+change [color v] effect by (25)
+```
+
+--- /task ---
+
+You might remember adding a `ghost`{:class="block3myblocks"} block parameter to your project in the last step. You should now be able to see what happens when you change the number where you call `ghost`{:class="block3myblocks"}.
+
+--- task ---
+
+Create the kind of colouring effect you want by changing your `ghost`{:class="block3myblocks"} numbers. A lower `ghost`{:class="block3myblocks"} number will mean the colour is more saturated, like a permanent marker. A nigh `ghost`{:class="block3myblocks"} number will mean the colour is less saturated, like watercolours.
 
 --- /task ---
 
 --- task ---
 
-Duplicate this costume, and then repeat the process, this time changing the **Fill** colour to a dark colour of your choice.
+**Test:** Click the flag, choose your costume and then try clicking on the clones to change their colours. 
 
-![the two Earth costumes, one filled in white and the other in purple](images/earth_costumes.png)
+![a mandala made up of hearts that have been coloured a variety of different colours](images/coloured_mandala.png)
 
---- /task ---
-
---- task ---
-
-Repeat this process a few more times with different vector costumes, to give your self at least four different styles of costume.
-
-![earth, butterfly and heart costumes shown with white and purple fills](images/multiple_costumes.png)
+You should get a kaleidoscope effect when colours are layered on top of each other.
 
 --- /task ---
 
---- task ---
+If you like the mandala you have created then you can **right-click** on the stage, and choose to save the image.
 
-Switch to one of your new costumes and click the green flag to see the pattern that is generated.
-
---- /task ---
+![The contect menu when right clicking on the stage, with save image as option highlighted](images/save_mandala.png)
 
 --- save ---

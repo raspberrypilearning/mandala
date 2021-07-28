@@ -1,19 +1,53 @@
-## Choose your mandala
+## Create another mandala
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Everyone is different. Give the person using your mandala program a choice based on what they find most peaceful.
+Create another mandala easily using your optimised code blocks.
 </div>
 <div>
-![](images/step_6.gif){:width="300px"}
+![](images/step_5.png)
 </div>
 </div>
 
-You should now have at least two different mandalas. You can use an `ask`{:class="block3sensing} block to create a start menu, giving a choice to whoever is using your mandala program. 
+You have two costumes that you are using to create your coloured mandala. Add some more costumes to personalise your mandala even more.
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Start menus**</span> are often found in games and apps. They let the person playing the game or using the app, pick from a number of options, for example, what character they want to play, or what settings they want.
-</p>
+--- task ---
+
+**Choose:** Add another costume. Here the **Earth** costume has been chosen.
+
+![the Earth costume from the Scratch library](images/earth_costume.png)
+
+It doesn't matter which costume you pick, but you should make sure that it is a **Vector** costume and not a **Bitmap** costume. You can tell you have chosen a **Vector** costume, as you will see a button labelled **Convert to Bitmap**. **Don't click this button**. If you have selected a costume that is a **Bitmap** then delete it and choose another one.
+
+![convert to bitmap button](images/convert_to_bitmap.png)
+
+--- /task ---
+
+--- task ---
+
+Remove all the colour from the costume so you get just the outline. Select the whole costume and change the **Fill** **Saturation** to `0` and the **Outline** **Brightness** to `0`
+
+![animation showing the Earth costume being selected, then the Fill and Outline colours being changed](images/edit_costume.gif)
+
+--- /task ---
+
+--- task ---
+
+Duplicate this costume, and then repeat the process, this time changing the **Fill** colour to a dark colour of your choice.
+
+![the two Earth costumes, one filled in white and the other in purple](images/earth_costumes.png)
+
+--- /task ---
+
+--- task ---
+
+Repeat this process a few more times with different vector costumes, to give yourself different styles of costume.
+
+![earth, butterfly and heart costumes shown with white and purple fills](images/multiple_costumes.png)
+
+--- /task ---
+
+Make sure you can colour your personalised mandalas. To do this, reorder your costumes and make sure the costume switches to the right number.
 
 --- task ---
 
@@ -21,59 +55,20 @@ Reorder your costumes, so that all the ones filled with white are at the top, an
 
 ![animation of the costumes being placed in order, with the white costumes at the top and the coloured ones further down, but in the same order](images/order_costumes.gif)
 
-
 --- /task ---
 
-Create the question you will be asking in your start menu.
-
---- task ---
-
-Add an `ask and wait`{:class="block3sensing} block beneath the `when flag clicked`{:class="block3events} and choose the text for your question, like the example below.
+Remember to change which costume the mandala switches to so that you can colour your new mandalas. In the example project, there are 4 mandalas so we changed the costume number from '1' to '4'
 
 ![shape sprite](images/shape_sprite.png)
 ```blocks3
-when flag clicked
-+ hide
-+ ask [What sounds most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love] and wait
-show
-setup: size (60) ghost (50) y (10) move (10) ::custom
-pattern: repeat (3) size (10) move (5) turn (60) ::custom
-pattern: repeat (5) size (10) move (45) turn (30) ::custom
-pattern: repeat (6) size (10) move (90) turn (30) ::custom
-hide
+when this sprite clicked
++ switch costume to ((answer) + (4))
+change [color v] effect by (25)
 ```
-
---- /task ---
-
-The reason for hiding the sprite before using the `ask and wait`{:class="block3sensing"} is so that the question appears at the bottom of the stage, rather than as a speach bubble from the sprite.
-
-![image of question being asked within a box at the bottom of the stage.](question.png)
-
-Match the answer with the right sprite to show the right mandala.
 
 --- task ---
 
-Add a `switch costume to`{:class="block3looks"} `answer`{:class="block3sensing"} block underneath the `ask and wait`{:class="block3sensing"} block. 
-
-![shape sprite](images/shape_sprite.png)
-```blocks3
-when flag clicked
-hide
-ask [What sounds most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love] and wait
-+ switch costume to (answer)
-show
-setup: (60) (50) (10) (10) ::custom
-pattern: (3) (10) (5) (60) ::custom
-pattern: (5) (10) (45) (30) ::custom
-pattern: (6) (10) (90) (30) ::custom
-hide
-```
-
---- /task ---
-
---- task ---
-
-**Test**: Try your mandala project by clicking the flag and choosing a number.
+Switch to one of your new costumes and click the green flag to see the pattern that is generated.
 
 --- /task ---
 
