@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) pathway, you can move on to the [Swarms, schools and flocks](https://projects.raspberrypi.org/en/projects/swarms-schools-flocks) project. In this project, you will make a game that uses clones to make a simulation of a group of animals.
+If you are following the [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) pathway, you can move on to the [Swarms, schools, and flocks](https://projects.raspberrypi.org/en/projects/swarms-schools-flocks) project. In this project, you will make a game that uses clones to make a simulation of a group of animals.
 
 --- print-only ---
 
