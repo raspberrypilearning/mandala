@@ -15,7 +15,7 @@ Adding colour to a mandala is therapeutic as well as a creative activity. Add in
 
 Have a look at the current costumes for your **Shape** sprite. You will see that there are two costumes, one white and the other filled in.
 
-![two costumes for the sprite](images/costumes.png)
+![Two costumes for the sprite.](images/costumes.png)
 
 --- /task ---
 
@@ -25,7 +25,7 @@ To add colour to your mandala, each of the clone shapes should change its `costu
 
 Add a `when this sprite clicked`{:class="block3events"} block, and then use the `+`{:class="block3operators"} operator to change the costume number.
 
-![shape sprite](images/shape_sprite.png)
+![The shape sprite.](images/shape_sprite.png)
 ```blocks3
 when this sprite clicked
 switch costume to ((answer) + (1))
@@ -37,7 +37,7 @@ switch costume to ((answer) + (1))
 
 Add a `change color effect`{:class="block3looks"} block to this script, so that each time the sprite is clicked, the colour changes a little.
 
-![shape sprite](images/shape_sprite.png)
+![The shape sprite.](images/shape_sprite.png)
 ```blocks3
 when this sprite clicked
 switch costume to ((answer) + (1))
@@ -56,9 +56,9 @@ Create the kind of colouring effect you want by changing your `ghost`{:class="bl
 
 --- task ---
 
-**Test:** Click the flag, choose your costume and then try clicking on the clones to change their colours. 
+**Test:** Click the flag, choose your costume, and then try clicking on the clones to change their colours. 
 
-![a mandala made up of hearts that have been coloured a variety of different colours](images/coloured_mandala.png)
+![A mandala made of hearts that have been coloured in a variety of different colours.](images/coloured_mandala.png)
 
 You should get a kaleidoscope effect when colours are layered on top of each other.
 
@@ -66,6 +66,6 @@ You should get a kaleidoscope effect when colours are layered on top of each oth
 
 If you like the mandala you have created then you can **right-click** on the stage, and choose to save the image.
 
-![The contect menu when right clicking on the stage, with save image as option highlighted](images/save_mandala.png)
+![The contect menu appears when the Stage is right-clicked, and the 'Save Image As' option is highlighted.](images/save_mandala.png)
 
 --- save ---
