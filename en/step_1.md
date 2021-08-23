@@ -9,7 +9,7 @@ In this project, you will write a program that generates mandalas.
 </p>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Mandala**</span> is a Sanskrit word that roughly means "circle". Manadalas are commonly circular designs that have repeating colors, shapes, and patterns. In Buddhist and Hindu traditions, mandalas are helpful in meditation. Creating mandalas is known to be a relaxing and mindful activity.
+<span style="color: #0faeb0">**Mandala**</span> is a Sanskrit word that roughly means "circle". Manadalas are commonly circular designs that have repeating colours, shapes, and patterns. In Buddhist and Hindu traditions, mandalas are helpful in meditation. Creating mandalas is known to be a relaxing and mindful activity.
 </p>
 
 You will:
