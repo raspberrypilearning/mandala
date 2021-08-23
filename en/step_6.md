@@ -47,7 +47,7 @@ Repeat this process a few more times with different vector costumes, to give you
 
 --- /task ---
 
-Make sure you can colour your personalised mandalas. To do this, reorder your costumes and make sure the costume switches to the right number.
+To make sure you can colour your personalised mandalas, reorder your costumes and check the costume switches to the right number.
 
 --- task ---
 
