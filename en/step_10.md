@@ -4,7 +4,7 @@ If you are following the [Further Scratch](https://projects.raspberrypi.org/en/p
 
 --- print-only ---
 
-![Swarms, schools and flocks](images/projectname-project.png)
+![Swarms, schools, and flocks](images/projectname-project.png)
 
 --- /print-only ---
 
