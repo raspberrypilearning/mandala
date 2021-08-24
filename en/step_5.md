@@ -46,7 +46,7 @@ change [color v] effect by (25)
 
 --- /task ---
 
-You might remember adding a `ghost`{:class="block3myblocks"} block parameter to your project in the last step. You should now be able to see what happens when you change the number where you call `ghost`{:class="block3myblocks"}.
+You might remember adding a `ghost`{:class="block3myblocks"} block input to your project in the last step. You should now be able to see what happens when you change the number where you call `ghost`{:class="block3myblocks"}.
 
 --- task ---
 
