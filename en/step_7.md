@@ -12,16 +12,16 @@ Everyone is different. Give the person using your mandala program a choice based
 You should now have at least two different mandalas. You can use an `ask`{:class="block3sensing} block to create a start menu, giving a choice to whoever is using your mandala program. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Start menus**</span> are often found in games and apps. They let the person playing the game or using the app, pick from a number of options, for example, what character they want to play, or what settings they want.
+<span style="color: #0faeb0">**Start menus**</span> are often found in games and apps. They let the person playing the game or using the app pick from a number of options, for example, what character they want to play, or what settings they want.
 </p>
 
-Create the question you will be asking in your start menu.
+Create the question you will ask in your start menu.
 
 --- task ---
 
 Add an `ask and wait`{:class="block3sensing} block beneath the `when flag clicked`{:class="block3events} and choose the text for your question, like the example below.
 
-![shape sprite](images/shape_sprite.png)
+![The shape sprite.](images/shape_sprite.png)
 ```blocks3
 when flag clicked
 + hide
@@ -38,7 +38,7 @@ hide
 
 The reason for hiding the sprite before using the `ask and wait`{:class="block3sensing"} is so that the question appears at the bottom of the stage, rather than as a speech bubble from the sprite.
 
-![image of question being asked within a box at the bottom of the stage.](question.png)
+![Image of question being asked within a box at the bottom of the stage.](question.png)
 
 Match the answer with the right sprite to show the right mandala.
 
@@ -46,7 +46,7 @@ Match the answer with the right sprite to show the right mandala.
 
 Add a `switch costume to`{:class="block3looks"} `answer`{:class="block3sensing"} block underneath the `ask and wait`{:class="block3sensing"} block. 
 
-![shape sprite](images/shape_sprite.png)
+![The shape sprite.](images/shape_sprite.png)
 ```blocks3
 when flag clicked
 hide

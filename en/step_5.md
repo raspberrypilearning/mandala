@@ -9,23 +9,23 @@ Adding colour to a mandala is therapeutic as well as a creative activity. Add in
 </div>
 </div>
 
-**Tip:** If you want to, you can print out your mandala before you colour it in this step, and use it as a colouring pattern to colour by hand.
+**Tip:** If you want to, you can print out your mandala before you add colour to it in this step, and use it as a colouring pattern to colour by hand.
 
 --- task ---
 
-Have a look at the current costumes for your **Shape** sprite. You will see that there are two costumes, one white and the other filled in.
+Have a look at the current costumes for your **shape** sprite. You will see that there are two costumes, one white and the other filled in.
 
-![two costumes for the sprite](images/costumes.png)
+![Two costumes for the sprite.](images/costumes.png)
 
 --- /task ---
 
-To add colour to your mandala, each of the clone shapes should change its `costume`{:class="block3looks"} and then its `color effect`{:class="block3looks"} when they are clicked on. The costume changed to will be **one** more than whatever the current costume is, so it changes to the coloured version.
+To add colour to your mandala, each of the clone shapes should change its `costume`{:class="block3looks"} and then its `color effect`{:class="block3looks"} when the clone is clicked. The new costume will be **one** more than whatever the previous costume was, so it will change to the coloured version and then to the different colours.
 
 --- task ---
 
 Add a `when this sprite clicked`{:class="block3events"} block, and then use the `+`{:class="block3operators"} operator to change the costume number.
 
-![shape sprite](images/shape_sprite.png)
+![The shape sprite.](images/shape_sprite.png)
 ```blocks3
 when this sprite clicked
 switch costume to ((answer) + (1))
@@ -37,7 +37,7 @@ switch costume to ((answer) + (1))
 
 Add a `change color effect`{:class="block3looks"} block to this script, so that each time the sprite is clicked, the colour changes a little.
 
-![shape sprite](images/shape_sprite.png)
+![The shape sprite.](images/shape_sprite.png)
 ```blocks3
 when this sprite clicked
 switch costume to ((answer) + (1))
@@ -50,15 +50,15 @@ You might remember adding a `ghost`{:class="block3myblocks"} block parameter to 
 
 --- task ---
 
-Create the kind of colouring effect you want by changing your `ghost`{:class="block3myblocks"} numbers. A lower `ghost`{:class="block3myblocks"} number will mean the colour is more saturated, like a permanent marker. A nigh `ghost`{:class="block3myblocks"} number will mean the colour is less saturated, like watercolours.
+Create the kind of colouring effect you want by changing your `ghost`{:class="block3myblocks"} numbers. A lower `ghost`{:class="block3myblocks"} number will mean the colour is more saturated, like a permanent marker. A high `ghost`{:class="block3myblocks"} number will mean the colour is less saturated, like watercolours.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the flag, choose your costume and then try clicking on the clones to change their colours. 
+**Test:** Click the flag, choose your costume, and then try clicking on the clones to change their colours. 
 
-![a mandala made up of hearts that have been coloured a variety of different colours](images/coloured_mandala.png)
+![A mandala made of hearts that have been coloured in a variety of different colours.](images/coloured_mandala.png)
 
 You should get a kaleidoscope effect when colours are layered on top of each other.
 
@@ -66,6 +66,6 @@ You should get a kaleidoscope effect when colours are layered on top of each oth
 
 If you like the mandala you have created then you can **right-click** on the stage, and choose to save the image.
 
-![The contect menu when right clicking on the stage, with save image as option highlighted](images/save_mandala.png)
+![The contect menu appears when the Stage is right-clicked, and the 'Save Image As' option is highlighted.](images/save_mandala.png)
 
 --- save ---

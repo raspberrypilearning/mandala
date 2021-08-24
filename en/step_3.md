@@ -5,7 +5,7 @@
 Create more patterns to make a mandala!
 </div>
 <div>
-![animation showing a more complicated pattern begin formed when the flag is clicked](images/step_3.gif){:width="300px"}
+![Animation showing a more complicated pattern beginning to form when the flag is clicked.](images/step_3.gif){:width="300px"}
 </div>
 </div>
 
@@ -13,11 +13,11 @@ Create more patterns to make a mandala!
 
 Right click on your `define pattern`{:class="block3myblocks"} block and choose **Edit** to add more parameters.
 
-![animation showing the editing of a my blocks function to add in extra parameters](images/edit-parameter.gif)
+![Animation showing the editing of a 'my blocks' function to add in extra parameters.](images/edit-parameter.gif)
 
-You can start by adding a `size`{:class="block3myblocks"} text label and a `size`{:class="block3myblocks"} input. Then add a  `move`{:class="block3myblocks"} label and input, use these parameters in the blocks below.
+You can start by adding a `size`{:class="block3myblocks"} text label and a `size`{:class="block3myblocks"} input. Then, add a  `move`{:class="block3myblocks"} label and input, and use these parameters in the blocks below.
 
-![shape sprite](images/shape_sprite.png)
+![The shape sprite.](images/shape_sprite.png)
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move)
 repeat (repeat)
@@ -41,9 +41,9 @@ To make your pattern circular and look even more like a mandala, add another inp
 
 --- task ---
 
-Add another parameter to your function called `turn`{:class="block3myblocks"}. Then as well as moving your clone, you can turn it as well.
+Add another parameter to your function called `turn`{:class="block3myblocks"}. Then, as well as moving your clone, you can turn it as well.
 
-![shape sprite](images/shape_sprite.png)
+![The shape sprite.](images/shape_sprite.png)
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move) turn (turn)
 repeat (repeat)
@@ -62,13 +62,13 @@ end
 
 --- /task ---
 
-Mandalas are often complex - they can have many different rows that follow similar patterns. You can create a base pattern for the rest of the mandala rows to build on. 
+Mandalas are often complex — they can have many different rows that follow similar patterns. You can create a base pattern for the rest of the mandala rows to build on. 
 
 --- task ---
 
 Try playing around with different numbers in your `pattern`{:class="block3myblocks"} function call. You can reset the position and size of your sprite anytime you like.
 
-![image of the sprites attribute box with the size, x coordinate and y coordinate all set to zero](images/reset-attributes.png)
+![Image of the sprites' attribute box with the size, x coordinate, and y coordinate all set to zero.](images/reset-attributes.png)
 
 ```blocks3
 when flag clicked
@@ -78,10 +78,10 @@ pattern repeat (3) size (0) move (0) turn (60)
 --- /task ---
 
 
-Now that you have a basic pattern you can use your `pattern`{:class="block3myblocks"} function a number of times, to make a repeating pattern, or mandala 'rows'. By using the same code over and over again, you are making a program that has been **optimised**.
+Now that you have a basic pattern, you can use your `pattern`{:class="block3myblocks"} function a number of times to make a repeating pattern, or mandala 'rows'. By using the same code over and over again, you make a program that has been **optimised**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains less steps and a shorter distance.
+<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains fewer steps and a shorter distance.
 <img src="images/map.png">
 </p>
 
@@ -89,7 +89,7 @@ Now that you have a basic pattern you can use your `pattern`{:class="block3myblo
 
 Beneath your `when flag clicked`{:class="block3events"} block, add in a few more **calls** to your `pattern`{:class="block3myblocks"} function.
 
-![shape sprite](images/shape_sprite.png)
+![The shape sprite.](images/shape_sprite.png)
 ```blocks3
 when flag clicked
 pattern repeat (3) size (0) move (0) turn (60) ::custom
