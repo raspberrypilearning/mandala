@@ -13,7 +13,7 @@ Create more patterns to make a mandala!
 
 Right click on your `define pattern`{:class="block3myblocks"} block and choose **Edit** to add more parameters.
 
-![Animation showing the editing of a 'my blocks' function to add in extra parameters.](images/edit-parameter.gif)
+![Animation showing the editing of 'my blocks' to add in extra parameters.](images/edit-parameter.gif)
 
 You can start by adding a `size`{:class="block3myblocks"} text label and a `size`{:class="block3myblocks"} input. Then, add a  `move`{:class="block3myblocks"} label and input, and use these parameters in the blocks below.
 
@@ -41,7 +41,7 @@ To make your pattern circular and look even more like a mandala, add another inp
 
 --- task ---
 
-Add another parameter to your function called `turn`{:class="block3myblocks"}. Then, as well as moving your clone, you can turn it as well.
+Add another input called `turn`{:class="block3myblocks"}. Then, as well as moving your clone, you can turn it as well.
 
 ![The shape sprite.](images/shape_sprite.png)
 ```blocks3
@@ -66,7 +66,7 @@ Mandalas are often complex — they can have many different rows that follow sim
 
 --- task ---
 
-Try playing around with different numbers in your `pattern`{:class="block3myblocks"} function call. You can reset the position and size of your sprite anytime you like.
+Try playing around with different numbers in your `pattern`{:class="block3myblocks"}. You can reset the position and size of your sprite anytime you like.
 
 ![Image of the sprites' attribute box with the size, x coordinate, and y coordinate all set to zero.](images/reset-attributes.png)
 
@@ -78,7 +78,7 @@ pattern repeat (3) size (0) move (0) turn (60)
 --- /task ---
 
 
-Now that you have a basic pattern, you can use your `pattern`{:class="block3myblocks"} function a number of times to make a repeating pattern, or mandala 'rows'. By using the same code over and over again, you make a program that has been **optimised**.
+Now that you have a basic pattern, you can use your `pattern`{:class="block3myblocks"} a number of times to make a repeating pattern, or mandala 'rows'. By using the same code over and over again, you make a program that has been **optimised**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains fewer steps and a shorter distance.
@@ -87,7 +87,7 @@ Now that you have a basic pattern, you can use your `pattern`{:class="block3mybl
 
 --- task ---
 
-Beneath your `when flag clicked`{:class="block3events"} block, add in a few more **calls** to your `pattern`{:class="block3myblocks"} function.
+Beneath your `when flag clicked`{:class="block3events"} block, add in a few more **calls** to your `pattern`{:class="block3myblocks"}.
 
 ![The shape sprite.](images/shape_sprite.png)
 ```blocks3
@@ -101,7 +101,7 @@ pattern repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-**Test:** Click the green flag, and see what pattern is produced. You can change the numbers to experiment with patterns that you like, or even add in more calls to your `pattern`{:class="block3myblocks"} function.
+**Test:** Click the green flag, and see what pattern is produced. You can change the numbers to experiment with patterns that you like, or even add in more calls to your `pattern`{:class="block3myblocks"}.
 
 --- /task ---
 
