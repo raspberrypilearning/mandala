@@ -9,7 +9,7 @@ Set up your sprite to reset your mandala.
 </div>
 </div>
 
-At the moment, your mandala patterns may appear to change each time, depending on the parameter values you use. Next, you will create a new function, so that your **mandala** sprite always begins in the same state.
+At the moment, your mandala patterns may appear to change each time, depending on the parameter values you use. Next, you will create a new `my blocks`{:class="block3myblocks"}, so that your **mandala** sprite always begins in the same state.
 
 --- task ---
 
@@ -26,7 +26,7 @@ When you make the mandala colourful in the next step, the `ghost`{:class="block3
 
 --- task ---
 
-Now add some blocks to your function, to set the appearance and position of your sprite.
+Now add some blocks to set the appearance and position of your sprite.
 
 ![The shape sprite.](images/shape_sprite.png)
 ```blocks3
@@ -43,7 +43,7 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 
 --- task ---
 
-At the moment, the function isn't called, so there will be no effect on your pattern. Add a call to the `setup`{:class="block3myblocks"} function, as soon as the flag is clicked.
+At the moment, your `my blocks`{:class="block3myblocks"} hasn't been used, so there will be no effect on your pattern. Add code to `setup`{:class="block3myblocks"}, so the code will run as soon as the flag is clicked.
 
 ![The shape sprite.](images/shape_sprite.png)
 ```blocks3
@@ -64,7 +64,7 @@ pattern: repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-The sprite (not its clones) is still visible; it can be hidden at the end of the function calls, but will need to be shown at the start.
+The sprite (not its clones) is still visible; it can be hidden at the end, but will need to be shown at the start.
 
 ![The shape sprite.](images/shape_sprite.png)
 ```blocks3
