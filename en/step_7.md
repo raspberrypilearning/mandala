@@ -25,7 +25,7 @@ Add an `ask and wait`{:class="block3sensing} block beneath the `when flag clicke
 ```blocks3
 when flag clicked
 + hide
-+ ask [What sounds most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love] and wait
++ ask [What feels most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love] and wait
 show
 setup: size (60) ghost (50) y (10) move (10) ::custom
 pattern: repeat (3) size (10) move (5) turn (60) ::custom
@@ -50,7 +50,7 @@ Add a `switch costume to`{:class="block3looks"} `answer`{:class="block3sensing"}
 ```blocks3
 when flag clicked
 hide
-ask [What sounds most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love] and wait
+ask [What feels most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love] and wait
 + switch costume to (answer)
 show
 setup: (60) (50) (10) (10) ::custom
