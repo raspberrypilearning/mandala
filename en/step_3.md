@@ -72,7 +72,7 @@ Try playing around with different numbers in your `pattern`{:class="block3mybloc
 
 ```blocks3
 when flag clicked
-pattern repeat (3) size (0) move (0) turn (60)
+pattern repeat (3) size (0) move (0) turn (60) ::custom
 ```
 
 --- /task ---

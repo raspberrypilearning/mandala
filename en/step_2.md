@@ -13,13 +13,13 @@ Clone sprites to create a pattern.
 
 Open [the Scratch starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}. Scratch will open in another browser tab. 
 
-If you are working offline, you can download the [starter project](https://scratch.mit.edu/projects/540476254/).
+If you are working offline, you can download the [starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}.
 
 --- /task ---
 
 You should see a shape sprite that looks a bit like a flower petal.
 
-You will use `my blocks`{:class="block3myblocks"} to create a pattern with this shape. You may remember creating `my blocks`{:class="block3myblocks"} to organise your code in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3), and to repeat the same code in [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4). `My blocks`{:class="block3myblocks"} can also be used to reuse actions in a different way.
+You will use `my blocks`{:class="block3myblocks"} to create a pattern with this shape. You may remember creating `my blocks`{:class="block3myblocks"} to organise your code in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3){:target="_blank"}, and to repeat the same code in [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4){:target="_blank"}. `My blocks`{:class="block3myblocks"} can also be used to reuse actions in a different way.
 
 --- task ---
 
