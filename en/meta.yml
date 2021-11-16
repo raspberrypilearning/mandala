@@ -2,13 +2,14 @@ title: Mandala
 hero_image: images/banner.png
 description: Make computer generated mandalas in Scratch
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
   - title: Clone shapes to make a pattern
   - title: Make a mandala
+    completion: engaged  
   - title: Setup your sprite
   - title: Create another mandala
   - title: Choose your mandala
@@ -19,5 +20,7 @@ steps:
       version: 1
       questions: 2
       passing_score: 2
+    completion: internal       
   - title: Upgrade your project
+    completion: external  
   - title: What next?
