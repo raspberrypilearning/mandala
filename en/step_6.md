@@ -60,6 +60,7 @@ Reorder your costumes, so that all the ones filled with white are at the top, an
 Remember to change which costume the mandala switches to so that you can colour your new mandalas. In the example project, there are four mandalas so we changed the costume number from '1' to '4'
 
 ![The shape sprite.](images/shape_sprite.png)
+
 ```blocks3
 when this sprite clicked
 + switch costume to ((answer) + (4))

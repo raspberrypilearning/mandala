@@ -26,6 +26,7 @@ To add colour to your mandala, each of the clone shapes should change its `costu
 Add a `when this sprite clicked`{:class="block3events"} block, and then use the `+`{:class="block3operators"} operator to change the costume number.
 
 ![The shape sprite.](images/shape_sprite.png)
+
 ```blocks3
 when this sprite clicked
 switch costume to ((answer) + (1))
@@ -38,6 +39,7 @@ switch costume to ((answer) + (1))
 Add a `change color effect`{:class="block3looks"} block to this script, so that each time the sprite is clicked, the colour changes a little.
 
 ![The shape sprite.](images/shape_sprite.png)
+
 ```blocks3
 when this sprite clicked
 switch costume to ((answer) + (1))

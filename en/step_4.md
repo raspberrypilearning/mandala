@@ -16,6 +16,7 @@ At the moment, your mandala patterns may appear to change each time, depending o
 Use the `My Blocks`{:class="block3myblocks"} menu to create a new block called `setup`{:class="block3myblocks"}. The block should have four parameters: `size`{:class="block3myblocks"}, `ghost`{:class="block3myblocks"}, `y`{:class="block3myblocks"}, and `move`{:class="block3myblocks"}. Don't worry, you can change these or add more later.
 
 ![The shape sprite.](images/shape_sprite.png)
+
 ```blocks3
 define setup: size (size) ghost (ghost) y (y) move (move)
 ```
@@ -29,6 +30,7 @@ When you make the mandala colourful in the next step, the `ghost`{:class="block3
 Now add some blocks to set the appearance and position of your sprite.
 
 ![The shape sprite.](images/shape_sprite.png)
+
 ```blocks3
 define setup: size (size) ghost (ghost) y (y) move (move)
 + set size to (size) %
@@ -46,6 +48,7 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 At the moment, your `my blocks`{:class="block3myblocks"} hasn't been used, so there will be no effect on your pattern. Add code to `setup`{:class="block3myblocks"}, so the code will run as soon as the flag is clicked.
 
 ![The shape sprite.](images/shape_sprite.png)
+
 ```blocks3
 when flag clicked
 + setup: size (60) ghost (50) y (10) move (10) ::custom
@@ -67,6 +70,7 @@ pattern: repeat (6) size (10) move (90) turn (30) ::custom
 The sprite (not its clones) is still visible; it can be hidden at the end, but will need to be shown at the start.
 
 ![The shape sprite.](images/shape_sprite.png)
+
 ```blocks3
 when flag clicked
 + show
