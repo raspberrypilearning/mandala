@@ -22,6 +22,7 @@ Create the question you will ask in your start menu.
 Add an `ask and wait`{:class="block3sensing"} block beneath the `when flag clicked`{:class="block3events"} and choose the text for your question, like the example below.
 
 ![The shape sprite.](images/shape_sprite.png)
+
 ```blocks3
 when flag clicked
 + hide
@@ -47,6 +48,7 @@ Match the answer with the right sprite to show the right mandala.
 Add a `switch costume to`{:class="block3looks"} `answer`{:class="block3sensing"} block underneath the `ask and wait`{:class="block3sensing"} block. 
 
 ![The shape sprite.](images/shape_sprite.png)
+
 ```blocks3
 when flag clicked
 hide

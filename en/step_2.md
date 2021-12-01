@@ -29,6 +29,7 @@ Go to `My Blocks`{:class='block3myblocks'} and name your blocks (we have called 
 ![Animation of a 'my blocks' block and an additional parameter being added.](images/add-parameter.gif)
 
 ![The shape sprite.](images/shape_sprite.png)
+
 ```blocks3
 define pattern: repeat (repeat)
 ```
@@ -44,6 +45,7 @@ Drag the `repeat`{:class='block3myblocks'} parameter from `define pattern`{:clas
 ![Animation showing the 'repeat' parameter being dragged from the 'define' block and into the 'repeat' block.](images/use-repeat.gif)
 
 ![The shape sprite.](images/shape_sprite.png)
+
 ```blocks3
 define pattern: repeat (repeat)
 repeat (repeat)
@@ -58,6 +60,7 @@ You will now use `clone`{:class='block3control'} blocks to make the same block a
 Add some code into the `repeat`{:class='block3myblocks'} loop of your `pattern`{:class='block3myblocks'}.
 
 ![The shape sprite.](images/shape_sprite.png)
+
 ```blocks3
 define pattern: repeat (repeat)
 repeat (repeat)

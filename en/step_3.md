@@ -18,6 +18,7 @@ Right click on your `define pattern`{:class="block3myblocks"} block and choose *
 You can start by adding a `size`{:class="block3myblocks"} text label and a `size`{:class="block3myblocks"} input. Then, add a  `move`{:class="block3myblocks"} label and input, and use these parameters in the blocks below.
 
 ![The shape sprite.](images/shape_sprite.png)
+
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move)
 repeat (repeat)
@@ -44,6 +45,7 @@ To make your pattern circular and look even more like a mandala, add another inp
 Add another input called `turn`{:class="block3myblocks"}. Then, as well as moving your clone, you can turn it as well.
 
 ![The shape sprite.](images/shape_sprite.png)
+
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move) turn (turn)
 repeat (repeat)
@@ -90,6 +92,7 @@ Now that you have a basic pattern, you can use your `pattern`{:class="block3mybl
 Beneath your `when flag clicked`{:class="block3events"} block, add in a few more **calls** to your `pattern`{:class="block3myblocks"}.
 
 ![The shape sprite.](images/shape_sprite.png)
+
 ```blocks3
 when flag clicked
 pattern repeat (3) size (0) move (0) turn (60) ::custom
