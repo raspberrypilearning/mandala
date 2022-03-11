@@ -1,29 +1,29 @@
 ---
-title: Mandala
+title: मंडल
 hero_image: images/banner.png
-description: Make computer generated mandalas in Scratch
+description: Scratch मध्ये कंंप्युटर निर्मीत मंडल तयार करा
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Clone shapes to make a pattern
+    title: पॅटर्न तयार करण्यासाठी आकार क्लोन करा
   - 
-    title: Make a mandala
+    title: मंडल तयार करा
     completion: engaged
   - 
-    title: Setup your sprite
+    title: तुमचा स्प्राइट सेट करा
   - 
-    title: Create another mandala
+    title: दुसरे मंडल तयार करा
   - 
-    title: Choose your mandala
+    title: तुमचे मंडल निवडा
   - 
-    title: Mandala colouring
+    title: मंडल रंग
   - 
-    title: Reflection
+    title: परावर्तन
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -31,7 +31,7 @@ steps:
       passing_score: 2
     completion: internal
   - 
-    title: Upgrade your project
+    title: तुमचा प्रोजेक्ट अपग्रेड करा
     completion: external
   - 
-    title: What next?
+    title: पुढे काय?
