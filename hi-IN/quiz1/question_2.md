@@ -30,7 +30,8 @@ legend: 2 में से दूसरा प्रश्न
 
 - ( )
  ```blocks3
- when flag clicked switch costume to ((costume [number v]) + (1))
+ when flag clicked 
+ switch costume to ((costume [number v]) + (1))
  ```
   --- feedback ---
 
@@ -40,7 +41,8 @@ legend: 2 में से दूसरा प्रश्न
 
 - ( )
  ```blocks3
- when flag clicked switch costume to ((costume [number v]) - (1))
+ when flag clicked 
+ switch costume to ((costume [number v]) - (1))
  ```
   --- feedback ---
 
@@ -50,7 +52,8 @@ legend: 2 में से दूसरा प्रश्न
 
 - ( )
  ```blocks3
- when flag clicked switch costume to ((1)+(1))
+ when flag clicked 
+ switch costume to ((1)+(1))
  ```
   --- feedback ---
 
