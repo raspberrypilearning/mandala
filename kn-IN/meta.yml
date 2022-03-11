@@ -1,0 +1,27 @@
+---
+title: ಮಂಡಲ
+hero_image: images/banner.png
+description: ಸ್ಕ್ರಾಚ್‌ನಲ್ಲಿ ಕಂಪ್ಯೂಟರ್‌ ವಿರಚಿತ ಮಂಡಲಗಳನ್ನು ಮಾಡಿ
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - title: ಪರಿಚಯ
+  - title: ವಿನ್ಯಾಸವನ್ನು ಮಾಡಲು ತದ್ರೂಪದ ಆಕಾರಗಳು
+  - title: ಮಂಡಲ ಮಾಡಿ
+    completion: engaged
+  - title: ನಿಮ್ಮ ಸ್ಪ್ರೈಟ್‌ನ್ನು ಹೊಂದಿಸಿ
+  - title: ಇನ್ನೊಂದು ಮಂಡಲವನ್ನು ರಚಿಸಿ
+  - title: ನಿಮ್ಮ ಮಂಡಲವನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ
+  - title: ಮಂಡಲಕ್ಕೆ ಬಣ್ಣ ತುಂಬುವುದು
+  - title: ಪುನರ್ಮನನ
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 2
+      passing_score: 2
+    completion: internal
+  - title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ
+    completion: external
+  - title: ಮುಂದೆ ಏನು?
