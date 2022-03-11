@@ -1,10 +1,10 @@
-## What next?
+## पुढे काय?
 
-If you are following the [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) pathway, you can move on to the [Swarms, schools, and flocks](https://projects.raspberrypi.org/en/projects/swarms-schools-flocks) project. In this project, you will make a game that uses clones to make a simulation of a group of animals.
+[Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) मार्गाचे अनुसरण करत असलात, तर तुम्ही [झुंडी, शाळा, आणि कळप](https://projects.raspberrypi.org/en/projects/swarms-schools-flocks) प्रोजेक्टवर जाऊ शकता. या प्रोजेक्टमध्ये, तुम्ही एक गेम बनवाल जो प्राण्यांच्या गटाचे सिम्युलेशन बनवतो.
 
 --- print-only ---
 
-![Swarms, schools, and flocks](images/swarms_bats.png)
+![झुंडी, शाळा, आणि कळप](images/swarms_bats.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [Further Scratch](https://projects.raspberrypi.org/en/p
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+तुम्हाला Scratch एक्स्प्लोर करण्यात आणखी मजा हवी असेल, तर तुम्ही [या प्रोजेक्टपैकी](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) कशाचाही वापर करू शकता.
