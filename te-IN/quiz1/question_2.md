@@ -29,9 +29,9 @@ legend: 2లో 2వ ప్రశ్న
   --- /feedback ---
 
 - ( )
-
+ ```blocks3
  when flag clicked switch costume to ((costume [number v]) + (1))
-
+ ```
   --- feedback ---
 
 ఇది కాస్ట్యూమ్ 2 నుండి కాస్ట్యూమ్ 2 + 1 = 3కి మారుతుంది. కాస్ట్యూమ్ 3 అనేది పారదర్శక గ్లోబ్, పర్పుల్ గ్లోబ్ కాదు.
@@ -39,9 +39,9 @@ legend: 2లో 2వ ప్రశ్న
   --- /feedback ---
 
 - ( )
-
+ ```blocks3
  when flag clicked switch costume to ((costume [number v]) - (1))
-
+ ```
   --- feedback ---
 
 ఇది కాస్ట్యూమ్ 2 నుండి కాస్ట్యూమ్ 2 + 1 = 1కి మారుతుంది. కాస్ట్యూమ్ 1 అనేది పారదర్శక గ్లోబ్, పర్పుల్ గ్లోబ్ కాదు.
@@ -49,9 +49,9 @@ legend: 2లో 2వ ప్రశ్న
   --- /feedback ---
 
 - ( )
-
+ ```blocks3
  when flag clicked switch costume to ((1)+(1))
-
+ ```
   --- feedback ---
 
 ఇది ప్రస్తుతం ఏ costume చూపబడుతున్నా దానితో సంబంధం లేకుండా costume ను `costume 2`{:class='block3looks'}కి మారుస్తుంది.
