@@ -1,27 +1,27 @@
-## Choose your mandala
+## ನಿಮ್ಮ ಮಂಡಲವನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Everyone is different. Give the person using your mandala program a choice based on what they find most peaceful.
+ಪ್ರತಿಯೊಬ್ಬರೂ ವಿಭಿನ್ನ. ನಿಮ್ಮ ಮಂಡಲ ಪ್ರೋಗ್ರಾಮ್‌ ಉಪಯೋಗಿಸುವ ವ್ಯಕ್ತಿಗೆ ಅವರಿಗೆ ಯಾವುದು ಅತ್ಯಂತ ಪ್ರಶಾಂತವೆನಿಸುತ್ತದೆಯೋ ಅದನ್ನು ಆಧರಿಸಿ ಆಯ್ಕೆಯನ್ನು ಕೊಡಿ.
 </div>
 <div>
 ![](images/step_6.gif){:width="300px"}
 </div>
 </div>
 
-You should now have at least two different mandalas. You can use an `ask`{:class="block3sensing"} block to create a start menu, giving a choice to whoever is using your mandala program.
+ನೀವು ಈಗ ಕನಿಷ್ಠ ಎರಡು ಬೇರೆ ಬೇರೆ ಮಂಡಲಗಳನ್ನು ಹೊಂದಿರಬೇಕು. ನಿಮ್ಮ ಮಂಡಲ ಪ್ರೋಗ್ರಾಮ್‌ನ್ನು ಯಾರು ಉಪಯೋಗಿಸುತ್ತಾರೋ ಅವರಿಗೆ ಆಯ್ಕೆ ಕೊಡಲು, ನೀವು ಪ್ರಾರಂಭದ ಮೆನು ರಚಿಸಲು `ask`{:class="block3sensing"} ಬ್ಲಾಕ್‌ ಉಪಯೋಗಿಸಬಹುದು.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Start menus**</span> are often found in games and apps. They let the person playing the game or using the app pick from a number of options, for example, what character they want to play, or what settings they want.
+<span style="color: #0faeb0">**ಸ್ಟಾರ್ಟ್‌ ಮೆನೂಗಳು**</span> ಯಾವಾಗಲೂ ಆಟಗಳಲ್ಲಿ ಮತ್ತು ಆಪ್‌ಗಳಲ್ಲಿ ಕಂಡುಬರುತ್ತವೆ. ಅವುಗಳು ಆಟವಾಡುತ್ತಿರುವ ಅಥವಾ ಆಪ್‌ ಉಪಯೋಗಿಸುತ್ತಿರುವ ವ್ಯಕ್ತಿಗೆ ಬಹಳಷ್ಟು ಆಯ್ಕೆಗಳಿಂದ ಆಯ್ದುಕೊಳ್ಳಲು ಅನುವುಮಾಡಿಕೊಡುತ್ತವೆ, ಉದಾಹರಣೆಗೆ, ಅವರು ಯಾವ ಪಾತ್ರವನ್ನು ಆಡಲು ಬಯಸುತ್ತಾರೋ ಅಥವಾ ಯಾವ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಯಸುತ್ತಾರೋ ಅವುಗಳು.
 </p>
 
-Create the question you will ask in your start menu.
+ನಿಮ್ಮ ಪ್ರಾರಂಭದ ಮೆನುನಲ್ಲಿ ನೀವು ಕೇಳುವ ಪ್ರಶ್ನೆಯನ್ನು ರಚಿಸಿ.
 
 --- task ---
 
-Add an `ask and wait`{:class="block3sensing"} block beneath the `when flag clicked`{:class="block3events"} and choose the text for your question, like the example below.
+`ask and wait`{:class="block3sensing"} ಬ್ಲಾಕ್‌ನ್ನು `when flag clicked`{:class="block3events"} ಕೆಳಗೆ ಸೇರಿಸಿ ಮತ್ತು ಈ ಕೆಳಗಿನ ಉದಾಹರಣೆಯಂತೆ, ನಿಮ್ಮ ಪ್ರಶ್ನೆಗೆ ಪಠ್ಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.
 
-![The shape sprite.](images/shape_sprite.png)
+![ಆಕಾರ ಸ್ಪ್ರೈಟ್.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,17 +37,17 @@ hide
 
 --- /task ---
 
-The reason for hiding the sprite before using the `ask and wait`{:class="block3sensing"} is so that the question appears at the bottom of the stage, rather than as a speech bubble from the sprite.
+`ask and wait`{:class="block3sensing"} ನ್ನು ಉಪಯೋಗಿಸುವ ಮೊದಲು ಸ್ಪ್ರೈಟ್‌ನ್ನು ಮರೆಮಾಚಲು ಕಾರಣವೇನೆಂದರೆ ಅದರಿಂದ ಪ್ರಶ್ನೆಯು ಸ್ಪ್ರೈಟ್‌ನಿಂದ ಮಾತಿನ ಗುಳ್ಳೆಯಂತಲ್ಲದೆ, ವೇದಿಕೆಯ ಕೆಳಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ.
 
-![Image of question being asked within a box at the bottom of the stage.](images/question.png)
+![ವೇದಿಕೆಯ ಕೆಳಭಾಗದಲ್ಲಿ ಪೆಟ್ಟಿಗೆಯೊಳಗೆ ಕೇಳಿರುವ ಪ್ರಶ್ನೆಯ ಚಿತ್ರ.](images/question.png)
 
-Match the answer with the right sprite to show the right mandala.
+ಸರಿಯಾದ ಮಂಡಲವನ್ನು ತೋರಿಸಲು ಉತ್ತರವನ್ನು ಸರಿಯಾದ ಸ್ಪ್ರೈಟ್‌ ಜೊತೆಗೆ ಹೊಂದಿಸಿ.
 
 --- task ---
 
-Add a `switch costume to`{:class="block3looks"} `answer`{:class="block3sensing"} block underneath the `ask and wait`{:class="block3sensing"} block.
+`switch costume to`{:class="block3looks"} `answer`{:class="block3sensing"} ಬ್ಲಾಕ್‌ನ್ನು `ask and wait`{:class="block3sensing"} ಬ್ಲಾಕ್‌ ಕೆಳಗೆ ಸೇರಿಸಿ.
 
-![The shape sprite.](images/shape_sprite.png)
+![ಆಕಾರ ಸ್ಪ್ರೈಟ್.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -66,7 +66,7 @@ hide
 
 --- task ---
 
-**Test**: Try your mandala project by clicking the flag and choosing a number.
+**ಪರೀಕ್ಷೆ**: ಬಾವುಟವನ್ನು ಕ್ಲಿಕ ಮಾಡಿ ಮತ್ತು ಸಂಖ್ಯೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಂಡು ನಿಮ್ಮ ಮಂಡಲ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಪ್ರಯತ್ನಿಸಿ.
 
 --- /task ---
 
