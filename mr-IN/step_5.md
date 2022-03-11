@@ -1,31 +1,31 @@
-## Mandala colouring
+## मंडल रंग
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Adding colour to a mandala is therapeutic as well as a creative activity. Add in the opportunity to colour different parts of the mandalas.
+मंडलाला रंग जोडणे ही उपचारात्मक तसेच क्रिएटीव कृती आहे. मंडलाच्या विविध भागांना रंग देण्याची संधी जोडा.
 </div>
 <div>
 ![](images/step_7.gif){:width="300px"}
 </div>
 </div>
 
-**Tip:** If you want to, you can print out your mandala before you add colour to it in this step, and use it as a colouring pattern to colour by hand.
+**टीप:** तुम्हाला हवे असल्यास, या टप्प्यात तुम्ही रंग जोडण्याआधी तुमचे मंडल प्रिंट करू शकता, आणि हाताने रंग देण्यासाठी त्याचा कलरींग पॅटर्न म्हणून वापर करू शकता.
 
 --- task ---
 
-Have a look at the current costumes for your **shape** sprite. You will see that there are two costumes, one white and the other filled in.
+तुमच्या **shape** स्प्राईटसाठी सध्याचा कॉश्चुम बघा. तुम्हाला एक पांढरा आणि एक भरलेला असे दोन कॉश्चुम दिसतील.
 
-![Two costumes for the sprite.](images/costumes.png)
+![स्प्राइटसाठी दोन कॉश्चुम.](images/costumes.png)
 
 --- /task ---
 
-To add colour to your mandala, each of the clone shapes should change its `costume`{:class="block3looks"} and then its `color effect`{:class="block3looks"} when the clone is clicked. The new costume will be **one** more than whatever the previous costume was, so it will change to the coloured version and then to the different colours.
+तुमच्या मंडलामध्ये रंग जोडा, प्रत्येक क्लोन आकाराने क्लोन क्लिक केल्यावर त्याचा `costume`{:class="block3looks"} आणि नंतर त्याचा `color effect`{:class="block3looks"} बदलायला हवा. नवीन कॉश्चुम आधीच्या कॉश्चुमपेक्षा **एक** ने जास्त असेल, त्यामुळे तो रंगीत आवृत्ती मध्ये आणि नंतर वेगवेगळ्या रंगांमध्ये बदलेल.
 
 --- task ---
 
-Add a `when this sprite clicked`{:class="block3events"} block, and then use the `+`{:class="block3operators"} operator to change the costume number.
+`when this sprite clicked`{:class="block3events"} ब्लॉक जोडा, आणि नंतर कॉश्चुम संख्या बदलण्यासाठी `+`{:class="block3operators"} ऑपरेटरचा वापर करा.
 
-![The shape sprite.](images/shape_sprite.png)
+![shape स्प्राईट.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -36,9 +36,9 @@ switch costume to ((answer) + (1))
 
 --- task ---
 
-Add a `change color effect`{:class="block3looks"} block to this script, so that each time the sprite is clicked, the colour changes a little.
+या स्क्रिप्टला `change color effect`{:class="block3looks"} ब्लॉक जोडा, जेणेकरून प्रत्येक वेळी स्प्राईटवर क्लिक केल्यावर, रंग थोडासा बदलतो.
 
-![The shape sprite.](images/shape_sprite.png)
+![shape स्प्राईट.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -48,26 +48,26 @@ change [color v] effect by (25)
 
 --- /task ---
 
-You might remember adding a `ghost`{:class="block3myblocks"} block input to your project in the last step. You should now be able to see what happens when you change the number where you call `ghost`{:class="block3myblocks"}.
+मागील टप्प्यात तुमच्या प्रोजेक्ट मध्ये तुम्हाला कदाचीत `ghost`{:class="block3myblocks"} ब्लॉक इनपुट जोडण्याचे आठवेल. तुम्ही `ghost`{:class="block3myblocks"} ला कॉल करता तेथे तुम्ही संख्या बदलल्यावर काय घडेल हे तुम्ही आता बघू शकायला हवे.
 
 --- task ---
 
-Create the kind of colouring effect you want by changing your `ghost`{:class="block3myblocks"} numbers. A lower `ghost`{:class="block3myblocks"} number will mean the colour is more saturated, like a permanent marker. A high `ghost`{:class="block3myblocks"} number will mean the colour is less saturated, like watercolours.
+तुमच्या `ghost`{:class="block3myblocks"} संख्या बदलवून तुम्हाला हवा तो कलरींग इफेक्टचा प्रकार तयार करा. कमी `ghost`{:class="block3myblocks"} संख्या म्हणजे रंग जास्त संपृक्त, पर्मनंट मार्कर प्रमाणे असेल. जास्त `ghost`{:class="block3myblocks"} संख्या म्हणजे रंग कमी संपृक्त म्हणजेज वॉटरकलर प्रमाणे असेल.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the flag, choose your costume, and then try clicking on the clones to change their colours.
+**चाचणी:** झेंड्यावर क्लिक करा, तुमचा कॉश्चुम निवडा, आणि त्यांचे रंग बदलण्यासाठी क्लोन्सवर क्लिक करून प्रयत्न करा.
 
-![A mandala made of hearts that have been coloured in a variety of different colours.](images/coloured_mandala.png)
+![मनापासून बनवलेले मंडल ज्यांना वेगवेगळ्या प्रकारचे रंग आहेत.](images/coloured_mandala.png)
 
-You should get a kaleidoscope effect when colours are layered on top of each other.
+जेव्हा रंग एकमेकांच्या वर असतात तेव्हा तुम्हाला कॅलिडोस्कोप इफेक्ट मिळायला हवा.
 
 --- /task ---
 
-If you like the mandala you have created then you can **right-click** on the stage, and choose to save the image.
+तुम्ही तयार केलेले मंडल तुम्हाला आवडल्यास stage वर **राईट-क्लिक** करा, आणि इमेज सेव करणे निवडा.
 
-![The contect menu appears when the Stage is right-clicked, and the 'Save Image As' option is highlighted.](images/save_mandala.png)
+![Stage वर राईट-क्लिक केल्यावर, आणि 'Save Image As' पर्याय हायलाइट केल्यावर कॉन्टेक्ट मेनू दिसतो.](images/save_mandala.png)
 
 --- save ---
