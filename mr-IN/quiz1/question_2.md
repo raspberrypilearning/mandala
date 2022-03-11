@@ -29,9 +29,9 @@ legend: प्रश्न 2 पैकी 2
   --- /feedback ---
 
 - ( )
-
+ ```blocks3
  when flag clicked switch costume to ((costume [number v]) + (1))
-
+ ```
   --- feedback ---
 
 हे कॉश्चुम 2 वरून कॉश्चुम 2 + 1 = 3 मध्ये बदलेल. कॉश्चुम 3 हा पारदर्शक ग्लोब आहे, जांभळा ग्लोब नाही.
@@ -39,9 +39,9 @@ legend: प्रश्न 2 पैकी 2
   --- /feedback ---
 
 - ( )
-
+ ```blocks3
  when flag clicked switch costume to ((costume [number v]) - (1))
-
+ ```
   --- feedback ---
 
 हे कॉश्चुम 2 मधून कॉश्चुम 2 - 1 = 1 मध्ये बदलेल. कॉश्चुम 1 हा पारदर्शक पाकळी आहे, जांभळा ग्लोब नाही.
@@ -49,9 +49,9 @@ legend: प्रश्न 2 पैकी 2
   --- /feedback ---
 
 - ( )
-
+ ```blocks3
  when flag clicked switch costume to ((1)+(1))
-
+ ```
   --- feedback ---
 
 सध्या कोणता कॉश्चुम दाखवला याचा विचार न करता हे कॉश्चुमला `costume 2`{:class='block3looks'} मध्ये बदलेल.
