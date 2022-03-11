@@ -1,21 +1,21 @@
-## Set up your sprite
+## तुमचा स्प्राइट सेट करा
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Set up your sprite to reset your mandala.
+तुमचे मंडल रीसेट करण्यासाठी तुमचा स्प्राइट सेट करा.
 </div>
 <div>
 ![](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
-At the moment, your mandala patterns may appear to change each time, depending on the parameter values you use. Next, you will create a new `my blocks`{:class="block3myblocks"}, so that your **mandala** sprite always begins in the same state.
+या क्षणी, तुम्ही वापरलेल्या पॅरामीटर्स व्हॅल्यूच्या आधारे तुमचे मंडल पॅटर्न प्रत्येक वेळी बदलतांना दिसू शकते. पुढे, तुम्ही नवीन `my blocks`{:class="block3myblocks"} तयार कराल, जेणेकरून तुमचा **mandala** स्प्राईट नेहमी त्यात अवस्थेत चालू होईल.
 
 --- task ---
 
-Use the `My Blocks`{:class="block3myblocks"} menu to create a new block called `setup`{:class="block3myblocks"}. The block should have four parameters: `size`{:class="block3myblocks"}, `ghost`{:class="block3myblocks"}, `y`{:class="block3myblocks"}, and `move`{:class="block3myblocks"}. Don't worry, you can change these or add more later.
+`My Blocks`{:class="block3myblocks"} मेनूचा नवीन ब्लॉक `setup`{:class="block3myblocks"} चा वापर करा. ब्लॉकला चार पॅरामीटर्स आहेत: `size`{:class="block3myblocks"}, `ghost`{:class="block3myblocks"}, `y`{:class="block3myblocks"}, आणि `move`{:class="block3myblocks"}. काळजी करू नका, तुम्ही ते बदलू शकता किंवा नंतर आणखी जोडू शकता.
 
-![The shape sprite.](images/shape_sprite.png)
+![shape स्प्राईट.](images/shape_sprite.png)
 
 ```blocks3
 define setup: size (size) ghost (ghost) y (y) move (move)
@@ -23,13 +23,13 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 
 --- /task ---
 
-When you make the mandala colourful in the next step, the `ghost`{:class="block3myblocks"} block will make the colours transparent so when the shapes overlap, you will get a colour mixing effect.
+जेव्हा तुम्ही पुढील टप्प्यात रंगीत मंडल तयार करता तेव्हा, `ghost`{:class="block3myblocks"} ब्लॉक रंग पारदर्शक करेल त्यामुळे आकार एकमेकांवर आल्यावर, तुम्हाला कलर मिक्सींग इफेक्ट मिळतील.
 
 --- task ---
 
-Now add some blocks to set the appearance and position of your sprite.
+आता, तुमच्या स्प्राईटचे स्वरूप आणि पोजिशन सेट करण्यासाठी काही ब्लॉक्स जोडा.
 
-![The shape sprite.](images/shape_sprite.png)
+![shape स्प्राईट.](images/shape_sprite.png)
 
 ```blocks3
 define setup: size (size) ghost (ghost) y (y) move (move)
@@ -45,9 +45,9 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 
 --- task ---
 
-At the moment, your `my blocks`{:class="block3myblocks"} hasn't been used, so there will be no effect on your pattern. Add code to `setup`{:class="block3myblocks"}, so the code will run as soon as the flag is clicked.
+या क्षणी, तुमचे `my blocks`{:class="block3myblocks"} वापरले नाही, त्यामुळे तुमच्या पॅटर्नवर इफेक्ट होणार नाही. `setup`{:class="block3myblocks"} मध्ये कोड जोडा, ज्यामुळे झेंड्यावर क्लिक केल्यावर लगेच कोड रन होईल.
 
-![The shape sprite.](images/shape_sprite.png)
+![shape स्प्राईट.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -61,15 +61,15 @@ pattern: repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-**Test** your code by clicking on the flag and observing the pattern that has been drawn. Then, change the values of the parameters until you have a pattern that you like.
+झेंड्यावर क्लिक करून आणि काढलेल्या पॅटर्नचे निरीक्षण करून तुमच्या कोडची **चाचणी** करा. त्यानंतर, जोपर्यंत तुम्हाला आवडणारा पॅटर्न मिळत नाही तोपर्यंत पॅरामीटर्सच्या व्हॅल्यू बदला.
 
 --- /task ---
 
 --- task ---
 
-The sprite (not its clones) is still visible; it can be hidden at the end, but will need to be shown at the start.
+स्प्राईट (त्याचे क्लोन्स नाही) अजुनही दृश्य आहेत, ते शेवटी लपवले जाऊ शकतात, परंतु सुरूवातीला दिसणे आवश्यक असेल.
 
-![The shape sprite.](images/shape_sprite.png)
+![shape स्प्राईट.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
