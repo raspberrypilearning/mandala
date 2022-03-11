@@ -2,16 +2,16 @@
 --- question ---
 
 ---
-legend: Question 2 of 2
+legend: ಪ್ರಶ್ನೆ 2 ರಲ್ಲಿ 2
 ---
 
-In your project, you used the addition + operator to change costumes depending on a 'My Blocks'{:class='block3myblocks'} input.
+ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ, ನೀವು 'My Blocks'{:class='block3myblocks'} ಇನ್‌ಪುಟ್‌ನ್ನು ಆಧರಿಸಿ ಉಡುಪುಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸಂಕಲನ +ಆಪರೇಟರ್‌ ಉಪಯೋಗಿಸಿದ್ದೀರಿ.
 
-If we have these costumes:
+ನಾವು ಈ ಉಡುಪುಗಳನ್ನು ಹೊಂದಿದ್ದರೆ:
 
-![Images of all the costumes: costume1 is a transparent petal; costume 2 is a purple petal; costume 3 is a transparent globe; and costume 4 is a purple globe.](images/costumes_quiz.png)
+![ಎಲ್ಲಾ ಉಡುಪುಗಳ ಚಿತ್ರಗಳು: ಉಡುಪು1 ಪಾರದರ್ಶಕ ದಳ; ಉಡುಪು 2 ನೇರಳೆ ದಳ; ಉಡುಪು 3 ಪಾರದರ್ಶಕ ಗೋಳ; ಮತ್ತು ಉಡುಪು 4 ನೇರಳೆ ಗೋಳ.](images/costumes_quiz.png)
 
-Which of the following code blocks would get your pattern to switch from the purple petal to the purple globe?
+ಈ ಕೆಳಗಿನ ಯಾವ ಕೋಡ್‌ ಬ್ಲಾಕ್‌ಗಳು ನಿಮ್ಮ ವಿನ್ಯಾಸವು ನೇರಳೆ ದಳದಿಂದ ನೇರಳೆ ಗೋಳವಾಗಿ ಬದಲಾಗುವಂತೆ ಮಾಡುತ್ತದೆ?
 
 --- choices ---
 
@@ -24,7 +24,7 @@ Which of the following code blocks would get your pattern to switch from the pur
 
   --- feedback ---
 
-Yes, the costume number you are on is costume 2 and the costume you want to switch to is costume 4 so you will need to switch to costume 2 + 2 = 4.
+ಹೌದು, ನೀವಿರುವ ಉಡುಪಿನ ಸಂಖ್ಯೆ ಉಡುಪು 2 ಮತ್ತು ನೀವು ಬದಲಾಗಬೇಕಾದ ಉಡುಪು, ಉಡುಪು 4, ಆದುದರಿಂದ ನೀವು ಉಡುಪು 2 + 2 = 4 ಕ್ಕೆ ಬದಲಾಗಬೇಕು.
 
   --- /feedback ---
 
@@ -34,7 +34,7 @@ Yes, the costume number you are on is costume 2 and the costume you want to swit
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transparent globe, not the purple globe.
+ಇದು ಉಡುಪು 2 ರಿಂದ ಉಡುಪು 2 + 1 = 3 ಕ್ಕೆ ಬದಲಾಗುತ್ತದೆ. ಉಡುಪು 3 ಪಾರದರ್ಶಕ ಗೋಳ, ನೇರಳೆ ಗೋಳವಲ್ಲ.
 
   --- /feedback ---
 
@@ -44,7 +44,7 @@ This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transpare
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transparent petal, not the purple globe.
+ಇದು ಉಡುಪು 2 ರಿಂದ ಉಡುಪು 2 - 1 = 1 ಕ್ಕೆ ಬದಲಾಗುತ್ತದೆ. ಉಡುಪು 1 ಪಾರದರ್ಶಕ ದಳ, ನೇರಳೆ ಗೋಳವಲ್ಲ.
 
   --- /feedback ---
 
@@ -54,7 +54,7 @@ This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transpare
 
   --- feedback ---
 
-This will switch the costume to `costume 2`{:class='block3looks'} regardless of which costume is currently being shown.
+ಈಗ ಯಾವ ಉಡುಪನ್ನು ತೋರಿಸಲಾಗುತ್ತಿದೆ ಅನ್ನುವುದನ್ನು ಲೆಕ್ಕಿಸದೇ ಉಡುಪನ್ನು ಇದು `costume 2`{:class='block3looks'} ಗೆ ಬದಲಾಯಿಸುತ್ತದೆ.
 
   --- /feedback ---
 
