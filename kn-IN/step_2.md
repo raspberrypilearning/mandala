@@ -1,34 +1,34 @@
-## Clone shapes to make a pattern
+## ವಿನ್ಯಾಸವನ್ನು ಮಾಡಲು ತದ್ರೂಪದ ಆಕಾರಗಳು
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Clone sprites to create a pattern.
+ವಿನ್ಯಾಸವನ್ನು ರಚಿಸಲು ಕ್ಲೋನ್‌ ಸ್ಪ್ರೈಟ್‌ಗಳು.
 </div>
 <div>
-![Animation of a pattern being repeated when the flag is clicked in Scratch.](images/step_2.gif){:width="300px"}
+![Scratch ನಲ್ಲಿ ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ ವಿನ್ಯಾಸದ ಅನಿಮೇಶನ್‌ ಪುನರಾವರ್ತನೆಯಾಗುತ್ತದೆ.](images/step_2.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open [the Scratch starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}. Scratch will open in another browser tab.
+[ Scratch ಪ್ರಾರಂಭಿಕ ಪ್ರಾಜೆಕ್ಟ್](https://scratch.mit.edu/projects/540476254/){:target="_blank"} ತೆರೆಯಿರಿ. Scratch ಇನ್ನೊಂದು ಬ್ರೌಸರ್ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ.
 
-If you are working offline, you can download the [starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}.
+ನೀವು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದರೆ, [ಪ್ರಾರಂಭಿಕ ಪ್ರಾಜೆಕ್ಟ್](https://scratch.mit.edu/projects/540476254/){:target="_blank"} ಡೌನ್‌ಲೋಡ್‌ ಮಾಡಿಕೊಳ್ಳಿ.
 
 --- /task ---
 
-You should see a shape sprite that looks a bit like a flower petal.
+ನೀವು ಸ್ವಲ್ಪ ಹೂವಿನ ದಳದಂತೆ ಕಾಣುವ ಆಕಾರ ಸ್ಪ್ರೈಟ್‌ನ್ನು ನೋಡಬೇಕು.
 
-You will use `my blocks`{:class="block3myblocks"} to create a pattern with this shape. You may remember creating `my blocks`{:class="block3myblocks"} to organise your code in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3){:target="_blank"}, and to repeat the same code in [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4){:target="_blank"}. `My blocks`{:class="block3myblocks"} can also be used to reuse actions in a different way.
+ನೀವು ಈ ಆಕಾರದಿಂದ ವಿನ್ಯಾಸವನ್ನು ರಚಿಸಲು `my blocks`{:class="block3myblocks"} ಉಪಯೋಗಿಸುವಿರಿ. ನೀವು `my blocks`{:class="block3myblocks"} ನ್ನು ನಿಮ್ಮ ಕೋಡ್‌ ಜೋಡಿಸಲು [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3){:target="_blank"}ನಲ್ಲಿ ರಚಿಸಿದ್ದು, ಮತ್ತು ಅದೇ ಕೋಡ್‌ನ್ನು [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4){:target="_blank"} ನಲ್ಲಿ ಪುನರಾವರ್ತಿಸಿದ್ದು ನಿಮಗೆ ನೆನಪಿರಬಹುದು. `My blocks`{:class="block3myblocks"} ನ್ನು ಕ್ರಿಯೆಗಳನ್ನು ವಿಭಿನ್ನ ರೀತಿಯಲ್ಲಿ ಮರುಬಳಕೆ ಮಾಡಲೂ ಸಹ ಉಪಯೋಗಿಸಬಹುದು.
 
 --- task ---
 
-Go to `My Blocks`{:class='block3myblocks'} and name your blocks (we have called it `pattern:`{:class="block3myblocks"}). Add `repeat`{:class="block3myblocks"} as a label to identify the first input or what programmer call a **parameter**. Then click "Add an Input" to actually create the **parameter** called `repeat`{:class="block3myblocks"}.
+`My Blocks`{:class='block3myblocks'} ಹೋಗಿ ಮತ್ತು ನಿಮ್ಮ ಬ್ಲಾಕ್‌ಗಳನ್ನು (we have called it `pattern:`{:class="block3myblocks"}) ಎಂದು ಹೆಸರಿಸಿ. ಮೊದಲನೆಯ ಇನ್‌ಪುಟ್‌ ಅಥವಾ ಪ್ರೋಗ್ರಾಮರ್‌ **parameter** ಎಂದು ಕರೆಯುವುದನ್ನು ಗುರುತಿಸಲು `repeat`{:class="block3myblocks"} ನ್ನು ಗುರುತಿನ ಚೀಟಿಯಾಗಿ ಸೇರಿಸಿ. ನಂತರ ನಿಜವಾಗಿ `repeat`{:class="block3myblocks"} ಎನ್ನುವ **parameter** ರಚಿಸಲು "Add an Input" ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
 
-![Animation of a 'my blocks' block and an additional parameter being added.](images/add-parameter.gif)
+!['my blocks' ಬ್ಲಾಕ್‌ ಮತ್ತು ಹೆಚ್ಚುವರಿ ಪ್ಯಾರಾಮೀಟರ್‌ನ್ನು ಸೇರಿಸುವ ಅನಿಮೇಶನ್.](images/add-parameter.gif)
 
-![The shape sprite.](images/shape_sprite.png)
+![ಆಕಾರ ಸ್ಪ್ರೈಟ್.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat)
@@ -36,15 +36,15 @@ define pattern: repeat (repeat)
 
 --- /task ---
 
-To design how a pattern is made, the first step is to `define pattern`{:class='block3myblocks'}.
+ವಿನ್ಯಾಸವನ್ನು ಹೇಗೆ ಮಾಡುವುದು ಎನ್ನುವದಕ್ಕೆ ರೂಪುರೇಖೆ ಕೊಡಲು,ಮೊದಲನೆಯ ಹಂತವೆಂದರೆ `define pattern`{:class='block3myblocks'} ಮಾಡುವುದು.
 
 --- task ---
 
-Drag the `repeat`{:class='block3myblocks'} parameter from `define pattern`{:class='block3myblocks'} into a `repeat`{:class='block3control'} loop block.
+`define pattern`{:class='block3myblocks'} ದಿಂದ `repeat`{:class='block3myblocks'} ಪ್ಯಾರಾಮೀಟರ್‌ನ್ನು `repeat`{:class='block3control'} ಲೂಪ್‌ ಬ್ಲಾಕ್‌ ಒಳಕ್ಕೆ ಎಳೆಯಿರಿ.
 
-![Animation showing the 'repeat' parameter being dragged from the 'define' block and into the 'repeat' block.](images/use-repeat.gif)
+!['repeat' ಪ್ಯಾರಾಮೀಟರ್‌ನ್ನು 'define' ಬ್ಲಾಕ್‌ನಿಂದ ಮತ್ತು 'repeat' ಬ್ಲಾಕ್‌ ಒಳಕ್ಕೆ ಎಳೆಯುತ್ತಿರುವುದನ್ನು ತೋರಿಸುತ್ತಿರುವ ಅನಿಮೇಶನ್.](images/use-repeat.gif)
 
-![The shape sprite.](images/shape_sprite.png)
+![ಆಕಾರ ಸ್ಪ್ರೈಟ್.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat)
@@ -53,13 +53,13 @@ repeat (repeat)
 
 --- /task ---
 
-You will now use `clone`{:class='block3control'} blocks to make the same block appear a number of times. Make sure you also add code to change the size and position of the sprite, otherwise the sprites will be stacked on top of each other and you will not be able to see them.
+ಒಂದೇ ಬ್ಲಾಕ್‌ ಹಲವಾರು ಬಾರಿ ಕಾಣಿಸುವಂತೆ ಮಾಡಲು ನೀವು ಈಗ `clone`{:class='block3control'} ಬ್ಲಾಕ್‌ಗಳನ್ನು ಉಪಯೋಗಿಸುವಿರಿ. ನೀವು ಸ್ಪ್ರೈಟ್‌ನ ಗಾತ್ರ ಮತ್ತು ಸ್ಥಾನವನ್ನು ಬದಲಾಯಿಸಲು ಸಹ ಕೋಡ್‌ ಸೇರಿಸುವುದನ್ನು ಮರೆಯಬೇಡಿ, ಇಲ್ಲವಾದರೆ ಸ್ಪ್ರೈಟ್‌ಗಳು ಒಂದರ ಮೇಲೆ ಒಂದು ಪೇರಿಸುತ್ತವೆ ಮತ್ತು ನೀವು ಅವುಗಳನ್ನು ನೋಡಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.
 
 --- task ---
 
-Add some code into the `repeat`{:class='block3myblocks'} loop of your `pattern`{:class='block3myblocks'}.
+ನಿಮ್ಮ `pattern`{:class='block3myblocks'} ಗೆ ಕೆಲವು ಕೋಡ್‌ನ್ನು `repeat`{:class='block3myblocks'}ಲೂಪ್‌ ಒಳಗೆ ಸೇರಿಸಿ.
 
-![The shape sprite.](images/shape_sprite.png)
+![ಆಕಾರ ಸ್ಪ್ರೈಟ್.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat)
@@ -71,14 +71,14 @@ repeat (repeat)
 
 --- /task ---
 
-**Tip:** `Defining`{:class='block3myblocks'} makes a general pattern outline. What you are creating now with `my blocks`{:class="block3myblocks"} is similar to creating a spirograph stencil; it is the tool and the pattern is later created by using it.
+**ಸಲಹೆ:** `Defining`{:class='block3myblocks'} ವಿನ್ಯಾಸದ ಸಾಮಾನ್ಯ ಬಾಹ್ಯರೇಖೆಗಳನ್ನು ಮಾಡುತ್ತದೆ. ನೀವು ಈಗ `my blocks`{:class="block3myblocks"} ನೊಂದಿಗೆ ರಚಿಸುತ್ತಿರುವುದು ಸ್ಪೈರೋಗ್ರಾಫ್‌ ಸ್ಟೆನ್ಸಿಲ್‌ನ್ನು ಹೋಲುತ್ತದೆ; ಅದು ಒಂದು ಉಪಕರಣ ಮತ್ತು ಅದನ್ನು ಉಪಯೋಗಿಸಿ ಆಮೇಲೆ ವಿನ್ಯಾಸವನ್ನು ರಚಿಸಲಾಗುತ್ತದೆ.
 
 
 --- task ---
 
-Create a pattern with your `my blocks`{:class="block3myblocks"}. Get the `pattern`{:class='block3myblocks'} to `repeat`{:class='block3myblocks'} a number of times `when flag clicked`{:class='block3events'}.
+ನಿಮ್ಮ `my blocks`{:class="block3myblocks"} ನೊಂದಿಗೆ ವಿನ್ಯಾಸವನ್ನು ರಚಿಸಿ. `when flag clicked`{:class='block3events'} `pattern`{:class='block3myblocks'} ಹಲವು ಬಾರಿ `repeat`{:class='block3myblocks'} ಆಗುವಂತೆ ಮಾಡಿ.
 
-![The shape sprite.](images/shape_sprite.png)
+![ಆಕಾರ ಸ್ಪ್ರೈಟ್.](images/shape_sprite.png)
 ```blocks3
 when flag clicked
 show //Shape is displayed 
@@ -87,10 +87,10 @@ go to x: (0) y: (0) //Displayed in the middle
 pattern: repeat (3) ::custom
 ```
 
-**Test:** See what your pattern looks like by clicking the green flag to run your program.
+**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಮ್‌ನ್ನು ರನ್‌ ಮಾಡಲು ಹಸಿರು ಬಾವುಟ ಕ್ಲಿಕ್‌ ಮಾಡಿ ನಿಮ್ಮ ವಿನ್ಯಾಸ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂದು ನೋಡಿ.
 
 --- /task ---
 
-You should see the beginning of a mandala pattern. Adding more **parameters**, or requirements, to your pattern will create the first part of your mandala.
+ನೀವು ಮಂಡಲ ವಿನ್ಯಾಸದ ಪ್ರಾರಂಭವನ್ನು ನೋಡಬೇಕು. ನಿಮ್ಮ ವಿನ್ಯಾಸಕ್ಕೆ ಇನ್ನಷ್ಟು **ನಿಯತಾಂಕಗಳು**, ಅಥವಾ ಅವಶ್ಯಕತೆಗಳನ್ನು ಸೇರಿಸುವುದು ನಿಮ್ಮ ಮಂಡಲದ ಮೊದಲನೆಯ ಭಾಗವನ್ನು ರಚಿಸುತ್ತದೆ.
 
 --- save ---
