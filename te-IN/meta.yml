@@ -1,0 +1,27 @@
+---
+title: Mandala
+hero_image: images/banner.png
+description: Scratchలో కంప్యూటర్‌లో రూపొందించిన mandala లను తయారు చేయండి
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - title: పరిచయం
+  - title: నమూనాను రూపొందించడానికి ఆకారాలను క్లోన్ చేయండి
+  - title: Mandala ను తయారు చేయండి
+    completion: engaged
+  - title: మీ sprite ని సెటప్ చేయండి
+  - title: మరొక mandala ను సృష్టించండి
+  - title: మీ mandala ను ఎంచుకోండి
+  - title: Mandala రంగులు
+  - title: విశ్లేషణ
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 2
+      passing_score: 2
+    completion: internal
+  - title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
+    completion: external
+  - title: తర్వాత ఏంటి?

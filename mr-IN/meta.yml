@@ -1,0 +1,27 @@
+---
+title: मंडल
+hero_image: images/banner.png
+description: Scratch मध्ये कंंप्युटर निर्मीत मंडल तयार करा
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - title: परिचय
+  - title: पॅटर्न तयार करण्यासाठी आकार क्लोन करा
+  - title: मंडल तयार करा
+    completion: engaged
+  - title: तुमचा स्प्राइट सेट करा
+  - title: दुसरे मंडल तयार करा
+  - title: तुमचे मंडल निवडा
+  - title: मंडल रंग
+  - title: परावर्तन
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 2
+      passing_score: 2
+    completion: internal
+  - title: तुमचा प्रोजेक्ट अपग्रेड करा
+    completion: external
+  - title: पुढे काय?
