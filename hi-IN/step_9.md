@@ -1,21 +1,21 @@
-## Upgrade your project
+## प्रोजेक्ट को अपग्रेड करें
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get your mandalas to move like a kaleidoscope.
+अपने मंडलों को एक बहुरूपदर्शक की तरह गतिमान करें।
 </div>
 </div>
 
-You can add in a few blocks to have your clones move around when a key is pressed or when a sprite is clicked on for some extra relaxation. Maybe some gentle music can play as well.
+जब कोई कुंजी दबाई जाती है या कुछ अतिरिक्त छूट के लिए स्प्राइट पर क्लिक किया जाता है, तो आप अपने क्लोनों को इधर-उधर घुमाने के लिए कुछ ब्लॉक जोड़ सकते हैं। कुछ मंद संगीत भी बजाएं ।
 
-![Animated mandala with moving clones.](images/step_9.gif)
+![चलती क्लोन के साथ एनिमेटेड मंडला।](images/step_9.gif)
 
 --- collapse ---
 ---
-title: Completed project
+title: पूरा प्रोजेक्ट
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/536953224/){:target="_blank"}.
+आप [पूरा प्रोजेक्ट को यहां](https://scratch.mit.edu/projects/536953224/){:target="_blank"} देख सकते हैं।
 
 --- /collapse ---
 
