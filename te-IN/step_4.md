@@ -1,21 +1,21 @@
-## Set up your sprite
+## మీ sprite ని సెటప్ చేయండి
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Set up your sprite to reset your mandala.
+మీ mandala ని రీసెట్ చేయడానికి మీ spriteని సెటప్ చేయండి.
 </div>
 <div>
 ![](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
-At the moment, your mandala patterns may appear to change each time, depending on the parameter values you use. Next, you will create a new `my blocks`{:class="block3myblocks"}, so that your **mandala** sprite always begins in the same state.
+ప్రస్తుతానికి, మీరు ఉపయోగించే పారామీటర్ విలువలను బట్టి మీ mandala నమూనాలు ప్రతిసారీ మారుతున్నట్లు కనిపించవచ్చు. తర్వాత, మీరు కొత్త `my blocks`{:class="block3myblocks"}ని సృష్టిస్తారు, తద్వారా మీ **mandala** sprite ఎల్లప్పుడూ అదే స్థితిలో ప్రారంభమవుతుంది.
 
 --- task ---
 
-Use the `My Blocks`{:class="block3myblocks"} menu to create a new block called `setup`{:class="block3myblocks"}. The block should have four parameters: `size`{:class="block3myblocks"}, `ghost`{:class="block3myblocks"}, `y`{:class="block3myblocks"}, and `move`{:class="block3myblocks"}. Don't worry, you can change these or add more later.
+`setup`{:class="block3myblocks"} అనే కొత్త బ్లాక్‌ని సృష్టించడానికి `My Blocks`{:class="block3myblocks"} మెనుని ఉపయోగించండి. బ్లాక్‌లో నాలుగు పారామీటర్‌లు ఉండాలి: `size`{:class="block3myblocks"}, `ghost`{:class="block3myblocks"}, `y`{:class="block3myblocks"}, మరియు `move`{:class ="block3myblocks"}. చింతించకండి, మీరు వీటిని మార్చవచ్చు లేదా మరిన్నింటిని తర్వాత జోడించవచ్చు.
 
-![The shape sprite.](images/shape_sprite.png)
+![Shape sprite.](images/shape_sprite.png)
 
 ```blocks3
 define setup: size (size) ghost (ghost) y (y) move (move)
@@ -23,13 +23,13 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 
 --- /task ---
 
-When you make the mandala colourful in the next step, the `ghost`{:class="block3myblocks"} block will make the colours transparent so when the shapes overlap, you will get a colour mixing effect.
+మీరు తదుపరి దశలో mandala ని రంగురంగులుగా చేసినప్పుడు, `ghost`{:class="block3myblocks"} బ్లాక్ రంగులను పారదర్శకంగా చేస్తుంది కాబట్టి ఆకారాలు ఒకదానిపై ఒకటి అయినప్పుడు, మీరు కలర్ మిక్సింగ్ ప్రభావాన్ని పొందుతారు.
 
 --- task ---
 
-Now add some blocks to set the appearance and position of your sprite.
+ఇప్పుడు మీ sprite యొక్క రూపాన్ని మరియు స్థానాన్ని సెట్ చేయడానికి కొన్ని బ్లాక్‌లను జోడించండి.
 
-![The shape sprite.](images/shape_sprite.png)
+![Shape sprite.](images/shape_sprite.png)
 
 ```blocks3
 define setup: size (size) ghost (ghost) y (y) move (move)
@@ -45,9 +45,9 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 
 --- task ---
 
-At the moment, your `my blocks`{:class="block3myblocks"} hasn't been used, so there will be no effect on your pattern. Add code to `setup`{:class="block3myblocks"}, so the code will run as soon as the flag is clicked.
+ప్రస్తుతానికి, మీ `my blocks`{:class="block3myblocks"} ఉపయోగించబడలేదు, కాబట్టి మీ నమూనాపై ఎటువంటి ప్రభావం ఉండదు. `setup`{:class="block3myblocks"}కి కోడ్‌ని జోడించండి, కాబట్టి ఫ్లాగ్‌ని క్లిక్ చేసిన వెంటనే కోడ్ రన్ అవుతుంది.
 
-![The shape sprite.](images/shape_sprite.png)
+![Shape sprite.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -61,15 +61,15 @@ pattern: repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-**Test** your code by clicking on the flag and observing the pattern that has been drawn. Then, change the values of the parameters until you have a pattern that you like.
+ఫ్లాగ్‌పై క్లిక్ చేసి, డ్రా చేయబడిన నమూనాను గమనించడం ద్వారా మీ కోడ్‌ను **పరీక్షించండి**. ఆ తర్వాత, మీకు నచ్చిన నమూనా వచ్చేవరకు పారామీటర్ ల విలువలను మార్చండి.
 
 --- /task ---
 
 --- task ---
 
-The sprite (not its clones) is still visible; it can be hidden at the end, but will need to be shown at the start.
+Sprite (దాని క్లోన్‌లు కాదు) ఇప్పటికీ కనిపిస్తుంది; ఇది చివరిలో దాచబడుతుంది, కానీ ప్రారంభంలో చూపబడాలి.
 
-![The shape sprite.](images/shape_sprite.png)
+![Shape sprite.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
