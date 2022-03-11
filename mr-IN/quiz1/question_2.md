@@ -2,16 +2,16 @@
 --- question ---
 
 ---
-legend: Question 2 of 2
+legend: प्रश्न 2 पैकी 2
 ---
 
-In your project, you used the addition + operator to change costumes depending on a 'My Blocks'{:class='block3myblocks'} input.
+तुमच्या प्रोजेक्टमध्ये, तुम्ही addition + ऑपरेटरचा 'My Blocks'{:class='block3myblocks'} इनपुट च्या आधारे कॉश्चुम बदलण्यासाठी वापर केलात.
 
-If we have these costumes:
+आपल्याकडे हे कॉश्चुम असल्यास:
 
-![Images of all the costumes: costume1 is a transparent petal; costume 2 is a purple petal; costume 3 is a transparent globe; and costume 4 is a purple globe.](images/costumes_quiz.png)
+![सर्व कॉश्चुमसाठीच्या इमेज: कॉश्चुम1 हा पारदर्शक पाकळी आहे; कॉश्चुम 2 हा जांभळी पाकळी आहे; कॉश्चुम 3 हा पारदर्शक ग्लोब आहे; आणि कॉश्चुम 4 हा जांभळा ग्लोब आहे.](images/costumes_quiz.png)
 
-Which of the following code blocks would get your pattern to switch from the purple petal to the purple globe?
+खालीलपैकी कोणत्या कोड ब्लॉक्सला जांभळ्या पाकळ्यापासून जांभळ्या ग्लोबवर जाण्यासाठी तुमचा पॅटर्न मिळवेल?
 
 --- choices ---
 
@@ -24,7 +24,7 @@ Which of the following code blocks would get your pattern to switch from the pur
 
   --- feedback ---
 
-Yes, the costume number you are on is costume 2 and the costume you want to switch to is costume 4 so you will need to switch to costume 2 + 2 = 4.
+हो, तुम्ही सध्या आहात तो कॉश्चुम 2 आहे आणि तुम्हाला बदलायचा असलेला कॉश्चुम 4 आहे त्यामुळे तुम्हाला कॉश्चुम 2 + 2 = 4 मध्ये बदला.
 
   --- /feedback ---
 
@@ -34,7 +34,7 @@ Yes, the costume number you are on is costume 2 and the costume you want to swit
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transparent globe, not the purple globe.
+हे कॉश्चुम 2 वरून कॉश्चुम 2 + 1 = 3 मध्ये बदलेल. कॉश्चुम 3 हा पारदर्शक ग्लोब आहे, जांभळा ग्लोब नाही.
 
   --- /feedback ---
 
@@ -44,7 +44,7 @@ This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transpare
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transparent petal, not the purple globe.
+हे कॉश्चुम 2 मधून कॉश्चुम 2 - 1 = 1 मध्ये बदलेल. कॉश्चुम 1 हा पारदर्शक पाकळी आहे, जांभळा ग्लोब नाही.
 
   --- /feedback ---
 
@@ -54,7 +54,7 @@ This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transpare
 
   --- feedback ---
 
-This will switch the costume to `costume 2`{:class='block3looks'} regardless of which costume is currently being shown.
+सध्या कोणता कॉश्चुम दाखवला याचा विचार न करता हे कॉश्चुमला `costume 2`{:class='block3looks'} मध्ये बदलेल.
 
   --- /feedback ---
 
