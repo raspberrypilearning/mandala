@@ -1,65 +1,65 @@
-## Create another mandala
+## एक और मंडला बनाएं
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create another mandala easily using your optimised code blocks.
+अपने अनुकूलित कोड ब्लॉक का उपयोग करके आसानी से एक और मंडला बनाएं।
 </div>
 <div>
 ![](images/step_5.png)
 </div>
 </div>
 
-You have two costumes that you are using to create your coloured mandala. Add some more costumes to personalise your mandala even more.
+आपके पास दो पोशाकें हैं जिनका उपयोग आप अपना रंगीन मंडला बनाने के लिए कर रहे हैं। अपने मंडला को और भी अधिक वैयक्तिकृत करने के लिए कुछ और पोशाकें जोड़ें।
 
 --- task ---
 
-**Choose:** Add another costume. Here the **Earth** costume has been chosen.
+**चुनें:** एक और पोशाक जोड़ें। यहां **Earth** पोशाक को चुना गया है।
 
-![The Earth costume from the Scratch library.](images/earth_costume.png)
+![Scratch लाइब्रेरी से Earth की पोशाक।](images/earth_costume.png)
 
-It doesn't matter which costume you pick, but you should make sure that it is a **Vector** costume and not a **Bitmap** costume. You can tell you have chosen a **Vector** costume, as you will see a button labelled **Convert to Bitmap**. **Do not click this button**. If you have selected a costume that is a **Bitmap**, then delete it and choose another one.
+इससे कोई फर्क नहीं पड़ता कि आप कौन सी पोशाक चुनते हैं, लेकिन आपको यह सुनिश्चित करना चाहिए कि यह **Vector** पोशाक है न कि **Bitmap** पोशाक। आप बता सकते हैं कि आपने  **Vector**  पोशाक  चुनी है  जैसे  ही  आपको  **Convert to Bitmap** लेबल वाला एक बटन दिखाई देगा। **इस बटन को क्लिक न करें**. यदि आपने एक पोशाक का चयन किया है जो कि **Bitmap**, है तो उसे हटा दें और दूसरी चुनें।
 
-![The 'Convert to Bitmap' button.](images/convert_to_bitmap.png)
+!['Convert to Bitmap' बटन।](images/convert_to_bitmap.png)
 
 --- /task ---
 
 --- task ---
 
-Remove all the colour from the costume so you get just the outline. Select the whole costume and change the **Fill** **Saturation** to `0` and the **Outline** **Brightness** to `0`.
+पोशाक से सभी रंग हटा दें ताकि आपको केवल रूपरेखा मिल सके। संपूर्ण पोशाक का चयन करें और **Fill** **Saturation** को `0` में बदलें और **Outline** **Brightness** को `0` में।
 
-![Animation showing the 'Earth' costume being selected, then the 'Fill' and 'Outline' colours being changed.](images/edit_costume.gif)
-
---- /task ---
-
---- task ---
-
-Duplicate this costume, and then repeat the process, this time changing the **Fill** colour to a dark colour of your choice.
-
-![The two Earth costumes, one filled in white and the other in purple.](images/earth_costumes.png)
+!['Earth' पोशाक का चयन करने वाला एनिमेशन, फिर 'Fill' और 'Outline' के रंग बदले जा रहे हैं।](images/edit_costume.gif)
 
 --- /task ---
 
 --- task ---
 
-Repeat this process a few more times with different vector costumes, to give yourself different styles of costume.
+इस पोशाक की नकल करें, और फिर इस प्रक्रिया को दोहराएं, इस बार **Fill** रंग को अपनी पसंद के गहरे रंग में बदलें।
 
-![Earth, butterfly, and heart costumes shown with white and purple fills.](images/multiple_costumes.png)
+![पृथ्वी की दो पोशाकें, एक सफेद और दूसरी बैंगनी रंग की।](images/earth_costumes.png)
 
 --- /task ---
-
-To make sure you can colour your personalised mandalas, reorder your costumes and check the costume switches to the right number.
 
 --- task ---
 
-Reorder your costumes, so that all the ones filled with white are at the top, and the ones filled with colours are lower down, but still in the same order.
+अपने आप को विभिन्न शैलियों की पोशाक देने के लिए, विभिन्न वेक्टर परिधानों के साथ इस प्रक्रिया को कुछ और बार दोहराएं।
 
-![Animation of the costumes being placed in order, with the white costumes at the top and the coloured ones further down, but in the same order.](images/order_costumes.gif)
+![पृथ्वी, तितली, और हृदय की पोशाक को सफेद और बैंगनी रंग से दिखाया गया है।](images/multiple_costumes.png)
 
 --- /task ---
 
-Remember to change which costume the mandala switches to so that you can colour your new mandalas. In the example project, there are four mandalas so we changed the costume number from '1' to '4'
+यह सुनिश्चित करने के लिए कि आप अपने व्यक्तिगत मंडलों को रंग सकते हैं, अपनी पोशाक को पुन: व्यवस्थित कर सकते हैं और पोशाक स्विच को सही संख्या में जांच सकते हैं।
 
-![The shape sprite.](images/shape_sprite.png)
+--- task ---
+
+अपनी पोशाक को फिर से व्यवस्थित करें, ताकि सभी सफेद रंग से भरे हुए शीर्ष पर हों, और जो रंगों से भरे हुए हैं वे नीचे हैं, लेकिन फिर भी उसी क्रम में हों।
+
+![पोशाकों का एनिमेशन क्रम में रखा जा रहा है, जिसमें सबसे ऊपर सफेद पोशाक और रंगीन वाले नीचे हैं, लेकिन उसी क्रम में।](images/order_costumes.gif)
+
+--- /task ---
+
+मंडला किस पोशाक में बदलता है करना याद रखें ताकि आप अपने नए मंडलों को रंग सकें। उदाहरण प्रोजेक्ट में, चार मंडला हैं इसलिए हमने पोशाक संख्या को '1' से बदलकर '4' कर दिया है।
+
+![shape स्प्राइट।](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -69,7 +69,7 @@ change [color v] effect by (25)
 
 --- task ---
 
-**Test:** Switch to one of your new costumes and click the green flag to see the pattern that is generated.
+**परिक्षण:** अपने नए परिधानों में से एक पर स्विच करें और उत्पन्न होने वाले पैटर्न को देखने के लिए हरे झंडे पर क्लिक करें।
 
 --- /task ---
 
