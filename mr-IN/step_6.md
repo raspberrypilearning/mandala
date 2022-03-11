@@ -1,65 +1,65 @@
-## Create another mandala
+## दुसरे मंडल तयार करा
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create another mandala easily using your optimised code blocks.
+तुमचे ऑप्टिमाइझ केलेले कोड ब्लॉक्स वापरून सहजपणे दुसरे मंडल तयार करा.
 </div>
 <div>
 ![](images/step_5.png)
 </div>
 </div>
 
-You have two costumes that you are using to create your coloured mandala. Add some more costumes to personalise your mandala even more.
+तुमच्याकडे दोन कॉश्चुम आहेत जे तुम्ही तुमचा रंगीत मंडल तयार करण्यासाठी वापरत आहात. तुमचे मंडल अधिक जास्त वैयक्तिक करण्यासाठी आणखी काही कॉश्चुम जोडा.
 
 --- task ---
 
-**Choose:** Add another costume. Here the **Earth** costume has been chosen.
+**निवडा:** दुसरा कॉश्चुम जोडा. येथे **Earth** कॉश्चुम निवडलेला आहे.
 
-![The Earth costume from the Scratch library.](images/earth_costume.png)
+![Scratch लायब्ररी मधून Earth कॉश्चुम.](images/earth_costume.png)
 
-It doesn't matter which costume you pick, but you should make sure that it is a **Vector** costume and not a **Bitmap** costume. You can tell you have chosen a **Vector** costume, as you will see a button labelled **Convert to Bitmap**. **Do not click this button**. If you have selected a costume that is a **Bitmap**, then delete it and choose another one.
+तुम्ही कोणता कॉश्चुम निवडला हे महत्वाचे नाही, परंतु तुम्ही तो **Vector** कॉश्चुम असल्याची आणि **Bitmap** कॉश्चुम नसल्याची खात्री करायला हवी. तुम्ही **Vector** कॉश्चुम निवडल्याचे सांगू शकता, तुम्हाला **Convert to Bitmap** नावाचे बटन दिसेल. **या बटनवर क्लिक करू नका**. तुम्ही कॉश्चुम निवडल्यास म्हणजेच **Bitmap**, तर तो डिलीट करा आणि दुसरा निवडा.
 
-![The 'Convert to Bitmap' button.](images/convert_to_bitmap.png)
+!['Convert to Bitmap' बटन.](images/convert_to_bitmap.png)
 
 --- /task ---
 
 --- task ---
 
-Remove all the colour from the costume so you get just the outline. Select the whole costume and change the **Fill** **Saturation** to `0` and the **Outline** **Brightness** to `0`.
+कॉश्चुम मधून सर्व रंग काढा ज्यामुळे तुम्हाला केवळ आऊटलाईन मिळेल. पूर्ण कॉश्चुम निवडा आणि **Fill** **Saturation** हे `0` ला आणि **Outline** **Brightness** हे `0` ला बदला.
 
-![Animation showing the 'Earth' costume being selected, then the 'Fill' and 'Outline' colours being changed.](images/edit_costume.gif)
-
---- /task ---
-
---- task ---
-
-Duplicate this costume, and then repeat the process, this time changing the **Fill** colour to a dark colour of your choice.
-
-![The two Earth costumes, one filled in white and the other in purple.](images/earth_costumes.png)
+!['Earth' कॉश्चुम निवडला जात आहे, त्यानंतर 'Fill' आणि 'Outline' रंग बदलले जात आहे हे दाखवणारे ऍनिमेशन.](images/edit_costume.gif)
 
 --- /task ---
 
 --- task ---
 
-Repeat this process a few more times with different vector costumes, to give yourself different styles of costume.
+हा कॉश्चुम डुप्लीकेट करा, आणि त्यानंतर प्रक्रिया पुन्हा करा, यावेळी रंग तुमच्या आवडीच्या गडद रंगात **Fill** करा.
 
-![Earth, butterfly, and heart costumes shown with white and purple fills.](images/multiple_costumes.png)
+![दोन Earth कॉश्चुम, एक पांढरा आणि दुसरा जांभळा.](images/earth_costumes.png)
 
 --- /task ---
-
-To make sure you can colour your personalised mandalas, reorder your costumes and check the costume switches to the right number.
 
 --- task ---
 
-Reorder your costumes, so that all the ones filled with white are at the top, and the ones filled with colours are lower down, but still in the same order.
+कॉश्चुमच्या तुम्हा स्वतःला वेगवेगळ्या स्टाईल देण्यासाठी वेगळ्या व्हेक्टर कॉश्चुमसह ही प्रक्रिया आणखी काही वेळा पुन्हा करा.
 
-![Animation of the costumes being placed in order, with the white costumes at the top and the coloured ones further down, but in the same order.](images/order_costumes.gif)
+![पांढरा आणि जांभळा रंग भरलेले Earth, butterfly, आणि heart कॉश्चुम.](images/multiple_costumes.png)
 
 --- /task ---
 
-Remember to change which costume the mandala switches to so that you can colour your new mandalas. In the example project, there are four mandalas so we changed the costume number from '1' to '4'
+खात्री करण्यासाठी, तुमच्या वैयक्तिक मंडल ला तुम्ही रंग देऊ शकता, तुमचे कॉश्चुमचा पुन्हा क्रम लावू शकता आणि कॉश्चुम योग्य नंबरला बदलला का ते तपासू शकता.
 
-![The shape sprite.](images/shape_sprite.png)
+--- task ---
+
+तुमच्या कॉश्चुमचा पुन्हा क्रम लावा, जेणेकरून सर्व पांढरा रंग भरलेले वरच्या भागात येतील, आणि रंग भरलेले सर्व खालच्या भागात येतील, परंतु तरीही त्याच क्रमात.
+
+![पांढरे कॉश्चुम वर आणि रंगीत कॉश्चुम खाली, परंतु सारख्याच क्रमात कॉश्चुमचे ऍनिमेशन क्रमात ठेवले जात आहे.](images/order_costumes.gif)
+
+--- /task ---
+
+मंडल कोणता कॉश्चुम बदलतो ते लक्षात ठेवा जेणेकरून तुम्ही तुमच्या नवीन मंडल ला रंग देऊ शकता. उदाहरण प्रोजेक्टमध्ये, चार मंडल आहेत त्यामुळे आपण कॉश्चुम संख्या 1 ते 4 बदलतो
+
+![shape स्प्राईट.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -69,7 +69,7 @@ change [color v] effect by (25)
 
 --- task ---
 
-**Test:** Switch to one of your new costumes and click the green flag to see the pattern that is generated.
+**चाचणी:** तुमच्या कॉश्चुम पैकी एक बदला आणि निर्माण झालेला पॅटर्न बघण्यासाठी हिरव्या झेंड्यावर क्लिक करा.
 
 --- /task ---
 
