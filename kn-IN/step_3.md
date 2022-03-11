@@ -1,23 +1,23 @@
-## Make a mandala
+## ಮಂಡಲ ಮಾಡಿ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create more patterns to make a mandala!
+ಮಂಡಲವನ್ನು ಮಾಡಲು ಇನ್ನಷ್ಟು ವಿನ್ಯಾಸಗಳನ್ನು ರಚಿಸಿ!
 </div>
 <div>
-![Animation showing a more complicated pattern beginning to form when the flag is clicked.](images/step_3.gif){:width="300px"}
+![ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ ಹೆಚ್ಚು ಸಂಕೀರ್ಣವಾದ ವಿನ್ಯಾಸಗಳು ನಿರ್ಮಾಣವಾಗಲು ಪ್ರಾರಂಭವಾಗುವುದನ್ನು ತೋರಿಸುತ್ತಿರುವ ಅನಿಮೇಶನ್.](images/step_3.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Right click on your `define pattern`{:class="block3myblocks"} block and choose **Edit** to add more parameters.
+ನಿಮ್ಮ `define pattern`{:class="block3myblocks"} ಬ್ಲಾಕ್‌ ಮೇಲೆ ರೈಟ್-ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ಹೆಚ್ಚು ಪ್ಯಾರಾಮೀಟರ್‌ಗಳನ್ನು ಸೇರಿಸಲು **Edit** ಆಯ್ಕೆ ಮಾಡಿ.
 
-![Animation showing the editing of 'my blocks' to add in extra parameters.](images/edit-parameter.gif)
+![ಹೆಚ್ಚುವರಿ ಪ್ಯಾರಾಮೀಟರ್‌ಗಳನ್ನು ಸೇರಿಸಲು 'my blocks' ನ್ನು ಎಡಿಟ್‌ ಮಾಡುತ್ತಿರುವುದನ್ನು ತೋರಿಸುತ್ತಿರುವ ಅನಿಮೇಶನ್.](images/edit-parameter.gif)
 
-You can start by adding a `size`{:class="block3myblocks"} text label and a `size`{:class="block3myblocks"} input. Then, add a  `move`{:class="block3myblocks"} label and input, and use these parameters in the blocks below.
+ನೀವು `size`{:class="block3myblocks"} ಪಠ್ಯ ಗುರುತಿನ ಚೀಟಿ ಮತ್ತು `size`{:class="block3myblocks"} ಇನ್‌ಪುಟ್‌ ಸೇರಿಸಿ ಪ್ರಾರಂಭಿಸಬಹುದು. ನಂತರ, `move`{:class="block3myblocks"} ಗುರುತಿನ ಚೀಟಿ ಮತ್ತು ಇನ್‌ಪುಟ್‌ ಸೇರಿಸಿ, ಮತ್ತು ಈ ಪ್ಯಾರಾಮೀಟರ್‌ಗಳನ್ನು ಕೆಳಗಿನ ಬ್ಲಾಕ್‌ಗಳಲ್ಲಿ ಉಪಯೋಗಿಸಿ.
 
-![The shape sprite.](images/shape_sprite.png)
+![ಆಕಾರ ಸ್ಪ್ರೈಟ್.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move)
@@ -34,17 +34,17 @@ pattern: repeat (3) size (10) move (5)
 
 --- task ---
 
-**Test:** See what your pattern looks like by clicking the green flag to run your program. It doesn't look like a mandala yet! Can you think of how you might make the pattern circular?
+**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಮ್‌ನ್ನು ರನ್‌ ಮಾಡಲು ಹಸಿರು ಬಾವುಟ ಕ್ಲಿಕ್‌ ಮಾಡಿ ನಿಮ್ಮ ವಿನ್ಯಾಸ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂದು ನೋಡಿ. ಅದು ಇನ್ನೂ ಮಂಡಲದಂತೆ ಕಾಣಿಸುವುದಿಲ್ಲ! ನೀವು ವಿನ್ಯಾಸವನ್ನು ಹೇಗೆ ವೃತ್ತಾಕಾರ ಮಾಡಬಹುದು ಎಂದು ನೀವು ಯೋಚಿಸಬಹುದೇ?
 
 --- /task ---
 
-To make your pattern circular and look even more like a mandala, add another input.
+ನಿಮ್ಮ ವಿನ್ಯಾಸವನ್ನು ವೃತ್ತಾಕಾರ ಮಾಡಲು ಮತ್ತು ಇನ್ನಷ್ಟು ಮಂಡಲದಂತೆ ಕಾಣಲು, ಇನ್ನೊಂದು ಇನ್‌ಪುಟ್‌ ಸೇರಿಸಿ.
 
 --- task ---
 
-Add another input called `turn`{:class="block3myblocks"}. Then, as well as moving your clone, you can turn it as well.
+`turn`{:class="block3myblocks"} ಎನ್ನುವ ಇನ್ನೊಂದು ಇನ್‌ಪುಟ್‌ನ್ನು ಸೇರಿಸಿ. ನಂತರ, ನೀವು ನಿಮ್ಮ ತದ್ರೂಪವನ್ನು ಚಲಿಸುವುದರ ಜೊತೆಗೆ ಅದನ್ನು ತಿರುಗಿಸಬಹುದು ಕೂಡ.
 
-![The shape sprite.](images/shape_sprite.png)
+![ಆಕಾರ ಸ್ಪ್ರೈಟ್.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move) turn (turn)
@@ -64,13 +64,13 @@ end
 
 --- /task ---
 
-Mandalas are often complex — they can have many different rows that follow similar patterns. You can create a base pattern for the rest of the mandala rows to build on.
+ಮಂಡಲಗಳು ಯಾವಾಗಲೂ ಸಂಕೀರ್ಣವಾಗಿರುತ್ತವೆ — ಅವುಗಳು ಒಂದೇ ರೀತಿಯ ವಿನ್ಯಾಸಗಳನ್ನು ಅನುಸರಿಸುವ ಅನೇಕ ಬೇರೆ ಬೇರೆ ಸಾಲುಗಳನ್ನು ಹೊಂದಿರಬಹುದು. ಉಳಿದಿರುವ ಮಂಡಲದ ಸಾಲುಗಳನ್ನು ನಿರ್ಮಾಣ ಮಾಡಲು ನೀವು ಮೂಲ ವಿನ್ಯಾಸವನ್ನು ರಚಿಸಬಹುದು.
 
 --- task ---
 
-Try playing around with different numbers in your `pattern`{:class="block3myblocks"}. You can reset the position and size of your sprite anytime you like.
+ನಿಮ್ಮ `pattern`{:class="block3myblocks"} ನಲ್ಲಿ ಬೇರೆ ಬೇರೆ ಸಂಖ್ಯೆಗಳ ಜೊತೆ ಆಟವಾಡಲು ಪ್ರಯತ್ನಿಸಿ. ನೀವು ಯಾವಾಗಬೇಕಾದರೂ ನಿಮ್ಮ ಸ್ಪ್ರೈಟ್‌ನ ಸ್ಥಾನ ಮತ್ತು ಗಾತ್ರವನ್ನು ಮರುಹೊಂದಿಸಬಹುದು.
 
-![Image of the sprites' attribute box with the size, x coordinate, and y coordinate all set to zero.](images/reset-attributes.png)
+![ಗಾತ್ರ, x ನಿರ್ದೇಶಾಂಕ, ಮತ್ತು y ನಿರ್ದೇಶಾಂಕ ಎಲ್ಲಾ ಸೊನ್ನೆಗೆ ಹೊಂದಿಸಿರುವುದರೊಂದಿಗೆ ಸ್ಪ್ರೈಟ್‌ನ ಗುಣಲಕ್ಷಣಗಳ ಪೆಟ್ಟಿಗೆಯ ಚಿತ್ರ.](images/reset-attributes.png)
 
 ```blocks3
 when flag clicked
@@ -80,18 +80,18 @@ pattern repeat (3) size (0) move (0) turn (60) ::custom
 --- /task ---
 
 
-Now that you have a basic pattern, you can use your `pattern`{:class="block3myblocks"} a number of times to make a repeating pattern, or mandala 'rows'. By using the same code over and over again, you make a program that has been **optimised**.
+ನಿಮಗೆ ಈಗ ಮೂಲ ವಿನ್ಯಾಸವಿರುವುದರಿಂದ, ನೀವು ನಿಮ್ಮ `pattern`{:class="block3myblocks"} ನ್ನು ಹಲವಾರು ಬಾರಿ ಉಪಯೋಗಿಸಿ ಪುನರಾವರ್ತನೆಯಾಗುವ ವಿನ್ಯಾಸವನ್ನು, ಅಥವಾ ಮಂಡಲದ 'ಸಾಲುಗಳನ್ನು' ಮಾಡಬಹುದು. ನೀವು ಒಂದೇ ಕೋಡ್‌ನ್ನು ಪದೆ ಪದೆ ಉಪಯೋಗಿಸುವ ಮೂಲಕ, ನೀವು **optimised** ಆಗಿರುವ ಪ್ರೋಗ್ರಾಮ್‌ನ್ನು ಮಾಡುವಿರಿ.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains fewer steps and a shorter distance.
+<span style="color: #0faeb0">**ಉತ್ತಮಗೊಳಿಸುವಿಕೆ**</span> ಎಂದೆರೆ ಕೆಲಸಗಳನ್ನು ಅತ್ಯಂತ ಸಮರ್ಥ ರೀತಿಯಲ್ಲಿ ಮಾಡುವುದು. ಈ ಕೆಳಗಿನ ರೇಖಾಕೃತಿಯನ್ನು ನೋಡಿ. ನೀವು A ಯಿಂದ E ಗೆ A-->B-->C-->D-->E ಪಥವನ್ನು ಅನುಸರಿಸಿ ಹೋಗಬಹುದು. ಉತ್ತಮಗೊಳಿಸುವಿಕೆ ಎಂದರೆ A-->D-->E ಗೆ ಹೋಗುವುದು, ಅದು ಕಡಿಮೆ ಹಂತಗಳನ್ನು ಮತ್ತು ಕಡಿಮೆ ದೂರವನ್ನು ಒಳಗೊಂಡಿರುತ್ತದೆ.
 <img src="images/map.png">
 </p>
 
 --- task ---
 
-Beneath your `when flag clicked`{:class="block3events"} block, add in a few more **calls** to your `pattern`{:class="block3myblocks"}.
+ನಿಮ್ಮ `when flag clicked`{:class="block3events"} ಕೆಳಗೆ, ಇನ್ನೂ ಕೆಲವು **calls**ನ್ನು ನಿಮ್ಮ `pattern`{:class="block3myblocks"}ಗೆ ಸೇರಿಸಿ.
 
-![The shape sprite.](images/shape_sprite.png)
+![ಆಕಾರ ಸ್ಪ್ರೈಟ್.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -104,7 +104,7 @@ pattern repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-**Test:** Click the green flag, and see what pattern is produced. You can change the numbers to experiment with patterns that you like, or even add in more calls to your `pattern`{:class="block3myblocks"}.
+**ಪರೀಕ್ಷೆ:** ಹಸಿರು ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ, ಮತ್ತು ಯಾವ ವಿನ್ಯಾಸವು ಉತ್ಪತ್ತಿಯಾಗಿದೆ ಎಂದು ನೋಡಿ. ನಿಮಗೆ ಇಷ್ಟವಾದ ವಿನ್ಯಾಸಗಳೊಡನೆ ಪ್ರಯೋಗಮಾಡಲು ನೀವು ಸಂಖ್ಯೆಗಳನ್ನು ಬದಲಾಯಿಸಬಹುದು ಅಥವಾ ನಿಮ್ಮ`pattern`{:class="block3myblocks"}ಗೆ ಇನ್ನಷ್ಟು ಕರೆಗಳನ್ನು ಸೇರಿಸಬಹುದು.
 
 --- /task ---
 
