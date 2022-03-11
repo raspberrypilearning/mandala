@@ -2,16 +2,16 @@
 --- question ---
 
 ---
-legend: Question 2 of 2
+legend: 2 में से दूसरा प्रश्न
 ---
 
-In your project, you used the addition + operator to change costumes depending on a 'My Blocks'{:class='block3myblocks'} input.
+अपने प्रोजेक्ट में, आपने 'My Blocks'{:class='block3myblocks'} इनपुट के आधार पर पोशाक बदलने के लिए जोड़ + ऑपरेटर का इस्तेमाल किया।
 
-If we have these costumes:
+अगर हमारे पास ये पोशाकें हैं:
 
-![Images of all the costumes: costume1 is a transparent petal; costume 2 is a purple petal; costume 3 is a transparent globe; and costume 4 is a purple globe.](images/costumes_quiz.png)
+![सभी परिधानों की छवियां: पोशाक 1 एक पारदर्शी पंखुड़ी है; पोशाक 2 एक बैंगनी पंखुड़ी है; पोशाक 3 एक पारदर्शी ग्लोब है; और पोशाक 4 एक बैंगनी ग्लोब है।](images/costumes_quiz.png)
 
-Which of the following code blocks would get your pattern to switch from the purple petal to the purple globe?
+निम्नलिखित में से कौन सा कोड ब्लॉक बैंगनी पंखुड़ी से बैंगनी ग्लोब पर स्विच करने के लिए आपका पैटर्न प्राप्त करेगा?
 
 --- choices ---
 
@@ -24,7 +24,7 @@ Which of the following code blocks would get your pattern to switch from the pur
 
   --- feedback ---
 
-Yes, the costume number you are on is costume 2 and the costume you want to switch to is costume 4 so you will need to switch to costume 2 + 2 = 4.
+हां, आप जिस पोशाक नंबर पर हैं, वह पोशाक 2 है और आप जिस पोशाक पर स्विच करना चाहते हैं, वह पोशाक 4 है, इसलिए आपको पोशाक 2 + 2 = 4 पर स्विच करना होगा।
 
   --- /feedback ---
 
@@ -34,7 +34,7 @@ Yes, the costume number you are on is costume 2 and the costume you want to swit
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transparent globe, not the purple globe.
+यह पोशाक 2 से पोशाक 2 + 1 = 3 में बदल जाएगा। पोशाक 3 पारदर्शी ग्लोब है, पर्पल ग्लोब नहीं।
 
   --- /feedback ---
 
@@ -44,7 +44,7 @@ This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transpare
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transparent petal, not the purple globe.
+यह पोशाक 2 से पोशाक 2 - 1 = 1 में बदल जाएगा। पोशाक 1 पारदर्शी पंखुड़ी है, बैंगनी ग्लोब नहीं।
 
   --- /feedback ---
 
@@ -54,7 +54,7 @@ This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transpare
 
   --- feedback ---
 
-This will switch the costume to `costume 2`{:class='block3looks'} regardless of which costume is currently being shown.
+यह पोशाक को `costume 2`{:class='block3looks'} में बदल देगा, भले ही वर्तमान में कोई भी पोशाक दिखाई जा रही हो।
 
   --- /feedback ---
 
