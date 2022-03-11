@@ -1,65 +1,65 @@
-## Create another mandala
+## మరొక mandala ను సృష్టించండి
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create another mandala easily using your optimised code blocks.
+మీ ఆప్టిమైజ్ చేసిన కోడ్ బ్లాక్‌లను ఉపయోగించి మరొక mandala ని సులభంగా సృష్టించండి.
 </div>
 <div>
 ![](images/step_5.png)
 </div>
 </div>
 
-You have two costumes that you are using to create your coloured mandala. Add some more costumes to personalise your mandala even more.
+మీరు మీ రంగుల mandala ని సృష్టించడానికి ఉపయోగించే రెండు costume లు ఉన్నాయి. మీ mandala ని మరింత వ్యక్తిగతీకరించడానికి మరికొన్ని costume లను జోడించండి.
 
 --- task ---
 
-**Choose:** Add another costume. Here the **Earth** costume has been chosen.
+**ఎంచుకోండి:** మరొక costume జోడించండి. ఇక్కడ **Earth** costume ఎంచుకోబడింది.
 
-![The Earth costume from the Scratch library.](images/earth_costume.png)
+![Scratch లైబ్రరీ నుండి Earth costume.](images/earth_costume.png)
 
-It doesn't matter which costume you pick, but you should make sure that it is a **Vector** costume and not a **Bitmap** costume. You can tell you have chosen a **Vector** costume, as you will see a button labelled **Convert to Bitmap**. **Do not click this button**. If you have selected a costume that is a **Bitmap**, then delete it and choose another one.
+మీరు ఏ costumeని ఎంచుకున్నారనేది ముఖ్యం కాదు, కానీ అది **Vector** costume అని మరియు **Bitmap** costume కాదని మీరు నిర్ధారించుకోవాలి. మీరు **Convert to Bitmap** అనే బటన్‌ను చూస్తారు కాబట్టి మీరు **Vector** costume ఎంచుకున్నారని చెప్పవచ్చు. **ఈ బటన్‌ని క్లిక్ చేయవద్దు**. మీరు **Bitmap** costume ని ఎంచుకున్నట్లయితే, దానిని తొలగించి, మరొక దానిని ఎంచుకోండి.
 
-![The 'Convert to Bitmap' button.](images/convert_to_bitmap.png)
+!['Convert to Bitmap' బటన్.](images/convert_to_bitmap.png)
 
 --- /task ---
 
 --- task ---
 
-Remove all the colour from the costume so you get just the outline. Select the whole costume and change the **Fill** **Saturation** to `0` and the **Outline** **Brightness** to `0`.
+దుస్తులు నుండి అన్ని రంగులను తీసివేయండి, తద్వారా మీరు కేవలం అవుట్‌లైన్‌ను పొందుతారు. మొత్తం costume ని ఎంచుకుని, **Fill** **Saturation** ను `0` కి మరియు **Outline** **Brightness** ను `0`కి మార్చండి.
 
-![Animation showing the 'Earth' costume being selected, then the 'Fill' and 'Outline' colours being changed.](images/edit_costume.gif)
-
---- /task ---
-
---- task ---
-
-Duplicate this costume, and then repeat the process, this time changing the **Fill** colour to a dark colour of your choice.
-
-![The two Earth costumes, one filled in white and the other in purple.](images/earth_costumes.png)
+!['Earth' costume ఎంపిక చేయబడిందని, ఆపై 'Fill' మరియు 'Outline' రంగులు మార్చబడుతున్నాయని చూపుతున్న యానిమేషన్.](images/edit_costume.gif)
 
 --- /task ---
 
 --- task ---
 
-Repeat this process a few more times with different vector costumes, to give yourself different styles of costume.
+ఈ costume లను డూప్లికేట్ చేసి, ఆపై ప్రక్రియను పునరావృతం చేయండి, ఈసారి **Fill** రంగును మీకు నచ్చిన ముదురు రంగుకు మారుస్తుంది.
 
-![Earth, butterfly, and heart costumes shown with white and purple fills.](images/multiple_costumes.png)
+![రెండు Earth costume లు, ఒకటి తెలుపు రంగులో మరియు మరొకటి ఊదా రంగులో ఉన్నాయి.](images/earth_costumes.png)
 
 --- /task ---
-
-To make sure you can colour your personalised mandalas, reorder your costumes and check the costume switches to the right number.
 
 --- task ---
 
-Reorder your costumes, so that all the ones filled with white are at the top, and the ones filled with colours are lower down, but still in the same order.
+విభిన్న వెక్టార్ costume లతో ఈ ప్రక్రియను మరికొన్ని సార్లు పునరావృతం చేయండి, మీకు విభిన్న శైలుల costume లు లభిస్తాయి.
 
-![Animation of the costumes being placed in order, with the white costumes at the top and the coloured ones further down, but in the same order.](images/order_costumes.gif)
+![భూమి, సీతాకోకచిలుక మరియు హృదయపు costume లు తెలుపు మరియు ఊదా రంగులతో చూపబడ్డాయి.](images/multiple_costumes.png)
 
 --- /task ---
 
-Remember to change which costume the mandala switches to so that you can colour your new mandalas. In the example project, there are four mandalas so we changed the costume number from '1' to '4'
+మీరు మీ వ్యక్తిగతీకరించిన mandala లకు రంగు వేయగలరని నిర్ధారించుకోవడానికి, మీ costume లను తిరిగి అమర్చండి మరియు సరైన నంబర్‌కు costume స్విచ్‌ అయ్యేలా తనిఖీ చేయండి.
 
-![The shape sprite.](images/shape_sprite.png)
+--- task ---
+
+మీ costume ల యొక్క క్రమాన్ని మార్చుకోండి, తద్వారా తెలుపు రంగుతో నిండినవి ఎగువన ఉంటాయి మరియు రంగులతో నిండినవి క్రిందికి ఉంటాయి, కానీ ఇప్పటికీ అదే క్రమంలో ఉంటాయి.
+
+![కాస్ట్యూమ్‌ల యానిమేషన్ క్రమంలో ఉంచబడింది, పైభాగంలో తెల్లని దుస్తులు మరియు రంగులు మరింత క్రిందికి ఉంటాయి, కానీ అదే క్రమంలో ఉంటాయి.](images/order_costumes.gif)
+
+--- /task ---
+
+మీరు మీ కొత్త mandala లకు రంగులు వేయగలిగేలా mandala ఏ costume లకు మారుతుందో గుర్తుంచుకోండి. ఉదాహరణ ప్రాజెక్ట్‌లో, నాలుగు mandalas ఉన్నాయి కాబట్టి మనము costume నంబర్‌ను '1' నుండి '4'కి మార్చాము
+
+![Shape sprite.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -69,7 +69,7 @@ change [color v] effect by (25)
 
 --- task ---
 
-**Test:** Switch to one of your new costumes and click the green flag to see the pattern that is generated.
+**పరీక్ష:** మీ కొత్త costume లలో ఒకదానికి మారండి మరియు రూపొందించబడిన నమూనాను చూడటానికి ఆకుపచ్చ జెండాను క్లిక్ చేయండి.
 
 --- /task ---
 
