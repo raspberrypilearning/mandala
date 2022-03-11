@@ -1,31 +1,31 @@
-## Mandala colouring
+## Mandala రంగులు
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Adding colour to a mandala is therapeutic as well as a creative activity. Add in the opportunity to colour different parts of the mandalas.
+Mandala కి రంగును జోడించడం అనేది చికిత్సాపరమైన మరియు సృజనాత్మక కార్యకలాపం. Mandala లోని వివిధ భాగాలకు రంగులు వేసే అవకాశాన్ని జోడించండి.
 </div>
 <div>
 ![](images/step_7.gif){:width="300px"}
 </div>
 </div>
 
-**Tip:** If you want to, you can print out your mandala before you add colour to it in this step, and use it as a colouring pattern to colour by hand.
+**చిట్కా:** మీకు కావాలంటే, ఈ దశలో మీరు మీ mandala కి రంగును జోడించే ముందు దాన్ని ముద్రించవచ్చు మరియు దానిని చేతితో రంగు వేయడానికి రంగుల నమూనాగా ఉపయోగించవచ్చు.
 
 --- task ---
 
-Have a look at the current costumes for your **shape** sprite. You will see that there are two costumes, one white and the other filled in.
+మీ **shape** sprite కోసం ప్రస్తుత costume లను చూడండి. రెండు costumeలు ఉన్నాయి, ఒకటి తెలుపు మరియు మరొకటి పూరించినట్లు మీరు చూస్తారు.
 
-![Two costumes for the sprite.](images/costumes.png)
+![Sprite కోసం రెండు costume లు.](images/costumes.png)
 
 --- /task ---
 
-To add colour to your mandala, each of the clone shapes should change its `costume`{:class="block3looks"} and then its `color effect`{:class="block3looks"} when the clone is clicked. The new costume will be **one** more than whatever the previous costume was, so it will change to the coloured version and then to the different colours.
+మీ mandala నికి రంగును జోడించడానికి, క్లోన్‌ను క్లిక్ చేసినప్పుడు ప్రతి క్లోన్ ఆకారాలు దాని `costume`{:class="block3looks"}ని ఆపై `color effect`{:class="block3looks"}ని మార్చాలి. కొత్త costume మునుపటి దుస్తుల కంటే **ఒకటి** ఎక్కువగా ఉంటుంది, కనుక ఇది రంగుల వెర్షన్‌కి మరియు తర్వాత వివిధ రంగులకు మారుతుంది.
 
 --- task ---
 
-Add a `when this sprite clicked`{:class="block3events"} block, and then use the `+`{:class="block3operators"} operator to change the costume number.
+`when this sprite clicked`{:class="block3events"} బ్లాకుని జోడించి, ఆ తర్వాత, costume నంబర్ మార్చడానికి, `+`{:class="block3operators"} ఆపరేటర్ ను ఉపయోగించండి.
 
-![The shape sprite.](images/shape_sprite.png)
+![Shape sprite.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -36,9 +36,9 @@ switch costume to ((answer) + (1))
 
 --- task ---
 
-Add a `change color effect`{:class="block3looks"} block to this script, so that each time the sprite is clicked, the colour changes a little.
+ఈ స్క్రిప్ట్‌కి `change color effect`{:class="block3looks"} బ్లాక్‌ని జోడించండి, తద్వారా ప్రతిసారి sprite క్లిక్ చేసినప్పుడు, రంగు కొద్దిగా మారుతుంది.
 
-![The shape sprite.](images/shape_sprite.png)
+![Shape sprite.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -48,26 +48,26 @@ change [color v] effect by (25)
 
 --- /task ---
 
-You might remember adding a `ghost`{:class="block3myblocks"} block input to your project in the last step. You should now be able to see what happens when you change the number where you call `ghost`{:class="block3myblocks"}.
+చివరి దశలో మీ ప్రాజెక్ట్‌కి `ghost`{:class="block3myblocks"} బ్లాక్ ఇన్‌పుట్‌ని జోడించడం మీకు గుర్తుండవచ్చు. మీరు `ghost`{:class="block3myblocks"}కి కాల్ చేసే నంబర్‌ను మార్చినప్పుడు ఏమి జరుగుతుందో మీరు ఇప్పుడు చూడగలరు.
 
 --- task ---
 
-Create the kind of colouring effect you want by changing your `ghost`{:class="block3myblocks"} numbers. A lower `ghost`{:class="block3myblocks"} number will mean the colour is more saturated, like a permanent marker. A high `ghost`{:class="block3myblocks"} number will mean the colour is less saturated, like watercolours.
+మీ `ghost`{:class="block3myblocks"} నంబర్ లను మార్చడం ద్వారా మీకు కావలసిన రంగుల ప్రభావాన్ని సృష్టించండి. తక్కువ `ghost`{:class="block3myblocks"} నంబర్ అంటే పర్మినెంట్ మార్కర్ లాగా రంగు మరింత దట్టమైందని అర్థం. అధిక `ghost`{:class="block3myblocks"} నంబర్ అంటే నీటి రంగుల వలె రంగు పల్చ గా ఉంటుంది.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the flag, choose your costume, and then try clicking on the clones to change their colours.
+**పరీక్ష:** ఫ్లాగ్‌పై క్లిక్ చేసి, మీ costume లను ఎంచుకోండి, ఆపై వాటి రంగులను మార్చడానికి క్లోన్‌లపై క్లిక్ చేసి ప్రయత్నించండి.
 
-![A mandala made of hearts that have been coloured in a variety of different colours.](images/coloured_mandala.png)
+![వివిధ రకాల రంగులలో, రంగులద్దిన హృదయాలతో తయారు చేయబడిన mandala.](images/coloured_mandala.png)
 
-You should get a kaleidoscope effect when colours are layered on top of each other.
+రంగులు ఒకదానిపై ఒకటి పొరలుగా ఉన్నప్పుడు మీరు కాలిడోస్కోప్ ప్రభావాన్ని పొందాలి.
 
 --- /task ---
 
-If you like the mandala you have created then you can **right-click** on the stage, and choose to save the image.
+మీరు సృష్టించిన mandala ని మీరు ఇష్టపడితే, మీరు stage పై **రైట్- క్లిక్** చేసి, చిత్రాన్ని సేవ్ చేయడానికి ఎంచుకోవచ్చు.
 
-![The contect menu appears when the Stage is right-clicked, and the 'Save Image As' option is highlighted.](images/save_mandala.png)
+![Stage పై రైట్-క్లిక్ చేసినప్పుడు కాంటాక్ట్ మెను కనిపిస్తుంది మరియు 'Save Image As' ఎంపిక హైలైట్ చేయబడుతుంది.](images/save_mandala.png)
 
 --- save ---
