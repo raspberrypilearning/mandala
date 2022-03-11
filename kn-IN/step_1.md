@@ -1,36 +1,36 @@
-## Introduction
+## ಪರಿಚಯ
 
-In this project, you will write a program that generates mandalas.
+ಈ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ, ನೀವು ಮಂಡಲಗಳನ್ನು ನಿರ್ಮಿಸುವ ಪ್ರೋಗ್ರಾಮ್‌ನ್ನು ಬರೆಯುತ್ತೀರಿ.
 
-![Example of a colourful butterfly mandala.](images/mandala.png)
+![ಬಣ್ಣಬಣ್ನದ ಚಿಟ್ಟೆ ಮಂಡಲದ ಉದಾಹರಣೆ.](images/mandala.png)
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Computer generated art**</span> or **digital art** is simply art that is made using a computer. It can range from drawings created on a tablet, to writing Artificial Intelligence (AI) programs to enable a computer to create its own art. In this project, you are going to use programming in Scratch to create mindful artwork.
+<span style="color: #0faeb0">**ಕಂಪ್ಯೂಟರ್‌ ವಿರಚಿತ ಕಲೆ**</span> ಅಥವಾ **ಡಿಗಿಟಲ್‌ ಕಲೆ** ಎಂದರೆ ಕಂಪ್ಯೂಟರ್‌ ಉಪಯೋಗಿಸಿ ಮಾಡುವ ಕಲೆ ಅಷ್ಟೆ. ಇದು ಟ್ಯಾಬ್ಲೆಟ್‌ನಲ್ಲಿ ರಚಿಸಿದ ರೇಖಾಚಿತ್ರಗಳಿಂದ ಹಿಡಿದು ಕಂಪ್ಯೂಟರ್‌ಗೆ ಅದರದೇ ಸ್ವಂತ ಕಲೆಯನ್ನು ರಚಿಸಲು ಬರೆಯುವ ಆರ್ಟಿಫಿಶಿಯಲ್‌ ಇಂಟಲಿಜೆನ್ಸ (ಎಐ) ಪ್ರೋಗ್ರಾಮ್‌ಗಳವರೆಗ ಇರಬಹುದು. ಈ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ, ನೀವು ಪ್ರಜ್ಞಾಪೂರ್ವಕ ಕಲಾಕೃತಿಯನ್ನು ರಚಿಸಲು Scratch ನಲ್ಲಿ ಪ್ರೋಗ್ರಾಮಿಂಗ್‌ ಉಪಯೋಗಿಸುತ್ತೀರಿ.
 </p>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Mandala**</span> is a Sanskrit word that roughly means "circle". Manadalas are commonly circular designs that have repeating colours, shapes, and patterns. In Buddhist and Hindu traditions, mandalas are helpful in meditation. Creating mandalas is known to be a relaxing and mindful activity.
+<span style="color: #0faeb0">**ಮಂಡಲ**</span> ಎಂದರೆ ಸ್ಥೂಲವಾಗಿ ʼವೃತ್ತʼ ಎಂದು ಅರ್ಥಕೊಡುವ ಸಂಸ್ಕೃತದ ಶಬ್ದ. ಮಂಡಲಗಳೆಂದರೆ ಸಾಮಾನ್ಯವಾಗಿ ಪುನರಾವರ್ತನೆಯಾಗುವ ಬಣ್ಣಗಳು, ಆಕಾರಗಳು ಮತ್ತು ವಿನ್ಯಾಸಗಳನ್ನು ಹೊಂದಿರುವ ವೃತ್ತಾಕಾರದ ರೂಪರೇಖೆಗಳು. ಬೌದ್ಧ ಮತ್ತು ಹಿಂದೂ ಸಂಪ್ರದಾಯಗಳಲ್ಲಿ, ಮಂಡಲಗಳು ಧ್ಯಾನಕ್ಕೆ ಸಹಾಯಕವಾಗುತ್ತವೆ. ಮಂಡಲಗಳನ್ನು ರಚಿಸುವುದು ವಿಶ್ರಮಿಸುವ ಮತ್ತು ಪ್ರಜ್ಞಾಪೂರ್ವಕ ಚಟುವಟಿಕೆ ಎಂದು ತಿಳಿಯಲಾಗಿದೆ.
 </p>
 
-You will:
-+ Use clones to create repeating patterns
-+ Use `My Blocks`{:class='block3myblocks'} to optimise your computer generated art program
-+ Use addition `+`{:class='block3operators'} and subtraction `-`{:class='block3operators'} operator blocks to change the appearance and position of a sprite
+ನೀವು:
++ ಪುನರಾವರ್ತನೆಯಾಗುವ ವಿನ್ಯಾಸಗಳನ್ನು ರಚಿಸಲು ತದ್ರೂಪಗಳನ್ನು ಉಪಯೋಗಿಸುವಿರಿ
++ ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ ವಿರಚಿತ ಕಲಾ ಪ್ರೋಗ್ರಾಮ್‌ನ್ನು ಉತ್ತಮಗೊಳಿಸಲು `My Blocks`{:class='block3myblocks'} ಉಪಯೋಗಿಸುವಿರಿ
++ ಸ್ಪ್ರೈಟ್‌ನ ನೋಟ ಮತ್ತು ಸ್ಥಾನವನ್ನು ಬದಲಾಯಿಸಲು ಸಂಕಲನ `+`{:class='block3operators'} ಮತ್ತು ವ್ಯವಕಲನ `-`{:class='block3operators'} ಆಪರೇಟರ್‌ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಉಪಯೋಗಿಸುವಿರಿ
 
 --- no-print ---
 
 --- task ---
 
-### Try it
+### ಇದನ್ನು ಪ್ರಯತ್ನಿಸಿ
 
 <div style="display: flex; flex-wrap: wrap">
 
 <div style="flex-basis: 175px; flex-grow: 1">  
-Choose a shape and watch as the computer generates a mandala. You can colour in the shapes of the mandala by clicking on them (click multiple times for different colours), and then press the <kbd>Spacebar</kbd>.
+ಆಕಾರವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು ಕಂಪ್ಯೂಟರ್‌ ಮಂಡಲವನ್ನು ನಿರ್ಮಿಸುವುದನ್ನು ವೀಕ್ಷಿಸಿ. ನೀವು ಮಂಡಲದ ಆಕಾರಗಳಿಗೆ ಅವುಗಳ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ (ಬೇರೆ ಬೇರೆ ಬಣ್ಣಗಳಿಗಾಗಿ ಅನೇಕ ಬಾರಿ ಕ್ಲಿಕ್‌ ಮಾಡಿ) ನಂತರ <kbd>Spacebar</kbd> ಒತ್ತಿ ಬಣ್ಣ ತುಂಬಬಹುದು.
 
-Can you see the pattern? How do you think Scratch creates that pattern?
+ನೀವು ವಿನ್ಯಾಸವನ್ನು ನೋಡಬಹುದೇ? Scratch ಹೇಗೆ ವಿನ್ಯಾಸ ರಚಿಸುತ್ತದೆ ಎಂದು ನಿಮಗನಿಸುತ್ತದೆ?
 
-Choose a different shape now and look at a new mandala. Does it look the same? Does it follow the same pattern?
+ಈಗ ಬೇರೆ ಆಕಾರವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ ಹೊಸ ಮಂಡಲವನ್ನು ನೋಡಿ. ಇದು ಅದೇ ರೀತಿ ಕಾಣುತ್ತಿದೆಯೇ? ಇದು ಅದೇ ವಿನ್ಯಾಸವನ್ನು ಅನುಸರಿಸುತ್ತಿದೆಯೇ?
 
 </div>
 
@@ -43,6 +43,6 @@ Choose a different shape now and look at a new mandala. Does it look the same? D
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್](images/showcase_static.png)
 
 --- /print-only ---
