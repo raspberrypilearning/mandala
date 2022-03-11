@@ -1,36 +1,36 @@
-## Introduction
+## పరిచయం
 
-In this project, you will write a program that generates mandalas.
+ఈ ప్రాజెక్ట్‌లో, మీరు కంప్యూటర్‌లో రూపొందించిన mandala లను తయారు చేస్తారు.
 
-![Example of a colourful butterfly mandala.](images/mandala.png)
+![రంగురంగుల సీతాకోకచిలుక mandala కి ఉదాహరణ.](images/mandala.png)
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Computer generated art**</span> or **digital art** is simply art that is made using a computer. It can range from drawings created on a tablet, to writing Artificial Intelligence (AI) programs to enable a computer to create its own art. In this project, you are going to use programming in Scratch to create mindful artwork.
+<span style="color: #0faeb0">**Computer generated art**</span> లేదా **digital art** అనేది కంప్యూటర్‌ను ఉపయోగించి తయారు చేయబడిన ఆర్ట్. ఇది టాబ్లెట్‌లో సృష్టించబడిన డ్రాయింగ్‌ల నుండి, కంప్యూటర్‌కు దాని స్వంతంగా ఆర్ట్ సృష్టించేందుకు వీలుగా ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ (Artificial Intelligence - AI) ప్రోగ్రామ్‌లను వ్రాయడం వరకు ఉంటుంది. ఈ ప్రాజెక్ట్‌లో, మీరు మంచి కళాకృతిని రూపొందించడానికి Scratch లో ప్రోగ్రామింగ్‌ని ఉపయోగించబోతున్నారు.
 </p>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Mandala**</span> is a Sanskrit word that roughly means "circle". Manadalas are commonly circular designs that have repeating colours, shapes, and patterns. In Buddhist and Hindu traditions, mandalas are helpful in meditation. Creating mandalas is known to be a relaxing and mindful activity.
+<span style="color: #0faeb0">**Mandala**</span> అనేది సంస్కృత పదం, దీని అర్థం "వృత్తం". Mandalas సాధారణంగా వృత్తాకార నమూనాలు, ఇవి పునరావృతమయ్యే రంగులు, ఆకారాలు మరియు నమూనాలను కలిగి ఉంటాయి. బౌద్ధ మరియు హిందూ సంప్రదాయాలలో, mandalas ధ్యానంలో సహాయపడతాయి. మండలాలను సృష్టించడం అనేది విశ్రాంతినిచ్చే మరియు మంచి కార్యకలాపం.
 </p>
 
-You will:
-+ Use clones to create repeating patterns
-+ Use `My Blocks`{:class='block3myblocks'} to optimise your computer generated art program
-+ Use addition `+`{:class='block3operators'} and subtraction `-`{:class='block3operators'} operator blocks to change the appearance and position of a sprite
+మీరు:
++ పునరావృత నమూనాలను రూపొందించడానికి క్లోన్‌లను ఉపయోగించండి
++ మీ కంప్యూటర్ రూపొందించిన ఆర్ట్ ప్రోగ్రామ్‌ను ఆప్టిమైజ్ చేయడానికి `My Blocks`{:class='block3myblocks'} ఉపయోగించండి
++ Sprite యొక్క రూపాన్ని మరియు స్థానాన్ని మార్చడానికి కూడిక `+`{:class='block3operators'} మరియు తీసివేత `-`{:class='block3operators'} ఆపరేటర్ బ్లాక్‌లను ఉపయోగించండి
 
 --- no-print ---
 
 --- task ---
 
-### Try it
+### ప్రయత్నించండి
 
 <div style="display: flex; flex-wrap: wrap">
 
 <div style="flex-basis: 175px; flex-grow: 1">  
-Choose a shape and watch as the computer generates a mandala. You can colour in the shapes of the mandala by clicking on them (click multiple times for different colours), and then press the <kbd>Spacebar</kbd>.
+ఆకారాన్ని ఎంచుకుని, కంప్యూటర్ Mandala లనూ రూపొందిస్తున్నప్పుడు గమనించండి. మీరు mandala ఆకారాలపై క్లిక్ చేయడం ద్వారా రంగులు వేయవచ్చు (వివిధ రంగుల కోసం అనేక సార్లు క్లిక్ చేయండి), ఆపై <kbd>Spacebar</kbd>నొక్కండి.
 
-Can you see the pattern? How do you think Scratch creates that pattern?
+మీరు నమూనాను చూడగలరా? Scratch ఆ నమూనాను ఎలా సృష్టిస్తుందని మీరు అనుకుంటున్నారు?
 
-Choose a different shape now and look at a new mandala. Does it look the same? Does it follow the same pattern?
+ఇప్పుడు వేరొక ఆకారాన్ని ఎంచుకోండి మరియు కొత్త mandala ని చూడండి. అది ఒకేలా కనిపిస్తుందా? అదే నమూనాని అనుసరిస్తుందా?
 
 </div>
 
@@ -43,6 +43,6 @@ Choose a different shape now and look at a new mandala. Does it look the same? D
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![పూర్తయిన ప్రాజెక్ట్](images/showcase_static.png)
 
 --- /print-only ---
