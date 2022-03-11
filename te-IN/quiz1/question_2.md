@@ -2,16 +2,16 @@
 --- question ---
 
 ---
-legend: Question 2 of 2
+legend: 2లో 2వ ప్రశ్న
 ---
 
-In your project, you used the addition + operator to change costumes depending on a 'My Blocks'{:class='block3myblocks'} input.
+మీ ప్రాజెక్ట్‌లో, మీరు 'My Blocks'{:class='block3myblocks'} ఇన్‌పుట్ ఆధారంగా costume లను మార్చడానికి అదనంగా + ఆపరేటర్‌ని ఉపయోగించారు.
 
-If we have these costumes:
+మన దగ్గర ఈ costumes ఉంటే:
 
-![Images of all the costumes: costume1 is a transparent petal; costume 2 is a purple petal; costume 3 is a transparent globe; and costume 4 is a purple globe.](images/costumes_quiz.png)
+![అన్ని costume చిత్రాలు: costume 1 పారదర్శకమైన రేక; costume 2 ఊదారంగు రేక; costume 3 ఒక పారదర్శక భూగోళం; మరియు costume 4 పర్పుల్ గ్లోబ్.](images/costumes_quiz.png)
 
-Which of the following code blocks would get your pattern to switch from the purple petal to the purple globe?
+కింది కోడ్ బ్లాక్‌లలో ఏది పర్పుల్ రేక నుండి పర్పుల్ గ్లోబ్‌కు మారడానికి మీ నమూనాను పొందుతుంది?
 
 --- choices ---
 
@@ -24,7 +24,7 @@ Which of the following code blocks would get your pattern to switch from the pur
 
   --- feedback ---
 
-Yes, the costume number you are on is costume 2 and the costume you want to switch to is costume 4 so you will need to switch to costume 2 + 2 = 4.
+అవును, మీరు ధరించే కాస్ట్యూమ్ నంబర్ 2 మరియు మీరు మార్చాలనుకుంటున్న దుస్తులు 4 కాబట్టి మీరు కాస్ట్యూమ్ 2 + 2 = 4 కి మారాలి.
 
   --- /feedback ---
 
@@ -34,7 +34,7 @@ Yes, the costume number you are on is costume 2 and the costume you want to swit
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transparent globe, not the purple globe.
+ఇది కాస్ట్యూమ్ 2 నుండి కాస్ట్యూమ్ 2 + 1 = 3కి మారుతుంది. కాస్ట్యూమ్ 3 అనేది పారదర్శక గ్లోబ్, పర్పుల్ గ్లోబ్ కాదు.
 
   --- /feedback ---
 
@@ -44,7 +44,7 @@ This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transpare
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transparent petal, not the purple globe.
+ఇది కాస్ట్యూమ్ 2 నుండి కాస్ట్యూమ్ 2 + 1 = 1కి మారుతుంది. కాస్ట్యూమ్ 1 అనేది పారదర్శక గ్లోబ్, పర్పుల్ గ్లోబ్ కాదు.
 
   --- /feedback ---
 
@@ -54,7 +54,7 @@ This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transpare
 
   --- feedback ---
 
-This will switch the costume to `costume 2`{:class='block3looks'} regardless of which costume is currently being shown.
+ఇది ప్రస్తుతం ఏ costume చూపబడుతున్నా దానితో సంబంధం లేకుండా costume ను `costume 2`{:class='block3looks'}కి మారుస్తుంది.
 
   --- /feedback ---
 
