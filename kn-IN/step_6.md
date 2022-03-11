@@ -1,65 +1,65 @@
-## Create another mandala
+## ಇನ್ನೊಂದು ಮಂಡಲವನ್ನು ರಚಿಸಿ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create another mandala easily using your optimised code blocks.
+ಉತ್ತಮಗೊಳಿಸಿದ ನಿಮ್ಮ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಉಪಯೋಗಿಸಿ ಇನ್ನೊಂದು ಮಂಡಲವನ್ನು ಸುಲಭವಾಗಿ ರಚಿಸಿ.
 </div>
 <div>
 ![](images/step_5.png)
 </div>
 </div>
 
-You have two costumes that you are using to create your coloured mandala. Add some more costumes to personalise your mandala even more.
+ನಿಮ್ಮ ಬಣ್ಣ ತುಂಬಿದ ಮಂಡಲವನ್ನು ರಚಿಸಲು ನೀವು ಉಪಯೋಗಿಸುವ ಎರಡು ಉಡುಪುಗಳು ಇವೆ. ನಿಮ್ಮ ಮಂಡಲವನ್ನು ಇನ್ನಷ್ಟು ವಯಕ್ತಿಕಗೊಳಿಸಲು ಇನ್ನಷ್ಟು ಉಡುಪುಗಳನ್ನು ಸೇರಿಸಿ.
 
 --- task ---
 
-**Choose:** Add another costume. Here the **Earth** costume has been chosen.
+**ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ:** ಇನ್ನೊಂದು ಉಡುಪನ್ನು ಸೇರಿಸಿ. ಇಲ್ಲಿ **Earth** ಉಡುಪನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಲಾಗಿದೆ.
 
-![The Earth costume from the Scratch library.](images/earth_costume.png)
+![Scratch ಗ್ರಂಥಾಲಯದಿಂದ Earth ಉಡುಪು.](images/earth_costume.png)
 
-It doesn't matter which costume you pick, but you should make sure that it is a **Vector** costume and not a **Bitmap** costume. You can tell you have chosen a **Vector** costume, as you will see a button labelled **Convert to Bitmap**. **Do not click this button**. If you have selected a costume that is a **Bitmap**, then delete it and choose another one.
+ನೀವು ಯಾವ ಉಡುಪನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಂಡರೂ ಪರವಾಗಿಲ್ಲ, ಆದರೆ ನೀವು ಅದು **Vector** ಉಡುಪು ಮತ್ತು **Bitmap** ಉಡುಪಲ್ಲ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಬೇಕು. ನೀವು **Convert to Bitmap** ಎಂದು ಹೆಸರಿರುವ ಬಟನ್‌ನ್ನು ನೋಡಿದಾಕ್ಷಣ ನೀವು **Vector** ಉಡುಪು ಆಯ್ಕೆ ಮಾಡಿಕೊಂಡಿದ್ದೇನೆ ಎಂದು ಹೇಳಬಹುದು. **ಈ ಬಟನ್‌ನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಬೇಡಿ**. ನೀವು **Bitmap** ಆಗಿರುವ ಉಡುಪನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಂಡಿದ್ದರೆ, ಆಗ ಅದನ್ನು ಅಳಿಸಿ ಮತ್ತೊಂದನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ.
 
-![The 'Convert to Bitmap' button.](images/convert_to_bitmap.png)
+!['Convert to Bitmap' ಬಟನ್.](images/convert_to_bitmap.png)
 
 --- /task ---
 
 --- task ---
 
-Remove all the colour from the costume so you get just the outline. Select the whole costume and change the **Fill** **Saturation** to `0` and the **Outline** **Brightness** to `0`.
+ನಿಮಗೆ ಬಾಹ್ಯರೇಖೆ ಮಾತ್ರ ದೊರೆಯುವಂತೆ ಉಡುಪಿನಿಂದ ಎಲ್ಲಾ ಬಣ್ಣಗಳನ್ನು ತೆಗೆಯಿರಿ. ಸಂಪೂರ್ಣ ಉಡುಪನ್ನು ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು **Fill** **Saturation** ನ್ನು `0` ಗೆ ಬದಲಾಯಿಸಿ ಮತ್ತು **Outline** **Brightness** ನ್ನು `0` ಗೆ ಬದಲಾಯಿಸಿ.
 
-![Animation showing the 'Earth' costume being selected, then the 'Fill' and 'Outline' colours being changed.](images/edit_costume.gif)
-
---- /task ---
-
---- task ---
-
-Duplicate this costume, and then repeat the process, this time changing the **Fill** colour to a dark colour of your choice.
-
-![The two Earth costumes, one filled in white and the other in purple.](images/earth_costumes.png)
+!['Earth' ಉಡುಪು ಆಯ್ಕೆಯಾಗಿರುವುದನ್ನು, ನಂತರ 'Fill' and 'Outline' ಬಣ್ಣಗಳು ಬದಲಾಗುತ್ತಿರುವುದನ್ನು ತೋರಿಸುತ್ತಿರುವ ಅನಿಮೇಶನ್.](images/edit_costume.gif)
 
 --- /task ---
 
 --- task ---
 
-Repeat this process a few more times with different vector costumes, to give yourself different styles of costume.
+ಈ ಉಡುಪನ್ನು ನಕಲು ಮಾಡಿ, ಮತ್ತು ನಂತರ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಪುನರಾವರ್ತಿಸಿ, ಈ ಬಾರಿ **Fill** ಬಣ್ಣವನ್ನು ನಿಮ್ಮ ಆಯ್ಕೆಯ ಗಾಢ ಬಣ್ಣಕ್ಕೆ ಬದಲಾಯಿಸಿ.
 
-![Earth, butterfly, and heart costumes shown with white and purple fills.](images/multiple_costumes.png)
+![ಎರಡು Scratch ಊಡುಪುಗಳು, ಒಂದು ಬಿಳಿ ಬಣ್ಣದಿಂದ ತುಂಬಿರುವುದು ಮತ್ತು ಇನ್ನೊಂದು ನೇರಳೆ ಬಣ್ಣದ್ದು.](images/earth_costumes.png)
 
 --- /task ---
-
-To make sure you can colour your personalised mandalas, reorder your costumes and check the costume switches to the right number.
 
 --- task ---
 
-Reorder your costumes, so that all the ones filled with white are at the top, and the ones filled with colours are lower down, but still in the same order.
+ನಿಮಗೆ ವಿಭಿನ್ನ ಶೈಲಿಗಳ ಉಡುಪು ಕೊಡಲು, ಬೇರೆ ಬೇರೆ ವೆಕ್ಟರ್‌ ಉಡುಪುಗಳ ಜೊತೆ ಈ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಇನ್ನೂ ಹಲವು ಬಾರಿ ಪುನರಾವರ್ತಿಸಿ.
 
-![Animation of the costumes being placed in order, with the white costumes at the top and the coloured ones further down, but in the same order.](images/order_costumes.gif)
+![ಬಿಳಿ ಮತ್ತು ನೇರಳೆ ಬಣ್ಣ ತುಂಬಿರುವುದರೊಂದಿಗೆ ತೋರಿಸಿರುವ ಭೂಮಿ, ಚಿಟ್ಟೆ, ಮತ್ತು ಹೃದಯದ ಉಡುಡಪುಗಳು.](images/multiple_costumes.png)
 
 --- /task ---
 
-Remember to change which costume the mandala switches to so that you can colour your new mandalas. In the example project, there are four mandalas so we changed the costume number from '1' to '4'
+ನಿಮ್ಮ ವಯಕ್ತಿಕಗೊಳಿಸಿದ ಮಂಡಲಗಳಿಗೆ ನೀವು ಬಣ್ಣ ತುಂಬಬಹುದು ಎಂಬುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು, ನಿಮ್ಮ ಉಡುಪುಗಳನ್ನು ಮರುಕ್ರಮಗೊಳಿಸಿ ಮತ್ತು ಉಡುಪು ಸರಿಯಾದ ಸಂಖ್ಯೆಗೆ ಬದಲಾಗುತ್ತದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.
 
-![The shape sprite.](images/shape_sprite.png)
+--- task ---
+
+ನಿಮ್ಮ ಉಡುಪುಗಳನ್ನು ಮರುಕ್ರಮಗೊಳಿಸಿ, ಅದರಿಂದ ಬಿಳಿಬಣ್ಣದಿಂದ ತುಂಬಿರುವವುಗಳು ಮೇಲಿರುತ್ತವೆ, ಮತ್ತು ಬಣ್ಣದಿಂದ ತುಂಬಿರುವವುಗಳು ಕೆಳಗಡೆ ಇರುತ್ತವೆ, ಆದರೆ ಅದೇ ಕ್ರಮದಲ್ಲಿರುತ್ತವೆ.
+
+![ಬಿಳಿಬಣ್ಣದಿಂದ ತುಂಬಿರುವವುಗಳು ಮೇಲಿರುವಂತೆ, ಮತ್ತು ಬಣ್ಣದಿಂದ ತುಂಬಿರುವವುಗಳು ಕೆಳಗಡೆ ಇರುವಂತೆ, ಆದರೆ ಅದೇ ಕ್ರಮದಲ್ಲಿರುವಂತೆ ಉಡುಪುಗಳನ್ನು ಕ್ರಮದಲ್ಲಿ ಇರಿಸಿದ ಅನಿಮೇಶನ್.](images/order_costumes.gif)
+
+--- /task ---
+
+ನಿಮ್ಮ ಹೊಸ ಮಂಡಲಗಳಿಗೆ ನೀವು ಬಣ್ಣ ತುಂಬಿಸಲು ಸಾಧ್ಯವಾಗುವಂತೆ ಮಾಡಲು ಯಾವ ಉಡುಪಿಗೆ ಪರಿವರ್ತನೆಯಾಗುತ್ತದೆ ಎಂಬುವುದನ್ನು ಬದಲಾಯಿಸಲು ಮರೆಯಬೇಡಿ. ಉದಾಹರಣೆಯ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ, ನಾಲ್ಕು ಮಂಡಲಗಳಿವೆ ಆದುದರಿಂದ ನಾವು ಉಡುಪು ಸಂಖ್ಯೆಯನ್ನು'1' ರಿಂದ '4 ಕ್ಕೆ' ಬದಲಾಯಿಸಿದೆವು
+
+![ಆಕಾರ ಸ್ಪ್ರೈಟ್.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -69,7 +69,7 @@ change [color v] effect by (25)
 
 --- task ---
 
-**Test:** Switch to one of your new costumes and click the green flag to see the pattern that is generated.
+**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ ಯಾವುದಾದರೊಂದು ಹೊಸ ಉಡುಪಿಗೆ ಬದಲಾಗಿ ಮತ್ತು ಉತ್ಪತ್ತಿಯಾಗುವ ವಿನ್ಯಾಸವನ್ನು ನೋಡಲು ಹಸಿರು ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
 --- /task ---
 
