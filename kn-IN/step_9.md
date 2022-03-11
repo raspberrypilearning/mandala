@@ -1,21 +1,21 @@
-## Upgrade your project
+## ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಿ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get your mandalas to move like a kaleidoscope.
+ನಿಮ್ಮ ಮಂಡಲಗಳನ್ನು ಕೆಲಿಡೋಸ್ಕೋಪ್‌ನ ರೀತಿ ಚಲಿಸುವಂತೆ ಮಾಡಿ.
 </div>
 </div>
 
-You can add in a few blocks to have your clones move around when a key is pressed or when a sprite is clicked on for some extra relaxation. Maybe some gentle music can play as well.
+ಸ್ವಲ್ಪ ಅಧಿಕ ವಿಶ್ರಾಂತಿಗೆ ನಿಮ್ಮ ತದ್ರೂಪಗಳು ಕೀಯನ್ನು ಒತ್ತಿದಾಗ ಅಥವಾ ಸ್ಪ್ರೈಟ್‌ನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ ಸುತ್ತಲೂ ಚಲಿಸುವಂತೆ ಮಾಡಲು ನೀವು ಕೆಲವು ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಬಹುದು. ಬಹುಶಹ ಯಾವುದಾದರೂ ಸೌಮ್ಯವಾದ ಸಂಗೀತವನ್ನು ಸಹ ನುಡಿಸಬಹುದು.
 
-![Animated mandala with moving clones.](images/step_9.gif)
+![ಚಲಿಸುತ್ತಿರುವ ತದ್ರೂಪಗಳೊಂದಿಗೆ ಅನಿಮೇಟೆಡ್‌ ಮಂಡಲ.](images/step_9.gif)
 
 --- collapse ---
 ---
-title: Completed project
+title: ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/536953224/){:target="_blank"}.
+ನೀವು [ಇಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್ ನೋಡಬಹುದು](https://scratch.mit.edu/projects/536953224/){:target="_blank"}.
 
 --- /collapse ---
 
