@@ -1,27 +1,27 @@
-## Choose your mandala
+## तुमचे मंडल निवडा
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Everyone is different. Give the person using your mandala program a choice based on what they find most peaceful.
+प्रत्येकजण वेगळा आहे. तुमचा मंडला प्रोग्राम वापरणार्‍या व्यक्तीला त्यांना सर्वात आनंददायी वाटत असलेल्या गोष्टींवर आधारित निवड द्या.
 </div>
 <div>
 ![](images/step_6.gif){:width="300px"}
 </div>
 </div>
 
-You should now have at least two different mandalas. You can use an `ask`{:class="block3sensing"} block to create a start menu, giving a choice to whoever is using your mandala program.
+तुमच्याकडे आता किमान दोन वेगळे मंडल असावेत. तुम्ही `ask`{:class="block3sensing"} ब्लॉक चा तुमचा मंडल प्रोग्राम वापरून एखाद्याला निवड देण्यासाठी start मेनू तयार करण्यासाठी वापर करू शकता.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Start menus**</span> are often found in games and apps. They let the person playing the game or using the app pick from a number of options, for example, what character they want to play, or what settings they want.
+<span style="color: #0faeb0">**Start मेनू**</span> हे अनेकदा गेम आणि ऍप्स मध्ये आढळतात. यामुळे लोक अनेक पर्यायांमधून गेम खेळू शकतात किंवा ऍप पिक वापरू शकतात, उदाहरणार्थ, त्यांना कोणते कॅरेक्टर खेळायचे आहे, किंवा त्यांना कोणत्या सेटींग हव्या आहेत.
 </p>
 
-Create the question you will ask in your start menu.
+तुमच्या start मेनूमध्ये तुम्ही विचारणार असलेला प्रश्न तयार करा.
 
 --- task ---
 
-Add an `ask and wait`{:class="block3sensing"} block beneath the `when flag clicked`{:class="block3events"} and choose the text for your question, like the example below.
+`ask and wait`{:class="block3sensing"} ब्लॉक हा `when flag clicked`{:class="block3events"} च्या खाली जोडा आणि खालील उदाहरणाप्रमाणे तुमच्या प्रश्नासाठी निवडा.
 
-![The shape sprite.](images/shape_sprite.png)
+![shape स्प्राईट.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,17 +37,17 @@ hide
 
 --- /task ---
 
-The reason for hiding the sprite before using the `ask and wait`{:class="block3sensing"} is so that the question appears at the bottom of the stage, rather than as a speech bubble from the sprite.
+`ask and wait`{:class="block3sensing"} चा वापर करण्याआधी स्प्राईट लपविण्यासाठीचे कारण जेणेकरून प्रश्न stage च्या खाली दिसेल, स्प्राईट मधून स्पीच बबल पेक्षा निराळे.
 
-![Image of question being asked within a box at the bottom of the stage.](images/question.png)
+![stage च्या खालील बॉक्स मध्ये विचारल्या जाणाऱ्या प्रश्नाची इमेज.](images/question.png)
 
-Match the answer with the right sprite to show the right mandala.
+योग्य मंडल दाखवण्यासाठी योग्य स्प्राईट सह उत्तर जुळवा.
 
 --- task ---
 
-Add a `switch costume to`{:class="block3looks"} `answer`{:class="block3sensing"} block underneath the `ask and wait`{:class="block3sensing"} block.
+`switch costume to`{:class="block3looks"} `answer`{:class="block3sensing"} ब्लॉक `ask and wait`{:class="block3sensing"} ब्लॉकच्या खाली जोडा.
 
-![The shape sprite.](images/shape_sprite.png)
+![shape स्प्राईट.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -66,7 +66,7 @@ hide
 
 --- task ---
 
-**Test**: Try your mandala project by clicking the flag and choosing a number.
+**चाचणी**: झेंड्यावर क्लिक करून आणि संख्या निवडून तुमच्या मंडल प्रोजेक्टचा प्रयत्न करा.
 
 --- /task ---
 
