@@ -1,20 +1,20 @@
-## Reflection
+## పునశ్చరణ
 
-Well done, you have learned a lot! Now it's time to reflect - reflecting is an important part of learning because it helps make new connections in your brain.
+బాగా చేసారు, మీరు చాలా నేర్చుకున్నారు! ఇప్పుడు, విశ్లేషించే సమయం వచ్చింది — విశ్లేషించడం అనేది నేర్చుకోవడంలో ముఖ్యమైన భాగం, ఎందుకంటే ఇది మీ మెదడులో కొత్త కనెక్షన్‌లను ఏర్పరచడంలో సహాయపడుతుంది.
 
-Answer the three questions below to reflect on what you've learned.
+మీరు నేర్చుకున్న వాటిని పరిశీలించడానికి దిగువ మూడు ప్రశ్నలకు సమాధానం ఇవ్వండి.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+ప్రతి ప్రశ్న తర్వాత, సబ్మిట్ నొక్కండి. మీరు సరైన సమాధానం వైపు మార్గనిర్దేశం చేయబడతారు. మీరు ఈ చర్యను మీకు కావలసినన్ని సార్లు చేయవచ్చు.
 
-Have fun!
+ఆస్వాదించండి!
 
 --- question ---
 
 ---
-legend: Question 1 of 2
+legend: 2లో 1వ ప్రశ్న
 ---
 
-In your project, you used clones to create patterns. Look at the following `My Blocks`{:class='block3myblocks'} definition:
+మీ ప్రాజెక్ట్‌లో, మీరు నమూనాలను రూపొందించడానికి క్లోన్‌లను ఉపయోగించారు. కింది `My Blocks`{:class='block3myblocks'} నిర్వచనాన్ని చూడండి:
 
 ```blocks3
 define pattern (repeat) (size) (move) (turn)
@@ -25,9 +25,9 @@ turn cw (turn) degrees
 create clone of (myself v)
 ```
 
-Here is a pattern that has been created. ![four petals equally spaced, all starting from the same center. Each petal increases in size.](images/quiz_1.png)
+ఇక్కడ తయారుచేయబడిన నమూనా ఉంది. ![నాలుగు రేకులు సమానంగా ఉంటాయి, అన్నీ ఒకే కేంద్రం నుండి ప్రారంభమవుతాయి. ప్రతి రేక పరిమాణం పెరుగుతుంది.](images/quiz_1.png)
 
-Which of the following calls would create the pattern above?
+కింది కాల్‌లలో ఏది ఎగువ నమూనాను సృష్టిస్తుంది?
 
 --- choices ---
 
@@ -38,7 +38,7 @@ pattern (3) (10) (0) (90)::custom
 ```
   --- feedback ---
 
-This would only create three clones, and there are four shown in the image.
+ఇది మూడు క్లోన్‌లను మాత్రమే సృష్టిస్తుంది మరియు చిత్రంలో నాలుగు చూపబడ్డాయి.
 
   --- /feedback ---
 
@@ -51,7 +51,7 @@ pattern (4) (10) (100) (90)::custom
 
   --- feedback ---
 
-This would make the clone move by `100` steps, but all the clones in the image have the same `x` and `y` coordinate.
+ఇది క్లోన్‌ను `100` దశల ద్వారా తరలించేలా చేస్తుంది, అయితే చిత్రంలోని అన్ని క్లోన్‌లు ఒకే `x` మరియు `y` కోఆర్డినేట్‌ను కలిగి ఉంటాయి.
 
   --- /feedback ---
 
@@ -64,7 +64,7 @@ pattern (4) (10) (0) (90)::custom
 
   --- feedback ---
 
-Yes, this code creates 4 petals, each increasing in size by 10. Each petal has rotated 90 degrees.
+అవును, ఈ కోడ్ 4 రేకులను సృష్టిస్తుంది, ప్రతి ఒక్కటి పరిమాణంలో 10 లెక్కన పెరుగుతుంది. ప్రతి రేక 90 డిగ్రీలు తిరుగుతుంది.
 
   --- /feedback ---
 
@@ -77,7 +77,7 @@ pattern (4) (10) (0) (360)::custom
 
   --- feedback ---
 
-This would make the clones turn a full circle, so you would only be able to see a single large clone.
+ఇది క్లోన్‌లను పూర్తి సర్కిల్‌గా మార్చేలా చేస్తుంది, కాబట్టి మీరు ఒక పెద్ద క్లోన్‌ను మాత్రమే చూడగలరు.
 
   --- /feedback ---
 
