@@ -1,21 +1,21 @@
-## Set up your sprite
+## ನಿಮ್ಮ ಸ್ಪ್ರೈಟ್‌ನ್ನು ಹೊಂದಿಸಿ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Set up your sprite to reset your mandala.
+ನಿಮ್ಮ ಮಂಡಲವನ್ನು ಮರುಹೊಂದಿಸಲು ನಿಮ್ಮ ಸ್ಪ್ರೈಟ್‌ನ್ನು ಹೊಂದಿಸಿ.
 </div>
 <div>
 ![](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
-At the moment, your mandala patterns may appear to change each time, depending on the parameter values you use. Next, you will create a new `my blocks`{:class="block3myblocks"}, so that your **mandala** sprite always begins in the same state.
+ಈ ಸಮಯದಲ್ಲಿ, ನೀವು ಉಪಯೋಗಿಸುವ ಪ್ಯಾರಾಮೀಟರ್‌ ಮೌಲ್ಯಗಳನ್ನು ಆಧರಿಸಿ, ನಿಮ್ಮ ಮಂಡಲದ ವಿನ್ಯಾಸಗಳು ಪ್ರತಿಬಾರಿ ಬದಲಾಗುತ್ತಿರುವಂತೆ ಕಾಣಬಹುದು. ನಂತರ, ನೀವು ಹೊಸ `my blocks`{:class="block3myblocks"} ರಚಿಸುತ್ತೀರಿ, ಅದರಿಂದ ನಿಮ್ಮ **mandala** ಸ್ಪ್ರೈಟ್‌ ಯಾವಾಗಲೂ ಒಂದೇ ಸ್ಥಿತಿಯಲ್ಲಿ ಶುರುವಾಗುತ್ತದೆ.
 
 --- task ---
 
-Use the `My Blocks`{:class="block3myblocks"} menu to create a new block called `setup`{:class="block3myblocks"}. The block should have four parameters: `size`{:class="block3myblocks"}, `ghost`{:class="block3myblocks"}, `y`{:class="block3myblocks"}, and `move`{:class="block3myblocks"}. Don't worry, you can change these or add more later.
+`setup`{:class="block3myblocks"} ಎನ್ನುವ ಹೊಸ ಬ್ಲಾಕ್‌ನ್ನು ರಚಿಸಲು `My Blocks`{:class="block3myblocks"} ಮೆನುವನ್ನು ಉಪಯೋಗಿಸಿ. ಬ್ಲಾಕ್‌ ನಾಲ್ಕು ಪ್ಯಾರಾಮೀಟರ್‌ಗಳನ್ನು ಹೊಂದಿರಬೇಕು: `size`{:class="block3myblocks"}, `ghost`{:class="block3myblocks"}, `y`{:class="block3myblocks"}, ಮತ್ತು `move`{:class="block3myblocks"}. ಚಿಂತಿಸಬೇಡಿ, ನೀವು ಆಮೇಲೆ ಇವುಗಳನ್ನು ಬದಲಾಯಿಸಬಹುದು ಅಥವಾ ಇನ್ನಷ್ಟು ಸೇರಿಸಬಹುದು.
 
-![The shape sprite.](images/shape_sprite.png)
+![ಆಕಾರ ಸ್ಪ್ರೈಟ್.](images/shape_sprite.png)
 
 ```blocks3
 define setup: size (size) ghost (ghost) y (y) move (move)
@@ -23,13 +23,13 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 
 --- /task ---
 
-When you make the mandala colourful in the next step, the `ghost`{:class="block3myblocks"} block will make the colours transparent so when the shapes overlap, you will get a colour mixing effect.
+ಮುಂದಿನ ಹಂತದಲ್ಲಿ ನೀವು ಮಂಡಲವನ್ನುವರ್ಣಮಯವಾಗಿಸಿದಾಗ, `ghost`{:class="block3myblocks"} ಬ್ಲಾಕ್‌ ಬಣ್ಣಗಳನ್ನು ಪಾರದರ್ಶಕವಾಗಿಸುತ್ತದೆ ಅದರಿಂದ ಆಕಾರಗಳೂ ಒಂದರ ಮೇಲೆ ಒಂದು ವ್ಯಾಪಿಸಿದಾಗ, ನಿಮಗೆ ಬಣ್ಣಗಳ ಮಿಶ್ರಣದ ಪರಿಣಾಮ ಸಿಗುತ್ತದೆ.
 
 --- task ---
 
-Now add some blocks to set the appearance and position of your sprite.
+ಈಗ ನಿಮ್ಮ ಸ್ಪ್ರೈಟ್‌ನ ನೋಟ ಮತ್ತು ಸ್ಥಾನವನ್ನುಹೊಂದಿಸಲು ಇನ್ನೂ ಕೆಲವು ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ.
 
-![The shape sprite.](images/shape_sprite.png)
+![ಆಕಾರ ಸ್ಪ್ರೈಟ್.](images/shape_sprite.png)
 
 ```blocks3
 define setup: size (size) ghost (ghost) y (y) move (move)
@@ -45,9 +45,9 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 
 --- task ---
 
-At the moment, your `my blocks`{:class="block3myblocks"} hasn't been used, so there will be no effect on your pattern. Add code to `setup`{:class="block3myblocks"}, so the code will run as soon as the flag is clicked.
+ಈ ಸಮಯದಲ್ಲಿ, ನಿಮ್ಮ `my blocks`{:class="block3myblocks"} ಬಳಕೆಯಾಗಿಲ್ಲ, ಆದುದರಿಂದ ನಿಮ್ಮ ವಿನ್ಯಾಸದ ಮೇಲೆ ಯಾವುದೇ ಪರಿಣಾಮ ಆಗುವುದಿಲ್ಲ. `setup`{:class="block3myblocks"}ಗೆ ಕೋಡ್‌ ಸೇರಿಸಿ, ಅದರಿಂದ ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿದ ತಕ್ಷಣ ಕೋಡ್‌ ರನ್‌ ಆಗುತ್ತದೆ.
 
-![The shape sprite.](images/shape_sprite.png)
+![ಆಕಾರ ಸ್ಪ್ರೈಟ್.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -61,15 +61,15 @@ pattern: repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-**Test** your code by clicking on the flag and observing the pattern that has been drawn. Then, change the values of the parameters until you have a pattern that you like.
+ನಿಮ್ಮ ಕೋಡ್‌ನ್ನು ಪರೀಕ್ಷಿಸಲು ಬಾವುಟದ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ಚಿತ್ರಿಸಿರುವ ವಿನ್ಯಾಸವನ್ನು ಅವಲೋಕನಮಾಡಿ **ಪರೀಕ್ಷೆ** ಮಾಡಿ. ನಂತರ, ನಿಮಗೆ ಇಷ್ಟವಾದ ವಿನ್ಯಾಸ ದೊರಕುವವರೆಗೆ ಪ್ಯಾರಾಮೀಟರ್‌ಗಳ ಮೌಲ್ಯವನ್ನು ಬದಲಾಯಿಸಿ.
 
 --- /task ---
 
 --- task ---
 
-The sprite (not its clones) is still visible; it can be hidden at the end, but will need to be shown at the start.
+ಸ್ಪ್ರೈಟ್‌ (ಅದರ ತದ್ರೂಪಗಳಲ್ಲ) ಇನ್ನೂ ಕಾಣಿಸುತ್ತಿದೆ; ಅದನ್ನು ಕೊನೆಯಲ್ಲಿ ಮರೆಮಾಡಬಹುದು, ಅದರೆ ಪ್ರಾರಂಭದಲ್ಲಿ ತೋರಿಸಬೇಕು.
 
-![The shape sprite.](images/shape_sprite.png)
+![ಆಕಾರ ಸ್ಪ್ರೈಟ್.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
