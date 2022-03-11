@@ -1,23 +1,23 @@
-## Make a mandala
+## मंडल तयार करा
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create more patterns to make a mandala!
+मंडल तयार करण्यासाठी अधिक पॅटर्न तयार करा!
 </div>
 <div>
-![Animation showing a more complicated pattern beginning to form when the flag is clicked.](images/step_3.gif){:width="300px"}
+![हिरव्या झेंड्यावर क्लिक केल्यावर तयार होऊ लागणारे अधिक क्लिष्ट पॅटर्न दाखवणारे ऍनिमेशन.](images/step_3.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Right click on your `define pattern`{:class="block3myblocks"} block and choose **Edit** to add more parameters.
+तुमच्या `define pattern`{:class="block3myblocks"} ब्लॉकवर राईट क्लिक करा आणि अधिक पॅरामीटर्स जोडण्यासाठी **Edit** निवडा.
 
-![Animation showing the editing of 'my blocks' to add in extra parameters.](images/edit-parameter.gif)
+![अतिरीक्त पॅरामीटर्स जोडण्यासाठी 'my blocks' चे एडिटींग दाखवणारे ऍनिमेशन.](images/edit-parameter.gif)
 
-You can start by adding a `size`{:class="block3myblocks"} text label and a `size`{:class="block3myblocks"} input. Then, add a  `move`{:class="block3myblocks"} label and input, and use these parameters in the blocks below.
+तुम्ही `size`{:class="block3myblocks"} टेक्स्ट लेबल `size`{:class="block3myblocks"} इनपुट जोडून तुम्ही सुरूवात करू शकता. त्यानंतर,   `move`{:class="block3myblocks"} लेबल आणि इनपुट जोडा, आणि खालील ब्लॉक्स मध्ये या पॅरामीटर्सचा वापर करा.
 
-![The shape sprite.](images/shape_sprite.png)
+![shape स्प्राईट.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move)
@@ -34,17 +34,17 @@ pattern: repeat (3) size (10) move (5)
 
 --- task ---
 
-**Test:** See what your pattern looks like by clicking the green flag to run your program. It doesn't look like a mandala yet! Can you think of how you might make the pattern circular?
+**चाचणी:** तुमचा प्रोग्राम रन करण्यासाठी हिरव्या झेंड्यावर क्लिक करून तुमचा पॅटर्न कसा दिसतो ते बघा. ते अजून मंडलासारखे दिसत नाही! तुम्ही पॅटर्न गोलाकार कसे बनवू शकता याचा विचार करू शकता का?
 
 --- /task ---
 
-To make your pattern circular and look even more like a mandala, add another input.
+तुमचा पॅटर्न गोलाकार बनवण्यासाठी आणि आणखी मंडलासारखा दिसण्यासाठी, दुसरा इनपुट जोडा.
 
 --- task ---
 
-Add another input called `turn`{:class="block3myblocks"}. Then, as well as moving your clone, you can turn it as well.
+दुसरा इनपुट जोडा ज्याला म्हणतात `turn`{:class="block3myblocks"}. नंतर, तुमचा क्लोन हलवण्याबरोबरच, तुम्ही ते देखील वळवू शकता.
 
-![The shape sprite.](images/shape_sprite.png)
+![shape स्प्राईट.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move) turn (turn)
@@ -64,13 +64,13 @@ end
 
 --- /task ---
 
-Mandalas are often complex — they can have many different rows that follow similar patterns. You can create a base pattern for the rest of the mandala rows to build on.
+मंडल बहुधा गुंतागुंतीची असतात — त्यांच्यात अनेक वेगवेगळ्या ओळी असू शकतात ज्या समान पॅटर्नचेअनुसरण करतात. उर्वरीत मंडलाच्या ओळी तयार करण्यासाठी तुम्ही बेस पॅटर्न तयार करू शकता.
 
 --- task ---
 
-Try playing around with different numbers in your `pattern`{:class="block3myblocks"}. You can reset the position and size of your sprite anytime you like.
+तुमच्या `pattern`{:class="block3myblocks"} मध्ये वेगवेगळ्या संख्यांसह खेळण्याचा प्रयत्न करा. तुम्‍ही तुमच्‍या स्‍प्राईटची पोजिशन आणि आकार तुम्‍हाला आवडेल तेव्‍हा रीसेट करू शकता.
 
-![Image of the sprites' attribute box with the size, x coordinate, and y coordinate all set to zero.](images/reset-attributes.png)
+![स्प्राईटच्या' ऍट्रीब्युट बॉक्सची साईज, x निर्देशक, आणि y निर्देशक सर्व शून्यावर सेट केलेले दाखवणारे इमेज.](images/reset-attributes.png)
 
 ```blocks3
 when flag clicked
@@ -80,18 +80,18 @@ pattern repeat (3) size (0) move (0) turn (60) ::custom
 --- /task ---
 
 
-Now that you have a basic pattern, you can use your `pattern`{:class="block3myblocks"} a number of times to make a repeating pattern, or mandala 'rows'. By using the same code over and over again, you make a program that has been **optimised**.
+आता तुमच्याकडे बेसिक पॅटर्न असल्यामुळे, तुम्ही पुनरावृत्ती पॅटर्न, किंवा मंडल "ओळी" तयार करण्यासाठी अनेक वेळा तुमचा `pattern`{:class="block3myblocks"} वापरू शकता. पुन्हा पुन्हा सारखाच कोड वापरून, तुम्ही प्रोग्राम तयार केला जो **ऑप्टीमाइज** केला आहे.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains fewer steps and a shorter distance.
+<span style="color: #0faeb0">**ऑप्टिमायझेशन**</span> म्हणजे सर्वात कार्यक्षम मार्गाने गोष्टी करणे. खालील आकृती बघा. तुम्ही A-->B-->C-->D-->E मार्गाचे अनुसरण करून A ते E मिळवू शकता. A-->D-->E जाण्यासाठी ऑप्टिमायझेशन असेल, ज्यामध्ये कमी टप्पे आणि कमी अंतर आहे.
 <img src="images/map.png">
 </p>
 
 --- task ---
 
-Beneath your `when flag clicked`{:class="block3events"} block, add in a few more **calls** to your `pattern`{:class="block3myblocks"}.
+तुमच्या `when flag clicked`{:class="block3events"} ब्लॉकच्या खाली, काही अधिक **calls** तुमच्या `pattern`{:class="block3myblocks"} मध्ये जोडा.
 
-![The shape sprite.](images/shape_sprite.png)
+![shape स्प्राईट.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -104,7 +104,7 @@ pattern repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-**Test:** Click the green flag, and see what pattern is produced. You can change the numbers to experiment with patterns that you like, or even add in more calls to your `pattern`{:class="block3myblocks"}.
+**चाचणी:** हिरव्या झेंड्यावर क्लिक करा, आणि कोणता पॅटर्न तयार होतो ते बघा. तुम्हाला आवडणाऱ्या पॅटर्नचा प्रयोग करण्यासाठी तुम्ही संख्या बदलू शकता, किंवा तुमच्या `pattern`{:class="block3myblocks"} मध्ये अधिक कॉल जोडू शकता.
 
 --- /task ---
 
