@@ -15,13 +15,13 @@ steps:
   - title: दुसरे मंडल तयार करा
   - title: तुमचे मंडल निवडा
   - title: मंडल रंग
+    completion: internal
   - title: परावर्तन
+    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 2
       passing_score: 2
-    completion: internal
   - title: तुमचा प्रोजेक्ट अपग्रेड करा
-    completion: external
   - title: पुढे काय?
