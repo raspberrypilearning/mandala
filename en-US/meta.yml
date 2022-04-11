@@ -22,16 +22,16 @@ steps:
     title: Choose your mandala
   - 
     title: Mandala colouring
+    completion: internal
   - 
     title: Reflection
+    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 2
       passing_score: 2
-    completion: internal
   - 
     title: Upgrade your project
-    completion: external
   - 
     title: What next?
