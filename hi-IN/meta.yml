@@ -22,16 +22,16 @@ steps:
     title: अपना मंडला चुनें
   - 
     title: मंडला में रंग भरना
+    completion: internal
   - 
     title: सोचिए
+    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 2
       passing_score: 2
-    completion: internal
   - 
     title: अपना प्रोजेक्ट अपग्रेड करें
-    completion: external
   - 
     title: आगे क्या?
