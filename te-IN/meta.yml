@@ -22,16 +22,16 @@ steps:
     title: మీ mandala ను ఎంచుకోండి
   - 
     title: Mandala రంగులు
+    completion: internal
   - 
     title: విశ్లేషణ
+    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 2
       passing_score: 2
-    completion: internal
   - 
     title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
-    completion: external
   - 
     title: తర్వాత ఏంటి?
