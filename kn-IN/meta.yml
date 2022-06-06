@@ -5,23 +5,26 @@ description: ಸ್ಕ್ರಾಚ್‌ನಲ್ಲಿ ಕಂಪ್ಯೂಟರ
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
-  - title: ಪರಿಚಯ
-  - title: ವಿನ್ಯಾಸವನ್ನು ಮಾಡಲು ತದ್ರೂಪದ ಆಕಾರಗಳು
-  - title: ಮಂಡಲ ಮಾಡಿ
-    completion: engaged
-  - title: ನಿಮ್ಮ ಸ್ಪ್ರೈಟ್‌ನ್ನು ಹೊಂದಿಸಿ
-  - title: ಇನ್ನೊಂದು ಮಂಡಲವನ್ನು ರಚಿಸಿ
-  - title: ನಿಮ್ಮ ಮಂಡಲವನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ
-  - title: ಮಂಡಲಕ್ಕೆ ಬಣ್ಣ ತುಂಬುವುದು
-    completion: internal
-  - title: ಪುನರ್ಮನನ
-    completion: external
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 2
-      passing_score: 2
-  - title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ
-  - title: ಮುಂದೆ ಏನು?
+- title: ಪರಿಚಯ
+- title: ವಿನ್ಯಾಸವನ್ನು ಮಾಡಲು ತದ್ರೂಪದ ಆಕಾರಗಳು
+- title: ಮಂಡಲ ಮಾಡಿ
+  completion:
+  - engaged
+- title: ನಿಮ್ಮ ಸ್ಪ್ರೈಟ್‌ನ್ನು ಹೊಂದಿಸಿ
+- title: ಇನ್ನೊಂದು ಮಂಡಲವನ್ನು ರಚಿಸಿ
+- title: ನಿಮ್ಮ ಮಂಡಲವನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ
+- title: ಮಂಡಲಕ್ಕೆ ಬಣ್ಣ ತುಂಬುವುದು
+  completion:
+  - internal
+- title: ಪುನರ್ಮನನ
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 2
+    passing_score: 2
+  completion:
+  - external
+- title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ
+- title: ಮುಂದೆ ಏನು?
