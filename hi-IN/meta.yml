@@ -5,7 +5,7 @@ description: Scratch में कंप्यूटर जनित मंड�
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
     title: परिचय
@@ -13,7 +13,8 @@ steps:
     title: आकृतियों को एक पैटर्न बनाने के लिए क्लोन करें
   - 
     title: एक मंडला बनाओ
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: अपना स्प्राइट सेट करें
   - 
@@ -22,15 +23,17 @@ steps:
     title: अपना मंडला चुनें
   - 
     title: मंडला में रंग भरना
-    completion: internal
+    completion:
+      - internal
   - 
     title: सोचिए
-    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 2
       passing_score: 2
+    completion:
+      - external
   - 
     title: अपना प्रोजेक्ट अपग्रेड करें
   - 
