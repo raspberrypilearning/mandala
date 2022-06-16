@@ -30,27 +30,38 @@ legend: 2లో 2వ ప్రశ్న
 
 - ( )
 
- when flag clicked switch costume to ((costume [number v]) + (1))
+
+ ```blocks3
+ when flag clicked 
+ switch costume to ((costume [number v]) + (1))
+ ```
 
   --- feedback ---
 
-ఇది కాస్ట్యూమ్ 2 నుండి కాస్ట్యూమ్ 2 + 1 = 3కి మారుతుంది. కాస్ట్యూమ్ 3 అనేది పారదర్శక గ్లోబ్, పర్పుల్ గ్లోబ్ కాదు.
+This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transparent globe, not the purple globe.
 
   --- /feedback ---
 
 - ( )
 
- when flag clicked switch costume to ((costume [number v]) - (1))
+
+ ```blocks3
+ when flag clicked 
+ switch costume to ((costume [number v]) - (1))
+ ```
 
   --- feedback ---
 
-ఇది కాస్ట్యూమ్ 2 నుండి కాస్ట్యూమ్ 2 + 1 = 1కి మారుతుంది. కాస్ట్యూమ్ 1 అనేది పారదర్శక గ్లోబ్, పర్పుల్ గ్లోబ్ కాదు.
+This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transparent petal, not the purple globe.
 
   --- /feedback ---
 
 - ( )
 
- when flag clicked switch costume to ((1)+(1))
+ ```blocks3
+ when flag clicked 
+ switch costume to ((1)+(1))
+ ```
 
   --- feedback ---
 
