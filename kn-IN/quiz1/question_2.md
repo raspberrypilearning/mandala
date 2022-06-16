@@ -30,27 +30,38 @@ legend: ಪ್ರಶ್ನೆ 2 ರಲ್ಲಿ 2
 
 - ( )
 
- when flag clicked switch costume to ((costume [number v]) + (1))
+
+ ```blocks3
+ when flag clicked 
+ switch costume to ((costume [number v]) + (1))
+ ```
 
   --- feedback ---
 
-ಇದು ಉಡುಪು 2 ರಿಂದ ಉಡುಪು 2 + 1 = 3 ಕ್ಕೆ ಬದಲಾಗುತ್ತದೆ. ಉಡುಪು 3 ಪಾರದರ್ಶಕ ಗೋಳ, ನೇರಳೆ ಗೋಳವಲ್ಲ.
+This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transparent globe, not the purple globe.
 
   --- /feedback ---
 
 - ( )
 
- when flag clicked switch costume to ((costume [number v]) - (1))
+
+ ```blocks3
+ when flag clicked 
+ switch costume to ((costume [number v]) - (1))
+ ```
 
   --- feedback ---
 
-ಇದು ಉಡುಪು 2 ರಿಂದ ಉಡುಪು 2 - 1 = 1 ಕ್ಕೆ ಬದಲಾಗುತ್ತದೆ. ಉಡುಪು 1 ಪಾರದರ್ಶಕ ದಳ, ನೇರಳೆ ಗೋಳವಲ್ಲ.
+This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transparent petal, not the purple globe.
 
   --- /feedback ---
 
 - ( )
 
- when flag clicked switch costume to ((1)+(1))
+ ```blocks3
+ when flag clicked 
+ switch costume to ((1)+(1))
+ ```
 
   --- feedback ---
 
