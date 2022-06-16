@@ -30,27 +30,38 @@ legend: 2 में से दूसरा प्रश्न
 
 - ( )
 
- when flag clicked switch costume to ((costume [number v]) + (1))
+
+ ```blocks3
+ when flag clicked 
+ switch costume to ((costume [number v]) + (1))
+ ```
 
   --- feedback ---
 
-यह पोशाक 2 से पोशाक 2 + 1 = 3 में बदल जाएगा। पोशाक 3 पारदर्शी ग्लोब है, पर्पल ग्लोब नहीं।
+This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transparent globe, not the purple globe.
 
   --- /feedback ---
 
 - ( )
 
- when flag clicked switch costume to ((costume [number v]) - (1))
+
+ ```blocks3
+ when flag clicked 
+ switch costume to ((costume [number v]) - (1))
+ ```
 
   --- feedback ---
 
-यह पोशाक 2 से पोशाक 2 - 1 = 1 में बदल जाएगा। पोशाक 1 पारदर्शी पंखुड़ी है, बैंगनी ग्लोब नहीं।
+This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transparent petal, not the purple globe.
 
   --- /feedback ---
 
 - ( )
 
- when flag clicked switch costume to ((1)+(1))
+ ```blocks3
+ when flag clicked 
+ switch costume to ((1)+(1))
+ ```
 
   --- feedback ---
 
