@@ -30,7 +30,11 @@ Yes, the costume number you are on is costume 2 and the costume you want to swit
 
 - ( )
 
- when flag clicked switch costume to ((costume [number v]) + (1))
+
+ ```blocks3
+ when flag clicked
+ switch costume to ((costume [number v]) + (1))
+ ```
 
   --- feedback ---
 
@@ -40,7 +44,11 @@ This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transpare
 
 - ( )
 
- when flag clicked switch costume to ((costume [number v]) - (1))
+
+ ```blocks3
+ when flag clicked
+ switch costume to ((costume [number v]) - (1))
+ ```
 
   --- feedback ---
 
@@ -50,7 +58,10 @@ This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transpare
 
 - ( )
 
- when flag clicked switch costume to ((1)+(1))
+ ```blocks3
+ when flag clicked
+ switch costume to ((1)+(1))
+ ```
 
   --- feedback ---
 
