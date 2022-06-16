@@ -1,0 +1,15 @@
+pattern: repeat
+
+repeat
+
+size
+
+move
+
+turn
+
+ghost
+
+y position
+
+What feels most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love
