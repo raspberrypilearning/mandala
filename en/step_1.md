@@ -1,6 +1,6 @@
-## Introduction
+## You will make
 
-In this project, you will write a program that generates mandalas.
+Create a program that generates mandalas.
 
 ![Example of a colourful butterfly mandala.](images/mandala.png)
 
@@ -19,9 +19,9 @@ You will:
 
 --- no-print ---
 
---- task ---
+### Play ▶️
 
-### Try it
+--- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 
