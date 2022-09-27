@@ -11,7 +11,7 @@ Clone sprites to create a pattern.
 
 --- task ---
 
-Open [the Scratch starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}. Scratch will open in another browser tab.
+Open [the Scratch starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}. O Scratch será aberto em outra aba do navegador.
 
 If you are working offline, you can download the [starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}.
 
