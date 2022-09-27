@@ -1,8 +1,8 @@
-## Make a mandala
+## Créer un mandala
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create more patterns to make a mandala!
+Crée plus de motifs pour créer un mandala !
 </div>
 <div>
 ![Animation showing a more complicated pattern beginning to form when the flag is clicked.](images/step_3.gif){:width="300px"}
@@ -11,13 +11,13 @@ Create more patterns to make a mandala!
 
 --- task ---
 
-Right click on your `define pattern`{:class="block3myblocks"} block and choose **Edit** to add more parameters.
+Fais un clic droit sur ton bloc `définir motif`{:class="block3myblocks"} et choisis **Modifier** pour ajouter plus de paramètres.
 
-![Animation showing the editing of 'my blocks' to add in extra parameters.](images/edit-parameter.gif)
+![Animation montrant la modification de "Mes Blocs" pour ajouter des paramètres supplémentaires.](images/edit-parameter.gif)
 
-You can start by adding a `size`{:class="block3myblocks"} text label and a `size`{:class="block3myblocks"} input. Then, add a  `move`{:class="block3myblocks"} label and input, and use these parameters in the blocks below.
+Tu peux commencer par ajouter une étiquette de texte `taille`{:class="block3myblocks"} et une entrée `taille`{:class="block3myblocks"}. Ensuite, ajoute une étiquette `déplacer`{:class="block3myblocks"} et une entrée, et utilise ces paramètres dans les blocs ci-dessous.
 
-![The shape sprite.](images/shape_sprite.png)
+![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move)
@@ -34,17 +34,17 @@ pattern: repeat (3) size (10) move (5)
 
 --- task ---
 
-**Test:** See what your pattern looks like by clicking the green flag to run your program. It doesn't look like a mandala yet! Can you think of how you might make the pattern circular?
+**Test :** Regarde à quoi ressemble ton motif en cliquant sur le drapeau vert pour exécuter ton programme. Ça ne ressemble pas encore à un mandala ! Peux-tu trouver un moyen pour rendre le motif circulaire ?
 
 --- /task ---
 
-To make your pattern circular and look even more like a mandala, add another input.
+Pour que ton motif soit circulaire et ressemble encore plus à un mandala, ajoute une autre entrée.
 
 --- task ---
 
-Add another input called `turn`{:class="block3myblocks"}. Then, as well as moving your clone, you can turn it as well.
+Ajoute une autre entrée appelée `tourner`{:class="block3myblocks"}. Ensuite, en plus de déplacer ton clone, tu peux aussi le tourner.
 
-![The shape sprite.](images/shape_sprite.png)
+![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move) turn (turn)
@@ -64,13 +64,13 @@ end
 
 --- /task ---
 
-Mandalas are often complex — they can have many different rows that follow similar patterns. You can create a base pattern for the rest of the mandala rows to build on.
+Les mandalas sont souvent complexes, ils peuvent avoir de nombreuses lignes différentes qui suivent des motifs similaires. Tu peux créer un motif de base sur lequel les autres lignes du mandala pourront s'appuyer.
 
 --- task ---
 
-Try playing around with different numbers in your `pattern`{:class="block3myblocks"}. You can reset the position and size of your sprite anytime you like.
+Essaie différents chiffres dans ton `motif`{:class="block3myblocks"}. Tu peux réinitialiser la position et la taille de ton sprite quand tu le souhaites.
 
-![Image of the sprites' attribute box with the size, x coordinate, and y coordinate all set to zero.](images/reset-attributes.png)
+![Image de la boîte d'attributs des sprites dont la taille, la coordonnée x et la coordonnée y sont toutes définies à zéro.](images/reset-attributes.png)
 
 ```blocks3
 when flag clicked
@@ -80,18 +80,18 @@ pattern repeat (3) size (0) move (0) turn (60) ::custom
 --- /task ---
 
 
-Now that you have a basic pattern, you can use your `pattern`{:class="block3myblocks"} a number of times to make a repeating pattern, or mandala 'rows'. By using the same code over and over again, you make a program that has been **optimised**.
+Maintenant que tu as un motif de base, tu peux utiliser ton `motif`{:class="block3myblocks"} un certain nombre de fois pour créer un motif qui se répète, ou des « lignes » de mandala. En utilisant le même code encore et encore, tu crées un programme qui a été **optimisé**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains fewer steps and a shorter distance.
+<span style="color: #0faeb0">**Optimisation**</span> signifie faire les choses de la manière la plus efficace. Regarde le schéma ci-dessous. Tu pourrais aller de A à E en suivant le chemin A-->B-->C-->D-->E. Une optimisation serait d'aller A-->D-->E, qui contient moins d'étapes et une distance plus courte.
 <img src="images/map.png">
 </p>
 
 --- task ---
 
-Beneath your `when flag clicked`{:class="block3events"} block, add in a few more **calls** to your `pattern`{:class="block3myblocks"}.
+Sous ton bloc `quand le drapeau est cliqué`{:class="block3events"}, ajoute quelques **appels** supplémentaires à ton `motif`{:class="block3myblocks"}.
 
-![The shape sprite.](images/shape_sprite.png)
+![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -104,7 +104,7 @@ pattern repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-**Test:** Click the green flag, and see what pattern is produced. You can change the numbers to experiment with patterns that you like, or even add in more calls to your `pattern`{:class="block3myblocks"}.
+**Test :** Clique sur le drapeau vert, et vois quel motif est produit. Tu peux modifier les nombres pour expérimenter les motifs qui te plaisent, ou même ajouter d'autres appels à ton `motif`{:class="block3myblocks"}.
 
 --- /task ---
 
