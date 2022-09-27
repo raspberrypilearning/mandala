@@ -1,32 +1,32 @@
 ---
-title: Mandala
+title: ماندالة
 hero_image: images/banner.png
-description: Make computer generated mandalas in Scratch
+description: جعل الحاسوب يولد ماندالات في سكراتش
 version: 4
 listed: true
 copyedit: true
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: You will make
   - 
-    title: Clone shapes to make a pattern
+    title: استنساخ الأشكال لعمل نمط
   - 
-    title: Make a mandala
+    title: اصنع ماندالة
     completion:
       - engaged
   - 
-    title: Setup your sprite
+    title: تجهيز كائنك
   - 
-    title: Create another mandala
+    title: اخلق ماندالة أخرى
   - 
-    title: Choose your mandala
+    title: اختر ماندالتك
   - 
-    title: Mandala colouring
+    title: تلوين ماندالة
     completion:
       - internal
   - 
-    title: Reflection
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,6 +35,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: رق مشروعك
   - 
-    title: What next?
+    title: ما التالي؟
