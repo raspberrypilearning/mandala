@@ -1,31 +1,31 @@
-## Mandala colouring
+## Mandala kleuren
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Adding colour to a mandala is therapeutic as well as a creative activity. Add in the opportunity to colour different parts of the mandalas.
+Het toevoegen van kleur aan een mandala is zowel therapeutisch als creatief. Voeg de mogelijkheid toe om verschillende onderdelen van de mandala's te kleuren.
 </div>
 <div>
 ![](images/step_7.gif){:width="300px"}
 </div>
 </div>
 
-**Tip:** If you want to, you can print out your mandala before you add colour to it in this step, and use it as a colouring pattern to colour by hand.
+**Tip:** als je wilt, kun je je mandala afdrukken voordat je er kleur aan toevoegt in deze stap, en het gebruiken als een kleurpatroon om met de hand te kleuren.
 
 --- task ---
 
-Have a look at the current costumes for your **shape** sprite. You will see that there are two costumes, one white and the other filled in.
+Bekijk de huidige uiterlijken voor je **vorm** sprite. Je zult zien dat er twee kostuums zijn, één wit en de andere gevuld.
 
-![Two costumes for the sprite.](images/costumes.png)
+![Twee uiterlijken voor de sprite.](images/costumes.png)
 
 --- /task ---
 
-To add colour to your mandala, each of the clone shapes should change its `costume`{:class="block3looks"} and then its `color effect`{:class="block3looks"} when the clone is clicked. The new costume will be **one** more than whatever the previous costume was, so it will change to the coloured version and then to the different colours.
+Om kleur toe te voegen aan je mandala, moet elk van de kloonvormen zijn `uiterlijk`{:class="block3looks"} veranderen en vervolgens ook het `kleureffect`{:class="block3looks"} wanneer op de kloon wordt geklikt. Het nieuwe uiterlijk zal **een** hoger zijn dan wat het vorige uiterlijk ook was, dus het zal veranderen naar de gekleurde versie en vervolgens naar de verschillende kleuren.
 
 --- task ---
 
-Add a `when this sprite clicked`{:class="block3events"} block, and then use the `+`{:class="block3operators"} operator to change the costume number.
+Voeg een `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok toe en gebruik vervolgens de `+`{:class="block3operators"} operator om het nummer van het uiterlijk te wijzigen.
 
-![The shape sprite.](images/shape_sprite.png)
+![De vorm sprite.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -36,9 +36,9 @@ switch costume to ((answer) + (1))
 
 --- task ---
 
-Add a `change color effect`{:class="block3looks"} block to this script, so that each time the sprite is clicked, the colour changes a little.
+Voeg een `verander kleureffect`{:class="block3looks"} blok toe aan dit script, zodat elke keer dat op de sprite wordt geklikt, de kleur een beetje verandert.
 
-![The shape sprite.](images/shape_sprite.png)
+![De vorm sprite.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -48,26 +48,26 @@ change [color v] effect by (25)
 
 --- /task ---
 
-You might remember adding a `ghost`{:class="block3myblocks"} block input to your project in the last step. You should now be able to see what happens when you change the number where you call `ghost`{:class="block3myblocks"}.
+Je herinnert je misschien dat je in de laatste stap een `transparant`{:class="block3myblocks"} blok-invoer aan je project hebt toevoegd. Je zou nu moeten kunnen zien wat er gebeurt als je het nummer wijzigt waar je `transparant`{:class="block3myblocks"} aanroept.
 
 --- task ---
 
-Create the kind of colouring effect you want by changing your `ghost`{:class="block3myblocks"} numbers. A lower `ghost`{:class="block3myblocks"} number will mean the colour is more saturated, like a permanent marker. A high `ghost`{:class="block3myblocks"} number will mean the colour is less saturated, like watercolours.
+Maak het soort kleureffect dat je wilt door je `transparant`{:class="block3myblocks"} getallen te wijzigen. Een lager `transparant`{:class="block3myblocks"} getal betekent dat de kleur meer verzadigd is, zoals een permanente marker. Een hoog `transparant`{:class="block3myblocks"} getal betekent dat de kleur minder verzadigd is, net als waterverf.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the flag, choose your costume, and then try clicking on the clones to change their colours.
+**Test:** Klik op de vlag, kies je uiterlijk en probeer vervolgens op de klonen te klikken om hun kleuren te veranderen.
 
-![A mandala made of hearts that have been coloured in a variety of different colours.](images/coloured_mandala.png)
+![Een mandala gemaakt van harten die in verschillende kleuren zijn gekleurd.](images/coloured_mandala.png)
 
-You should get a kaleidoscope effect when colours are layered on top of each other.
+Je zou een caleidoscoop-effect moeten krijgen wanneer kleuren elkaar overlappen.
 
 --- /task ---
 
-If you like the mandala you have created then you can **right-click** on the stage, and choose to save the image.
+Als je de door jou gemaakte mandala leuk vindt, kun je **met de rechtermuisknop** op het speelveld klikken en ervoor kiezen om de afbeelding op te slaan.
 
-![The contect menu appears when the Stage is right-clicked, and the 'Save Image As' option is highlighted.](images/save_mandala.png)
+![Het contextmenu verschijnt wanneer met de rechtermuisknop op het speelveld wordt geklikt en de optie 'Afbeelding opslaan als' is gemarkeerd.](images/save_mandala.png)
 
 --- save ---
