@@ -2,16 +2,16 @@
 --- question ---
 
 ---
-legend: Question 2 of 2
+legend: Question 2 sur 2
 ---
 
-In your project, you used the addition + operator to change costumes depending on a 'My Blocks'{:class='block3myblocks'} input.
+Dans ton projet, tu as utilisé l'opérateur d'addition « + » pour modifier les costumes en fonction d'une entrée « Mes Blocs ».
 
-If we have these costumes:
+Si nous avons ces costumes :
 
-![Images of all the costumes: costume1 is a transparent petal; costume 2 is a purple petal; costume 3 is a transparent globe; and costume 4 is a purple globe.](images/costumes_quiz.png)
+![Images de tous les costumes : costume 1 est un pétale transparent ; costume 2 est un pétale violet ; costume 3 est un globe transparent et le costume 4 est un globe violet.](images/costumes_quiz.png)
 
-Which of the following code blocks would get your pattern to switch from the purple petal to the purple globe?
+Lequel des blocs de code suivants permettrait à ton motif de passer du pétale violet au globe violet ?
 
 --- choices ---
 
@@ -24,7 +24,7 @@ Which of the following code blocks would get your pattern to switch from the pur
 
   --- feedback ---
 
-Yes, the costume number you are on is costume 2 and the costume you want to switch to is costume 4 so you will need to switch to costume 2 + 2 = 4.
+Oui, le numéro du costume sur lequel tu es est le costume 2 et le costume sur lequel tu veux passer est le costume 4. Tu devras donc passer au costume 2 + 2 = 4.
 
   --- /feedback ---
 
@@ -38,7 +38,7 @@ Yes, the costume number you are on is costume 2 and the costume you want to swit
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transparent globe, not the purple globe.
+Cela passera du costume 2 au costume 2 + 1 = 3. Le costume 3 est le globe transparent et non le globe violet.
 
   --- /feedback ---
 
@@ -52,7 +52,7 @@ This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transpare
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transparent petal, not the purple globe.
+Cela passera du costume 2 au costume 2 - 1 = 1. Le costume 1 est le pétale transparent, pas le globe violet.
 
   --- /feedback ---
 
@@ -65,7 +65,7 @@ This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transpare
 
   --- feedback ---
 
-This will switch the costume to `costume 2`{:class='block3looks'} regardless of which costume is currently being shown.
+Cela fera passer le costume à `costume 2`{:class='block3looks'} quel que soit le costume actuellement affiché.
 
   --- /feedback ---
 
