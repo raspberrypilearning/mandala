@@ -1,12 +1,10 @@
 ## ಪುನರ್ಮನನ
 
-ಭೇಷ್, ನೀವು ಬಹಳಷ್ಟು ಕಲಿತಿದ್ದೀರಿ! ಈಗ ಪುನರ್ಮನನ ಮಾಡುವ ಸಮಯ — ಪುನರ್ಮನನ ಕಲಿಕೆಯ ಒಂದು ಮಹತ್ವದ ಭಾಗ, ಏಕೆಂದರೆ ಅದು ನಿಮ್ಮ ಮೆದುಳಿನಲ್ಲಿ ಹೊಸ ಸಂಪರ್ಕಗಳನ್ನು ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.
+Answer the two questions. There are hints to guide you to the correct answer.
 
 ನೀವು ಕಲಿತಿದ್ದನ್ನು ಪುನರ್ಮನನ ಮಾಡಲು ಈ ಕೆಳಗಿನ ಮೂರು ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.
 
 ಪ್ರತಿಯೊಂದು ಪ್ರಶ್ನೆಯ ನಂತರ, ಸಬ್ಮಿಟ್‌ ಒತ್ತಿ. ಸರಿಯಾದ ಉತ್ತರದ ಕಡೆಗೆ ನಿಮಗೆ ಮಾರ್ಗದರ್ಶನ ನೀಡಲಾಗುತ್ತದೆ. ಈ ಚಟುವಟಿಕೆಯನ್ನು ನೀವು ಎಷ್ಟು ಸಲ ಬೇಕಾದರೂ ಮಾಡಬಹುದು.
-
-ಆನಂದಿಸಿ!
 
 --- question ---
 
@@ -14,7 +12,7 @@
 legend: ಪ್ರಶ್ನೆ 1 ರಲ್ಲಿ 2
 ---
 
-ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ, ನೀವು ವಿನ್ಯಾಸಗಳನ್ನು ರಚಿಸಲು ತದ್ರೂಪಗಳನ್ನು ಉಪಯೋಗಿಸಿದಿರಿ. ಈ ಕೆಳಗಿನ `My Blocks`{:class='block3myblocks'} ವ್ಯಾಖ್ಯಾನವನ್ನು ನೋಡಿ:
+In your project, you used clones to create patterns. Look at the following `My Blocks`{:class='block3myblocks'} definition:
 
 ```blocks3
 define pattern (repeat) (size) (move) (turn)
@@ -25,9 +23,9 @@ turn cw (turn) degrees
 create clone of (myself v)
 ```
 
-ಇಲ್ಲಿ ಒಂದು ವಿನ್ಯಾಸವನ್ನು ರಚಿಸಲಾಗಿದೆ. ![ನಾಲ್ಕು ದಳಗಳು ಸಮಾನ ಅಂತರದಲ್ಲಿವೆ, ಎಲ್ಲಾ ಒಂದೇ ಕೇಂದ್ರದಿಂದ ಪ್ರಾರಂಭವಾಗುತ್ತವೆ. ಪ್ರತಿಯೊಂದು ದಳದ ಗಾತ್ರವೂ ಹೆಚ್ಚಾಗುತ್ತದೆ.](images/quiz_1.png)
+ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ, ನೀವು ವಿನ್ಯಾಸಗಳನ್ನು ರಚಿಸಲು ತದ್ರೂಪಗಳನ್ನು ಉಪಯೋಗಿಸಿದಿರಿ. ಈ ಕೆಳಗಿನ `My Blocks`{:class='block3myblocks'} ವ್ಯಾಖ್ಯಾನವನ್ನು ನೋಡಿ:![four petals equally spaced, all starting from the same center. Each petal increases in size.](images/quiz_1.png)
 
-ಈ ಕೆಳಗಿನ ಯಾವ ಕರೆಗಳು ಮೇಲಿನ ವಿನ್ಯಾಸವನ್ನು ರಚಿಸಬಲ್ಲವು?
+ಇಲ್ಲಿ ಒಂದು ವಿನ್ಯಾಸವನ್ನು ರಚಿಸಲಾಗಿದೆ.
 
 --- choices ---
 
@@ -38,7 +36,7 @@ pattern (3) (10) (0) (90)::custom
 ```
   --- feedback ---
 
-ಇದು ಮೂರು ತದ್ರೂಪಗಳನ್ನು ಮಾತ್ರ ರಚಿಸುತ್ತದೆ, ಮತ್ತು ಚಿತ್ರದಲ್ಲಿ ನಾಲ್ಕು ತೋರಿಸಲಾಗಿದೆ.
+This would only create three clones, and there are four shown in the image.
 
   --- /feedback ---
 
@@ -51,7 +49,7 @@ pattern (4) (10) (100) (90)::custom
 
   --- feedback ---
 
-ಇದು ತದ್ರೂಪವು `100` ಹೆಜ್ಜೆಗಳು ಚಲಿಸುವಂತೆ ಮಾಡುತ್ತದೆ, ಆದರೆ ಚಿತ್ರದಲ್ಲಿರುವ ಎಲ್ಲಾ ತದ್ರೂಪಗಳೂ ಒಂದೇ `x` ಮತ್ತು `y` ನಿರ್ದೇಶಾಂಕ ಹೊಂದಿವೆ.
+This would make the clone move by `100` steps, but all the clones in the image have the same `x` and `y` coordinate.
 
   --- /feedback ---
 
@@ -64,7 +62,7 @@ pattern (4) (10) (0) (90)::custom
 
   --- feedback ---
 
-ಹೌದು, ಈ ಕೋಡ್‌ 4 ದಳಗಳನ್ನು ರಚಿಸುತ್ತದೆ, ಪ್ರತಿಯೊಂದು ಗಾತ್ರದಲ್ಲಿ 10ರಷ್ಟು ಹೆಚ್ಚುತ್ತದೆ. ಪ್ರತಿಯೊಂದು ದಳವು 90 ಡಿಗ್ರಿಗಳು ತಿರುಗಿದೆ.
+Yes, this code creates 4 petals, each increasing in size by 10. Each petal has rotated 90 degrees.
 
   --- /feedback ---
 
@@ -77,7 +75,7 @@ pattern (4) (10) (0) (360)::custom
 
   --- feedback ---
 
-ಇದು ತದ್ರೂಪಗಳು ಪೂರ್ಣ ವೃತ್ತವನ್ನು ತಿರುಗುವಂತೆ ಮಾಡುತ್ತದೆ, ಆದ್ದರಿಂದ ನೀವು ಒಂದು ದೊಡ್ಡ ತದ್ರೂಪವನ್ನು ಮಾತ್ರ ನೋಡಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ.
+This would make the clones turn a full circle, so you would only be able to see a single large clone.
 
   --- /feedback ---
 
