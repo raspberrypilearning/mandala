@@ -1,15 +1,15 @@
-pattern: repeat
+motif : répéter
 
-repeat
+répéter
 
-size
+taille
 
-move
+déplacer
 
-turn
+tourner
 
-ghost
+fantôme
 
-y position
+position y
 
-What feels most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love
+Qu'est-ce qui te semble le plus paisible aujourd'hui ? (1) les formes abstraites (2) la terre (3) les papillons (4) l'amour
