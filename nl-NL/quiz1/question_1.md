@@ -1,10 +1,10 @@
-## Quick quiz
+## Snelle quiz
 
-Answer the two questions. There are hints to guide you to the correct answer.
+Beantwoord de twee vragen. Er zijn tips om je naar het juiste antwoord te leiden.
 
-When you have answered each question, click on **Check my answer**.
+Wanneer je elke vraag hebt beantwoord, klik je op **Verzenden**.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 
@@ -12,7 +12,7 @@ Have fun!
 legend: Vraag 1 van 2
 ---
 
-In your project, you used clones to create patterns. Look at the following `My Blocks`{:class='block3myblocks'} definition:
+In je project heb je klonen gebruikt om patronen te maken. Kijk naar de volgende `Mijn blokken`{:class='block3myblocks'} definitie:
 
 ```blocks3
 define pattern (repeat) (size) (move) (turn)
@@ -23,9 +23,9 @@ turn cw (turn) degrees
 create clone of (myself v)
 ```
 
-Here is a pattern that has been created. ![four petals equally spaced, all starting from the same center. Each petal increases in size.](images/quiz_1.png)
+Hier is een patroon dat is gemaakt. ![vier bloemblaadjes op gelijke afstand, allemaal beginnend vanuit hetzelfde centrum. Elk blaadje neemt in grootte toe.](images/quiz_1.png)
 
-Which of the following calls would create the pattern above?
+Welke van de volgende combinaties van codeblokken zou het bovenstaande patroon maken?
 
 --- choices ---
 
@@ -36,7 +36,7 @@ pattern (3) (10) (0) (90)::custom
 ```
   --- feedback ---
 
-This would only create three clones, and there are four shown in the image.
+Dit zou slechts drie klonen maken, en er zijn vier in de afbeelding.
 
   --- /feedback ---
 
@@ -49,7 +49,7 @@ pattern (4) (10) (100) (90)::custom
 
   --- feedback ---
 
-This would make the clone move by `100` steps, but all the clones in the image have the same `x` and `y` coordinate.
+Dit zou de kloon laten bewegen met `100` stappen, maar alle klonen in de afbeelding hebben dezelfde `x` en `y` coördinaten.
 
   --- /feedback ---
 
@@ -62,7 +62,7 @@ pattern (4) (10) (0) (90)::custom
 
   --- feedback ---
 
-Yes, this code creates 4 petals, each increasing in size by 10. Each petal has rotated 90 degrees.
+Ja, deze code maakt 4 blaadjes, die elk met 10 in grootte toenemen. Elk blaadje is 90 graden gedraaid.
 
   --- /feedback ---
 
@@ -75,7 +75,7 @@ pattern (4) (10) (0) (360)::custom
 
   --- feedback ---
 
-This would make the clones turn a full circle, so you would only be able to see a single large clone.
+Dit zou ervoor zorgen dat de klonen een volledige cirkel draaien, dus je zou slechts één grote kloon kunnen zien.
 
   --- /feedback ---
 
