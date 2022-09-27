@@ -1,23 +1,23 @@
-## Make a mandala
+## Maak een mandala
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create more patterns to make a mandala!
+Maak meer patronen om een mandala te maken!
 </div>
 <div>
-![Animation showing a more complicated pattern beginning to form when the flag is clicked.](images/step_3.gif){:width="300px"}
+![Animatie met een ingewikkelder patroon dat begint te ontstaan wanneer op de vlag wordt geklikt.](images/step_3.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Right click on your `define pattern`{:class="block3myblocks"} block and choose **Edit** to add more parameters.
+Klik met de rechtermuisknop op het `definieer patroon`{:class="block3myblocks"} blok en kies **Bewerken** om meer parameters toe te voegen.
 
-![Animation showing the editing of 'my blocks' to add in extra parameters.](images/edit-parameter.gif)
+![Animatie die de bewerking van 'mijn blokken' laat zien om extra parameters toe te voegen.](images/edit-parameter.gif)
 
-You can start by adding a `size`{:class="block3myblocks"} text label and a `size`{:class="block3myblocks"} input. Then, add a  `move`{:class="block3myblocks"} label and input, and use these parameters in the blocks below.
+Je kunt beginnen door een `grootte`{:class="block3myblocks"} tekstlabel en een `grootte`{:class="block3myblocks"} invoer toe te voegen. Voeg vervolgens een `beweeg`{:class="block3myblocks"} label en invoer toe, en gebruik deze parameters in de blokken hieronder.
 
-![The shape sprite.](images/shape_sprite.png)
+![De vorm sprite.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move)
@@ -34,17 +34,17 @@ pattern: repeat (3) size (10) move (5)
 
 --- task ---
 
-**Test:** See what your pattern looks like by clicking the green flag to run your program. It doesn't look like a mandala yet! Can you think of how you might make the pattern circular?
+**Test:** Bekijk hoe je patroon eruit ziet door op de groene vlag te klikken om je programma uit te voeren. Het ziet er nog niet uit als een mandala! Kun je bedenken hoe je het patroon rond zou kunnen maken?
 
 --- /task ---
 
-To make your pattern circular and look even more like a mandala, add another input.
+Om je patroon cirkelvormig te maken en er nog meer uit te zien als een mandala, voeg je nog een invoer toe.
 
 --- task ---
 
-Add another input called `turn`{:class="block3myblocks"}. Then, as well as moving your clone, you can turn it as well.
+Voeg nog een invoer toe met de naam `draai`{:class="block3myblocks"}. Dan kun je niet alleen je kloon bewegen, maar ook draaien.
 
-![The shape sprite.](images/shape_sprite.png)
+![De vorm sprite.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move) turn (turn)
@@ -64,13 +64,13 @@ end
 
 --- /task ---
 
-Mandalas are often complex — they can have many different rows that follow similar patterns. You can create a base pattern for the rest of the mandala rows to build on.
+Mandala's zijn vaak complex — ze kunnen veel verschillende rijen hebben die vergelijkbare patronen volgen. Je kunt een basispatroon maken voor de rest van de mandala rijen om op te bouwen.
 
 --- task ---
 
-Try playing around with different numbers in your `pattern`{:class="block3myblocks"}. You can reset the position and size of your sprite anytime you like.
+Probeer met verschillende nummers in je `patroon`{:class="block3myblocks"} te spelen. Je kunt de positie en grootte van je sprite op elk gewenst moment resetten.
 
-![Image of the sprites' attribute box with the size, x coordinate, and y coordinate all set to zero.](images/reset-attributes.png)
+![Afbeelding van het eigenschappen overzicht van de sprites met de grootte, x coördinaat en y coördinaat allemaal ingesteld op nul.](images/reset-attributes.png)
 
 ```blocks3
 when flag clicked
@@ -80,18 +80,18 @@ pattern repeat (3) size (0) move (0) turn (60) ::custom
 --- /task ---
 
 
-Now that you have a basic pattern, you can use your `pattern`{:class="block3myblocks"} a number of times to make a repeating pattern, or mandala 'rows'. By using the same code over and over again, you make a program that has been **optimised**.
+Nu je een basispatroon hebt, kun je je `patroon`{:class="block3myblocks"} een aantal keer gebruiken om een herhalend patroon te maken, of 'rijen' van een mandala. Door steeds dezelfde code te gebruiken maak je een programma dat **geoptimaliseerd** is.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains fewer steps and a shorter distance.
+<span style="color: #0faeb0">**Optimalisatie**</span> betekent dat je dingen op de meest efficiënte manier doet. Kijk naar het onderstaande diagram. Je zou van A naar E kunnen komen door het pad A-->B-->C-->D-->E te volgen Een optimalisatie zou zijn om A-->D-->E te gaan, die minder stappen en een kortere afstand bevat.
 <img src="images/map.png">
 </p>
 
 --- task ---
 
-Beneath your `when flag clicked`{:class="block3events"} block, add in a few more **calls** to your `pattern`{:class="block3myblocks"}.
+Voeg onder je `wanneer op de vlag wordt geklikt`{:class="block3events"} blok een paar **aanroepen** toe aan je `patroon`{:class="block3myblocks"}.
 
-![The shape sprite.](images/shape_sprite.png)
+![De vorm sprite.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -104,7 +104,7 @@ pattern repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-**Test:** Click the green flag, and see what pattern is produced. You can change the numbers to experiment with patterns that you like, or even add in more calls to your `pattern`{:class="block3myblocks"}.
+**Test:** Klik op de groene vlag en kijk welk patroon wordt geproduceerd. Je kunt de getallen wijzigen om te experimenteren met patronen die je leuk vindt, of zelfs meer rijen toevoegen aan je `patroon`{:class="block3myblocks"}.
 
 --- /task ---
 
