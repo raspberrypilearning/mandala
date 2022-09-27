@@ -1,4 +1,4 @@
-## Upgrade your project
+## قم بترقية او تطوير مشروعك
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -12,10 +12,10 @@ You can add in a few blocks to have your clones move around when a key is presse
 
 --- collapse ---
 ---
-title: Completed project
+المشروع المكتمل
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/536953224/){:target="_blank"}.
+يمكنك عرض [المشروع المكتمل هنا](https://scratch.mit.edu/projects/536953224/){:target="_ blank"}.
 
 --- /collapse ---
 
