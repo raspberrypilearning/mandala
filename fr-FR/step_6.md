@@ -1,65 +1,65 @@
-## Create another mandala
+## Créer un autre mandala
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create another mandala easily using your optimised code blocks.
+Crée un autre mandala facilement en utilisant tes blocs de code optimisés.
 </div>
 <div>
 ![](images/step_5.png)
 </div>
 </div>
 
-You have two costumes that you are using to create your coloured mandala. Add some more costumes to personalise your mandala even more.
+Tu as deux costumes que tu utilises pour créer ton mandala coloré. Ajoute d'autres costumes pour personnaliser encore plus ton mandala.
 
 --- task ---
 
-**Choose:** Add another costume. Here the **Earth** costume has been chosen.
+**Choisir :** Ajouter un autre costume. Ici, le costume **Terre** a été choisi.
 
-![The Earth costume from the Scratch library.](images/earth_costume.png)
+![Le costume "Terre" de la bibliothèque Scratch.](images/earth_costume.png)
 
-It doesn't matter which costume you pick, but you should make sure that it is a **Vector** costume and not a **Bitmap** costume. You can tell you have chosen a **Vector** costume, as you will see a button labelled **Convert to Bitmap**. **Do not click this button**. If you have selected a costume that is a **Bitmap**, then delete it and choose another one.
+Le costume que tu choisis n'a pas d'importance, mais tu dois t'assurer que c'est un costume **Vectoriel** et non un costume **Bitmap**. Tu pourras savoir si tu as choisi un costume **Vectoriel**, car tu verras un bouton intitulé **Convertir en bitmap**. **Ne clique pas sur ce bouton**. Si tu as sélectionné un costume qui est un **Bitmap**, alors supprime-le et choisis-en un autre.
 
-![The 'Convert to Bitmap' button.](images/convert_to_bitmap.png)
+![Le bouton "Convertir en bitmap".](images/convert_to_bitmap.png)
 
 --- /task ---
 
 --- task ---
 
-Remove all the colour from the costume so you get just the outline. Select the whole costume and change the **Fill** **Saturation** to `0` and the **Outline** **Brightness** to `0`.
+Enlève toute la couleur du costume pour n'obtenir que le contour. Sélectionne l'ensemble du costume et modifie le **Remplissage** **Saturation** à `0` et le **Contour** **Luminosité** à `0`.
 
-![Animation showing the 'Earth' costume being selected, then the 'Fill' and 'Outline' colours being changed.](images/edit_costume.gif)
-
---- /task ---
-
---- task ---
-
-Duplicate this costume, and then repeat the process, this time changing the **Fill** colour to a dark colour of your choice.
-
-![The two Earth costumes, one filled in white and the other in purple.](images/earth_costumes.png)
+![Animation montrant le costume "Terre" en cours de sélection, puis les couleurs "Remplissage" et "Contour" en cours de changement.](images/edit_costume.gif)
 
 --- /task ---
 
 --- task ---
 
-Repeat this process a few more times with different vector costumes, to give yourself different styles of costume.
+Duplique ce costume, puis répète le processus, en changeant cette fois la couleur **Remplissage** par une couleur sombre de ton choix.
 
-![Earth, butterfly, and heart costumes shown with white and purple fills.](images/multiple_costumes.png)
+![Les deux costumes "Terre", l'un rempli de blanc et l'autre de violet.](images/earth_costumes.png)
 
 --- /task ---
-
-To make sure you can colour your personalised mandalas, reorder your costumes and check the costume switches to the right number.
 
 --- task ---
 
-Reorder your costumes, so that all the ones filled with white are at the top, and the ones filled with colours are lower down, but still in the same order.
+Répète ce processus plusieurs fois avec différents costumes vectoriels, pour avoir différents styles de costumes.
 
-![Animation of the costumes being placed in order, with the white costumes at the top and the coloured ones further down, but in the same order.](images/order_costumes.gif)
+![Les costumes Terre, papillon et cœur sont présentés avec des remplissages blancs et violets.](images/multiple_costumes.png)
 
 --- /task ---
 
-Remember to change which costume the mandala switches to so that you can colour your new mandalas. In the example project, there are four mandalas so we changed the costume number from '1' to '4'
+Pour être sûr de pouvoir colorier tes mandalas personnalisés, réorganise à nouveau tes costumes et vérifie que le costume se place sur le bon numéro.
 
-![The shape sprite.](images/shape_sprite.png)
+--- task ---
+
+Réorganise tes costumes, de sorte que tous ceux qui sont remplis de blanc soient en haut, et que ceux qui sont remplis de couleurs soient plus bas, mais toujours dans le même ordre.
+
+![Animation des costumes placés dans l'ordre, avec les costumes blancs en haut et les costumes de couleur plus bas, mais dans le même ordre.](images/order_costumes.gif)
+
+--- /task ---
+
+N'oublie pas de changer le costume du mandala pour que tu puisses colorier tes nouveaux mandalas. Dans l'exemple du projet, il y a quatre mandalas, nous avons donc changé le numéro du costume de « 1 » à « 4 »
+
+![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -69,7 +69,7 @@ change [color v] effect by (25)
 
 --- task ---
 
-**Test:** Switch to one of your new costumes and click the green flag to see the pattern that is generated.
+**Test :** Passe à l'un de tes nouveaux costumes et clique sur le drapeau vert pour voir le motif qui est généré.
 
 --- /task ---
 
