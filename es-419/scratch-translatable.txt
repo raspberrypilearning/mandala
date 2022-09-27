@@ -2,7 +2,7 @@ pattern: repeat
 
 repeat
 
-size
+tamaño
 
 move
 
