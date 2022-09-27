@@ -1,6 +1,6 @@
 ## You will make
 
-Create a program that generates mandalas.
+Crée un programme qui génère des mandalas.
 
 ![Exemple d'un mandala de papillons colorés.](images/mandala.png)
 
@@ -19,7 +19,7 @@ Tu vas :
 
 --- no-print ---
 
-### Play ▶️
+### Joue ▶️
 
 --- task ---
 
