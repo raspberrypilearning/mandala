@@ -1,6 +1,6 @@
-## Introduction
+## You will make
 
-In this project, you will write a program that generates mandalas.
+Create a program that generates mandalas.
 
 ![Example of a colourful butterfly mandala.](images/mandala.png)
 
@@ -12,16 +12,16 @@ In this project, you will write a program that generates mandalas.
 <span style="color: #0faeb0">**Mandala**</span> is a Sanskrit word that roughly means "circle". Manadalas are commonly circular designs that have repeating colours, shapes, and patterns. In Buddhist and Hindu traditions, mandalas are helpful in meditation. Creating mandalas is known to be a relaxing and mindful activity.
 </p>
 
-You will:
+Co zrobisz:
 + Use clones to create repeating patterns
 + Use `My Blocks`{:class='block3myblocks'} to optimise your computer generated art program
 + Use addition `+`{:class='block3operators'} and subtraction `-`{:class='block3operators'} operator blocks to change the appearance and position of a sprite
 
 --- no-print ---
 
---- task ---
+### Play ▶️
 
-### Try it
+--- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 
@@ -43,6 +43,6 @@ Choose a different shape now and look at a new mandala. Does it look the same? D
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![Skończony projekt](images/showcase_static.png)
 
 --- /print-only ---
