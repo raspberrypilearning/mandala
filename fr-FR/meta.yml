@@ -8,7 +8,7 @@ copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Tu feras
   - 
     title: Cloner des formes pour créer un motif
   - 
@@ -26,7 +26,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1
