@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Question 2 of 2
+legend: pregunta 2 de 2
 ---
 
 In your project, you used the addition + operator to change costumes depending on a 'My Blocks'{:class='block3myblocks'} input.
