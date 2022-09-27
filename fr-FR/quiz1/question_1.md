@@ -1,10 +1,10 @@
-## Quick quiz
+## Questionnaire rapide
 
-Answer the two questions. There are hints to guide you to the correct answer.
+Répond aux deux questions. Il y a des indices pour te guider vers la bonne réponse.
 
-When you have answered each question, click on **Check my answer**.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Have fun!
+Amuse-toi bien !
 
 --- question ---
 
@@ -12,7 +12,7 @@ Have fun!
 legend: Question 1 sur 2
 ---
 
-In your project, you used clones to create patterns. Look at the following `My Blocks`{:class='block3myblocks'} definition:
+Dans ton projet, tu as utilisé des clones pour créer des motifs. Regarde la définition suivante de `Mes Blocs`{:class='block3myblocks'} :
 
 ```blocks3
 define pattern (repeat) (size) (move) (turn)
@@ -23,9 +23,9 @@ turn cw (turn) degrees
 create clone of (myself v)
 ```
 
-Here is a pattern that has been created. ![four petals equally spaced, all starting from the same center. Each petal increases in size.](images/quiz_1.png)
+Voici un motif qui a été créé. ![quatre pétales sont également espacés, tous à partir du même centre. Chaque pétale augmente sa taille.](images/quiz_1.png)
 
-Which of the following calls would create the pattern above?
+Lequel des appels suivants créerait le motif ci-dessus ?
 
 --- choices ---
 
@@ -36,7 +36,7 @@ pattern (3) (10) (0) (90)::custom
 ```
   --- feedback ---
 
-This would only create three clones, and there are four shown in the image.
+Cela ne créerait que trois clones, et il y en a quatre dans l'image.
 
   --- /feedback ---
 
@@ -49,7 +49,7 @@ pattern (4) (10) (100) (90)::custom
 
   --- feedback ---
 
-This would make the clone move by `100` steps, but all the clones in the image have the same `x` and `y` coordinate.
+Cela ferait bouger le clone de `100` pas, mais tous les clones dans l'image ont les mêmes coordonnées `x` et `y`.
 
   --- /feedback ---
 
@@ -62,7 +62,7 @@ pattern (4) (10) (0) (90)::custom
 
   --- feedback ---
 
-Yes, this code creates 4 petals, each increasing in size by 10. Each petal has rotated 90 degrees.
+Oui, ce code crée 4 pétales dont la taille augmente de 10. Chaque pétale a tourné de 90 degrés.
 
   --- /feedback ---
 
@@ -75,7 +75,7 @@ pattern (4) (10) (0) (360)::custom
 
   --- feedback ---
 
-This would make the clones turn a full circle, so you would only be able to see a single large clone.
+Les clones feraient ainsi un cercle complet, et tu ne pourrais voir qu'un seul grand clone.
 
   --- /feedback ---
 
