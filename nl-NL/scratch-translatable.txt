@@ -1,15 +1,15 @@
-pattern: repeat
+patroon: herhaal
 
-repeat
+herhaal
 
-size
+grootte
 
-move
+beweeg
 
-turn
+draai
 
-ghost
+transparant
 
-y position
+y-positie
 
-What feels most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love
+Wat klinkt voor jou vandaag het vredigst? (1) abstracte vormen (2) de aarde (3) vlinders (4) liefde
