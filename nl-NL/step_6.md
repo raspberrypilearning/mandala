@@ -1,65 +1,65 @@
-## Create another mandala
+## Maak nog een mandala
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create another mandala easily using your optimised code blocks.
+Je kan nu heel gemakkelijk nog een mandala maken met je geoptimaliseerde codeblokken.
 </div>
 <div>
 ![](images/step_5.png)
 </div>
 </div>
 
-You have two costumes that you are using to create your coloured mandala. Add some more costumes to personalise your mandala even more.
+Je hebt twee uiterlijken die je gebruikt om je gekleurde mandala te maken. Voeg wat meer uiterlijken toe om je mandala nog meer persoonlijk te maken.
 
 --- task ---
 
-**Choose:** Add another costume. Here the **Earth** costume has been chosen.
+**Kies:** Voeg nog een uiterlijk toe. Hier is het **Earth** uiterlijk gekozen.
 
-![The Earth costume from the Scratch library.](images/earth_costume.png)
+![Het Earth-uiterlijk uit de Scratch-bibliotheek.](images/earth_costume.png)
 
-It doesn't matter which costume you pick, but you should make sure that it is a **Vector** costume and not a **Bitmap** costume. You can tell you have chosen a **Vector** costume, as you will see a button labelled **Convert to Bitmap**. **Do not click this button**. If you have selected a costume that is a **Bitmap**, then delete it and choose another one.
+Het maakt niet uit welk uiterlijk je kiest, maar je moet ervoor zorgen dat het een **Vector** uiterlijk is en geen **Bitmap** uiterlijk. Je kunt zien dat je een **Vector** uiterlijk hebt gekozen, omdat je een knop ziet met de naam **converteren naar bitmap**. **Klik niet op deze knop**. Als je een uiterlijk hebt geselecteerd dat een **Bitmap** is, verwijder het dan en kies een ander.
 
-![The 'Convert to Bitmap' button.](images/convert_to_bitmap.png)
+![De knop 'converteren naar bitmap'.](images/convert_to_bitmap.png)
 
 --- /task ---
 
 --- task ---
 
-Remove all the colour from the costume so you get just the outline. Select the whole costume and change the **Fill** **Saturation** to `0` and the **Outline** **Brightness** to `0`.
+Verwijder alle kleur uit het uiterlijk zodat je alleen de omtrek krijgt. Selecteer het hele uiterlijk en wijzig de **vulling** **Verzadiging** in `0` en de **Omtrek** **helderheid** in `0`.
 
-![Animation showing the 'Earth' costume being selected, then the 'Fill' and 'Outline' colours being changed.](images/edit_costume.gif)
-
---- /task ---
-
---- task ---
-
-Duplicate this costume, and then repeat the process, this time changing the **Fill** colour to a dark colour of your choice.
-
-![The two Earth costumes, one filled in white and the other in purple.](images/earth_costumes.png)
+![Animatie die het 'Earth'-uiterlijk laat zien dat wordt geselecteerd, en vervolgens de 'Vulling'- en 'omtrek'-kleuren die worden veranderd.](images/edit_costume.gif)
 
 --- /task ---
 
 --- task ---
 
-Repeat this process a few more times with different vector costumes, to give yourself different styles of costume.
+Kopieer dit uiterlijk en herhaal het proces, deze keer om de **vulling** kleur te veranderen in een donkere kleur naar keuze.
 
-![Earth, butterfly, and heart costumes shown with white and purple fills.](images/multiple_costumes.png)
+![De twee Earth uiterlijken, de ene in het wit gevuld en de andere in paars.](images/earth_costumes.png)
 
 --- /task ---
-
-To make sure you can colour your personalised mandalas, reorder your costumes and check the costume switches to the right number.
 
 --- task ---
 
-Reorder your costumes, so that all the ones filled with white are at the top, and the ones filled with colours are lower down, but still in the same order.
+Herhaal dit proces nog een paar keer met verschillende vector kostuums, zodat je straks uit verschillende stijlen van uiterlijken kan kiezen.
 
-![Animation of the costumes being placed in order, with the white costumes at the top and the coloured ones further down, but in the same order.](images/order_costumes.gif)
+![Earth-, vlinder- en hartkostuums met witte en paarse vullingen.](images/multiple_costumes.png)
 
 --- /task ---
 
-Remember to change which costume the mandala switches to so that you can colour your new mandalas. In the example project, there are four mandalas so we changed the costume number from '1' to '4'
+Om ervoor te zorgen dat je je gepersonaliseerde mandala's kunt kleuren, kun je je uiterlijken opnieuw ordenen en op het juiste nummer controleren.
 
-![The shape sprite.](images/shape_sprite.png)
+--- task ---
+
+Verander de volgorde van je kostuums, zodat alle met wit gevulde kostuums aan de bovenkant staan, en de met kleuren gevulde kostuums lager zijn, maar nog steeds in dezelfde volgorde.
+
+![Animatie van de uiterlijken die op volgorde worden geplaatst, met de witte uiterlijken aan de bovenkant en de gekleurde uiterlijken verder aan de onderkant, maar in dezelfde volgorde.](images/order_costumes.gif)
+
+--- /task ---
+
+Vergeet niet om te veranderen naar welk uiterlijk de mandala overschakelt, zodat je je nieuwe mandala's kunt kleuren. In het voorbeeldproject zijn er vier mandala's, dus hebben we het kostuumnummer veranderd van '1' in '4'
+
+![De vorm sprite.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -69,7 +69,7 @@ change [color v] effect by (25)
 
 --- task ---
 
-**Test:** Switch to one of your new costumes and click the green flag to see the pattern that is generated.
+**Test:** Ga naar een van je nieuwe uiterlijken en klik op de groene vlag om het gegenereerde patroon te zien.
 
 --- /task ---
 
