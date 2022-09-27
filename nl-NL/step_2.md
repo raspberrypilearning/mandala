@@ -1,34 +1,34 @@
-## Clone shapes to make a pattern
+## Maak een patroon door vormen te klonen
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Clone sprites to create a pattern.
+Kloon sprites om een patroon te maken.
 </div>
 <div>
-![Animation of a pattern being repeated when the flag is clicked in Scratch.](images/step_2.gif){:width="300px"}
+![Animatie van een patroon dat wordt herhaald wanneer op de vlag wordt geklikt in Scratch.](images/step_2.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open [the Scratch starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}. Scratch will open in another browser tab.
+Open [het Scratch-starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
 
-If you are working offline, you can download the [starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}.
+Als je offline werkt, kun je het [starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"} downloaden.
 
 --- /task ---
 
-You should see a shape sprite that looks a bit like a flower petal.
+Je zou een vormsprite moeten zien die een beetje lijkt op een bloemblaadje.
 
-You will use `my blocks`{:class="block3myblocks"} to create a pattern with this shape. You may remember creating `my blocks`{:class="block3myblocks"} to organise your code in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3){:target="_blank"}, and to repeat the same code in [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4){:target="_blank"}. `My blocks`{:class="block3myblocks"} can also be used to reuse actions in a different way.
+Je gebruikt `mijn blokken`{:class="block3myblocks"} om een patroon met deze vorm te maken. Herinner je nog het maken van `mijn blokken`{:class="block3myblocks"} om je code te organiseren in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3){:target="_blank"}, en het herhalen van dezelfde code in [Puzzel kamer](https://projects.raspberrypi.org/en/projects/puzzle-room/4){:target="_blank"}? `Mijn blokken`{:class="block3myblocks"} kunnen ook worden gebruikt om acties op een andere manier te hergebruiken.
 
 --- task ---
 
-Go to `My Blocks`{:class='block3myblocks'} and name your blocks (we have called it `pattern:`{:class="block3myblocks"}). Add `repeat`{:class="block3myblocks"} as a label to identify the first input or what programmer call a **parameter**. Then click "Add an Input" to actually create the **parameter** called `repeat`{:class="block3myblocks"}.
+Ga naar `Mijn blokken`{:class='block3myblocks'} en geef je blokken een naam (we hebben het `patroon:`{:class="block3myblocks"} genoemd). Voeg `herhaal`{:class="block3myblocks"} toe als een label om de eerste invoer te identificeren of wat een programmeur een **parameter** noemt. Klik vervolgens op "Voeg een invoer toe" om de **parameter** met de naam `herhaal`{:class="block3myblocks"} te maken.
 
 
-![Animation of a 'my blocks' block and an additional parameter being added.](images/add-parameter.gif)
+![Animatie van een 'mijn blokken' blok en een extra parameter die wordt toegevoegd.](images/add-parameter.gif)
 
-![The shape sprite.](images/shape_sprite.png)
+![De vorm sprite.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat)
@@ -36,15 +36,15 @@ define pattern: repeat (repeat)
 
 --- /task ---
 
-To design how a pattern is made, the first step is to `define pattern`{:class='block3myblocks'}.
+Om te ontwerpen hoe een patroon wordt gemaakt, is de eerste stap het `definiëren van patroon`{:class='block3myblocks'}.
 
 --- task ---
 
-Drag the `repeat`{:class='block3myblocks'} parameter from `define pattern`{:class='block3myblocks'} into a `repeat`{:class='block3control'} loop block.
+Sleep de `herhaal`{:class='block3myblocks'} parameter van `definieer patroon`{:class='block3myblocks'} naar een `herhaal`{:class='block3control'} lusblok.
 
-![Animation showing the 'repeat' parameter being dragged from the 'define' block and into the 'repeat' block.](images/use-repeat.gif)
+![Animatie die de 'herhaal' parameter laat zien die van het 'definieer' blok naar het 'herhaal' blok wordt gesleept.](images/use-repeat.gif)
 
-![The shape sprite.](images/shape_sprite.png)
+![De vorm sprite.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat)
@@ -53,13 +53,13 @@ repeat (repeat)
 
 --- /task ---
 
-You will now use `clone`{:class='block3control'} blocks to make the same block appear a number of times. Make sure you also add code to change the size and position of the sprite, otherwise the sprites will be stacked on top of each other and you will not be able to see them.
+Je gaat nu `kloon`{:class='block3control'} blokken gebruiken om hetzelfde blok een aantal keren te laten verschijnen. Zorg ervoor dat je ook code toevoegt om de grootte en positie van de sprite te veranderen, anders worden de sprites boven op elkaar gestapeld en kun je ze niet zien.
 
 --- task ---
 
-Add some code into the `repeat`{:class='block3myblocks'} loop of your `pattern`{:class='block3myblocks'}.
+Voeg wat code toe aan de `herhaal`{:class='block3myblocks'} lus van je `patroon`{:class='block3myblocks'}.
 
-![The shape sprite.](images/shape_sprite.png)
+![De vorm sprite.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat)
@@ -71,14 +71,14 @@ repeat (repeat)
 
 --- /task ---
 
-**Tip:** `Defining`{:class='block3myblocks'} makes a general pattern outline. What you are creating now with `my blocks`{:class="block3myblocks"} is similar to creating a spirograph stencil; it is the tool and the pattern is later created by using it.
+**Tip:** `definiëring`{:class='block3myblocks'} maakt een algemeen patroon. Wat je nu maakt met `mijn blokken`{:class="block3myblocks"} is vergelijkbaar met het maken van een spirograph stencil; het is het gereedschap en het patroon wordt later gemaakt door het te gebruiken.
 
 
 --- task ---
 
-Create a pattern with your `my blocks`{:class="block3myblocks"}. Get the `pattern`{:class='block3myblocks'} to `repeat`{:class='block3myblocks'} a number of times `when flag clicked`{:class='block3events'}.
+Maak een patroon met je `mijn blokken`{:class="block3myblocks"}. Laat het `patroon`{:class='block3myblocks'} een aantal keer `herhalen`{:class='block3myblocks'} wanneer op de vlag wordt geklikt</code>{:class='block3events'}.
 
-![The shape sprite.](images/shape_sprite.png)
+![De vorm sprite.](images/shape_sprite.png)
 ```blocks3
 when flag clicked
 show //Shape is displayed 
@@ -87,10 +87,10 @@ go to x: (0) y: (0) //Displayed in the middle
 pattern: repeat (3) ::custom
 ```
 
-**Test:** See what your pattern looks like by clicking the green flag to run your program.
+**Test:** Bekijk hoe je patroon eruit ziet door op de groene vlag te klikken om je programma uit te voeren.
 
 --- /task ---
 
-You should see the beginning of a mandala pattern. Adding more **parameters**, or requirements, to your pattern will create the first part of your mandala.
+Je zou het begin van een mandala patroon moeten zien. Door meer **parameters** of vereisten aan je patroon toe te voegen, wordt het eerste deel van je mandala gemaakt.
 
 --- save ---
