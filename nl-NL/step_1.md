@@ -1,6 +1,6 @@
-## You will make
+## Je gaat maken
 
-Create a program that generates mandalas.
+Maak een programma dat mandala's genereert.
 
 ![Voorbeeld van een kleurrijke vlindermandala.](images/mandala.png)
 
@@ -19,7 +19,7 @@ Je zal:
 
 --- no-print ---
 
-### Play ▶️
+### Afspelen ▶️
 
 --- task ---
 
