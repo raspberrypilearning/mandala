@@ -1,8 +1,8 @@
-## Clone shapes to make a pattern
+## Cloner des formes pour créer un motif
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Clone sprites to create a pattern.
+Clone des formes pour créer un motif.
 </div>
 <div>
 ![Animation of a pattern being repeated when the flag is clicked in Scratch.](images/step_2.gif){:width="300px"}
@@ -11,24 +11,24 @@ Clone sprites to create a pattern.
 
 --- task ---
 
-Open [the Scratch starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}. Scratch will open in another browser tab.
+Ouvre le [projet de démarrage Scratch](https://scratch.mit.edu/projects/540476254/){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
 
-If you are working offline, you can download the [starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}.
+Si tu travailles hors ligne, tu peux télécharger le [projet de démarrage](https://scratch.mit.edu/projects/540476254/){:target="_blank"}.
 
 --- /task ---
 
-You should see a shape sprite that looks a bit like a flower petal.
+Tu devrais voir un sprite de forme qui ressemble un peu à un pétale de fleur.
 
-You will use `my blocks`{:class="block3myblocks"} to create a pattern with this shape. You may remember creating `my blocks`{:class="block3myblocks"} to organise your code in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3){:target="_blank"}, and to repeat the same code in [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4){:target="_blank"}. `My blocks`{:class="block3myblocks"} can also be used to reuse actions in a different way.
+Tu utiliseras `Mes Blocs`{:class="block3myblocks"} pour créer un motif avec cette forme. Tu te souviens d'avoir créé `Mes blocs`{:class="block3myblocks"} pour organiser ton code dans [Rover nature](https://projects.raspberrypi.org/en/projects/nature-rover/3){:target="_blank"}, et d'avoir répété le même code dans [](https://projects.raspberrypi.org/en/projects/puzzle-room/4)Salle de puzzle{:target="_blank"} ? `Mes Blocs`{:class="block3myblocks"} peut être utilisé pour réutiliser des actions d'une manière différente.
 
 --- task ---
 
-Go to `My Blocks`{:class='block3myblocks'} and name your blocks (we have called it `pattern:`{:class="block3myblocks"}). Add `repeat`{:class="block3myblocks"} as a label to identify the first input or what programmer call a **parameter**. Then click "Add an Input" to actually create the **parameter** called `repeat`{:class="block3myblocks"}.
+Va dans `Mes Blocs`{:class='block3myblocks'} et nomme tes blocs (nous l'avons appelé `motif :`{:class="block3myblocks"}). Ajoute `répéter`{:class="block3myblocks"} comme étiquette pour identifier la première entrée ou ce que les programmeurs appellent un **paramètre**. Clique ensuite sur « Ajouter une entrée » pour créer le **paramètre** appelé `répéter`{:class="block3myblocks"}.
 
 
-![Animation of a 'my blocks' block and an additional parameter being added.](images/add-parameter.gif)
+![Animation d'un bloc "Mes Blocs" et ajout d'un paramètre supplémentaire.](images/add-parameter.gif)
 
-![The shape sprite.](images/shape_sprite.png)
+![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat)
@@ -36,15 +36,15 @@ define pattern: repeat (repeat)
 
 --- /task ---
 
-To design how a pattern is made, the first step is to `define pattern`{:class='block3myblocks'}.
+Pour concevoir la façon dont un motif est réalisé, la première étape consiste à `définir le motif`{:class='block3myblocks'}.
 
 --- task ---
 
-Drag the `repeat`{:class='block3myblocks'} parameter from `define pattern`{:class='block3myblocks'} into a `repeat`{:class='block3control'} loop block.
+Fais glisser le paramètre `répéter`{:class='block3myblocks'} de `définir motif`{:class='block3myblocks'} dans un bloc de boucle `répéter`.
 
-![Animation showing the 'repeat' parameter being dragged from the 'define' block and into the 'repeat' block.](images/use-repeat.gif)
+![Animation montrant le paramètre "répéter" déplacé du bloc "définir" vers le bloc "répéter".](images/use-repeat.gif)
 
-![The shape sprite.](images/shape_sprite.png)
+![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat)
@@ -53,13 +53,13 @@ repeat (repeat)
 
 --- /task ---
 
-You will now use `clone`{:class='block3control'} blocks to make the same block appear a number of times. Make sure you also add code to change the size and position of the sprite, otherwise the sprites will be stacked on top of each other and you will not be able to see them.
+Tu vas maintenant utiliser les blocs `cloner`{:class='block3control'} pour faire apparaître le même bloc plusieurs fois. Veille à ajouter également du code pour modifier la taille et la position du sprite, sinon les sprites seront empilés les uns sur les autres et tu ne pourras pas les voir.
 
 --- task ---
 
-Add some code into the `repeat`{:class='block3myblocks'} loop of your `pattern`{:class='block3myblocks'}.
+Ajoute du code dans la boucle `répéter`{:class='block3myblocks'} de ton `motif`{:class='block3myblocks'}.
 
-![The shape sprite.](images/shape_sprite.png)
+![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat)
@@ -71,14 +71,14 @@ repeat (repeat)
 
 --- /task ---
 
-**Tip:** `Defining`{:class='block3myblocks'} makes a general pattern outline. What you are creating now with `my blocks`{:class="block3myblocks"} is similar to creating a spirograph stencil; it is the tool and the pattern is later created by using it.
+**Astuce :** `Définir` crée un contour général du motif. Ce que tu crées maintenant avec `Mes Blocs`{:class="block3myblocks"} est similaire à la création d'un crayon de spirographe ; l'outil et le masque est créé plus tard en l'utilisant.
 
 
 --- task ---
 
-Create a pattern with your `my blocks`{:class="block3myblocks"}. Get the `pattern`{:class='block3myblocks'} to `repeat`{:class='block3myblocks'} a number of times `when flag clicked`{:class='block3events'}.
+Crée un motif avec `Mes Blocs`{:class="block3myblocks"}. Fais en sorte que le `motif`{:class='block3myblocks'} se `répète`{:class='block3myblocks'} un certain nombre de fois `quand le drapeau est cliqué`{:class='block3events'}.
 
-![The shape sprite.](images/shape_sprite.png)
+![Le sprite "Forme".](images/shape_sprite.png)
 ```blocks3
 when flag clicked
 show //Shape is displayed 
@@ -87,10 +87,10 @@ go to x: (0) y: (0) //Displayed in the middle
 pattern: repeat (3) ::custom
 ```
 
-**Test:** See what your pattern looks like by clicking the green flag to run your program.
+**Test :** Regarde à quoi ressemble ton motif en cliquant sur le drapeau vert pour exécuter ton programme.
 
 --- /task ---
 
-You should see the beginning of a mandala pattern. Adding more **parameters**, or requirements, to your pattern will create the first part of your mandala.
+Tu devrais voir le début d'un motif de mandala. En ajoutant d'autres **paramètres**, ou exigences, à ton motif, tu créeras la première partie de ton mandala.
 
 --- save ---
