@@ -1,21 +1,21 @@
-## Upgrade your project
+## Améliorer ton projet
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get your mandalas to move like a kaleidoscope.
+Fais bouger tes mandalas comme un kaléidoscope.
 </div>
 </div>
 
-You can add in a few blocks to have your clones move around when a key is pressed or when a sprite is clicked on for some extra relaxation. Maybe some gentle music can play as well.
+Tu peux ajouter quelques blocs pour que tes clones se déplacent quand une touche est pressée ou quand un sprite est cliqué pour une relaxation supplémentaire. Tu peux aussi ajouter une musique douce.
 
-![Animated mandala with moving clones.](images/step_9.gif)
+![Mandala animé avec clones en mouvement.](images/step_9.gif)
 
 --- collapse ---
 ---
-title: Completed project
+title: Le projet terminé
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/536953224/){:target="_blank"}.
+Tu peux voir le [projet terminé ici](https://scratch.mit.edu/projects/536953224/){:target="_blank"}.
 
 --- /collapse ---
 
