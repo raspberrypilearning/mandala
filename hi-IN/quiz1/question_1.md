@@ -1,12 +1,10 @@
 ## सोचिए
 
-बहुत बढ़िया, आपने बहुत कुछ सीखा! अब, अब उस पर विचार करने का समय है - विचार करना सीखने का एक महत्वपूर्ण हिस्सा है, क्योंकि यह आपके दिमाग को तेज़ करता है।
+Answer the two questions. There are hints to guide you to the correct answer.
 
 आपने जो सीखा है उस पर चिंतन करने के लिए नीचे दिए गए दो प्रश्नों के उत्तर दें।
 
 प्रत्येक प्रश्न के बाद, सबमिट करें दबाएं। आपको सही उत्तर की ओर निर्देशित किया जाएगा। आप इस गतिविधि को जितनी बार चाहें उतनी बार कर सकते हैं।
-
-मजे करें!
 
 --- question ---
 
@@ -14,7 +12,7 @@
 legend: 2 में से पहला प्रश्न
 ---
 
-अपने प्रोजेक्ट में, आपने पैटर्न बनाने के लिए क्लोन का उपयोग किया था। निम्नलिखित `My Blocks`{:class='block3myblocks'} परिभाषा को देखें:
+In your project, you used clones to create patterns. Look at the following `My Blocks`{:class='block3myblocks'} definition:
 
 ```blocks3
 define pattern (repeat) (size) (move) (turn)
@@ -25,9 +23,9 @@ turn cw (turn) degrees
 create clone of (myself v)
 ```
 
-यहां वह एक पैटर्न है जो बनाया गया है। ![चार पंखुड़ियाँ समान दूरी पर, सभी एक ही केंद्र से शुरू होती हैं। प्रत्येक पंखुड़ी आकार में बढ़ जाती है।](images/quiz_1.png)
+अपने प्रोजेक्ट में, आपने पैटर्न बनाने के लिए क्लोन का उपयोग किया था। निम्नलिखित `My Blocks`{:class='block3myblocks'} परिभाषा को देखें:![four petals equally spaced, all starting from the same center. Each petal increases in size.](images/quiz_1.png)
 
-निम्नलिखित में से कौन सी कॉल उपरोक्त पैटर्न बनाएगी?
+यहां वह एक पैटर्न है जो बनाया गया है।
 
 --- choices ---
 
@@ -38,7 +36,7 @@ pattern (3) (10) (0) (90)::custom
 ```
   --- feedback ---
 
-यह केवल तीन क्लोन बनाएगा, और छवि में चार दिखाए गए हैं।
+This would only create three clones, and there are four shown in the image.
 
   --- /feedback ---
 
@@ -51,7 +49,7 @@ pattern (4) (10) (100) (90)::custom
 
   --- feedback ---
 
-यह क्लोन को `100` कदम आगे बढ़ा देगा, लेकिन छवि के सभी क्लोनों में समान `x` और `y` निर्देशांक हैं।
+This would make the clone move by `100` steps, but all the clones in the image have the same `x` and `y` coordinate.
 
   --- /feedback ---
 
@@ -64,7 +62,7 @@ pattern (4) (10) (0) (90)::custom
 
   --- feedback ---
 
-हां, यह कोड 4 पंखुड़ी बनाता है, प्रत्येक आकार में 10 से बढ़ रहा है। प्रत्येक पंखुड़ी 90 डिग्री घूम चुकी है।
+Yes, this code creates 4 petals, each increasing in size by 10. Each petal has rotated 90 degrees.
 
   --- /feedback ---
 
@@ -77,7 +75,7 @@ pattern (4) (10) (0) (360)::custom
 
   --- feedback ---
 
-यह क्लोनों को एक पूर्ण चक्र घुमा देगा, जिससे आप केवल एक बड़ा क्लोन ही देख पाएंगे।
+This would make the clones turn a full circle, so you would only be able to see a single large clone.
 
   --- /feedback ---
 
