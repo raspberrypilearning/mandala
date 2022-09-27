@@ -1,21 +1,21 @@
-## Set up your sprite
+## Configurer ton sprite
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Set up your sprite to reset your mandala.
+Configure ton sprite pour réinitialiser ton mandala.
 </div>
 <div>
 ![](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
-At the moment, your mandala patterns may appear to change each time, depending on the parameter values you use. Next, you will create a new `my blocks`{:class="block3myblocks"}, so that your **mandala** sprite always begins in the same state.
+Pour l'instant, tes motifs de mandala peuvent sembler changer à chaque fois, selon les valeurs de paramètres que tu utilises. Ensuite, tu vas créer un nouveau `Mes Blocs`{:class="block3myblocks"}, afin que ton sprite **mandala** commence toujours dans le même état.
 
 --- task ---
 
-Use the `My Blocks`{:class="block3myblocks"} menu to create a new block called `setup`{:class="block3myblocks"}. The block should have four parameters: `size`{:class="block3myblocks"}, `ghost`{:class="block3myblocks"}, `y`{:class="block3myblocks"}, and `move`{:class="block3myblocks"}. Don't worry, you can change these or add more later.
+Utilise le menu `Mes Blocs`{:class="block3myblocks"} pour créer un nouveau bloc appelé `configuration`{:class="block3myblocks"}. Le bloc doit avoir quatre paramètres : `taille`{:class="block3myblocks"},`fantôme`{:class="block3myblocks"}, `y`{:class="block3myblocks"}, et `déplacer`{:class="block3myblocks"}. Ne t'inquiète pas, tu peux les modifier ou les ajouter plus tard.
 
-![The shape sprite.](images/shape_sprite.png)
+![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
 define setup: size (size) ghost (ghost) y (y) move (move)
@@ -23,13 +23,13 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 
 --- /task ---
 
-When you make the mandala colourful in the next step, the `ghost`{:class="block3myblocks"} block will make the colours transparent so when the shapes overlap, you will get a colour mixing effect.
+Lorsque tu rendras le mandala coloré à l'étape suivante, le bloc `fantôme`{:class="block3myblocks"} rendra les couleurs transparentes de sorte que lorsque les formes se chevaucheront, tu obtiendras un effet de mélange de couleurs.
 
 --- task ---
 
-Now add some blocks to set the appearance and position of your sprite.
+Ajoute maintenant quelques blocs pour définir l'apparence et la position de ton sprite.
 
-![The shape sprite.](images/shape_sprite.png)
+![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
 define setup: size (size) ghost (ghost) y (y) move (move)
@@ -45,9 +45,9 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 
 --- task ---
 
-At the moment, your `my blocks`{:class="block3myblocks"} hasn't been used, so there will be no effect on your pattern. Add code to `setup`{:class="block3myblocks"}, so the code will run as soon as the flag is clicked.
+Pour le moment, tes `Mes Blocs`{:class="block3myblocks"} n'ont pas été utilisés, il n'y aura donc aucun effet sur ton motif. Ajoute du code à `configuration`{:class="block3myblocks"}, pour que le code s'exécute dès que le drapeau est cliqué.
 
-![The shape sprite.](images/shape_sprite.png)
+![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -61,15 +61,15 @@ pattern: repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-**Test** your code by clicking on the flag and observing the pattern that has been drawn. Then, change the values of the parameters until you have a pattern that you like.
+**Teste** ton code en cliquant sur le drapeau et en observant le motif qui a été dessiné. Modifie ensuite les valeurs des paramètres jusqu'à ce que tu obtiennes un motif qui te plaît.
 
 --- /task ---
 
 --- task ---
 
-The sprite (not its clones) is still visible; it can be hidden at the end, but will need to be shown at the start.
+Le sprite (pas ses clones) est toujours visible ; il peut être caché à la fin, mais devra être montré au début.
 
-![The shape sprite.](images/shape_sprite.png)
+![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
