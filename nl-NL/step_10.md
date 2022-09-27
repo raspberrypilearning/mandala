@@ -1,10 +1,10 @@
-## What next?
+## Wat kun je verder nog doen?
 
-If you are following the [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) pathway, you can move on to the [Swarms, schools, and flocks](https://projects.raspberrypi.org/en/projects/swarms-schools-flocks) project. In this project, you will make a game that uses clones to make a simulation of a group of animals.
+Als je het [Verder met Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) pad volgt, kun je naar het [Zwermen, scholen en kuddes](https://projects.raspberrypi.org/en/projects/swarms-schools-flocks) project gaan. In dit project maak je een spel dat klonen gebruikt om een simulatie van een groep dieren te maken.
 
 --- print-only ---
 
-![Swarms, schools, and flocks](images/swarms_bats.png)
+![Zwermen, scholen en kuddes](images/swarms_bats.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [Further Scratch](https://projects.raspberrypi.org/en/p
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+Wil je nog meer plezier hebben met het het verkennen van Scratch, dan kun je een van [deze projecten](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201) proberen.
