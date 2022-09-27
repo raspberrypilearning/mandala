@@ -2,16 +2,16 @@
 --- question ---
 
 ---
-legend: Question 2 of 2
+legend: Vraag 2 van 2
 ---
 
-In your project, you used the addition + operator to change costumes depending on a 'My Blocks'{:class='block3myblocks'} input.
+In je project heb je de toevoeging + operator gebruikt om uiterlijken te veranderen, afhankelijk van een 'Mijn blokken'{:class='block3myblocks'} invoer.
 
-If we have these costumes:
+Als we deze uiterlijken hebben:
 
-![Images of all the costumes: costume1 is a transparent petal; costume 2 is a purple petal; costume 3 is a transparent globe; and costume 4 is a purple globe.](images/costumes_quiz.png)
+![Afbeeldingen van alle uiterlijken: Uiterlijk 1 is een transparant bloemblaadje; Uiterlijk 2 is een paars bloemblaadje; Uiterlijk 3 is een transparante wereldbol; en Uiterlijk 4 is een paarse wereldbol.](images/costumes_quiz.png)
 
-Which of the following code blocks would get your pattern to switch from the purple petal to the purple globe?
+Welke van de volgende codeblokken zou je patroon laten overschakelen van het paarse blaadje naar de paarse bol?
 
 --- choices ---
 
@@ -24,7 +24,7 @@ Which of the following code blocks would get your pattern to switch from the pur
 
   --- feedback ---
 
-Yes, the costume number you are on is costume 2 and the costume you want to switch to is costume 4 so you will need to switch to costume 2 + 2 = 4.
+Ja, het nummer van het uiterlijk waar je op staat is uiterlijk 2 en het uiterlijk waar je naar wilt overschakelen is uiterlijk 4 dus je moet overschakelen naar kostuum 2 + 2 = 4.
 
   --- /feedback ---
 
@@ -38,7 +38,7 @@ Yes, the costume number you are on is costume 2 and the costume you want to swit
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transparent globe, not the purple globe.
+Dit zal overschakelen van uiterlijk 2 naar uiterlijk 2 + 1 = 3. Uiterlijk 3 is de transparante wereldbol, niet de paarse wereldbol.
 
   --- /feedback ---
 
@@ -52,7 +52,7 @@ This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transpare
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transparent petal, not the purple globe.
+Dit zal overschakelen van Uiterlijk 2 naar Uiterlijk 2 - 1 = 1. Uiterlijk 1 is het transparante bloemblaadje, niet de paarse wereldbol.
 
   --- /feedback ---
 
@@ -65,7 +65,7 @@ This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transpare
 
   --- feedback ---
 
-This will switch the costume to `costume 2`{:class='block3looks'} regardless of which costume is currently being shown.
+Hiermee wordt het uiterlijk overgeschakeld naar `Uiterlijk2`{:class='block3looks'}, ongeacht welk uiterlijk momenteel wordt getoond.
 
   --- /feedback ---
 
