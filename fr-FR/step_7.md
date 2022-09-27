@@ -1,27 +1,27 @@
-## Choose your mandala
+## Choisir ton mandala
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Everyone is different. Give the person using your mandala program a choice based on what they find most peaceful.
+Tout le monde est différent. Donne à l'utilisateur de ton programme de mandala le choix de créer son propre mandala.
 </div>
 <div>
 ![](images/step_6.gif){:width="300px"}
 </div>
 </div>
 
-You should now have at least two different mandalas. You can use an `ask`{:class="block3sensing"} block to create a start menu, giving a choice to whoever is using your mandala program.
+Tu devrais maintenant avoir au moins deux mandalas différents. Tu peux utiliser un bloc `demander`{:class="block3sensing"} pour créer un menu de démarrage qui offre un choix à ton utilisateur.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Start menus**</span> are often found in games and apps. They let the person playing the game or using the app pick from a number of options, for example, what character they want to play, or what settings they want.
+<span style="color: #0faeb0">**Les menus de démarrage**</span> se trouvent souvent dans les jeux et les applis. Ils permettent à la personne qui joue au jeu ou qui utilise l'application de choisir parmi un certain nombre d'options, par exemple le personnage qu'elle veut incarner ou les paramètres qu'elle souhaite.
 </p>
 
-Create the question you will ask in your start menu.
+Crée la question que tu poseras dans ton menu de démarrage.
 
 --- task ---
 
-Add an `ask and wait`{:class="block3sensing"} block beneath the `when flag clicked`{:class="block3events"} and choose the text for your question, like the example below.
+Ajoute un bloc `demander et attendre`{:class="block3sensing"} sous `quand le drapeau est cliqué`{:class="block3events"} et choisis le texte de ta question, comme l'exemple ci-dessous.
 
-![The shape sprite.](images/shape_sprite.png)
+![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,17 +37,17 @@ hide
 
 --- /task ---
 
-The reason for hiding the sprite before using the `ask and wait`{:class="block3sensing"} is so that the question appears at the bottom of the stage, rather than as a speech bubble from the sprite.
+Tu dois cacher le sprite avant d'utiliser le bloc `demander et attendre`{:class="block3sensing"} parce que la question apparaît au bas de la scène, plutôt que sous forme de bulle de texte du sprite.
 
-![Image of question being asked within a box at the bottom of the stage.](images/question.png)
+![Image de la question posée dans une case en bas de la scène.](images/question.png)
 
-Match the answer with the right sprite to show the right mandala.
+Fais correspondre la réponse avec le bon sprite pour afficher le bon mandala.
 
 --- task ---
 
-Add a `switch costume to`{:class="block3looks"} `answer`{:class="block3sensing"} block underneath the `ask and wait`{:class="block3sensing"} block.
+Ajoute un bloc `basculer sur le costume`{:class="block3looks"} `demander`{:class="block3sensing"} sous le bloc `demander et attendre`{:class="block3sensing"}.
 
-![The shape sprite.](images/shape_sprite.png)
+![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -66,7 +66,7 @@ hide
 
 --- task ---
 
-**Test**: Try your mandala project by clicking the flag and choosing a number.
+**Test** : Essaie ton projet mandala en cliquant sur le drapeau et en choisissant un nombre.
 
 --- /task ---
 
