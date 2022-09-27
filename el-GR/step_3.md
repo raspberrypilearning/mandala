@@ -83,7 +83,7 @@ pattern repeat (3) size (0) move (0) turn (60) ::custom
 Now that you have a basic pattern, you can use your `pattern`{:class="block3myblocks"} a number of times to make a repeating pattern, or mandala 'rows'. By using the same code over and over again, you make a program that has been **optimised**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains fewer steps and a shorter distance.
+<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Δες το παρακάτω διάγραμμα. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains fewer steps and a shorter distance.
 <img src="images/map.png">
 </p>
 
