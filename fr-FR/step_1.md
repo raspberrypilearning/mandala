@@ -1,4 +1,4 @@
-## You will make
+## Ce que tu feras
 
 Crée un programme qui génère des mandalas.
 
