@@ -1,6 +1,6 @@
 ## Questionnaire rapide
 
-Répond aux deux questions. Il y a des indices pour te guider vers la bonne réponse.
+Réponds aux deux questions. Il y a des indices pour te guider vers la bonne réponse.
 
 Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
