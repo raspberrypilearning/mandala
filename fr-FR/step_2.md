@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Clone des formes pour créer un motif.
+Clone des sprites pour créer un motif.
 </div>
 <div>
 ![Animation of a pattern being repeated when the flag is clicked in Scratch.](images/step_2.gif){:width="300px"}
@@ -19,7 +19,7 @@ Si tu travailles hors ligne, tu peux télécharger le [projet de démarrage](htt
 
 Tu devrais voir un sprite de forme qui ressemble un peu à un pétale de fleur.
 
-Tu utiliseras `Mes Blocs`{:class="block3myblocks"} pour créer un motif avec cette forme. Tu te souviens d'avoir créé `Mes blocs`{:class="block3myblocks"} pour organiser ton code dans [Rover nature](https://projects.raspberrypi.org/en/projects/nature-rover/3){:target="_blank"}, et d'avoir répété le même code dans [](https://projects.raspberrypi.org/en/projects/puzzle-room/4)Salle de puzzle{:target="_blank"} ? `Mes Blocs`{:class="block3myblocks"} peut être utilisé pour réutiliser des actions d'une manière différente.
+Tu utiliseras `Mes Blocs`{:class="block3myblocks"} pour créer un motif avec cette forme. Tu te souviens d'avoir créé `Mes blocs`{:class="block3myblocks"} pour organiser ton code dans [Rover nature](https://projects.raspberrypi.org/en/projects/nature-rover/3){:target="_blank"}, et d'avoir répété le même code dans [Salle de puzzle](https://projects.raspberrypi.org/en/projects/puzzle-room/4){:target="_blank"} . `Mes Blocs`{:class="block3myblocks"} peut être utilisé pour réutiliser des actions d'une manière différente.
 
 --- task ---
 
