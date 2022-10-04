@@ -52,7 +52,7 @@ Tu te souviens peut-être que dans la dernière étape, tu as ajouté une entré
 
 --- task ---
 
-Crée le type d'effet de coloration que tu veux en changeant tes nombres `fantôme`{:class="block3myblocks"}. Un nombre `fantôme`{:class="block3myblocks"} plus petit signifie que la couleur est plus saturée, comme un indélébile. Un nombre `fantôme`{:class="block3myblocks"} plus élevé signifie que la couleur est moins saturée, comme les aquarelles.
+Crée le type d'effet de coloration que tu veux en changeant tes nombres `fantôme`{:class="block3myblocks"}. Un nombre `fantôme`{:class="block3myblocks"} plus petit signifie que la couleur est plus saturée, comme un marqueur indélébile. Un nombre `fantôme`{:class="block3myblocks"} plus élevé signifie que la couleur est moins saturée, comme les aquarelles.
 
 --- /task ---
 
