@@ -18,11 +18,11 @@ steps:
   - 
     title: تجهيز كائنك
   - 
-    title: اخلق ماندالة أخرى
+    title: Mandala colouring
   - 
-    title: اختر ماندالتك
+    title: Create another mandala
   - 
-    title: تلوين ماندالة
+    title: Choose your mandala
     completion:
       - internal
   - 
