@@ -18,11 +18,11 @@ steps:
   - 
     title: మీ sprite ని సెటప్ చేయండి
   - 
-    title: మరొక mandala ను సృష్టించండి
+    title: Mandala colouring
   - 
-    title: మీ mandala ను ఎంచుకోండి
+    title: Create another mandala
   - 
-    title: Mandala రంగులు
+    title: Choose your mandala
     completion:
       - internal
   - 
