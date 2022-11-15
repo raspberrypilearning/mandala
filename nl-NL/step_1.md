@@ -5,7 +5,7 @@ Maak een programma dat mandala's genereert.
 ![Voorbeeld van een kleurrijke vlindermandala.](images/mandala.png)
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**computer generated art**</span> of **digital art** is gewoon kunst die gemaakt wordt met een computer. Het kan variëren van tekeningen die op een tablet zijn gemaakt tot het schrijven van AI-programma's (kunstmatige intelligentie) om een computer in staat te stellen zijn eigen kunst te maken In dit project ga je programmeren in Scratch gebruiken om mindful artwork te maken.
+<span style="color: #0faeb0">**Computer generated art**</span> of **digital art** is gewoon kunst die gemaakt wordt met een computer. Het kan variëren van tekeningen die op een tablet zijn gemaakt tot het schrijven van AI-programma's (kunstmatige intelligentie) om een computer in staat te stellen zijn eigen kunst te maken In dit project ga je programmeren in Scratch gebruiken om mindful artwork te maken.
 </p>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
