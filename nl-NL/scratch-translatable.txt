@@ -1,0 +1,15 @@
+patroon: herhaal
+
+herhaal
+
+grootte
+
+beweeg
+
+draai
+
+transparant
+
+y-positie
+
+Wat klinkt voor jou vandaag het vredigst? (1) abstracte vormen (2) de aarde (3) vlinders (4) liefde
