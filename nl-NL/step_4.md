@@ -32,12 +32,12 @@ Voeg nu een paar blokken toe om het uiterlijk en de positie van je sprite in te 
 ![De vorm sprite.](images/shape_sprite.png)
 
 ```blocks3
-define instellen: grootte (grootte) transparant (transparant) y (y-positie) beweeg (beweeg)
+define instellen: grootte (grootte) transparant (transparant) y (y) beweeg (beweeg)
 + set size to (grootte) %
 + set [ghost v] effect to (transparant)
 + go to x: (0) y: (0)
 + point in direction (90)
-+ change y by (y-positie)
++ change y by (y)
 + move (beweeg) steps
 ```
 
