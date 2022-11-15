@@ -42,7 +42,7 @@ Om te ontwerpen hoe een patroon wordt gemaakt, is de eerste stap het `definiëre
 
 Sleep de `herhaal`{:class='block3myblocks'} parameter van `definieer patroon`{:class='block3myblocks'} naar een `herhaal`{:class='block3control'} lusblok.
 
-![Animatie die de 'herhaal' parameter laat zien die van het 'definieer' blok naar het 'herhaal' blok wordt gesleept.](images/use-herhaal.gif)
+![Animatie die de 'herhaal' parameter laat zien die van het 'definieer' blok naar het 'herhaal' blok wordt gesleept.](images/use-repeat.gif)
 
 ![De vorm sprite.](images/shape_sprite.png)
 
