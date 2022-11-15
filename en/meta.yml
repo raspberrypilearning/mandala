@@ -13,9 +13,9 @@ steps:
     completion:
       - engaged
   - title: Setup your sprite
+  - title: Mandala colouring
   - title: Create another mandala
   - title: Choose your mandala
-  - title: Mandala colouring
     completion:
       - internal
   - title: Quick quiz
