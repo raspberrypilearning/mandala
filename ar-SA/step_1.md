@@ -1,4 +1,4 @@
-## You will make
+## ستقوم
 
 Create a program that generates mandalas.
 
