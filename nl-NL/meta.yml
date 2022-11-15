@@ -13,9 +13,9 @@ steps:
     completion:
       - engaged
   - title: Stel je sprite in
+  - title: Mandala kleuren
   - title: Maak nog een mandala
   - title: Kies je mandala
-  - title: Mandala kleuren
     completion:
       - internal
   - title: Snelle quiz
