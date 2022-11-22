@@ -18,11 +18,11 @@ steps:
   - 
     title: तुमचा स्प्राइट सेट करा
   - 
-    title: Mandala colouring
+    title: दुसरे मंडल तयार करा
   - 
-    title: Create another mandala
+    title: तुमचे मंडल निवडा
   - 
-    title: Choose your mandala
+    title: मंडल रंग
     completion:
       - internal
   - 
