@@ -1,21 +1,21 @@
-## Set up your sprite
+## Sefydla dy gorlun
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Set up your sprite to reset your mandala.
+Sefydla dy gorlun i ailosod dy fandala.
 </div>
 <div>
 ![](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
-At the moment, your mandala patterns may appear to change each time, depending on the parameter values you use. Next, you will create a new `my blocks`{:class="block3myblocks"}, so that your **mandala** sprite always begins in the same state.
+Ar hyn o bryd, mae'n bosibl y bydd dy batrymau mandala yn newid bob tro, yn dibynnu ar y gwerthoedd paramedr rwyt ti'n eu defnyddio. Nesaf, byddi di'n creu `fy mlociau`{:class="block3myblocks"} newydd, fel bod corlun dy **mandala** bob amser yn dechrau yn yr un cyflwr.
 
 --- task ---
 
-Use the `My Blocks`{:class="block3myblocks"} menu to create a new block called `setup`{:class="block3myblocks"}. The block should have four parameters: `size`{:class="block3myblocks"}, `ghost`{:class="block3myblocks"}, `y`{:class="block3myblocks"}, and `move`{:class="block3myblocks"}. Don't worry, you can change these or add more later.
+Defnyddia'r ddewislen `Fy Mlociau`{:class="block3myblocks"} i greu bloc newydd o'r enw `sefydlu`{:class="block3myblocks"}. Dylai fod gan y bloc bedwar paramedr: `maint`{:class="block3myblocks"}, `ysbryd`{:class="block3myblocks"}, `y`{:class="block3myblocks"}, a `symud`{:class = "bloc3myblocks"}. Paid â phoeni, gelli newid rhain neu ychwanegu mwy nes ymlaen.
 
-![The shape sprite.](images/shape_sprite.png)
+![Corlun siâp.](images/shape_sprite.png)
 
 ```blocks3
 define setup: size (size) ghost (ghost) y (y) move (move)
@@ -23,13 +23,13 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 
 --- /task ---
 
-When you make the mandala colourful in the next step, the `ghost`{:class="block3myblocks"} block will make the colours transparent so when the shapes overlap, you will get a colour mixing effect.
+Pan fyddi di'n gwneud y mandala yn lliwgar yn y cam nesaf, bydd y bloc `ysbryd`{:class="block3myblocks"} yn gwneud y lliwiau'n dryloyw felly pan fydd y siapiau'n gorgyffwrdd, fe gei di effaith cymysgu lliw.
 
 --- task ---
 
-Now add some blocks to set the appearance and position of your sprite.
+Nawr ychwanega rai blociau i osod ymddangosiad a lleoliad dy gorlun.
 
-![The shape sprite.](images/shape_sprite.png)
+![Corlun siâp.](images/shape_sprite.png)
 
 ```blocks3
 define setup: size (size) ghost (ghost) y (y) move (move)
@@ -45,9 +45,9 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 
 --- task ---
 
-At the moment, your `my blocks`{:class="block3myblocks"} hasn't been used, so there will be no effect on your pattern. Add code to `setup`{:class="block3myblocks"}, so the code will run as soon as the flag is clicked.
+Ar hyn o bryd, nid yw dy `fy mlociau`{:class="block3myblocks"} wedi'i ddefnyddio, felly ni fydd unrhyw effaith ar dy batrwm. Ychwanega god at `sefydlu`{:class="block3myblocks"}, er mwyn i'r cod redeg cyn gynted ag y bydd y faner yn cael ei chlicio.
 
-![The shape sprite.](images/shape_sprite.png)
+![Corlun siâp.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -61,15 +61,15 @@ pattern: repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-**Test** your code by clicking on the flag and observing the pattern that has been drawn. Then, change the values of the parameters until you have a pattern that you like.
+**Profa** dy god trwy glicio ar y faner ac arsylwi'r patrwm a luniwyd. Yna, newidia werthoedd y paramedrau nes bod gen ti batrwm yr wyt yn ei hoffi.
 
 --- /task ---
 
 --- task ---
 
-The sprite (not its clones) is still visible; it can be hidden at the end, but will need to be shown at the start.
+Mae'r corlun (nid ei glonau) i'w weld o hyd; gellir ei guddio ar y diwedd, ond bydd angen ei ddangos ar y dechrau.
 
-![The shape sprite.](images/shape_sprite.png)
+![Corlun siâp.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
