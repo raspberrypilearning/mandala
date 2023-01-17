@@ -66,7 +66,7 @@ Je zou een caleidoscoop-effect moeten krijgen wanneer kleuren elkaar overlappen.
 
 --- /task ---
 
-Als je de door jou gemaakte mandala leuk vindt, kun je **met de rechtermuisknop** op het speelveld klikken en ervoor kiezen om de afbeelding op te slaan.
+Als je de door jou gemaakte mandala leuk vind, kun je **met de rechtermuisknop** op het speelveld klikken en ervoor kiezen om de afbeelding op te slaan.
 
 ![Het contextmenu verschijnt wanneer met de rechtermuisknop op het speelveld wordt geklikt en de optie 'Afbeelding opslaan als' is gemarkeerd.](images/save_mandala.png)
 
