@@ -1,27 +1,27 @@
-## Choose your mandala
+## Dewisa dy fandala
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Everyone is different. Give the person using your mandala program a choice based on what they find most peaceful.
+Mae pawb yn wahanol. Rho ddewis i'r person sy'n defnyddio dy raglen mandala yn seiliedig ar yr hyn sydd fwyaf heddychlon iddynt.
 </div>
 <div>
 ![](images/step_6.gif){:width="300px"}
 </div>
 </div>
 
-You should now have at least two different mandalas. You can use an `ask`{:class="block3sensing"} block to create a start menu, giving a choice to whoever is using your mandala program.
+Dylai fod gennyt o leiaf ddau fandala gwahanol nawr. Gelli ddefnyddio bloc `gofyn`{:class="block3sensing"} i greu dewislen cychwyn, gan roi dewis i bwy bynnag sy'n defnyddio dy raglen mandala.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Start menus**</span> are often found in games and apps. They let the person playing the game or using the app pick from a number of options, for example, what character they want to play, or what settings they want.
+Mae <span style="color: #0faeb0">**dewislenni cychwyn**</span> yn aml yn cael eu canfod mewn gemau ac apiau. Maen nhw'n gadael i'r person sy'n chwarae'r gêm neu'n defnyddio'r ap ddewis o nifer o opsiynau, er enghraifft, pa gymeriad maen nhw eisiau ei chwarae, neu pa osodiadau maen nhw eu heisiau.
 </p>
 
-Create the question you will ask in your start menu.
+Crea'r cwestiwn y byddi di'n ei ofyn yn dy ddewislen cychwyn.
 
 --- task ---
 
-Add an `ask and wait`{:class="block3sensing"} block beneath the `when flag clicked`{:class="block3events"} and choose the text for your question, like the example below.
+Ychwanega floc `gofyn ac aros`{:class="block3sensing"} o dan `pan glicir ar y faner`{:class="block3events"} a dewisa'r testun ar gyfer dy gwestiwn, fel yr enghraifft isod.
 
-![The shape sprite.](images/shape_sprite.png)
+![Corlun siâp.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,17 +37,17 @@ hide
 
 --- /task ---
 
-The reason for hiding the sprite before using the `ask and wait`{:class="block3sensing"} is so that the question appears at the bottom of the stage, rather than as a speech bubble from the sprite.
+Y rheswm dros guddio'r corlun cyn defnyddio `gofyn ac aros`{:class="block3sensing"} yw fel bod y cwestiwn yn ymddangos ar waelod y llwyfan, yn hytrach nag fel swigen siarad o'r corlun.
 
-![Image of question being asked within a box at the bottom of the stage.](images/question.png)
+![Delwedd o gwestiwn yn cael ei ofyn mewn blwch ar waelod y llwyfan.](images/question.png)
 
-Match the answer with the right sprite to show the right mandala.
+Una'r ateb gyda'r corlun cywir i ddangos y mandala cywir.
 
 --- task ---
 
-Add a `switch costume to`{:class="block3looks"} `answer`{:class="block3sensing"} block underneath the `ask and wait`{:class="block3sensing"} block.
+Ychwanega floc `gwisg newid i`{:class="block3looks"} `ateb`{:class="block3sensing"} o dan y bloc `gofyn ac aros`{:class="block3sensing"}.
 
-![The shape sprite.](images/shape_sprite.png)
+![Corlun siâp.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -66,7 +66,7 @@ hide
 
 --- task ---
 
-**Test**: Try your mandala project by clicking the flag and choosing a number.
+**Profi**: Rho gynnig ar dy brosiect mandala trwy glicio ar y faner a dewis rhif.
 
 --- /task ---
 
