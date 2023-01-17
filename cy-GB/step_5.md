@@ -1,31 +1,31 @@
-## Mandala colouring
+## Lliwio mandala
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Adding colour to a mandala is therapeutic as well as a creative activity. Add in the opportunity to colour different parts of the mandalas.
+Mae ychwanegu lliw at fandala yn therapiwtig yn ogystal â bod yn weithgaredd creadigol. Ychwanega'r cyfle i liwio gwahanol rannau o'r mandalas.
 </div>
 <div>
 ![](images/step_7.gif){:width="300px"}
 </div>
 </div>
 
-**Tip:** If you want to, you can print out your mandala before you add colour to it in this step, and use it as a colouring pattern to colour by hand.
+**Awgrym:** Os wyt ti eisiau, gelli argraffu dy fandala cyn ychwanegu lliw ato yn y cam hwn, a'i ddefnyddio fel patrwm lliwio i'w liwio â llaw.
 
 --- task ---
 
-Have a look at the current costumes for your **shape** sprite. You will see that there are two costumes, one white and the other filled in.
+Cymer olwg ar y gwisgoedd presennol ar gyfer dy **siâp**. Fe weli fod dwy wisg, un yn wyn a'r llall wedi'i llenwi.
 
-![Two costumes for the sprite.](images/costumes.png)
+![Dwy wisg i'r corlun.](images/costumes.png)
 
 --- /task ---
 
-To add colour to your mandala, each of the clone shapes should change its `costume`{:class="block3looks"} and then its `color effect`{:class="block3looks"} when the clone is clicked. The new costume will be **one** more than whatever the previous costume was, so it will change to the coloured version and then to the different colours.
+I ychwanegu lliw at dy fandala, dylai pob un o'r siapiau clôn newid ei `gwisg`{:class="block3looks"} ac yna ei `effaith lliw`{:class="block3looks"} pan glicir ar y clôn. Bydd y wisg newydd **un** yn fwy na beth bynnag oedd y wisg flaenorol, felly bydd yn newid i'r fersiwn lliw ac yna i'r lliwiau gwahanol.
 
 --- task ---
 
-Add a `when this sprite clicked`{:class="block3events"} block, and then use the `+`{:class="block3operators"} operator to change the costume number.
+Ychwanega floc `pan glicir ar y corlun hwn`{:class="block3events"}, ac yna defnyddia'r gweithredwr `+`{:class="block3operators"} i newid rhif y wisg.
 
-![The shape sprite.](images/shape_sprite.png)
+![Corlun siâp.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -36,9 +36,9 @@ switch costume to ((answer) + (1))
 
 --- task ---
 
-Add a `change color effect`{:class="block3looks"} block to this script, so that each time the sprite is clicked, the colour changes a little.
+Ychwanega floc `newid effaith lliw`{:class="block3looks"} i'r sgript hon, fel bod y lliw yn newid ychydig bob tro y bydd y corlun yn cael ei glicio.
 
-![The shape sprite.](images/shape_sprite.png)
+![Corlun siâp.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -48,26 +48,26 @@ change [color v] effect by (25)
 
 --- /task ---
 
-You might remember adding a `ghost`{:class="block3myblocks"} block input to your project in the last step. You should now be able to see what happens when you change the number where you call `ghost`{:class="block3myblocks"}.
+Efallai dy fod yn cofio ychwanegu mewnbwn bloc `ysbryd`{:class="block3myblocks"} i dy brosiect yn y cam diwethaf. Dylet nawr allu gweld beth sy'n digwydd pan fyddi di'n newid y rhif lle rwyt ti'n galw `ysbryd`{:class="block3myblocks"}.
 
 --- task ---
 
-Create the kind of colouring effect you want by changing your `ghost`{:class="block3myblocks"} numbers. A lower `ghost`{:class="block3myblocks"} number will mean the colour is more saturated, like a permanent marker. A high `ghost`{:class="block3myblocks"} number will mean the colour is less saturated, like watercolours.
+Crea'r math o effaith lliwio rwyt ti ei eisiau trwy newid dy rifau `ysbryd`{:class="block3myblocks"}. Bydd rhif `ysbryd`{:class="block3myblocks"} is yn golygu bod y lliw yn fwy dirlawn, fel marciwr parhaol. Bydd rhif `ysbryd`{:class="block3myblocks"} uchel yn golygu bod y lliw yn llai dirlawn, fel dyfrlliwiau.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the flag, choose your costume, and then try clicking on the clones to change their colours.
+**Profi:** Clicia'r faner, dewisa dy wisg, ac yna ceisia glicio ar y clonau i newid eu lliwiau.
 
-![A mandala made of hearts that have been coloured in a variety of different colours.](images/coloured_mandala.png)
+![Mandala wedi'i wneud o galonnau sydd wedi'u lliwio mewn amrywiaeth o liwiau gwahanol.](images/coloured_mandala.png)
 
-You should get a kaleidoscope effect when colours are layered on top of each other.
+Dylet gael effaith caleidosgop pan fydd lliwiau'n cael eu haenu ar ben ei gilydd.
 
 --- /task ---
 
-If you like the mandala you have created then you can **right-click** on the stage, and choose to save the image.
+Os wyt ti'n hoffi'r mandala rwyt ti wedi'i greu yna gelli di **de-glicio** ar y llwyfan, a dewis cadw'r ddelwedd.
 
-![The contect menu appears when the Stage is right-clicked, and the 'Save Image As' option is highlighted.](images/save_mandala.png)
+![Mae'r ddewislen cyd-destun yn ymddangos pan fyddi di'n de-glicio ar y Llwyfan, ac mae'r opsiwn 'Save Image As' wedi'i amlygu.](images/save_mandala.png)
 
 --- save ---
