@@ -1,10 +1,10 @@
 ## Beth nesaf?
 
-If you are following the [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) pathway, you can move on to the [Swarms, schools, and flocks](https://projects.raspberrypi.org/en/projects/swarms-schools-flocks) project. In this project, you will make a game that uses clones to make a simulation of a group of animals.
+Os wyt ti'n dilyn y llwybr [Mwy o scratch](https://projects.raspberrypi.org/en/pathways/further-scratch), galli di symud ymlaen i brosiect [Heidiau, heigiau a diadelloedd](https://projects.raspberrypi.org/en/projects/swarms-schools-flocks). Yn y prosiect hwn, byddi di'n gwneud gêm sy'n defnyddio clonau i wneud efelychiad o grŵp o anifeiliaid.
 
 --- print-only ---
 
-![Swarms, schools, and flocks](images/swarms_bats.png)
+![Heidiau, heigiau, a diadelloedd](images/swarms_bats.png)
 
 --- /print-only ---
 
