@@ -1,15 +1,15 @@
-pattern: repeat
+patrwm: ailadrodd
 
-repeat
+ailadrodd
 
 maint
 
-move
+symud
 
-turn
+troi
 
-ghost
+ysbryd
 
-y position
+safle y
 
-What feels most peaceful to you today? (1) abstract shapes (2) the earth (3) butterflies (4) love
+Beth sy'n teimlo'n fwyaf heddychlon i ti heddiw? (1) siapiau haniaethol (2) y ddaear (3) glöynnod byw (4) cariad
