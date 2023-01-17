@@ -1,8 +1,8 @@
-## Make a mandala
+## اصنع ماندالة
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create more patterns to make a mandala!
+إنشاء المزيد من الأنماط لعمل ماندالة!
 </div>
 <div>
 ![Animation showing a more complicated pattern beginning to form when the flag is clicked.](images/step_3.gif){:width="300px"}
