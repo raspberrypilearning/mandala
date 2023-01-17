@@ -1,32 +1,32 @@
 ---
 title: Mandala
 hero_image: images/banner.png
-description: Make computer generated mandalas in Scratch
+description: Gwneud mandalas a gynhyrchir gan gyfrifiadur yn Scratch
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Byddi di'n creu
   - 
-    title: Clone shapes to make a pattern
+    title: Clonio siapiau i wneud patrwm
   - 
-    title: Make a mandala
+    title: Gwna mandala
     completion:
       - engaged
   - 
-    title: Setup your sprite
+    title: Sefydla dy gorlun
   - 
-    title: Mandala colouring
+    title: Lliwio mandala
   - 
-    title: Create another mandala
+    title: Creu mandala arall
   - 
-    title: Choose your mandala
+    title: Dewisa dy fandala
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Cwis cyflym
     knowledge_quiz:
       path: quiz1
       version: 1
