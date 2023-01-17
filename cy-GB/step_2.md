@@ -1,34 +1,34 @@
-## Clone shapes to make a pattern
+## Clonio siapiau i wneud patrwm
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Clone sprites to create a pattern.
+Clonio siapiau i wneud patrwm.
 </div>
 <div>
-![Animation of a pattern being repeated when the flag is clicked in Scratch.](images/step_2.gif){:width="300px"}
+![Animeiddiad o batrwm yn cael ei ailadrodd pan fydd y faner yn cael ei chlicio yn Scratch.](images/step_2.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open [the Scratch starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
+Agora [brosiect cychwyn arni gyda Scratch](https://scratch.mit.edu/projects/540476254/){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
 
-If you are working offline, you can download the [starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}.
+Os wyt ti'n gweithio heb gyswllt, gelli lawrlwytho'r prosiect [cychwyn arni](https://scratch.mit.edu/projects/540476254/){:target = "_blank"}.
 
 --- /task ---
 
-You should see a shape sprite that looks a bit like a flower petal.
+Dylet weld corlun siâp sy'n edrych ychydig fel petal blodyn.
 
-You will use `my blocks`{:class="block3myblocks"} to create a pattern with this shape. You may remember creating `my blocks`{:class="block3myblocks"} to organise your code in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3){:target="_blank"}, and to repeat the same code in [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4){:target="_blank"}. `My blocks`{:class="block3myblocks"} can also be used to reuse actions in a different way.
+Byddi di'n defnyddio `fy mlociau`{:class="block3myblocks"} i greu patrwm gyda'r siâp hwn. Efallai dy fod yn cofio creu `fy mlociau`{:class="block3myblocks"} i drefnu dy god yn [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3){:target="_blank"}, ac i ailadrodd yr un cod yn [Ystafell Posau](https://projects.raspberrypi.org/en/projects/puzzle-room/4){:target ="_gwag"}. Gellir hefyd defnyddio `fy mlociau`{:class="block3myblocks"} i ailddefnyddio gweithredoedd mewn ffordd wahanol.
 
 --- task ---
 
-Go to `My Blocks`{:class='block3myblocks'} and name your blocks (we have called it `pattern:`{:class="block3myblocks"}). Add `repeat`{:class="block3myblocks"} as a label to identify the first input or what programmer call a **parameter**. Then click "Add an Input" to actually create the **parameter** called `repeat`{:class="block3myblocks"}.
+Cer i `My Blocks`{:class='block3myblocks'} ac enwa dy flociau (rydym wedi eu galw'n `patrwm:`{:class="block3myblocks"}). Ychwanega `ailadrodd`{:class="block3myblocks"} fel label i nodi'r mewnbwn cyntaf neu'r hyn y mae rhaglennydd yn ei alw'n **baramedr**. Yna clicia "Ychwanegu Mewnbwn" i greu'r **paramedr** o'r enw `ailadrodd`{:class="block3myblocks"}.
 
 
-![Animation of a 'my blocks' block and an additional parameter being added.](images/add-parameter.gif)
+![Animeiddiad o floc 'fy mlociau' a pharamedr ychwanegol yn cael ei ychwanegu.](images/add-parameter.gif)
 
-![The shape sprite.](images/shape_sprite.png)
+![Corlun siâp.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat)
@@ -36,15 +36,15 @@ define pattern: repeat (repeat)
 
 --- /task ---
 
-To design how a pattern is made, the first step is to `define pattern`{:class='block3myblocks'}.
+I ddylunio sut mae patrwm yn cael ei wneud, y cam cyntaf yw `diffinio patrwm`{:class='block3myblocks'}.
 
 --- task ---
 
-Drag the `repeat`{:class='block3myblocks'} parameter from `define pattern`{:class='block3myblocks'} into a `repeat`{:class='block3control'} loop block.
+Llusga'r paramedr `ailadrodd`{:class='block3myblocks'} o `diffinio patrwm`{:class='block3myblocks'} i mewn i floc dolen `ailadrodd`{:class='block3control'}.
 
-![Animation showing the 'repeat' parameter being dragged from the 'define' block and into the 'repeat' block.](images/use-repeat.gif)
+![Animeiddiad yn dangos y paramedr 'ailadrodd' yn cael ei lusgo o'r bloc 'diffinio' ac i mewn i'r bloc 'ailadrodd'.](images/use-repeat.gif)
 
-![The shape sprite.](images/shape_sprite.png)
+![Corlun siâp.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat)
@@ -53,13 +53,13 @@ repeat (repeat)
 
 --- /task ---
 
-You will now use `clone`{:class='block3control'} blocks to make the same block appear a number of times. Make sure you also add code to change the size and position of the sprite, otherwise the sprites will be stacked on top of each other and you will not be able to see them.
+Byddi nawr yn defnyddio blociau `clôn`{:class='block3control'} i wneud i'r un bloc ymddangos nifer o weithiau. Sicrha dy fod hefyd yn ychwanegu cod i newid maint a lleoliad y corlun, fel arall bydd y sprites yn cael eu pentyrru ar ben ei gilydd ac ni fyddi di'n gallu eu gweld.
 
 --- task ---
 
-Add some code into the `repeat`{:class='block3myblocks'} loop of your `pattern`{:class='block3myblocks'}.
+Ychwanega ychydig o god i ddolen `ailadrodd`{:class='block3myblocks'} o dy batrwm ``{:class='block3myblocks'}.
 
-![The shape sprite.](images/shape_sprite.png)
+![Corlun siâp.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat)
@@ -71,14 +71,14 @@ repeat (repeat)
 
 --- /task ---
 
-**Tip:** `Defining`{:class='block3myblocks'} makes a general pattern outline. What you are creating now with `my blocks`{:class="block3myblocks"} is similar to creating a spirograph stencil; it is the tool and the pattern is later created by using it.
+**Awgrym:** Mae `diffinio`{:class='block3myblocks'} yn gwneud amlinelliad patrwm cyffredinol. Mae'r hyn rwyt ti'n ei greu nawr gyda `my blocks`{:class="block3myblocks"} yn debyg i greu stensil sbirograff; dyma'r offeryn ac fe'i defnyddir nes ymlaen i greu'r patrwm.
 
 
 --- task ---
 
-Create a pattern with your `my blocks`{:class="block3myblocks"}. Get the `pattern`{:class='block3myblocks'} to `repeat`{:class='block3myblocks'} a number of times `when flag clicked`{:class='block3events'}.
+Creu patrwm gyda `fy mlociau`{:class="block3myblocks"}. Cael y patrwm ``{:class='block3myblocks'} i `ailadrodd`{:class='block3myblocks'} nifer o weithiau `pan glicir ar y faner`{:class='block3events'}.
 
-![The shape sprite.](images/shape_sprite.png)
+![Corlun siâp.](images/shape_sprite.png)
 ```blocks3
 when flag clicked
 show //Shape is displayed 
@@ -87,10 +87,10 @@ go to x: (0) y: (0) //Displayed in the middle
 pattern: repeat (3) ::custom
 ```
 
-**Test:** See what your pattern looks like by clicking the green flag to run your program.
+**Profi:** Gelli weld sut olwg sydd ar dy batrwm trwy glicio ar y faner werdd i redeg dy raglen.
 
 --- /task ---
 
-You should see the beginning of a mandala pattern. Adding more **parameters**, or requirements, to your pattern will create the first part of your mandala.
+Dylet weld dechrau patrwm mandala. Bydd ychwanegu mwy o **baramedrau**, neu ofynion, at dy batrwm yn creu rhan gyntaf dy fandala.
 
 --- save ---
