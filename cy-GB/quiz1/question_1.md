@@ -1,10 +1,10 @@
-## Quick quiz
+## Cwis cyflym
 
-Answer the two questions. There are hints to guide you to the correct answer.
+Ateba'r dau gwestiwn. Mae awgrymiadau ar gael i dy arwain at yr ateb cywir.
 
-When you have answered each question, click on **Check my answer**.
+Ar ôl i ti ateb pob cwestiwn, clicia ar **Gwirio fy ateb**.
 
-Have fun!
+Mwynha!
 
 --- question ---
 
@@ -12,7 +12,7 @@ Have fun!
 legend: Cwestiwn 1 o 2
 ---
 
-In your project, you used clones to create patterns. Look at the following `My Blocks`{:class='block3myblocks'} definition:
+Yn dy brosiect, fe wnes di ddefnyddio clonau i greu patrymau. Cymer olwg ar y diffiniad canlynol o `Fy Mlociau`{:class='block3myblocks'}:
 
 ```blocks3
 define pattern (repeat) (size) (move) (turn)
@@ -23,9 +23,9 @@ turn cw (turn) degrees
 create clone of (myself v)
 ```
 
-Here is a pattern that has been created. ![four petals equally spaced, all starting from the same center. Each petal increases in size.](images/quiz_1.png)
+Dyma batrwm sydd wedi ei greu. ![pedwar petal wedi'u gwasgaru'n gyfartal, i gyd yn dechrau o'r un canol. Mae pob petal yn cynyddu mewn maint.](images/quiz_1.png)
 
-Which of the following calls would create the pattern above?
+Pa un o'r galwadau canlynol fyddai'n creu'r patrwm uchod?
 
 --- choices ---
 
@@ -36,7 +36,7 @@ pattern (3) (10) (0) (90)::custom
 ```
   --- feedback ---
 
-This would only create three clones, and there are four shown in the image.
+Dim ond tri chlon y byddai hyn yn eu creu, ac mae pedwar yn cael eu dangos yn y ddelwedd.
 
   --- /feedback ---
 
@@ -49,7 +49,7 @@ pattern (4) (10) (100) (90)::custom
 
   --- feedback ---
 
-This would make the clone move by `100` steps, but all the clones in the image have the same `x` and `y` coordinate.
+Byddai hyn yn gwneud i'r clôn symud `100` cam, ond mae gan yr holl glonau yn y ddelwedd yr un cyfesuryn `x` a `y`.
 
   --- /feedback ---
 
@@ -62,7 +62,7 @@ pattern (4) (10) (0) (90)::custom
 
   --- feedback ---
 
-Yes, this code creates 4 petals, each increasing in size by 10. Each petal has rotated 90 degrees.
+Ydy, mae'r cod hwn yn creu 4 petal, pob un yn cynyddu mewn maint gan 10. Mae pob petal wedi cylchdroi 90 gradd.
 
   --- /feedback ---
 
@@ -75,7 +75,7 @@ pattern (4) (10) (0) (360)::custom
 
   --- feedback ---
 
-This would make the clones turn a full circle, so you would only be able to see a single large clone.
+Byddai hyn yn gwneud i'r clonau droi cylch llawn, felly dim ond un clôn mawr y byddet ti'n gallu ei weld.
 
   --- /feedback ---
 
