@@ -1,65 +1,65 @@
-## Create another mandala
+## Creu mandala arall
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create another mandala easily using your optimised code blocks.
+Crea mandala arall yn hawdd gan ddefnyddio dy flociau cod wedi'u hoptimeiddio.
 </div>
 <div>
 ![](images/step_5.png)
 </div>
 </div>
 
-You have two costumes that you are using to create your coloured mandala. Add some more costumes to personalise your mandala even more.
+Mae gennyt ddwy wisg yr wyt yn eu defnyddio i greu dy fandala lliw. Ychwanega ychydig mwy o wisgoedd i bersonoli dy fandala hyd yn oed yn fwy.
 
 --- task ---
 
-**Choose:** Add another costume. Here the **Earth** costume has been chosen.
+**Dewisa:** Ychwanegu gwisg arall. Yma mae'r wisg **Earth** wedi'i dewis.
 
-![The Earth costume from the Scratch library.](images/earth_costume.png)
+![Gwisg Earth o lyfrgell Scratch.](images/earth_costume.png)
 
-It doesn't matter which costume you pick, but you should make sure that it is a **Vector** costume and not a **Bitmap** costume. You can tell you have chosen a **Vector** costume, as you will see a button labelled **Convert to Bitmap**. **Do not click this button**. If you have selected a costume that is a **Bitmap**, then delete it and choose another one.
+Nid oes ots pa wisg y byddi di'n ei dewis, ond dylet sicrhau mai gwisg **Vector** ydyw ac nid gwisg **Bitmap**. Gelli ddweud dy fod wedi dewis gwisg **Fector**, oherwydd fe weli fotwm wedi'i labelu **Trosi i Bitmap**. **Paid â chlicio ar y botwm hwn**. Os wyt ti wedi dewis gwisg sy'n un **Bitmap**, yna dilëa hi a dewisa un arall.
 
-![The 'Convert to Bitmap' button.](images/convert_to_bitmap.png)
+![Y botwm 'Trosi i Bitmap'.](images/convert_to_bitmap.png)
 
 --- /task ---
 
 --- task ---
 
-Remove all the colour from the costume so you get just the outline. Select the whole costume and change the **Fill** **Saturation** to `0` and the **Outline** **Brightness** to `0`.
+Tynna'r holl liw o'r wisg fel dy fod yn cael yr amlinelliad yn unig. Dewisa'r wisg gyfan a newidia **Dirlawnder** y **Llanw** i `0` a **Disgleirdeb** yr **Amlinelliad** i `0`.
 
-![Animation showing the 'Earth' costume being selected, then the 'Fill' and 'Outline' colours being changed.](images/edit_costume.gif)
-
---- /task ---
-
---- task ---
-
-Duplicate this costume, and then repeat the process, this time changing the **Fill** colour to a dark colour of your choice.
-
-![The two Earth costumes, one filled in white and the other in purple.](images/earth_costumes.png)
+![Animeiddiad yn dangos gwisg 'Earth' yn cael ei dewis, yna'r lliwiau 'Llanw' ac 'Amlinelliad' yn cael eu newid.](images/edit_costume.gif)
 
 --- /task ---
 
 --- task ---
 
-Repeat this process a few more times with different vector costumes, to give yourself different styles of costume.
+Dyblyga'r wisg hon, ac yna ailadrodda'r broses, y tro hwn gan newid y lliw **Llanw** i liw tywyll o dy ddewis.
 
-![Earth, butterfly, and heart costumes shown with white and purple fills.](images/multiple_costumes.png)
+![Y ddwy wisg Earth, un wedi'i llenwi mewn gwyn a'r llall mewn porffor.](images/earth_costumes.png)
 
 --- /task ---
-
-To make sure you can colour your personalised mandalas, reorder your costumes and check the costume switches to the right number.
 
 --- task ---
 
-Reorder your costumes, so that all the ones filled with white are at the top, and the ones filled with colours are lower down, but still in the same order.
+Ailadrodda'r broses hon ychydig rhagor o weithiau gyda gwisgoedd vector gwahanol, i roi gwahanol arddulliau o wisgoedd i ti dy hun.
 
-![Animation of the costumes being placed in order, with the white costumes at the top and the coloured ones further down, but in the same order.](images/order_costumes.gif)
+![Gwisgoedd earth, pili-pala, a chalon wedi'u dangos gyda llenwadau gwyn a phorffor.](images/multiple_costumes.png)
 
 --- /task ---
 
-Remember to change which costume the mandala switches to so that you can colour your new mandalas. In the example project, there are four mandalas so we changed the costume number from '1' to '4'
+I wneud yn siŵr dy fod yn gallu lliwio dy fandalas personol, ail-drefna dy wisgoedd a gwirio bod y gwisg yn newid i'r rhif cywir.
 
-![The shape sprite.](images/shape_sprite.png)
+--- task ---
+
+Ail-drefna dy wisgoedd, fel bod pob un wedi'i lenwi â gwyn ar y brig, a'r rhai sydd wedi'u llenwi â lliwiau yn is i lawr, ond yn dal yn yr un drefn.
+
+![Animeiddiad o'r gwisgoedd yn cael eu gosod mewn trefn, gyda'r gwisgoedd gwyn ar y brig a'r rhai lliw ymhellach i lawr, ond yn yr un drefn.](images/order_costumes.gif)
+
+--- /task ---
+
+Cofia newid i ba wisg y mae'r mandala yn newid er mwyn i ti allu lliwio dy fandalas newydd. Yn y prosiect enghreifftiol, mae pedwar mandala felly fe newidion ni rhif y wisg o '1' i '4'
+
+![Corlun siâp.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -69,7 +69,7 @@ change [color v] effect by (25)
 
 --- task ---
 
-**Test:** Switch to one of your new costumes and click the green flag to see the pattern that is generated.
+**Profi:** Newidia i un o dy wisgoedd newydd a chlicia ar y faner werdd i weld y patrwm a gynhyrchir.
 
 --- /task ---
 
