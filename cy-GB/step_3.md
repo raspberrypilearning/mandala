@@ -1,23 +1,23 @@
-## Make a mandala
+## Gwna mandala
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create more patterns to make a mandala!
+Crea fwy o batrymau i wneud mandala!
 </div>
 <div>
-![Animation showing a more complicated pattern beginning to form when the flag is clicked.](images/step_3.gif){:width="300px"}
+![Animeiddiad yn dangos patrwm mwy cymhleth yn dechrau ffurfio pan fydd y faner yn cael ei chlicio.](images/step_3.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Right click on your `define pattern`{:class="block3myblocks"} block and choose **Edit** to add more parameters.
+De-glicia ar dy floc `diffinio patrwm`{:class="block3myblocks"} a dewis **Golygu** i ychwanegu mwy o baramedrau.
 
-![Animation showing the editing of 'my blocks' to add in extra parameters.](images/edit-parameter.gif)
+![Animeiddiad yn dangos golygu 'fy mlociau' i ychwanegu paramedrau ychwanegol.](images/edit-parameter.gif)
 
-You can start by adding a `size`{:class="block3myblocks"} text label and a `size`{:class="block3myblocks"} input. Then, add a  `move`{:class="block3myblocks"} label and input, and use these parameters in the blocks below.
+Gelli ddechrau drwy ychwanegu label testun `maint`{:class="block3myblocks"} a mewnbwn `maint`{:class="block3myblocks"}. Yna, ychwanega label a mewnbwn `symud`{:class="block3myblocks"}, a defnyddia'r paramedrau hyn yn y blociau isod.
 
-![The shape sprite.](images/shape_sprite.png)
+![Corlun siâp.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move)
@@ -34,17 +34,17 @@ pattern: repeat (3) size (10) move (5)
 
 --- task ---
 
-**Test:** See what your pattern looks like by clicking the green flag to run your program. It doesn't look like a mandala yet! Can you think of how you might make the pattern circular?
+**Profi:** Gelli weld sut olwg sydd ar dy batrwm trwy glicio ar y faner werdd i redeg dy raglen. Nid yw'n edrych fel mandala eto! Elli di feddwl sut y gallet ti wneud y patrwm yn gylchol?
 
 --- /task ---
 
-To make your pattern circular and look even more like a mandala, add another input.
+I wneud dy batrwm yn gylchol ac edrych hyd yn oed yn debycach i fandala, ychwanega fewnbwn arall.
 
 --- task ---
 
-Add another input called `turn`{:class="block3myblocks"}. Then, as well as moving your clone, you can turn it as well.
+Ychwanega fewnbwn arall o'r enw `troi`{:class="block3myblocks"}. Yna, yn ogystal â symud dy glôn, gelli di ei droi hefyd.
 
-![The shape sprite.](images/shape_sprite.png)
+![Corlun siâp.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move) turn (turn)
@@ -64,13 +64,13 @@ end
 
 --- /task ---
 
-Mandalas are often complex — they can have many different rows that follow similar patterns. You can create a base pattern for the rest of the mandala rows to build on.
+Mae mandalas yn aml yn gymhleth - gallant gael llawer o resi gwahanol sy'n dilyn patrymau tebyg. Gelli greu patrwm sylfaen i weddill y rhesi mandala adeiladu arno.
 
 --- task ---
 
-Try playing around with different numbers in your `pattern`{:class="block3myblocks"}. You can reset the position and size of your sprite anytime you like.
+Rho gynnig ar chwarae o gwmpas gyda rhifau gwahanol yn dy batrwm ``{:class="block3myblocks"}. Gelli ailosod safle a maint dy gorlun unrhyw bryd yr wyt yn dymuno.
 
-![Image of the sprites' attribute box with the size, x coordinate, and y coordinate all set to zero.](images/reset-attributes.png)
+![Delwedd o flwch priodoledd y corlun gyda'r maint, cyfesuryn x, a chyfesuryn y i gyd wedi'u gosod i sero.](images/reset-attributes.png)
 
 ```blocks3
 when flag clicked
@@ -80,18 +80,18 @@ pattern repeat (3) size (0) move (0) turn (60) ::custom
 --- /task ---
 
 
-Now that you have a basic pattern, you can use your `pattern`{:class="block3myblocks"} a number of times to make a repeating pattern, or mandala 'rows'. By using the same code over and over again, you make a program that has been **optimised**.
+Nawr bod gen ti batrwm sylfaenol, gelli ddefnyddio'ch `patrwm`{:class="block3myblocks"} nifer o weithiau i wneud patrwm sy'n ailadrodd, neu 'resi' mandala. Trwy ddefnyddio'r un cod dro ar ôl tro, rwyt ti'n gwneud rhaglen sydd wedi'i **optimeiddio**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains fewer steps and a shorter distance.
+Mae <span style="color: #0faeb0">**optimeiddio** </span> yn golygu gwneud pethau yn y ffordd fwyaf effeithlon. Cymer olwg ar y diagram isod. Gallet fynd o A i E trwy ddilyn y llwybr A-->B-->C-->D-->E. Optimeiddio fyddai mynd A-->D-->E, sy'n cynnwys llai o gamau a phellter byrrach.
 <img src="images/map.png">
 </p>
 
 --- task ---
 
-Beneath your `when flag clicked`{:class="block3events"} block, add in a few more **calls** to your `pattern`{:class="block3myblocks"}.
+O dan dy floc `pan glicir ar y faner`{:class="block3events"}, ychwanega ychydig mwy o **alwadau** i dy batrwm ``{:class="block3myblocks"}.
 
-![The shape sprite.](images/shape_sprite.png)
+![Corlun siâp.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -104,7 +104,7 @@ pattern repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-**Test:** Click the green flag, and see what pattern is produced. You can change the numbers to experiment with patterns that you like, or even add in more calls to your `pattern`{:class="block3myblocks"}.
+**Prawf:** Clicia ar y faner werdd i weld pa batrwm sy'n cael ei greu. Gelli newid y rhifau i arbrofi gyda phatrymau yr wyt yn eu hoffi, neu hyd yn oed ychwanegu mwy o alwadau i' dy `batrwm`{:class="block3myblocks"}.
 
 --- /task ---
 
