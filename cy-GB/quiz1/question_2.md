@@ -5,13 +5,13 @@
 legend: Cwestiwn 2 o 2
 ---
 
-In your project, you used the addition + operator to change costumes depending on a 'My Blocks'{:class='block3myblocks'} input.
+Yn dy brosiect, fe wnes di ddefnyddio'r gweithredwr adio + i newid gwisgoedd yn dibynnu ar fewnbwn 'Fy Mlociau' {:class='block3myblocks'}.
 
-If we have these costumes:
+Os oes gennym ni'r gwisgoedd hyn:
 
-![Images of all the costumes: costume1 is a transparent petal; costume 2 is a purple petal; costume 3 is a transparent globe; and costume 4 is a purple globe.](images/costumes_quiz.png)
+![Delweddau o'r holl wisgoedd: petal tryloyw yw gwisg 1; petal porffor yw gwisg 2; mae gwisg 3 yn glôb tryloyw; a glôb porffor yw gwisg 4.](images/costumes_quiz.png)
 
-Which of the following code blocks would get your pattern to switch from the purple petal to the purple globe?
+Pa un o'r blociau cod canlynol fyddai'n cael dy batrwm i newid o'r petal porffor i'r glôb porffor?
 
 --- choices ---
 
@@ -24,7 +24,7 @@ Which of the following code blocks would get your pattern to switch from the pur
 
   --- feedback ---
 
-Yes, the costume number you are on is costume 2 and the costume you want to switch to is costume 4 so you will need to switch to costume 2 + 2 = 4.
+Ie, rhif y wisg rwyt ti arni yw gwisg 2 a’r wisg rwyt ti am newid iddi yw gwisg 4 felly bydd angen i ti newid i wisg 2 + 2 = 4.
 
   --- /feedback ---
 
@@ -38,7 +38,7 @@ Yes, the costume number you are on is costume 2 and the costume you want to swit
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transparent globe, not the purple globe.
+Bydd hyn yn newid o wisg 2 i wisg 2 + 1 = 3. Gwisg 3 yw'r glôb tryloyw, nid y glôb porffor.
 
   --- /feedback ---
 
@@ -52,7 +52,7 @@ This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transpare
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transparent petal, not the purple globe.
+Bydd hyn yn newid o wisg 2 i wisg 2 - 1 = 1. Gwisg 1 yw'r petal tryloyw, nid y glôb porffor.
 
   --- /feedback ---
 
@@ -65,7 +65,7 @@ This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transpare
 
   --- feedback ---
 
-This will switch the costume to `costume 2`{:class='block3looks'} regardless of which costume is currently being shown.
+Bydd hyn yn newid y wisg i `wisg 2`{:class='block3looks'} waeth pa wisg sy'n cael ei dangos ar hyn o bryd.
 
   --- /feedback ---
 
