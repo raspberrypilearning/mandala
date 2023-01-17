@@ -11,7 +11,7 @@ Maak meer patronen om een mandala te maken!
 
 --- task ---
 
-Klik met de rechtermuisknop op het `definieer patroon`{:class="block3myblocks"} blok en kies **Bewerken** om meer parameters toe te voegen.
+Klik met de rechtermuisknop op het `definieer patroon`{:class="block3myblocks"} blok en kies **Bewerk** om meer parameters toe te voegen.
 
 ![Animatie die de bewerking van 'mijn blokken' laat zien om extra parameters toe te voegen.](images/edit-parameter.gif)
 
