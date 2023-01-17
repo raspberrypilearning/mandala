@@ -13,7 +13,7 @@ Op dit moment lijken je mandala-patronen elke keer te veranderen, afhankelijk va
 
 --- task ---
 
-Gebruik het menu `Mijn blokken`{:class="block3myblocks"} om een nieuw blok te maken met de naam `instellen`{:class="block3myblocks"}. Het blok zou vier parameters moeten hebben: `afmeting`{:class="block3myblocks"}, `transparant`{:class="block3myblocks"}, `y`{:class="block3myblocks"} en `beweeg`{:class="block3myblocks"}. Maak je geen zorgen, je kunt deze wijzigen of later meer toevoegen.
+Gebruik het menu `Mijn blokken`{:class="block3myblocks"} om een nieuw blok te maken met de naam `instellen`{:class="block3myblocks"}. Het blok zou vier parameters moeten hebben: `grootte`{:class="block3myblocks"}, `transparant`{:class="block3myblocks"}, `y`{:class="block3myblocks"} en `beweeg`{:class="block3myblocks"}. Maak je geen zorgen, je kunt deze wijzigen of later meer toevoegen.
 
 ![De vorm sprite.](images/shape_sprite.png)
 
@@ -61,7 +61,7 @@ pattern: repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-**Test** je code door op de vlag te klikken en het patroon te bekijken dat is getekend. Wijzig vervolgens de waarden van de parameters totdat je een patroon hebt dat je leuk vindt.
+**Test** je code door op de vlag te klikken en het patroon te bekijken dat is getekend. Wijzig vervolgens de waarden van de parameters totdat je een patroon hebt dat je leuk vind.
 
 --- /task ---
 
