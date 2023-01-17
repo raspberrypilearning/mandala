@@ -2,13 +2,13 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get your mandalas to move like a kaleidoscope.
+Cael dy fandalas i symud fel caleidosgop.
 </div>
 </div>
 
-You can add in a few blocks to have your clones move around when a key is pressed or when a sprite is clicked on for some extra relaxation. Maybe some gentle music can play as well.
+Gelli ychwanegu ychydig o flociau i gael dy glonau i symud o gwmpas pan fydd bysell yn cael ei wasgu neu pan fydd corlun yn cael ei glicio ar gyfer ychydig o ymlacio ychwanegol. Beth am gael ychydig o gerddoriaeth ysgafn yn chwarae hefyd.
 
-![Animated mandala with moving clones.](images/step_9.gif)
+![Mandala animeiddiedig gyda chlonau symudol.](images/step_9.gif)
 
 --- collapse ---
 ---
