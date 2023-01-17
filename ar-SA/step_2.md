@@ -1,34 +1,34 @@
-## Clone shapes to make a pattern
+## استنسخ الأشكال لعمل نمط
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Clone sprites to create a pattern.
+استنسخ الكائنات لعمل نمط.
 </div>
 <div>
-![Animation of a pattern being repeated when the flag is clicked in Scratch.](images/step_2.gif){:width="300px"}
+![رسم متحرك لنمط يتكرر عند ضغط العلم الأخضر في سكراتش.](images/step_2.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open [the Scratch starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
+افتح [ مشروع المبتدئ لسكراتش](https://scratch.mit.edu/projects/540476254/){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
 
-If you are working offline, you can download the [starter project](https://scratch.mit.edu/projects/540476254/){:target="_blank"}.
+إذا كنت تعمل دون اتصال ، يمكنك تنزيل [مشروع المبتدئ](https://scratch.mit.edu/projects/540476254/){: target = "_ blank"}.
 
 --- /task ---
 
-You should see a shape sprite that looks a bit like a flower petal.
+يفترض أن ترى كائن شكل يشبه إلى حد ما بتلة زهرة.
 
-You will use `my blocks`{:class="block3myblocks"} to create a pattern with this shape. You may remember creating `my blocks`{:class="block3myblocks"} to organise your code in [Nature Rover](https://projects.raspberrypi.org/en/projects/nature-rover/3){:target="_blank"}, and to repeat the same code in [Puzzle Room](https://projects.raspberrypi.org/en/projects/puzzle-room/4){:target="_blank"}. `My blocks`{:class="block3myblocks"} can also be used to reuse actions in a different way.
+ستستخدم `كتلتي`{: class = "block3myblocks"} لإنشاء نمط بهذا الشكل. ربما تتذكر ` كتلتي`{:class="block3myblocks"} لترتيب كودك في [ كشاف الطبيعة](https://projects.raspberrypi.org/en/projects/nature-rover/3){:target="_blank"}، و لتكرار نفس الكود في [غرفة الأحجية](https://projects.raspberrypi.org/en/projects/puzzle-room/4){:target="_blank"}. ` كتلي`{:class="block3myblocks"} يمكن أيضا استعمالها لإعادة استخدام حركات بطريقة مختلفة.
 
 --- task ---
 
-Go to `My Blocks`{:class='block3myblocks'} and name your blocks (we have called it `pattern:`{:class="block3myblocks"}). Add `repeat`{:class="block3myblocks"} as a label to identify the first input or what programmer call a **parameter**. Then click "Add an Input" to actually create the **parameter** called `repeat`{:class="block3myblocks"}.
+اذهب إلى `مجموعتي`{:class='block3myblocks'} و سم مجموعاتك ( سميناها `نمط`{:class="block3myblocks"}). أضف `كرر`{:class="block3myblocks"} كلصاقة لتعريف المدخل الأول أو أي مبرمج يسمى **خيار**. ثم اضغط "أضف مدخلا" لتخلق **خيارا** يدعى `كرر`{:class="block3myblocks"}.
 
 
-![Animation of a 'my blocks' block and an additional parameter being added.](images/add-parameter.gif)
+![رسم متحرك ل مجموعة 'مجموعتي' و خيار إضافي أُضيف.](images/add-parameter.gif)
 
-![The shape sprite.](images/shape_sprite.png)
+![الكائن الشكل.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat)
@@ -36,15 +36,15 @@ define pattern: repeat (repeat)
 
 --- /task ---
 
-To design how a pattern is made, the first step is to `define pattern`{:class='block3myblocks'}.
+لتصميم كيف يُخلق نمط، الخطوة الأولى هي `تعريف النمط`{:class='block3myblocks'}.
 
 --- task ---
 
-Drag the `repeat`{:class='block3myblocks'} parameter from `define pattern`{:class='block3myblocks'} into a `repeat`{:class='block3control'} loop block.
+اسحب خيار `كرر`{:class='block3myblocks'} من`عرف نمط`{:class='block3myblocks'} إلى مجموعة `كرر`{:class='block3control'} الحلقية.
 
-![Animation showing the 'repeat' parameter being dragged from the 'define' block and into the 'repeat' block.](images/use-repeat.gif)
+![رسم متحرك يعرض خيار "كرر" يُسحب من مجموعة "تعريف" ثم إلى مجموعة "كرر".](images/use-repeat.gif)
 
-![The shape sprite.](images/shape_sprite.png)
+![الكائن الشكل.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat)
@@ -53,13 +53,13 @@ repeat (repeat)
 
 --- /task ---
 
-You will now use `clone`{:class='block3control'} blocks to make the same block appear a number of times. Make sure you also add code to change the size and position of the sprite, otherwise the sprites will be stacked on top of each other and you will not be able to see them.
+ستستخدم الآن كتل `استنساخ` {:class='block3control'} لجعل نفس الكتلة تظهر عدة مرات. تأكد إضافتك أيضا كودا لتغيير حجم و موضع الكائن، خلاف ذلك الكائنات سيعلق فوق بعضها و لن تتمكن من رؤيتها.
 
 --- task ---
 
-Add some code into the `repeat`{:class='block3myblocks'} loop of your `pattern`{:class='block3myblocks'}.
+أضف بعض الأكواد لحلقة `كرر`{:class='block3myblocks'} تبع `نمط`{:class='block3myblocks'} خاصتك.
 
-![The shape sprite.](images/shape_sprite.png)
+![الكائن الشكل.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat)
@@ -71,14 +71,14 @@ repeat (repeat)
 
 --- /task ---
 
-**Tip:** `Defining`{:class='block3myblocks'} makes a general pattern outline. What you are creating now with `my blocks`{:class="block3myblocks"} is similar to creating a spirograph stencil; it is the tool and the pattern is later created by using it.
+**نصيحة** `تعريف`{:class='block3myblocks'} تعمل نمطا عاما مختصرا. الذي تنشئه الآن بـ ` مجموعتي`{:class="block3myblocks"} مشابه لإنشاء مرسام سبيروغراف، هي الأدات و النمط الذي سينشأ باستخدامه.
 
 
 --- task ---
 
-Create a pattern with your `my blocks`{:class="block3myblocks"}. Get the `pattern`{:class='block3myblocks'} to `repeat`{:class='block3myblocks'} a number of times `when flag clicked`{:class='block3events'}.
+خلق نمط ب `مجموعتي`{:class="block3myblocks"} خاصتك. اجعل `النمط`{:class='block3myblocks'} `يتكرر`{:class='block3myblocks'} عددا من المرات `عند نقر العلم الأخضر`{:class='block3events'}.
 
-![The shape sprite.](images/shape_sprite.png)
+![الكائن الشكل.](images/shape_sprite.png)
 ```blocks3
 when flag clicked
 show //Shape is displayed 
@@ -87,10 +87,10 @@ go to x: (0) y: (0) //Displayed in the middle
 pattern: repeat (3) ::custom
 ```
 
-**Test:** See what your pattern looks like by clicking the green flag to run your program.
+**اختبار:** انظر لمظهر نمطك بالضغط على العلم الأخضر لجعل البرنامج يشتغل.
 
 --- /task ---
 
-You should see the beginning of a mandala pattern. Adding more **parameters**, or requirements, to your pattern will create the first part of your mandala.
+يفترض رؤيتك بداية نمط ماندالة. إضافة **خيارات** أكثر، أو متطلبات، لنمطك سيخلق الجزء الأول لماندالتك.
 
 --- save ---
