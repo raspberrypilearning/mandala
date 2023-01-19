@@ -13,11 +13,11 @@
 
 انقر باليمين على مجموعتك `تعريف نمط`{:class="block3myblocks"} ثم اختر **عدل** لإضافة أنماط أكثر.
 
-![Animation showing the editing of 'my blocks' to add in extra parameters.](images/edit-parameter.gif)
+![رسم متحرك يظهر تعديل "مجموعتي" لإضافة أنماط زائدة.](images/edit-parameter.gif)
 
 يمكنك البدء بإضافة لصاقة نص `الحجم`{:class="block3myblocks"} و مدخل `الحجم`{:class="block3myblocks"}. ثم، أضف لصاقة `حرك`{:class="block3myblocks"} و مدخل، و استخدم هذه الخيارات في المجموعات أسفله.
 
-![The shape sprite.](images/shape_sprite.png)
+![الكائن الشكل.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move)
@@ -44,7 +44,7 @@ pattern: repeat (3) size (10) move (5)
 
 أضف إدخالًا آخرا يسمى `دور`{: class = "block3myblocks"}. ثم، مثلما تحرك مستنسخك، يمكنك تدويره كذلك.
 
-![The shape sprite.](images/shape_sprite.png)
+![الكائن الشكل.](images/shape_sprite.png)
 
 ```blocks3
 define pattern: repeat (repeat) size (size) move (move) turn (turn)
@@ -70,7 +70,7 @@ end
 
 حاول التلاعب بالرقم في `النمط`{:class="block3myblocks"}. يمكنك إعادة تعيين موضع وحجم كائنك، أي وقت أردت.
 
-![Image of the sprites' attribute box with the size, x coordinate, and y coordinate all set to zero.](images/reset-attributes.png)
+![صورة الصندوق التابع للكائنات بحجم، إحداثية x، و إحداثية y كلها موضوعة لصفر.](images/reset-attributes.png)
 
 ```blocks3
 when flag clicked
@@ -89,9 +89,9 @@ pattern repeat (3) size (0) move (0) turn (60) ::custom
 
 --- task ---
 
-أسفل المجموعة `وضعية العلم منقور`{: class = "block3events"}، أضف بضع **مكالمة** أخرى إلى `نمطك`: class = "block3myblocks"}.
+أسفل المجموعة `وضعية العلم منقور`{: class = "block3events"}، أضف بضع **تكرارات** أخرى إلى `نمطك`: class = "block3myblocks"}.
 
-![The shape sprite.](images/shape_sprite.png)
+![الكائن الشكل.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -104,7 +104,7 @@ pattern repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-**Test:** Click the green flag, and see what pattern is produced. You can change the numbers to experiment with patterns that you like, or even add in more calls to your `pattern`{:class="block3myblocks"}.
+**اختبار:** انقر فوق العلم الأخضر،و شف أي نمط نتج. يمكنك تغيير الأرقام لتجرب أنماط تعجبك، أو حتى إضافات تكرارات أكثر إلى `نمطك`{:class="block3myblocks"}.
 
 --- /task ---
 
