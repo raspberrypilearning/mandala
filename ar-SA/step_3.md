@@ -15,7 +15,7 @@
 
 ![Animation showing the editing of 'my blocks' to add in extra parameters.](images/edit-parameter.gif)
 
-You can start by adding a `size`{:class="block3myblocks"} text label and a `size`{:class="block3myblocks"} input. Then, add a  `move`{:class="block3myblocks"} label and input, and use these parameters in the blocks below.
+يمكنك البدء بإضافة لصاقة نص `الحجم`{:class="block3myblocks"} و مدخل `الحجم`{:class="block3myblocks"}. ثم، أضف لصاقة `حرك`{:class="block3myblocks"} و مدخل، و استخدم هذه الخيارات في المجموعات أسفله.
 
 ![The shape sprite.](images/shape_sprite.png)
 
@@ -34,15 +34,15 @@ pattern: repeat (3) size (10) move (5)
 
 --- task ---
 
-**Test:** See what your pattern looks like by clicking the green flag to run your program. It doesn't look like a mandala yet! Can you think of how you might make the pattern circular?
+**اختبار:** انظر لمظهر نمطك بالضغط على العلم الأخضر لتشغيل برنامجك. لا تبدو مثل ماندالا حتى الآن! هل يمكنك التفكير في كيفية جعل النمط دائريًا؟
 
 --- /task ---
 
-To make your pattern circular and look even more like a mandala, add another input.
+لجعل نمطك دائريًا ويبدو أكثر مثل ماندالا، أضف إدخالًا آخر.
 
 --- task ---
 
-Add another input called `turn`{:class="block3myblocks"}. Then, as well as moving your clone, you can turn it as well.
+أضف إدخالًا آخرا يسمى `دور`{: class = "block3myblocks"}. ثم، مثلما تحرك مستنسخك، يمكنك تدويره كذلك.
 
 ![The shape sprite.](images/shape_sprite.png)
 
@@ -64,11 +64,11 @@ end
 
 --- /task ---
 
-Mandalas are often complex — they can have many different rows that follow similar patterns. You can create a base pattern for the rest of the mandala rows to build on.
+الماندالات غالبا معقدة - يمكن أن تملك عدة صفوف تتبع أنماطا متشابهة. يمكنك إنشاء نمط أساسي لبقية صفوف الماندالة للبناء عليها.
 
 --- task ---
 
-Try playing around with different numbers in your `pattern`{:class="block3myblocks"}. You can reset the position and size of your sprite anytime you like.
+حاول التلاعب بالرقم في `النمط`{:class="block3myblocks"}. يمكنك إعادة تعيين موضع وحجم كائنك، أي وقت أردت.
 
 ![Image of the sprites' attribute box with the size, x coordinate, and y coordinate all set to zero.](images/reset-attributes.png)
 
@@ -80,16 +80,16 @@ pattern repeat (3) size (0) move (0) turn (60) ::custom
 --- /task ---
 
 
-Now that you have a basic pattern, you can use your `pattern`{:class="block3myblocks"} a number of times to make a repeating pattern, or mandala 'rows'. By using the same code over and over again, you make a program that has been **optimised**.
+الأن بما أنه لديك نمط أساسي، يمكنك استخدام `نمطك`{:class="block3myblocks"} عدة مرات لخلق نمط متكرر، أو 'صفوف ' ماندالة. باستخدام نفس الكود مرارًا وتكرارًا ، تخلق برنامجا **محسناً**.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains fewer steps and a shorter distance.
+<span style="color: #0faeb0">** التحسين**</span> يعني القيام بالمهمة بأكثر الطرق فعالية. انظر إلى الرسم البياني أسفله. يمكنك الانتقال من A إلى E باتباع المسار A -> B -> C -> D -> E. التحسين سيكون الانتقال A -> D -> E ، لإحتوائه خطوات أقل ومسافة أقصر.
 <img src="images/map.png">
 </p>
 
 --- task ---
 
-Beneath your `when flag clicked`{:class="block3events"} block, add in a few more **calls** to your `pattern`{:class="block3myblocks"}.
+أسفل المجموعة `وضعية العلم منقور`{: class = "block3events"}، أضف بضع **مكالمة** أخرى إلى `نمطك`: class = "block3myblocks"}.
 
 ![The shape sprite.](images/shape_sprite.png)
 
