@@ -5,13 +5,13 @@
 إنشاء المزيد من الأنماط لعمل ماندالة!
 </div>
 <div>
-![Animation showing a more complicated pattern beginning to form when the flag is clicked.](images/step_3.gif){:width="300px"}
+! [رسم متحرك يظهر نمطًا أكثر تعقيدًا يبدأ بالتشكل عند النقر على العلم.] (images / step_3.gif) {: width = "300px"}
 </div>
 </div>
 
 --- task ---
 
-Right click on your `define pattern`{:class="block3myblocks"} block and choose **Edit** to add more parameters.
+انقر باليمين على مجموعتك `تعريف نمط`{:class="block3myblocks"} ثم اختر **عدل** لإضافة أنماط أكثر.
 
 ![Animation showing the editing of 'my blocks' to add in extra parameters.](images/edit-parameter.gif)
 
