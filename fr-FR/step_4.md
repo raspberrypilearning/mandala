@@ -18,7 +18,7 @@ Utilise le menu `Mes Blocs`{:class="block3myblocks"} pour créer un nouveau bloc
 ![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
-define configuration : size (taille) ghost (fantôme) y (y) move (déplacer)
+define configuration : taille (taille) fantôme (fantôme) y (y) déplacer (déplacer)
 ```
 
 --- /task ---
@@ -32,7 +32,7 @@ Ajoute maintenant quelques blocs pour définir l'apparence et la position de ton
 ![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
-define configuration : size (taille) ghost (fantôme) y (y) move (déplacer)
+define configuration : taille (taille) fantôme (fantôme) y (y) déplacer (déplacer)
 + set size to (taille) %
 + set [ghost v] effect to (fantôme)
 + go to x: (0) y: (0)

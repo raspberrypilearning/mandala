@@ -20,14 +20,14 @@ Tu peux commencer par ajouter une étiquette de texte `taille`{:class="block3myb
 ![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
-define motif : répéter (répéter) size (taille) move (déplacer)
+define motif : répéter (répéter) taille (taille) déplacer (déplacer)
 repeat (répéter)
 change size by (taille)
 move (déplacer) steps
 create clone of (myself v)
 
 when flag clicked
-motif : répéter (3) taille (10) déplacer (5)
+motif : répéter (3) taille (10) déplacer (5) ::custom
 ```
 
 --- /task ---
@@ -47,7 +47,7 @@ Ajoute une autre entrée appelée `tourner`{:class="block3myblocks"}. Ensuite, e
 ![Le sprite "Forme".](images/shape_sprite.png)
 
 ```blocks3
-define motif : répéter (répéter) size (taille) move (déplacer) turn (tourner)
+define motif : répéter (répéter) taille (taille) déplacer (déplacer) tourner (tourner)
 repeat (répéter)
 change size by (taille)
 move (déplacer) steps

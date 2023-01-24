@@ -40,7 +40,7 @@ Pour concevoir la façon dont un motif est réalisé, la première étape consis
 
 --- task ---
 
-Fais glisser le paramètre `répéter`{:class="block3myblocks"} de `définir motif`{:class='block3myblocks'} dans un bloc de boucle `répéter`.
+Fais glisser le paramètre `répéter`{:class="block3myblocks"} de `définir motif`{:class='block3myblocks'} dans un bloc de boucle `répéter`{:class='block3control'}.
 
 ![Animation montrant le paramètre "répéter" déplacé du bloc "définir" vers le bloc "répéter".](images/use-repeat.gif)
 
@@ -71,7 +71,7 @@ repeat (répéter)
 
 --- /task ---
 
-**Astuce :** `Définir` crée un contour général du motif. Ce que tu crées maintenant avec `Mes Blocs`{:class="block3myblocks"} est similaire à la création d'un crayon de spirographe ; l'outil et le masque est créé plus tard en l'utilisant.
+**Astuce :** `Définir`{:class='block3myblocks'} crée un contour général du motif. Ce que tu crées maintenant avec `Mes Blocs`{:class="block3myblocks"} est similaire à la création d'un crayon de spirographe ; l'outil et le masque est créé plus tard en l'utilisant.
 
 
 --- task ---

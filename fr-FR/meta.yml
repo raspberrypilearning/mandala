@@ -13,9 +13,9 @@ steps:
     completion:
       - engaged
   - title: Configurer ton sprite
-  - title: Mandala colouring
-  - title: Create another mandala
-  - title: Choose your mandala
+  - title: Colorisation du mandala
+  - title: Créer un autre mandala
+  - title: Choisir ton mandala
     completion:
       - internal
   - title: Questionnaire rapide
