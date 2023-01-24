@@ -18,11 +18,11 @@ steps:
   - 
     title: Configurer ton sprite
   - 
-    title: Mandala colouring
+    title: Colorisation du mandala
   - 
-    title: Create another mandala
+    title: Créer un autre mandala
   - 
-    title: Choose your mandala
+    title: Choisir ton mandala
     completion:
       - internal
   - 
