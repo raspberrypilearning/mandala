@@ -1,0 +1,15 @@
+motif : répéter
+
+répéter
+
+taille
+
+déplacer
+
+tourner
+
+fantôme
+
+position y
+
+Qu'est-ce qui te semble le plus paisible aujourd'hui ? (1) les formes abstraites (2) la terre (3) les papillons (4) l'amour
