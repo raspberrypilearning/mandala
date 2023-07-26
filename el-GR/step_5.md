@@ -1,31 +1,31 @@
-## Mandala colouring
+## Χρωματισμός Μάνταλα
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Adding colour to a mandala is therapeutic as well as a creative activity. Add in the opportunity to colour different parts of the mandalas.
+Η προσθήκη χρώματος σε μάνταλα είναι θεραπευτική καθώς και δημιουργική δραστηριότητα. Πρόσθεσε την ευκαιρία να χρωματίσεις διάφορα μέρη των μάνταλα.
 </div>
 <div>
 ![](images/step_7.gif){:width="300px"}
 </div>
 </div>
 
-**Tip:** If you want to, you can print out your mandala before you add colour to it in this step, and use it as a colouring pattern to colour by hand.
+**Συμβουλή:** Αν θέλεις, μπορείς να εκτυπώσεις τα μαντάλα σου πριν προσθέσεις χρώμα σε αυτό το βήμα, και να το χρησιμοποιήσεις ως μοτίβο χρωματισμού για να το χρωματίσεις με το χέρι.
 
 --- task ---
 
-Have a look at the current costumes for your **shape** sprite. You will see that there are two costumes, one white and the other filled in.
+Ρίξε μια ματιά στις τρέχουσες ενδυμασίες για το αντικείμενο **σχήματός** σου. Θα δεις ότι υπάρχουν δύο ενδυμασίες, η μία λευκή και η άλλη γεμάτη.
 
-![Two costumes for the sprite.](images/costumes.png)
+![Δύο ενδυμασίες για το αντικείμενο.](images/costumes.png)
 
 --- /task ---
 
-To add colour to your mandala, each of the clone shapes should change its `costume`{:class="block3looks"} and then its `color effect`{:class="block3looks"} when the clone is clicked. The new costume will be **one** more than whatever the previous costume was, so it will change to the coloured version and then to the different colours.
+Για να προσθέσεις χρώμα στο μάνταλα, κάθε ένα από τα σχήματα κλώνου θα πρέπει να αλλάξει την `ενδυμασία`{:class="block3looks"} του και στη συνέχεια το `εφέ χρώματος`{:class="block3looks"} όταν πατηθεί ο κλώνος. Η νέα ενδυμασία θα είναι **μία** περισσότερη από ό, τι ήταν η προηγούμενη ενδυμασία, έτσι θα αλλάξει στη χρωματιστή έκδοση και στη συνέχεια στα διαφορετικά χρώματα.
 
 --- task ---
 
-Add a `when this sprite clicked`{:class="block3events"} block, and then use the `+`{:class="block3operators"} operator to change the costume number.
+Πρόσθεσε ένα μπλοκ `όταν αυτό το αντικείμενο πατηθεί`{:class="block3events"}, και στη συνέχεια χρησιμοποίησε τον τελεστή `+`{:class="block3operators"} για να αλλάξεις τον αριθμό ενδυμασίας.
 
-![The shape sprite.](images/shape_sprite.png)
+![Το αντικείμενο σχήματος.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -36,9 +36,9 @@ switch costume to ((answer) + (1))
 
 --- task ---
 
-Add a `change color effect`{:class="block3looks"} block to this script, so that each time the sprite is clicked, the colour changes a little.
+Πρόσθεσε ένα μπλοκ `εφέ αλλαγής χρώματος`{:class="block3looks"} σε αυτό το script, έτσι ώστε κάθε φορά που γίνεται κλικ στο αντικείμενο, το χρώμα να αλλάζει λίγο.
 
-![The shape sprite.](images/shape_sprite.png)
+![Το αντικείμενο σχήματος.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -48,26 +48,26 @@ change [color v] effect by (25)
 
 --- /task ---
 
-You might remember adding a `ghost`{:class="block3myblocks"} block input to your project in the last step. You should now be able to see what happens when you change the number where you call `ghost`{:class="block3myblocks"}.
+Μπορεί να θυμηθείς ότι πρόσθεσες ένα μπλοκ εισόδου `φάντασμα`{:class="block3myblocks"} στο έργο σου στο προηγούμενο βήμα. Τώρα θα μπορείς να δεις τι συμβαίνει όταν αλλάζεις τον αριθμό που καλείς το `φάντασμα`{:class="block3myblocks"}.
 
 --- task ---
 
-Create the kind of colouring effect you want by changing your `ghost`{:class="block3myblocks"} numbers. A lower `ghost`{:class="block3myblocks"} number will mean the colour is more saturated, like a permanent marker. A high `ghost`{:class="block3myblocks"} number will mean the colour is less saturated, like watercolours.
+Δημιούργησε το είδος του εφέ χρωματισμού που θέλεις αλλάζοντας τους αριθμούς του `φαντάσματος`{:class="block3myblocks"}. Ένας χαμηλότερος αριθμός στο `φάντασμα`{:class="block3myblocks"} σημαίνει ότι το χρώμα είναι πιο κορεσμένο, όπως ένας μόνιμος δείκτης. Ένας υψηλός αριθμός στο `φάντασμα`{:class="block3myblocks"} σημαίνει ότι το χρώμα είναι λιγότερο κορεσμένο, όπως οι υδατογραφίες.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the flag, choose your costume, and then try clicking on the clones to change their colours.
+**Δοκιμή:** Κάνε κλικ στη σημαία, επίλεξε την ενδυμασία και στη συνέχεια προσπάθησε να κάνεις κλικ στους κλώνους για να αλλάξεις τα χρώματά τους.
 
-![A mandala made of hearts that have been coloured in a variety of different colours.](images/coloured_mandala.png)
+![Ένα μάνταλα φτιαγμένο από καρδιές που έχουν χρωματιστεί με διάφορα χρώματα.](images/coloured_mandala.png)
 
-You should get a kaleidoscope effect when colours are layered on top of each other.
+Θα έχεις ένα εφέ καλειδοσκοπίου όταν τα χρώματα βρίσκονται σε στρώσεις το ένα επάνω στο άλλο.
 
 --- /task ---
 
-If you like the mandala you have created then you can **right-click** on the stage, and choose to save the image.
+Αν σου αρέσει το μάνταλα που έχεις δημιουργήσει, τότε μπορείς να κάνεις **δεξί κλικ** στη σκηνή και να επιλέξεις να αποθηκεύσεις την εικόνα.
 
-![The contect menu appears when the Stage is right-clicked, and the 'Save Image As' option is highlighted.](images/save_mandala.png)
+![Το μενού σύνδεσης εμφανίζεται όταν γίνεται δεξί κλικ στη Σκηνή και η επιλογή 'Αποθήκευση Εικόνας Ως' τονίζεται.](images/save_mandala.png)
 
 --- save ---
