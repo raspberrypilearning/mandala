@@ -1,21 +1,21 @@
-## Set up your sprite
+## Ρύθμισε το αντικείμενό σου
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Set up your sprite to reset your mandala.
+Ρύθμισε το αντικείμενό σου για να επαναφέρεις το μάνταλά σου.
 </div>
 <div>
 ![](images/step_4.gif){:width="300px"}
 </div>
 </div>
 
-At the moment, your mandala patterns may appear to change each time, depending on the parameter values you use. Next, you will create a new `my blocks`{:class="block3myblocks"}, so that your **mandala** sprite always begins in the same state.
+Προς το παρόν, τα μάνταλα μοτίβα σου μπορεί να φαίνεται να αλλάζουν κάθε φορά, ανάλογα με τις τιμές των παραμέτρων που χρησιμοποιείς. Στη συνέχεια, θα δημιουργήσεις τη νέα `"εντολή μου"`{:class="block3myblocks"}, έτσι ώστε το αντικείμενο **μάνταλά** σου να ξεκινά πάντα στην ίδια κατάσταση.
 
 --- task ---
 
-Use the `My Blocks`{:class="block3myblocks"} menu to create a new block called `setup`{:class="block3myblocks"}. The block should have four parameters: `size`{:class="block3myblocks"}, `ghost`{:class="block3myblocks"}, `y`{:class="block3myblocks"}, and `move`{:class="block3myblocks"}. Don't worry, you can change these or add more later.
+Χρησιμοποίησε το μενού `Οι εντολές μου`{:class="block3myblocks"} για να δημιουργήσεις ένα νέο μπλοκ που ονομάζεται `ρύθμιση`{:class="block3myblocks"}. Η εντολή πρέπει να έχει τέσσερις παραμέτρους: `μέγεθος`{:class="block3myblocks"}, `φάντασμα`{:class="block3myblocks"}, `y`{:class="block3myblocks"}, και `κίνηση`{:class="block3myblocks"}. Μην ανησυχείς, μπορείς να τις αλλάξεις ή να προσθέσεις περισσότερες αργότερα.
 
-![The shape sprite.](images/shape_sprite.png)
+![Το αντικείμενο σχήματος.](images/shape_sprite.png)
 
 ```blocks3
 define setup: size (size) ghost (ghost) y (y) move (move)
@@ -23,13 +23,13 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 
 --- /task ---
 
-When you make the mandala colourful in the next step, the `ghost`{:class="block3myblocks"} block will make the colours transparent so when the shapes overlap, you will get a colour mixing effect.
+Όταν χρωματίσεις το μάνταλα στο επόμενο βήμα, το μπλοκ `φάντασμα`{:class="block3myblocks"} θα κάνει τα χρώματα διαφανή έτσι όταν τα σχήματα επικαλύπτονται, θα αποκτήσεις ένα εφέ ανάμιξης χρωμάτων.
 
 --- task ---
 
-Now add some blocks to set the appearance and position of your sprite.
+Τώρα πρόσθεσε μερικά μπλοκ για να ορίσεις την εμφάνιση και τη θέση του αντικειμένου σου.
 
-![The shape sprite.](images/shape_sprite.png)
+![Το αντικείμενο σχήματος.](images/shape_sprite.png)
 
 ```blocks3
 define setup: size (size) ghost (ghost) y (y) move (move)
@@ -45,9 +45,9 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 
 --- task ---
 
-At the moment, your `my blocks`{:class="block3myblocks"} hasn't been used, so there will be no effect on your pattern. Add code to `setup`{:class="block3myblocks"}, so the code will run as soon as the flag is clicked.
+Προς το παρόν, η `"εντολή μου"`{:class="block3myblocks"} δεν έχει χρησιμοποιηθεί, οπότε δεν θα υπάρξει καμία επίδραση στο μοτίβο σου. Πρόσθεσε κώδικα στην `ρύθμιση`{:class="block3myblocks"}, ώστε ο κώδικας να εκτελεστεί μόλις πατηθεί η σημαία.
 
-![The shape sprite.](images/shape_sprite.png)
+![Το αντικείμενο σχήματος.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -61,15 +61,15 @@ pattern: repeat (6) size (10) move (90) turn (30) ::custom
 
 --- task ---
 
-**Test** your code by clicking on the flag and observing the pattern that has been drawn. Then, change the values of the parameters until you have a pattern that you like.
+**Δοκίμασε** τον κώδικά σου κάνοντας κλικ στη σημαία και παρατηρώντας το μοτίβο που σχεδιάστηκε. Στη συνέχεια, άλλαξε τις τιμές των παραμέτρων μέχρι να έχεις ένα μοτίβο που σου αρέσει.
 
 --- /task ---
 
 --- task ---
 
-The sprite (not its clones) is still visible; it can be hidden at the end, but will need to be shown at the start.
+Το αντικείμενο (όχι οι κλώνοι του) είναι ακόμα ορατό, μπορεί να κρυφτεί στο τέλος, αλλά θα πρέπει να εμφανιστεί στην αρχή.
 
-![The shape sprite.](images/shape_sprite.png)
+![Το αντικείμενο σχήματος.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
