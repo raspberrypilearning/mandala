@@ -1,65 +1,65 @@
-## Create another mandala
+## Δημιουργία νέου μάνταλα
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create another mandala easily using your optimised code blocks.
+Δημιούργησε ακόμη ένα μάνταλα εύκολα χρησιμοποιώντας τα βελτιστοποιημένα μπλοκ κώδικα.
 </div>
 <div>
 ![](images/step_5.png)
 </div>
 </div>
 
-You have two costumes that you are using to create your coloured mandala. Add some more costumes to personalise your mandala even more.
+Έχεις δύο ενδυμασίες που χρησιμοποιείς για να δημιουργήσεις το χρωματιστό μάνταλά σου. Πρόσθεσε μερικές ακόμη ενδυμασίες για να εξατομικεύσεις το μάνταλά σου ακόμα περισσότερο.
 
 --- task ---
 
-**Choose:** Add another costume. Here the **Earth** costume has been chosen.
+**Επιλογή:** Πρόσθεσε μια άλλη ενδυμασία. Εδώ επιλέχθηκε η ενδυμασία **Earth (Γη)**.
 
-![The Earth costume from the Scratch library.](images/earth_costume.png)
+![Η ενδυμασία Earth από τη βιβλιοθήκη του Scratch.](images/earth_costume.png)
 
-It doesn't matter which costume you pick, but you should make sure that it is a **Vector** costume and not a **Bitmap** costume. You can tell you have chosen a **Vector** costume, as you will see a button labelled **Convert to Bitmap**. **Do not click this button**. If you have selected a costume that is a **Bitmap**, then delete it and choose another one.
+Δεν έχει σημασία ποια ενδυμασία θα επιλέξεις, αλλά θα πρέπει να βεβαιωθείς ότι είναι ενδυμασία **Διάνυσμα** και όχι ενδυμασία **Bitmap**. Μπορείς να πεις ότι έχεις επιλέξει μια ενδυμασία **Διάνυσμα**, καθώς θα δεις ένα κουμπί με ετικέτα **Μετατροπή σε Bitmap**. **Μην κάνεις κλικ σε αυτό το κουμπί**. Εάν έχεις επιλέξει μια ενδυμασία που είναι **Bitmap**, τότε διέγραψέ την και επίλεξε μια άλλη.
 
-![The 'Convert to Bitmap' button.](images/convert_to_bitmap.png)
+![Το κουμπί 'Μετατροπή σε Bitmap'.](images/convert_to_bitmap.png)
 
 --- /task ---
 
 --- task ---
 
-Remove all the colour from the costume so you get just the outline. Select the whole costume and change the **Fill** **Saturation** to `0` and the **Outline** **Brightness** to `0`.
+Αφαίρεσε όλο το χρώμα από την ενδυμασία για να έχεις μόνο το περίγραμμα. Επίλεξε ολόκληρη την ενδυμασία και άλλαξε το **Γέμισμα** **Κορεσμός** σε `0` και το **Περίγραμμα** **Φωτεινότητα** σε `0`.
 
-![Animation showing the 'Earth' costume being selected, then the 'Fill' and 'Outline' colours being changed.](images/edit_costume.gif)
-
---- /task ---
-
---- task ---
-
-Duplicate this costume, and then repeat the process, this time changing the **Fill** colour to a dark colour of your choice.
-
-![The two Earth costumes, one filled in white and the other in purple.](images/earth_costumes.png)
+![Κινούμενη εικόνα που δείχνει την ενδυμασία 'Earth' να επιλέγεται και μετά να αλλάζουν τα χρώματα 'Γέμισμα' και 'Περίγραμμα'.](images/edit_costume.gif)
 
 --- /task ---
 
 --- task ---
 
-Repeat this process a few more times with different vector costumes, to give yourself different styles of costume.
+Κάνε διπλασιασμό αυτής της ενδυμασίας, και στη συνέχεια επανάλαβε τη διαδικασία, αλλάζοντας αυτή τη φορά το χρώμα **Γέμισμα** σε ένα σκούρο χρώμα της επιλογής σου.
 
-![Earth, butterfly, and heart costumes shown with white and purple fills.](images/multiple_costumes.png)
+![Οι δύο ενδυμασίες Earth, η μία χρώμα λευκό και η άλλη σε μοβ.](images/earth_costumes.png)
 
 --- /task ---
-
-To make sure you can colour your personalised mandalas, reorder your costumes and check the costume switches to the right number.
 
 --- task ---
 
-Reorder your costumes, so that all the ones filled with white are at the top, and the ones filled with colours are lower down, but still in the same order.
+Επανάλαβε αυτή τη διαδικασία μερικές ακόμη φορές με διαφορετικά διανυσματικά κοστούμια, για να αποκτήσεις διαφορετικά στυλ ενδυμασιών.
 
-![Animation of the costumes being placed in order, with the white costumes at the top and the coloured ones further down, but in the same order.](images/order_costumes.gif)
+![Ενδυμασίες γης, πεταλούδας και καρδιάς με χρώμα λευκό και μοβ.](images/multiple_costumes.png)
 
 --- /task ---
 
-Remember to change which costume the mandala switches to so that you can colour your new mandalas. In the example project, there are four mandalas so we changed the costume number from '1' to '4'
+Για να βεβαιωθείς ότι μπορείς να χρωματίσεις τα εξατομικευμένα μάνταλα, αναδιάταξε τις ενδυμασίες σου και έλεγε τις ρυθμίσεις ενδυμασίας στον σωστό αριθμό.
 
-![The shape sprite.](images/shape_sprite.png)
+--- task ---
+
+Αναδιέταξε τις ενδυμασίες σου, έτσι ώστε όλες αυτές που γεμίζουν με λευκό να είναι στην κορυφή, και αυτές που γεμίζουν με χρώματα να είναι χαμηλότερα προς τα κάτω, αλλά ακόμη στην ίδια σειρά.
+
+![Κινούμενη εικόνα των ενδυμασιών τοποθετημένων με τη σειρά, με τις λευκές ενδυμασίες στην κορυφή και τις χρωματιστές πιο κάτω, αλλά με την ίδια σειρά.](images/order_costumes.gif)
+
+--- /task ---
+
+Θυμήσου να αλλάξεις σε ποια ενδυμασία αλλάζει το μάνταλα, ώστε να μπορείς να χρωματίσεις τα νέα μάνταλά σου. Στο παράδειγμα του έργου, υπάρχουν τέσσερα μάνταλα, έτσι αλλάξαμε τον αριθμό ενδυμασίας από '1' σε '4'
+
+![Το αντικείμενο σχήματος.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -69,7 +69,7 @@ change [color v] effect by (25)
 
 --- task ---
 
-**Test:** Switch to one of your new costumes and click the green flag to see the pattern that is generated.
+**Δοκιμή:** Άλλαξε σε μία από τις νέες σου ενδυμασίες και πάτησε την πράσινη σημαία για να δεις το μοτίβο που δημιουργείται.
 
 --- /task ---
 
