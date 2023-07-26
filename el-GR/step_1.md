@@ -1,36 +1,36 @@
-## You will make
+## Θα φτιάξεις
 
-Create a program that generates mandalas.
+Δημιούργησε ένα πρόγραμμα που δημιουργεί μάνταλα.
 
-![Example of a colourful butterfly mandala.](images/mandala.png)
+![Παράδειγμα μιας πολύχρωμης πεταλούδας μάνταλα.](images/mandala.png)
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Computer generated art**</span> or **digital art** is simply art that is made using a computer. It can range from drawings created on a tablet, to writing Artificial Intelligence (AI) programs to enable a computer to create its own art. In this project, you are going to use programming in Scratch to create mindful artwork.
+<span style="color: #0faeb0">**Τέχνη που δημιουργείται από υπολογιστή**</span> ή **ψηφιακή τέχνη** είναι απλά τέχνη που δημιουργείται με χρήση υπολογιστή. Μπορεί να κυμαίνεται από σχέδια που δημιουργούνται σε tablet, έως τη συγγραφή προγραμμάτων Τεχνητής Νοημοσύνης (AI) για να επιτρέψει σε έναν υπολογιστή να δημιουργήσει τη δική του τέχνη. Σε αυτό το έργο, πρόκειται να χρησιμοποιήσεις προγραμματισμό στο Scratch για να δημιουργήσεις επιμελή έργα τέχνης.
 </p>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Mandala**</span> is a Sanskrit word that roughly means "circle". Manadalas are commonly circular designs that have repeating colours, shapes, and patterns. In Buddhist and Hindu traditions, mandalas are helpful in meditation. Creating mandalas is known to be a relaxing and mindful activity.
+<span style="color: #0faeb0">**Mandala**</span> είναι μια Σανσκριτική λέξη που είναι σχεδόν συνώνυμη με τον "κύκλο". Τα Μάνταλα είναι συνήθως κυκλικά σχέδια που έχουν επαναλαμβανόμενα χρώματα, σχήματα και μοτίβα. Στις Βουδιστικές και Ινδουιστικές παραδόσεις, τα μάνταλα είναι χρήσιμα στον διαλογισμό. Η δημιουργία μάνταλα είναι γνωστό ότι είναι μια χαλαρωτική και προσεκτική δραστηριότητα.
 </p>
 
 Θα χρειαστεί να:
-+ Use clones to create repeating patterns
-+ Use `My Blocks`{:class='block3myblocks'} to optimise your computer generated art program
-+ Use addition `+`{:class='block3operators'} and subtraction `-`{:class='block3operators'} operator blocks to change the appearance and position of a sprite
++ Χρησιμοποιήσεις κλώνους για να δημιουργήσεις επαναλαμβανόμενα μοτίβα
++ Χρησιμοποίησε την κατηγορία `Οι εντολές μου`{:class='block3myblocks'} για να βελτιώσεις το πρόγραμμα τέχνης που δημιουργείται από τον υπολογιστή σου
++ Χρησιμοποίησε μπλοκ τελεστή πρόσθεσης `+`{:class='block3operators'} και αφαίρεσης `-`{:class='block3operators'} για να αλλάξεις την εμφάνιση και τη θέση ενός αντικειμένου
 
 --- no-print ---
 
-### Play ▶️
+### Παίξε ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 
 <div style="flex-basis: 175px; flex-grow: 1">  
-Choose a shape and watch as the computer generates a mandala. You can colour in the shapes of the mandala by clicking on them (click multiple times for different colours), and then press the <kbd>Spacebar</kbd>.
+Επίλεξε ένα σχήμα και παρακολούθησε καθώς ο υπολογιστής δημιουργεί ένα μάνταλα. Μπορείς να χρωματίσεις τα σχήματα μάνταλα κάνοντας κλικ πάνω τους (κάνε κλικ πολλές φορές για διαφορετικά χρώματα), και στη συνέχεια πάτησε το πλήκτρο <kbd>διαστήματος</kbd>.
 
-Can you see the pattern? How do you think Scratch creates that pattern?
+Μπορείς να δεις το μοτίβο; Πώς νομίζεις ότι το Scratch δημιουργεί αυτό το μοτίβο;
 
-Choose a different shape now and look at a new mandala. Does it look the same? Does it follow the same pattern?
+Επίλεξε ένα διαφορετικό σχήμα τώρα και δες ένα νέο μάνταλα. Φαίνεται το ίδιο; Ακολουθεί το ίδιο μοτίβο;
 
 </div>
 
