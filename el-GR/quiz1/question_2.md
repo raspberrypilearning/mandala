@@ -5,13 +5,13 @@
 legend: Ερώτηση 2 από 2
 ---
 
-In your project, you used the addition + operator to change costumes depending on a 'My Blocks'{:class='block3myblocks'} input.
+Στο έργο σου, χρησιμοποίησες τον τελεστή πρόσθεσης + για να αλλάξεις τα κοστούμια ανάλογα με την είσοδο "Οι Εντολές μου"{:class='block3myblocks'}.
 
-If we have these costumes:
+Αν έχουμε αυτές τις ενδυμασίες:
 
-![Images of all the costumes: costume1 is a transparent petal; costume 2 is a purple petal; costume 3 is a transparent globe; and costume 4 is a purple globe.](images/costumes_quiz.png)
+![Εικόνες όλων των ενδυμασιών: η ενδυμασία1 είναι ένα διαφανές πέταλο. Η ενδυμασία 2 είναι ένα μοβ πέταλο. Η ενδυμασία 3 είναι μια διαφανής υδρόγειος. και η ενδυμασία 4 είναι μια μοβ υδρόγειος.](images/costumes_quiz.png)
 
-Which of the following code blocks would get your pattern to switch from the purple petal to the purple globe?
+Ποιο από τα παρακάτω μπλοκ κώδικα θα έκανε το μοτίβο σου να αλλάξει από το μοβ πέταλο στη μοβ υδρόγειο;
 
 --- choices ---
 
@@ -24,7 +24,7 @@ Which of the following code blocks would get your pattern to switch from the pur
 
   --- feedback ---
 
-Yes, the costume number you are on is costume 2 and the costume you want to switch to is costume 4 so you will need to switch to costume 2 + 2 = 4.
+Ναι, ο αριθμός κοστουμιού που βρίσκεσαι είναι το κοστούμι 2 και το κοστούμι στο οποία θέλεις να μεταβείς είναι το κοστούμι 4, επομένως θα χρειαστεί να μεταβείς στο κοστούμι 2 + 2 = 4.
 
   --- /feedback ---
 
@@ -38,7 +38,7 @@ Yes, the costume number you are on is costume 2 and the costume you want to swit
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transparent globe, not the purple globe.
+Αυτό θα αλλάξει από την ενδυμασία 2 στην ενδυμασία 2 + 1 = 3. Η ενδυμασία 3 είναι η διαφανής υδρόγειος, όχι η μοβ υδρόγειος.
 
   --- /feedback ---
 
@@ -52,7 +52,7 @@ This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transpare
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transparent petal, not the purple globe.
+Αυτό θα αλλάξει από την ενδυμασία 2 στην ενδυμασία 2 - 1 = 1. Η ενδυμασία 1 είναι το διαφανές πέταλο, όχι η μοβ υδρόγειος.
 
   --- /feedback ---
 
@@ -65,7 +65,7 @@ This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transpare
 
   --- feedback ---
 
-This will switch the costume to `costume 2`{:class='block3looks'} regardless of which costume is currently being shown.
+Αυτό θα αλλάξει την ενδυμασία σε `ενδυμασία 2`{:class='block3looks'} ανεξάρτητα από το ποια ενδυμασία εμφανίζεται αυτήν τη στιγμή.
 
   --- /feedback ---
 
