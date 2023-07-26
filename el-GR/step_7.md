@@ -1,27 +1,27 @@
-## Choose your mandala
+## Επίλεξε το μάνταλά σου
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Everyone is different. Give the person using your mandala program a choice based on what they find most peaceful.
+Κάθε άνθρωπος είναι διαφορετικός. Δώσε στο άτομο που χρησιμοποιεί το πρόγραμμα μάνταλά σου μια επιλογή με βάση αυτό που βρίσκει πιο χαλαρωτικό.
 </div>
 <div>
 ![](images/step_6.gif){:width="300px"}
 </div>
 </div>
 
-You should now have at least two different mandalas. You can use an `ask`{:class="block3sensing"} block to create a start menu, giving a choice to whoever is using your mandala program.
+Τώρα θα πρέπει να έχεις τουλάχιστον δύο διαφορετικά μάνταλα. Μπορείς να χρησιμοποιήσεις ένα μπλοκ `ρώτησε`{:class="block3sensing"} για να δημιουργήσεις ένα μενού έναρξης, δίνοντας μια επιλογή σε όποιον χρησιμοποιεί το πρόγραμμα μαντάλα σου.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Start menus**</span> are often found in games and apps. They let the person playing the game or using the app pick from a number of options, for example, what character they want to play, or what settings they want.
+<span style="color: #0faeb0">**Τα μενού Έναρξης**</span> βρίσκονται συχνά σε παιχνίδια και εφαρμογές. Αφήνουν το άτομο που παίζει το παιχνίδι ή που χρησιμοποιεί την εφαρμογή να επιλέξει από μια σειρά από επιλογές, για παράδειγμα, τι χαρακτήρα θέλει να παίξει, ή ποιες ρυθμίσεις θέλει.
 </p>
 
-Create the question you will ask in your start menu.
+Δημιούργησε την ερώτηση που θα θέσεις στο μενού εκκίνησης.
 
 --- task ---
 
-Add an `ask and wait`{:class="block3sensing"} block beneath the `when flag clicked`{:class="block3events"} and choose the text for your question, like the example below.
+Πρόσθεσε ένα μπλοκ `ρώτησε και περίμενε`{:class="block3sensing"} κάτω από το μπλοκ `όταν πατηθεί η σημαία`{:class="block3events"} και επίλεξε το κείμενο για την ερώτησή σου, όπως το παρακάτω παράδειγμα.
 
-![The shape sprite.](images/shape_sprite.png)
+![Το αντικείμενο σχήματος.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,17 +37,17 @@ hide
 
 --- /task ---
 
-The reason for hiding the sprite before using the `ask and wait`{:class="block3sensing"} is so that the question appears at the bottom of the stage, rather than as a speech bubble from the sprite.
+Ο λόγος για την απόκρυψη του αντικειμένου πριν από τη χρήση του `ρώτησε και περίμενε`{:class="block3sensing"} είναι έτσι ώστε η ερώτηση να εμφανίζεται στο κάτω μέρος της σκηνής, αντί ως σύννεφο ομιλίας από το αντικείμενο.
 
-![Image of question being asked within a box at the bottom of the stage.](images/question.png)
+![Εικόνα της ερώτησης που γίνεται μέσα σε ένα κουτί στο κάτω μέρος της σκηνής.](images/question.png)
 
-Match the answer with the right sprite to show the right mandala.
+Αντιστοίχισε την απάντηση με το σωστό αντικείμενο για να εμφανιστεί το σωστό μάνταλα.
 
 --- task ---
 
-Add a `switch costume to`{:class="block3looks"} `answer`{:class="block3sensing"} block underneath the `ask and wait`{:class="block3sensing"} block.
+Πρόσθεσε ένα μπλοκ `άλλαξε ενδυμασία σε`{:class="block3looks"} ως `απάντηση`{:class="block3sensing"} κάτω από το μπλοκ `ρώτησε και περίμενε`{:class="block3sensing"}.
 
-![The shape sprite.](images/shape_sprite.png)
+![Το αντικείμενο σχήματος.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -66,7 +66,7 @@ hide
 
 --- task ---
 
-**Test**: Try your mandala project by clicking the flag and choosing a number.
+**Δοκιμή**: Δοκίμασε το έργο μάνταλα κάνοντας κλικ στη σημαία και επιλέγοντας έναν αριθμό.
 
 --- /task ---
 
