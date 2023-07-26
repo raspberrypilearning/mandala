@@ -1,28 +1,30 @@
 ---
-title: ماندالة
+title: ماندالا.
 hero_image: images/banner.png
-description: جعل الحاسوب يولد ماندالات في سكراتش
+description: جعل الماندالا التي تم إنشاؤها بالحاسوب في سكراتش
+meta_title: Scratch coding projects for kids and teens | Mandala
+meta_description: Learn to code in Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Create a Scratch program that generates mandalas.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: ستصنع
+    title: سوف تصنع
   - 
-    title: استنساخ الأشكال لعمل نمط
+    title: استنسخ الأشكال لعمل نمط
   - 
-    title: اصنع ماندالة
+    title: اصنع ماندالا
     completion:
       - engaged
   - 
-    title: تجهيز كائنك
+    title: جهز كائنك
   - 
-    title: Mandala colouring
+    title: تلوين ماندالا
   - 
-    title: Create another mandala
+    title: أنشئ ماندالا أخرى.
   - 
-    title: Choose your mandala
+    title: اختر الماندالا الخاصة بك
     completion:
       - internal
   - 
