@@ -1,10 +1,10 @@
-## Quick quiz
+## Γρήγορο κουίζ
 
-Answer the two questions. There are hints to guide you to the correct answer.
+Απάντησε στις δυο ερωτήσεις. Υπάρχουν συμβουλές που θα σε καθοδηγήσουν στη σωστή απάντηση.
 
-When you have answered each question, click on **Check my answer**.
+Όταν έχεις απαντήσει σε κάθε ερώτηση, κάνε κλικ στο **Έλεγξε την απάντησή μου**.
 
-Have fun!
+Διασκέδασέ το!
 
 --- question ---
 
@@ -12,7 +12,7 @@ Have fun!
 legend: Ερώτηση 1 από 2
 ---
 
-In your project, you used clones to create patterns. Look at the following `My Blocks`{:class='block3myblocks'} definition:
+Στο έργο σου, χρησιμοποίησες κλώνους για να δημιουργήσεις μοτίβα. Δες τον ακόλουθο ορισμό `Οι Εντολές μου`{:class='block3myblocks'}:
 
 ```blocks3
 define pattern (repeat) (size) (move) (turn)
@@ -23,9 +23,9 @@ turn cw (turn) degrees
 create clone of (myself v)
 ```
 
-Here is a pattern that has been created. ![four petals equally spaced, all starting from the same center. Each petal increases in size.](images/quiz_1.png)
+Εδώ είναι ένα μοτίβο που έχει δημιουργηθεί. ![τέσσερα πέταλα σε ίση απόσταση, όλα ξεκινώντας από το ίδιο κέντρο. Κάθε πέταλο αυξάνεται σε μέγεθος.](images/quiz_1.png)
 
-Which of the following calls would create the pattern above?
+Ποια από τις παρακάτω κλήσεις θα δημιουργούσε το παραπάνω μοτίβο;
 
 --- choices ---
 
@@ -36,7 +36,7 @@ pattern (3) (10) (0) (90)::custom
 ```
   --- feedback ---
 
-This would only create three clones, and there are four shown in the image.
+Αυτό θα δημιουργούσε μόνο τρεις κλώνους και υπάρχουν τέσσερις που φαίνονται στην εικόνα.
 
   --- /feedback ---
 
@@ -49,7 +49,7 @@ pattern (4) (10) (100) (90)::custom
 
   --- feedback ---
 
-This would make the clone move by `100` steps, but all the clones in the image have the same `x` and `y` coordinate.
+Αυτό θα έκανε τον κλώνο να μετακινηθεί κατά `100` βήματα, αλλά όλοι οι κλώνοι στην εικόνα έχουν τις ίδιες συντεταγμένες `x` και `y`.
 
   --- /feedback ---
 
@@ -62,7 +62,7 @@ pattern (4) (10) (0) (90)::custom
 
   --- feedback ---
 
-Yes, this code creates 4 petals, each increasing in size by 10. Each petal has rotated 90 degrees.
+Ναι, αυτός ο κώδικας δημιουργεί 4 πέταλα, το καθένα αυξάνεται σε μέγεθος κατά 10. Κάθε πέταλο έχει περιστραφεί 90 μοίρες.
 
   --- /feedback ---
 
@@ -75,7 +75,7 @@ pattern (4) (10) (0) (360)::custom
 
   --- feedback ---
 
-This would make the clones turn a full circle, so you would only be able to see a single large clone.
+Αυτό θα έκανε τους κλώνους να κάνουν έναν πλήρη κύκλο, έτσι θα μπορείς να δεις μόνο έναν μεγάλο κλώνο.
 
   --- /feedback ---
 
