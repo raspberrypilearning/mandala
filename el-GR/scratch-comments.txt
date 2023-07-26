@@ -1,7 +1,7 @@
-So you can see the clones
+Έτσι μπορείς να δεις τους κλώνους
 
-Shape is displayed
+Εμφανίζεται το σχήμα
 
-Not too big
+Όχι πολύ μεγάλο
 
-Displayed in the middle
+Εμφανίζεται στη μέση
