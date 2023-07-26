@@ -1,10 +1,10 @@
 ## Και τώρα;
 
-If you are following the [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) pathway, you can move on to the [Swarms, schools, and flocks](https://projects.raspberrypi.org/en/projects/swarms-schools-flocks) project. In this project, you will make a game that uses clones to make a simulation of a group of animals.
+Εάν ακολουθείς το μονοπάτι [Περισσότερη Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch), μπορείς να προχωρήσεις στο έργο [Σμήνη και κοπάδια](https://projects.raspberrypi.org/en/projects/swarms-schools-flocks). Σε αυτό το έργο, θα φτιάξεις ένα παιχνίδι που χρησιμοποιεί κλώνους για να κάνει μια προσομοίωση μιας ομάδας ζώων.
 
 --- print-only ---
 
-![Swarms, schools, and flocks](images/swarms_bats.png)
+![Σμήνη και κοπάδια](images/swarms_bats.png)
 
 --- /print-only ---
 
