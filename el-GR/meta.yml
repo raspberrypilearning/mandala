@@ -1,32 +1,34 @@
 ---
-title: Mandala
+title: Μάνταλα
 hero_image: images/banner.png
-description: Make computer generated mandalas in Scratch
+description: Κατασκεύασε μάνταλα που δημιουργούνται από υπολογιστή στο Scratch
+meta_title: Scratch coding projects for kids and teens | Mandala
+meta_description: Learn to code in Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Create a Scratch program that generates mandalas.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Θα φτιάξεις
   - 
-    title: Clone shapes to make a pattern
+    title: Κλωνοποίησε σχήματα για να φτιάξεις ένα μοτίβο
   - 
-    title: Make a mandala
+    title: Δημιούργησε ένα μάνταλα
     completion:
       - engaged
   - 
-    title: Setup your sprite
+    title: Ρύθμισε το αντικείμενό σου
   - 
-    title: Mandala colouring
+    title: Χρωματισμός Μάνταλα
   - 
-    title: Create another mandala
+    title: Δημιουργία επιπλέον μάνταλα
   - 
-    title: Choose your mandala
+    title: Επίλεξε το μάνταλά σου
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Γρήγορο κουίζ
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,6 +37,6 @@ steps:
     completion:
       - external
   - 
-    title: Αναβάθμιση του έργου σου
+    title: Αναβάθμισε το έργο σου
   - 
-    title: Και τώρα;
+    title: Τι υπάρχει στη συνέχεια;
