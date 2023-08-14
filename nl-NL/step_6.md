@@ -17,7 +17,7 @@ Je hebt twee uiterlijken die je gebruikt om je gekleurde mandala te maken. Voeg 
 
 ![Het Earth-uiterlijk uit de Scratch-bibliotheek.](images/earth_costume.png)
 
-Het maakt niet uit welk uiterlijk je kiest, maar je moet ervoor zorgen dat het een **Vector** uiterlijk is en geen **Bitmap** uiterlijk. Je kunt zien dat je een **Vector** uiterlijk hebt gekozen, omdat je een knop ziet met de naam **converteren naar bitmap**. **Klik niet op deze knop**. Als je een uiterlijk hebt geselecteerd dat een **Bitmap** is, verwijder het dan en kies een ander.
+Het maakt niet uit welk uiterlijk je kiest, maar je moet ervoor zorgen dat het een **Vector** uiterlijk is en geen **Bitmap** uiterlijk. Je kunt zien dat je een **Vector** uiterlijk hebt gekozen, omdat je een knop ziet met de naam **zet om naar bitmap**. **Klik niet op deze knop**. Als je een uiterlijk hebt geselecteerd dat een **Bitmap** is, verwijder het dan en kies een ander.
 
 ![De knop 'converteren naar bitmap'.](images/convert_to_bitmap.png)
 

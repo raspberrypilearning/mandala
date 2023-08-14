@@ -13,7 +13,7 @@ Op dit moment lijken je mandala-patronen elke keer te veranderen, afhankelijk va
 
 --- task ---
 
-Gebruik het menu `Mijn blokken`{:class="block3myblocks"} om een nieuw blok te maken met de naam `instellen`{:class="block3myblocks"}. Het blok zou vier parameters moeten hebben: `afmeting`{:class="block3myblocks"}, `transparant`{:class="block3myblocks"}, `y`{:class="block3myblocks"} en `beweeg`{:class="block3myblocks"}. Maak je geen zorgen, je kunt deze wijzigen of later meer toevoegen.
+Gebruik het menu `Mijn blokken`{:class="block3myblocks"} om een nieuw blok te maken met de naam `instellen`{:class="block3myblocks"}. Het blok zou vier parameters moeten hebben: `grootte`{:class="block3myblocks"}, `transparant`{:class="block3myblocks"}, `y`{:class="block3myblocks"} en `beweeg`{:class="block3myblocks"}. Maak je geen zorgen, je kunt deze wijzigen of later meer toevoegen.
 
 ![De vorm sprite.](images/shape_sprite.png)
 
