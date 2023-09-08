@@ -1,65 +1,65 @@
-## Create another mandala
+## أنشئ ماندالا أخرى
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create another mandala easily using your optimised code blocks.
+قم بإنشاء ماندالا أخرى بسهولة باستخدام كتل التعليمات البرمجية المحسنة.
 </div>
 <div>
 ![](images/step_5.png)
 </div>
 </div>
 
-You have two costumes that you are using to create your coloured mandala. Add some more costumes to personalise your mandala even more.
+لديك زيان تستخدمهما لإنشاء الماندالا الملونة. أضف المزيد من الأزياء لإضفاء طابع شخصي على الماندالا الخاصة بك بشكل أكبر.
 
 --- task ---
 
-**Choose:** Add another costume. Here the **Earth** costume has been chosen.
+**اختر:** أضف زيًا آخر. هنا تم اختيار زي **Earth**.
 
-![The Earth costume from the Scratch library.](images/earth_costume.png)
+![زي الأرض من مكتبة سكراتش.](images/earth_costume.png)
 
-It doesn't matter which costume you pick, but you should make sure that it is a **Vector** costume and not a **Bitmap** costume. You can tell you have chosen a **Vector** costume, as you will see a button labelled **Convert to Bitmap**. **Do not click this button**. If you have selected a costume that is a **Bitmap**, then delete it and choose another one.
+لا يهم الزي الذي تختاره، ولكن يجب عليك التأكد من أنه زي **Vector** وليس زي **Bitmap**. يمكنك معرفة أنك اخترت زي **Vector** ، حيث سترى زرًا يحمل الاسم **Convert to Bitmap**. **لا تنقر هذا الزر**. إذا قمت بتحديد زي يمثل **Bitmap**، فاحذفه واختر زيًا آخر.
 
-![The 'Convert to Bitmap' button.](images/convert_to_bitmap.png)
+![زر "التحويل إلى رسم متجه".](images/convert_to_bitmap.png)
 
 --- /task ---
 
 --- task ---
 
-Remove all the colour from the costume so you get just the outline. Select the whole costume and change the **Fill** **Saturation** to `0` and the **Outline** **Brightness** to `0`.
+قم بإزالة كل الألوان من الزي حتى تحصل على المخطط التفصيلي فقط. حدد الزي بالكامل وقم بتغيير **ملء** **التشبع** إلى `0` والمخطط التفصيلي **** **السطوع** إلى `0`.
 
-![Animation showing the 'Earth' costume being selected, then the 'Fill' and 'Outline' colours being changed.](images/edit_costume.gif)
-
---- /task ---
-
---- task ---
-
-Duplicate this costume, and then repeat the process, this time changing the **Fill** colour to a dark colour of your choice.
-
-![The two Earth costumes, one filled in white and the other in purple.](images/earth_costumes.png)
+![رسم متحرك يوضح اختيار زي "الأرض"، ثم تغيير ألوان "الملء" و"المخطط التفصيلي".](images/edit_costume.gif)
 
 --- /task ---
 
 --- task ---
 
-Repeat this process a few more times with different vector costumes, to give yourself different styles of costume.
+قم بتكرار هذا الزي، ثم كرر العملية، هذه المرة قم بتغيير اللون **املأ** إلى لون داكن من اختيارك.
 
-![Earth, butterfly, and heart costumes shown with white and purple fills.](images/multiple_costumes.png)
+![زيا الأرض، أحدهما مملوء باللون الأبيض والآخر باللون الأرجواني.](images/earth_costumes.png)
 
 --- /task ---
-
-To make sure you can colour your personalised mandalas, reorder your costumes and check the costume switches to the right number.
 
 --- task ---
 
-Reorder your costumes, so that all the ones filled with white are at the top, and the ones filled with colours are lower down, but still in the same order.
+كرر هذه العملية عدة مرات مع أزياء متجهة مختلفة، لتمنح نفسك أنماطًا مختلفة من الأزياء.
 
-![Animation of the costumes being placed in order, with the white costumes at the top and the coloured ones further down, but in the same order.](images/order_costumes.gif)
+![تظهر أزياء الأرض والفراشة والقلب بتعبئة بيضاء وأرجوانية.](images/multiple_costumes.png)
 
 --- /task ---
 
-Remember to change which costume the mandala switches to so that you can colour your new mandalas. In the example project, there are four mandalas so we changed the costume number from '1' to '4'
+للتأكد من أنه يمكنك تلوين المنضدة الشخصية الخاصة بك، قم بإعادة ترتيب الأزياء الخاصة بك والتحقق من مفاتيح تبديل المظهر إلى الرقم الصحيح.
 
-![The shape sprite.](images/shape_sprite.png)
+--- task ---
+
+إعادة ترتيب الأزياء الخاصة بك، بحيث تكون جميع المملوءة بالبيض في الأعلى، وتلك المملوءة بالألوان في ألأدنى ، ولكنها لا تزال بنفس الترتيب.
+
+![يتم ترتيب الرسوم المتحركة للأزياء، بحيث تكون الأزياء البيضاء في الأعلى والأزياء الملونة في الأسفل، ولكن بنفس الترتيب.](images/order_costumes.gif)
+
+--- /task ---
+
+تذكر أن تغير الزي الذي ستتحول إليه الماندالا حتى تتمكن من تلوين الماندالا الجديدة. في المشروع النموذجي، هناك أربعة ماندالا لذلك قمنا بتغيير رقم الزي من "1" إلى "4"
+
+![الكائن الشكل.](images/shape_sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -69,7 +69,7 @@ change [color v] effect by (25)
 
 --- task ---
 
-**Test:** Switch to one of your new costumes and click the green flag to see the pattern that is generated.
+**اختبار:** قم بالتبديل إلى أحد أزيائك الجديدة وانقر فوق العلم الأخضر لرؤية النموذج الذي تم إنشاؤه.
 
 --- /task ---
 
