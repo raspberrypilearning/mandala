@@ -1,10 +1,10 @@
 ## ما هي الخطوة التالية؟
 
-If you are following the [Further Scratch](https://projects.raspberrypi.org/en/pathways/further-scratch) pathway, you can move on to the [Swarms, schools, and flocks](https://projects.raspberrypi.org/en/projects/swarms-schools-flocks) project. In this project, you will make a game that uses clones to make a simulation of a group of animals.
+إذا كنت تتبع مسار [المزيد من سكراتش](https://projects.raspberrypi.org/en/pathways/further-scratch)مسار, يمكنك الانتقال إلى [ أسراب, مدارس, و تجمع ](https://projects.raspberrypi.org/en/projects/swarms-schools-flocks)مشروع. في هذا المشروع، سوف تصنع لعبة تستخدم النسخ لمحاكاة مجموعة من الحيوانات.
 
 --- print-only ---
 
-![Swarms, schools, and flocks](images/swarms_bats.png)
+![أسراب, مدارس, تجمعات](images/swarms_bats.png)
 
 --- /print-only ---
 
@@ -16,4 +16,4 @@ If you are following the [Further Scratch](https://projects.raspberrypi.org/en/p
 
 --- /no-print ---
 
-إذا كنت ترغب في الحصول على مزيد من المتعة في استكشاف Scratch ، فيمكنك تجربة أي من [هذه المشاريع](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+إذا كنت ترغب في الحصول على مزيد من المتعة في استكشاف سكراتش ، فيمكنك تجربة أي من [هذه المشاريع](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
