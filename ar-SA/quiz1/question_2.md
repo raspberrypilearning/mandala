@@ -5,13 +5,13 @@
 القائمة: السؤال 2 من 2
 ---
 
-In your project, you used the addition + operator to change costumes depending on a 'My Blocks'{:class='block3myblocks'} input.
+في مشروعك، استخدمت عامل الإضافة + لتغيير الأزياء اعتمادًا على إدخال 'My Blocks'{:class='block3myblocks'}.
 
-If we have these costumes:
+إذا كان لدينا هذه الأزياء:
 
-![Images of all the costumes: costume1 is a transparent petal; costume 2 is a purple petal; costume 3 is a transparent globe; and costume 4 is a purple globe.](images/costumes_quiz.png)
+![صور جميع الأزياء: الزي 1 عبارة عن بتلة شفافة؛ الزي 2 هو بتلة أرجوانية؛ الزي 3 عبارة عن كرة أرضية شفافة؛ والزي 4 عبارة عن كرة أرضية أرجوانية.](images/costumes_quiz.png)
 
-Which of the following code blocks would get your pattern to switch from the purple petal to the purple globe?
+أي من كتل التعليمات البرمجية التالية ستجعل النمط الخاص بك يتحول من البتلة الأرجوانية إلى الكرة الأرجوانية؟
 
 --- choices ---
 
@@ -24,7 +24,7 @@ Which of the following code blocks would get your pattern to switch from the pur
 
   --- feedback ---
 
-Yes, the costume number you are on is costume 2 and the costume you want to switch to is costume 4 so you will need to switch to costume 2 + 2 = 4.
+نعم، رقم الزي الذي ترتديه هو الزي 2 والزي الذي تريد التبديل إليه هو الزي 4، لذا ستحتاج إلى التبديل إلى الزي 2 + 2 = 4.
 
   --- /feedback ---
 
@@ -38,7 +38,7 @@ Yes, the costume number you are on is costume 2 and the costume you want to swit
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transparent globe, not the purple globe.
+سيؤدي هذا إلى التبديل من الزي 2 إلى الزي 2 + 1 = 3. الزي 3 هو الكرة الأرضية الشفافة، وليست الكرة الأرجوانية.
 
   --- /feedback ---
 
@@ -52,7 +52,7 @@ This will switch from costume 2 to costume 2 + 1 = 3. Costume 3 is the transpare
 
   --- feedback ---
 
-This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transparent petal, not the purple globe.
+سيؤدي هذا إلى التبديل من الزي 2 إلى الزي 2 + 1 = 1. الزي 1 هو الكرة الأرضية الشفافة، وليست الكرة الأرجوانية.
 
   --- /feedback ---
 
@@ -65,7 +65,7 @@ This will switch from costume 2 to costume 2 - 1 = 1. Costume 1 is the transpare
 
   --- feedback ---
 
-This will switch the costume to `costume 2`{:class='block3looks'} regardless of which costume is currently being shown.
+سيؤدي هذا إلى تحويل المظهر إلى `زي 2`{:class='block3looks'} بغض النظر عن الزي الذي يتم عرضه حاليًا.
 
   --- /feedback ---
 
