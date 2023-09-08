@@ -2,17 +2,17 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get your mandalas to move like a kaleidoscope.
+اجعل المندالا الخاصة بك تتحرك مثل المشكال.
 </div>
 </div>
 
-You can add in a few blocks to have your clones move around when a key is pressed or when a sprite is clicked on for some extra relaxation. Maybe some gentle music can play as well.
+يمكنك إضافة بضع كتل لتتحرك مستنسخاتك عند الضغط على مفتاح أو عند النقر على كائن لمزيد من الاسترخاء. ربما يمكن تشغيل بعض الموسيقى الهادئة أيضًا.
 
-![Animated mandala with moving clones.](images/step_9.gif)
+![ماندالا متحركة مع الحيوانات المستنسخة المتحركة.](images/step_9.gif)
 
 --- collapse ---
 ---
-المشروع المكتمل
+العنوان: المشروع المكتمل
 ---
 
 يمكنك عرض [المشروع المكتمل هنا](https://scratch.mit.edu/projects/536953224/){:target="_ blank"}.
