@@ -1,18 +1,18 @@
-## Quick quiz
+## اختبار سريع
 
-Answer the two questions. There are hints to guide you to the correct answer.
+أجب عن السؤالين. سيتم توجيهك نحو الإجابة الصحيحة.
 
-When you have answered each question, click on **Check my answer**.
+عندما تجيب على كل سؤال ، انقر فوق **تحقق من إجابتي**.
 
-Have fun!
+إستمتع!
 
---- question ---
+--- سؤال ---
 
 ---
 القائمة: السؤال 1 من 2
 ---
 
-In your project, you used clones to create patterns. Look at the following `My Blocks`{:class='block3myblocks'} definition:
+في مشروعك، استخدمت النسخ لإنشاء أنماط. انظر الى تعريف `لبناتي`{: class = 'block3myblocks'}:
 
 ```blocks3
 define pattern (repeat) (size) (move) (turn)
@@ -23,22 +23,22 @@ turn cw (turn) degrees
 create clone of (myself v)
 ```
 
-Here is a pattern that has been created. ![four petals equally spaced, all starting from the same center. Each petal increases in size.](images/quiz_1.png)
+هنا هو النمط الذي تم إنشاؤه. ![أربع بتلات متباعدة بشكل متساوٍ، تبدأ جميعها من نفس المركز. يزداد حجم كل بتلة.](images/quiz_1.png)
 
-Which of the following calls would create the pattern above?
+أي من الاستدعاءات التالية من شأنها إنشاء النمط أعلاه؟
 
---- choices ---
+--- اختيارات ---
 
 - ( )
 ```blocks3
 when flag clicked
 pattern (3) (10) (0) (90)::custom
 ```
-  --- feedback ---
+  --- تعليق ---
 
-This would only create three clones, and there are four shown in the image.
+سيؤدي هذا إلى إنشاء ثلاث نسخ فقط، وهناك أربعة منها موضحة في الصورة.
 
-  --- /feedback ---
+  --- /تعليق ---
 
 - ( )
 
@@ -47,11 +47,11 @@ when flag clicked
 pattern (4) (10) (100) (90)::custom
 ```
 
-  --- feedback ---
+  --- تعليق ---
 
-This would make the clone move by `100` steps, but all the clones in the image have the same `x` and `y` coordinate.
+وهذا من شأنه أن يجعل عملية الاستنساخ تتحرك بمقدار `100` خطوة، ولكن جميع النسخ الموجودة في الصورة لها نفس الإحداثيات `×` و `ص`.
 
-  --- /feedback ---
+  --- /تعليق ---
 
 - (x)
 
@@ -60,9 +60,9 @@ when flag clicked
 pattern (4) (10) (0) (90)::custom
 ```
 
-  --- feedback ---
+  --- تعليق ---
 
-Yes, this code creates 4 petals, each increasing in size by 10. Each petal has rotated 90 degrees.
+نعم، هذا الكود ينشئ 4 بتلات، يزيد حجم كل منها بمقدار 10. تم تدوير كل بتلة بمقدار 90 درجة.
 
   --- /feedback ---
 
@@ -73,12 +73,12 @@ when flag clicked
 pattern (4) (10) (0) (360)::custom
 ```
 
-  --- feedback ---
+  --- تعليق ---
 
-This would make the clones turn a full circle, so you would only be able to see a single large clone.
+وهذا من شأنه أن يجعل المستنسخات تدور حول دائرة كاملة، لذا لن تتمكن إلا من رؤية نسخة كبيرة واحدة فقط.
 
-  --- /feedback ---
+  --- /تعليق ---
 
---- /choices ---
+--- /اختيارات ---
 
---- /question ---
+--- /سؤال ---
