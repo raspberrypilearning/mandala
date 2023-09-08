@@ -1,27 +1,27 @@
-## Choose your mandala
+## اختر الماندالا الخاصة بك
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Everyone is different. Give the person using your mandala program a choice based on what they find most peaceful.
+كل شخص مختلف. أعطِ الشخص الذي يستخدم برنامجك لمندالا خياراً بناءً على ما يجده أكثر سلمية.
 </div>
 <div>
 ![](images/step_6.gif){:width="300px"}
 </div>
 </div>
 
-You should now have at least two different mandalas. You can use an `ask`{:class="block3sensing"} block to create a start menu, giving a choice to whoever is using your mandala program.
+يجب أن يكون لديك الآن على الأقل ماندالاين اثنين مختلفتان. يمكنك استخدام كتلة `اسأل`{:class="block3sensing"} لإنشاء قائمة ابدأ، مع إعطاء خيار لمن يستخدم برنامج ماندالا الخاص بك.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Start menus**</span> are often found in games and apps. They let the person playing the game or using the app pick from a number of options, for example, what character they want to play, or what settings they want.
+<span style="color: #0faeb0">**قوائم البدء**</span> غالبًا ما توجد في الألعاب والتطبيقات. فهي تسمح للشخص الذي يلعب اللعبة أو يستخدم التطبيق بالاختيار من بين عدد من الخيارات، على سبيل المثال، الشخصية التي يريد لعبها، أو الإعدادات التي يريدها.
 </p>
 
-Create the question you will ask in your start menu.
+قم بإنشاء السؤال الذي ستطرحه في قائمة البداية.
 
 --- task ---
 
-Add an `ask and wait`{:class="block3sensing"} block beneath the `when flag clicked`{:class="block3events"} and choose the text for your question, like the example below.
+أضف `اسأل وانتظر`{:class="block3sensing"} أسفل `عند النقر على العلم`{:class="block3events"} واختر النص لسؤالك، مثل المثال أدناه.
 
-![The shape sprite.](images/shape_sprite.png)
+![الكائن الشكل.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,17 +37,17 @@ hide
 
 --- /task ---
 
-The reason for hiding the sprite before using the `ask and wait`{:class="block3sensing"} is so that the question appears at the bottom of the stage, rather than as a speech bubble from the sprite.
+السبب وراء إخفاء الكائن قبل استخدام `اسأل وانتظر`{:class="block3sensing"} هو أن السؤال يظهر في أسفل المرحلة، وليس على شكل فقاعة كلام من الكائن.
 
-![Image of question being asked within a box at the bottom of the stage.](images/question.png)
+![صورة السؤال الذي يتم طرحه داخل مربع في أسفل المنصة.](images/question.png)
 
-Match the answer with the right sprite to show the right mandala.
+قم بمطابقة الإجابة مع الكائن المناسب لإظهار الماندالا الصحيحة.
 
 --- task ---
 
-Add a `switch costume to`{:class="block3looks"} `answer`{:class="block3sensing"} block underneath the `ask and wait`{:class="block3sensing"} block.
+أضف زي التبديل `إلى الكتلة`{:class="block3looks"} `الإجابة`{:class="block3sensing"} أسفل الكتلة `اسأل وانتظر`{:class="block3sensing"}.
 
-![The shape sprite.](images/shape_sprite.png)
+![الكائن الشكل.](images/shape_sprite.png)
 
 ```blocks3
 when flag clicked
@@ -66,7 +66,7 @@ hide
 
 --- task ---
 
-**Test**: Try your mandala project by clicking the flag and choosing a number.
+**الاختبار**: جرب مشروع الماندالا الخاص بك عن طريق النقر على العلم واختيار رقم.
 
 --- /task ---
 
