@@ -1,0 +1,32 @@
+---
+title: Μάνταλα
+hero_image: images/banner.png
+description: Κατασκεύασε μάνταλα που δημιουργούνται από υπολογιστή στο Scratch
+meta_title: Έργα προγραμματισμού scratch για παιδιά και εφήβους | Μάνταλα
+meta_description: Μάθε να προγραμματίζεις στη Scratch με τα έργα κώδικα του Ιδρύματος Raspberry Pi για παιδιά και εφήβους. Κατασκεύασε μάνταλα που δημιουργούνται από υπολογιστή στο Scratch.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - title: Θα φτιάξεις
+  - title: Κλωνοποίησε σχήματα για να φτιάξεις ένα μοτίβο
+  - title: Δημιούργησε ένα μάνταλα
+    completion:
+      - engaged
+  - title: Ρύθμισε το αντικείμενό σου
+  - title: Χρωματισμός Μάνταλα
+  - title: Δημιουργία επιπλέον μάνταλα
+  - title: Επίλεξε το μάνταλά σου
+    completion:
+      - internal
+  - title: Γρήγορο κουίζ
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 2
+      passing_score: 2
+    completion:
+      - external
+  - title: Αναβάθμισε το έργο σου
+  - title: Τι υπάρχει στη συνέχεια;
