@@ -62,7 +62,7 @@ repeat (επανάληψη)
 ![Το αντικείμενο σχήματος.](images/shape_sprite.png)
 
 ```blocks3
-define pattern: repeat (επανάληψη)
+define μοτίβο: επανάληψη (επανάληψη)
 repeat (επανάληψη)
 + change size by (10) //Έτσι μπορείς να δεις τους κλώνους
 + move (5) steps //Έτσι μπορείς να δεις τους κλώνους

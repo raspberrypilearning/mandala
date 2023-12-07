@@ -20,14 +20,14 @@
 ![Το αντικείμενο σχήματος.](images/shape_sprite.png)
 
 ```blocks3
-define μοτίβο: επανάληψη (επανάληψη) size (μέγεθος) move (μετακίνηση)
+define μοτίβο: επανάληψη (επανάληψη) μέγεθος (μέγεθος) μετακίνηση (μετακίνηση)
 επανάληψη (επανάληψη)
 change size by (μέγεθος)
 move (μετακίνηση) steps
 create clone of (myself v)
 
 when flag clicked
-μοτίβο: επανάληψη (3) size (10) move (5)
+μοτίβο: επανάληψη (3) μέγεθος (10) μετακίνηση (5)
 ```
 
 --- /task ---
@@ -47,7 +47,7 @@ when flag clicked
 ![Το αντικείμενο σχήματος.](images/shape_sprite.png)
 
 ```blocks3
-define μοτίβο: επανάληψη (επανάληψη) size (μέγεθος) move (μετακίνηση) turn (στροφή)
+define μοτίβο: επανάληψη (επανάληψη) μέγεθος (μέγεθος) μετακίνηση (μετακίνηση) στροφή (στροφή)
 repeat (επανάληψη)
 change size by (μέγεθος)
 move (μετακίνηση) steps
@@ -74,7 +74,7 @@ end
 
 ```blocks3
 when flag clicked
-pattern repeat (3) size (0) move (0) turn (60) ::custom
+μοτίβο επανάληψη (3) μέγεθος (0) μετακίνηση (0) στροφή (60) ::custom
 ```
 
 --- /task ---
@@ -95,9 +95,9 @@ pattern repeat (3) size (0) move (0) turn (60) ::custom
 
 ```blocks3
 when flag clicked
-pattern repeat (3) size (0) move (0) turn (60) ::custom
-pattern repeat (6) size (10) move (45) turn (30) ::custom
-pattern repeat (6) size (10) move (90) turn (30) ::custom
+μοτίβο επανάληψη (3) μέγεθος (0) μετακίνηση (0) στροφή (60) ::custom
+μοτίβο επανάληψη (6) μέγεθος (10) μετακίνηση (45) στροφή (30) ::custom
+μοτίβο επανάληψη (6) μέγεθος (10) μετακίνηση (90) στροφή (30) ::custom
 ```
 
 --- /task ---

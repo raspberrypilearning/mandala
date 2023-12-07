@@ -28,10 +28,10 @@ when flag clicked
 + hide
 + ask [Τι σου φαίνεται πιο γαλήνιο σήμερα; (1) αφηρημένα σχήματα (2) η γη (3) πεταλούδες (4) αγάπη] and wait
 show
-setup: size (60) ghost (50) y (10) move (10) ::custom
-pattern: repeat (3) size (10) move (5) turn (60) ::custom
-pattern: repeat (5) size (10) move (45) turn (30) ::custom
-pattern: repeat (6) size (10) move (90) turn (30) ::custom
+setup: μέγεθος (60) φάντασμα (50) y (10) μετακίνηση (10) ::custom
+μοτίβο: επανάληψη (3) μέγεθος (10) μετακίνηση (5) στροφή (60) ::custom
+μοτίβο: επανάληψη (5) μέγεθος (10) μετακίνηση (45) στροφή (30) ::custom
+μοτίβο: επανάληψη (6) μέγεθος (10) μετακίνηση (90) στροφή (30) ::custom
 hide
 ```
 
@@ -56,9 +56,9 @@ ask [Τι σου φαίνεται πιο γαλήνιο σήμερα; (1) αφη
 + switch costume to (answer)
 show
 setup: (60) (50) (10) (10) ::custom
-pattern: (3) (10) (5) (60) ::custom
-pattern: (5) (10) (45) (30) ::custom
-pattern: (6) (10) (90) (30) ::custom
+μοτίβο: (3) (10) (5) (60) ::custom
+μοτίβο: (5) (10) (45) (30) ::custom
+μοτίβο: (6) (10) (90) (30) ::custom
 hide
 ```
 
