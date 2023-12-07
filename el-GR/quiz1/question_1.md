@@ -32,7 +32,7 @@ create clone of (myself v)
 - ( )
 ```blocks3
 when flag clicked
-pattern (3) (10) (0) (90)::custom
+μοτίβο (3) (10) (0) (90)::custom
 ```
   --- feedback ---
 
@@ -44,7 +44,7 @@ pattern (3) (10) (0) (90)::custom
 
 ```blocks3
 when flag clicked
-pattern (4) (10) (100) (90)::custom
+μοτίβο (4) (10) (100) (90)::custom
 ```
 
   --- feedback ---
@@ -57,7 +57,7 @@ pattern (4) (10) (100) (90)::custom
 
 ```blocks3
 when flag clicked
-pattern (4) (10) (0) (90)::custom
+μοτίβο (4) (10) (0) (90)::custom
 ```
 
   --- feedback ---
@@ -70,7 +70,7 @@ pattern (4) (10) (0) (90)::custom
 
 ```blocks3
 when flag clicked
-pattern (4) (10) (0) (360)::custom
+μοτίβο (4) (10) (0) (360)::custom
 ```
 
   --- feedback ---
