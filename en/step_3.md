@@ -13,9 +13,19 @@ Create more patterns to make a mandala!
 
 Right click on your `define pattern`{:class="block3myblocks"} block and choose **Edit** to add more parameters.
 
+--- /task ---
+
+--- task ---
+
+Start by adding a `size`{:class="block3myblocks"} text label and a `size`{:class="block3myblocks"} input. Then, add a  `move`{:class="block3myblocks"} label and input.
+
 ![Animation showing the editing of 'my blocks' to add in extra parameters.](images/edit-parameter.gif)
 
-You can start by adding a `size`{:class="block3myblocks"} text label and a `size`{:class="block3myblocks"} input. Then, add a  `move`{:class="block3myblocks"} label and input, and use these parameters in the blocks below.
+--- task ---
+
+--- /task ---
+
+Add the follwoing blocks to your script:
 
 ![The shape sprite.](images/shape_sprite.png)
 
@@ -43,6 +53,12 @@ To make your pattern circular and look even more like a mandala, add another inp
 --- task ---
 
 Add another input called `turn`{:class="block3myblocks"}. Then, as well as moving your clone, you can turn it as well.
+
+--- /task ---
+
+--- task ---
+
+Add the new input to your code:
 
 ![The shape sprite.](images/shape_sprite.png)
 
