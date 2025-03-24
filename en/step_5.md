@@ -9,8 +9,6 @@ Give  the user the opportunity to colour different parts of the mandalas.
 </div>
 </div>
 
-**Tip:** If you want to, you can print out your mandala before you add colour to it in this step, and use it as a colouring pattern to colour by hand.
-
 --- task ---
 
 Look at the current costumes for your **shape** sprite. You will see that there are two costumes, one white and the other filled in.
@@ -18,8 +16,6 @@ Look at the current costumes for your **shape** sprite. You will see that there 
 ![Two costumes for the sprite.](images/costumes.png)
 
 --- /task ---
-
-To add colour to your mandala, each of the clone shapes should change its `costume`{:class="block3looks"} and then its `color effect`{:class="block3looks"} when the clone is clicked. The new costume will be **one** more than whatever the previous costume was, so it will change to the coloured version and then to the different colours.
 
 --- task ---
 

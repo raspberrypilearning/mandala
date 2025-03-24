@@ -9,8 +9,6 @@ Create another mandala easily using your optimised code blocks.
 </div>
 </div>
 
-You have two costumes that you are using to create your coloured mandala. Add some more costumes to personalise your mandala even more.
-
 --- task ---
 
 **Choose:** Add another costume. Here the **Earth** costume has been chosen.
@@ -47,8 +45,6 @@ Repeat this process a few more times with different vector costumes, to give you
 
 --- /task ---
 
-To make sure you can colour your personalised mandalas, reorder your costumes and check the costume switches to the right number.
-
 --- task ---
 
 Reorder your costumes, so that all the ones filled with white are at the top, and the ones filled with colours are lower down, but still in the same order.
@@ -57,7 +53,9 @@ Reorder your costumes, so that all the ones filled with white are at the top, an
 
 --- /task ---
 
-Remember to change which costume the mandala switches to so that you can colour your new mandalas. In the example project, there are four mandalas so we changed the costume number from '1' to '4'
+--- task ---
+
+Change which costume the mandala switches to so that you can colour your new mandalas. In the example project, there are four mandalas so we changed the costume number from '1' to '4'
 
 ![The shape sprite.](images/shape_sprite.png)
 
@@ -66,6 +64,8 @@ when this sprite clicked
 + switch costume to ((answer) + (4))
 change [color v] effect by (25)
 ```
+
+--- /task ---
 
 --- task ---
 

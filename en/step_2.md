@@ -17,10 +17,6 @@ If you are working offline, you can download the [starter project](https://scrat
 
 --- /task ---
 
-You should see a shape sprite that looks a bit like a flower petal.
-
-You will use `my blocks`{:class="block3myblocks"} to create a pattern with this shape. 
-
 --- task ---
 
 Go to `My Blocks`{:class='block3myblocks'} and name your blocks (we have called it `pattern:`{:class="block3myblocks"}). Click **add a label** and call it `repeat`{:class="block3myblocks"}. Then click **Add an Input** to create the **parameter** called `repeat`{:class="block3myblocks"}.
@@ -35,8 +31,6 @@ define pattern: repeat (repeat)
 ```
 
 --- /task ---
-
-To design how a pattern is made, the first step is to `define pattern`{:class='block3myblocks'}.
 
 --- task ---
 
@@ -53,7 +47,6 @@ repeat (repeat)
 
 --- /task ---
 
-You will now use `clone`{:class='block3control'} blocks to make the same block appear a number of times. 
 
 --- task ---
 
@@ -74,7 +67,7 @@ repeat (repeat)
 
 --- task ---
 
-Create a pattern with your new script. Get the `pattern`{:class='block3myblocks'} to `repeat`{:class='block3myblocks'} a number of times `when flag clicked`{:class='block3events'}. 
+Get the `pattern`{:class='block3myblocks'} to `repeat`{:class='block3myblocks'} a number of times `when flag clicked`{:class='block3events'}. 
 
 ![The shape sprite.](images/shape_sprite.png)
 ```blocks3

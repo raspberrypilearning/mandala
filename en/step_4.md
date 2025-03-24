@@ -9,8 +9,6 @@ Set up your sprite to reset your mandala.
 </div>
 </div>
 
-At the moment, your mandala patterns may appear to change each time, depending on the parameter values you use. Next, you will create a new `custom block`{:class="block3myblocks"}, so that your **mandala** sprite always begins in the same state.
-
 --- task ---
 
 Use the `My Blocks`{:class="block3myblocks"} menu to create a new block called `setup`{:class="block3myblocks"}. 
@@ -24,8 +22,6 @@ define setup: size (size) ghost (ghost) y (y) move (move)
 ```
 
 --- /task ---
-
-When you make the mandala colourful in the next step, the `ghost`{:class="block3myblocks"} block will make the colours transparent so when the shapes overlap, you will get a colour mixing effect.
 
 --- task ---
 

@@ -48,8 +48,6 @@ pattern: repeat (3) size (10) move (5)
 
 --- /task ---
 
-To make your pattern circular and look even more like a mandala, add another input.
-
 --- task ---
 
 Add another input called `turn`{:class="block3myblocks"}. Then, as well as moving your clone, you can turn it as well.
@@ -80,8 +78,6 @@ end
 
 --- /task ---
 
-Mandalas are often complex — they can have many different rows that follow similar patterns. You can create a base pattern for the rest of the mandala rows to build on. 
-
 --- task ---
 
 Try playing around with different numbers in your `pattern`{:class="block3myblocks"}. You can reset the position and size of your sprite anytime you like.
@@ -94,14 +90,6 @@ pattern repeat (3) size (0) move (0) turn (60) ::custom
 ```
 
 --- /task ---
-
-
-Now that you have a basic pattern, you can use your `pattern`{:class="block3myblocks"} a number of times to make a repeating pattern, or mandala 'rows'. By using the same code over and over again, you make a program that has been **optimised**.
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Optimisation**</span> means doing things in the most efficient way. Look at the diagram below. You could get from A to E by following the path A-->B-->C-->D-->E. An optimisation would be to go A-->D-->E, which contains fewer steps and a shorter distance.
-<img src="images/map.png">
-</p>
 
 --- task ---
 
