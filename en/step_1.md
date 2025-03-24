@@ -1,5 +1,3 @@
-## You will make
-
 Create a program that generates colourful mandalas!
 
 ![Example of a colourful butterfly mandala.](images/mandala.png)
