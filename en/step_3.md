@@ -21,11 +21,11 @@ Start by adding a `size`{:class="block3myblocks"} text label and a `size`{:class
 
 ![Animation showing the editing of 'my blocks' to add in extra parameters.](images/edit-parameter.gif)
 
---- task ---
-
 --- /task ---
 
-Add the follwoing blocks to your script:
+--- task ---
+
+Add the following blocks to your script:
 
 ![The shape sprite.](images/shape_sprite.png)
 
