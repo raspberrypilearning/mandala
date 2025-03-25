@@ -58,7 +58,7 @@ Add some code into the `repeat`{:class='block3myblocks'} loop of your `pattern`{
 define pattern: repeat (repeat)
 repeat (repeat)
 + change size by (10) //So you can see the clones
-+ move (5) steps //So you can see the clones
++ move (5) steps 
 + create clone of (myself v)
 ```
 
