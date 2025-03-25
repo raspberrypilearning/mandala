@@ -19,7 +19,7 @@ If you are working offline, you can download the [starter project](https://scrat
 
 --- task ---
 
-Go to `My Blocks`{:class='block3myblocks'} and name your blocks (we have called it `pattern:`{:class="block3myblocks"}). Click **add a label** and call it `repeat`{:class="block3myblocks"}. Then click **Add an Input** to create the **parameter** called `repeat`{:class="block3myblocks"}.
+Go to `My Blocks`{:class='block3myblocks'} and name your blocks (we have called it `pattern:`{:class="block3myblocks"}). Click **add a label** and call it `repeat`{:class="block3myblocks"}. Then click **Add an Input - number or text** and create a **parameter** called `repeat`{:class="block3myblocks"}.
 
 
 ![Animation of a 'my blocks' block and an additional parameter being added.](images/add-parameter.gif)
